@@ -217,6 +217,7 @@ function VenueMap({
   camps,
   selTeam,
   selVenueIds,
+  selMatchCount,
   flashVenue,
   onSelTeam,
   onPin,
@@ -227,6 +228,7 @@ function VenueMap({
   camps: Team[]
   selTeam: string | null
   selVenueIds: ReadonlySet<string>
+  selMatchCount: number
   flashVenue: string | null
   onSelTeam: (code: string | null) => void
   onPin: (id: string) => void
@@ -419,7 +421,7 @@ function VenueMap({
           />
           {selTeam && (
             <span className="muted small vn-team-hint tnum">
-              {t('matchesShown', { n: selVenueIds.size })}
+              {t('matchesShown', { n: selMatchCount })}
             </span>
           )}
         </span>
@@ -595,14 +597,18 @@ export default function Venues() {
     return () => window.clearTimeout(id)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  const selVenueIds = useMemo(() => {
-    const out = new Set<string>()
+  const { selVenueIds, selMatchCount } = useMemo(() => {
+    const ids = new Set<string>()
+    let count = 0
     if (selTeam) {
       for (const m of data.matches) {
-        if (m.venueId && (m.home?.code === selTeam || m.away?.code === selTeam)) out.add(m.venueId)
+        if (m.home?.code === selTeam || m.away?.code === selTeam) {
+          count++
+          if (m.venueId) ids.add(m.venueId)
+        }
       }
     }
-    return out
+    return { selVenueIds: ids, selMatchCount: count }
   }, [data.matches, selTeam])
 
   const matchesByVenue = useMemo(() => {
@@ -659,6 +665,7 @@ export default function Venues() {
           camps={camps}
           selTeam={selTeam}
           selVenueIds={selVenueIds}
+          selMatchCount={selMatchCount}
           flashVenue={flashVenue}
           onSelTeam={setSelTeam}
           onPin={scrollToVenue}

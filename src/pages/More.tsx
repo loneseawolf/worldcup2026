@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom'
 import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
+import { useAppData } from '../data/DataContext'
 import { LANG_LABEL } from '../i18n/strings'
 import type { Lang, Theme } from '../types'
 import Icon from '../components/Icon'
 import type { IconName } from '../components/Icon'
+import { groupStageComplete } from '../utils/helpers'
 
+// everything that is NOT on the bottom tab bar; the first entry mirrors the
+// stage-aware tab swap (Groups on the bar -> Bracket here, and vice versa)
 const LINKS: { to: string; key: string; icon: IconName }[] = [
-  { to: '/teams', key: 'navTeams', icon: 'shirt' },
   { to: '/venues', key: 'navVenues', icon: 'stadium' },
   { to: '/watch', key: 'navWatch', icon: 'tv' },
   { to: '/stats', key: 'navStats', icon: 'chart' },
@@ -18,6 +21,10 @@ const LINKS: { to: string; key: string; icon: IconName }[] = [
 export default function More() {
   const { t } = useI18n()
   const { settings, setLang, setTheme } = useSettings()
+  const { standings } = useAppData()
+  const offBar: { to: string; key: string; icon: IconName } = groupStageComplete(standings)
+    ? { to: '/groups', key: 'navGroups', icon: 'table' }
+    : { to: '/bracket', key: 'navBracket', icon: 'bracket' }
 
   return (
     <div>
@@ -27,7 +34,7 @@ export default function More() {
       </div>
 
       <div className="cards-grid">
-        {LINKS.map((l) => (
+        {[offBar, ...LINKS].map((l) => (
           <Link
             key={l.to}
             to={l.to}

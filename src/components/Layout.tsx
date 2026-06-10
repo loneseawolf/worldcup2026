@@ -4,6 +4,7 @@ import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useData } from '../data/DataContext'
 import { fmtDateTime } from '../utils/time'
+import { groupStageComplete } from '../utils/helpers'
 import { LANG_LABEL } from '../i18n/strings'
 import type { Lang } from '../types'
 import Icon from './Icon'
@@ -22,13 +23,15 @@ const NAV: { to: string; key: string; icon: IconName }[] = [
   { to: '/settings', key: 'navSettings', icon: 'gear' },
 ]
 
-const TABS = [
-  NAV[0],
-  NAV[1],
-  NAV[2],
-  NAV[3],
-  { to: '/more', key: 'navMore' as string, icon: 'dots' as IconName },
-]
+const MORE_TAB = { to: '/more', key: 'navMore' as string, icon: 'dots' as IconName }
+
+/** bottom tabs: the third slot is stage-aware — Groups during the group stage,
+ * Bracket once all twelve groups are complete (the page it replaces stays
+ * reachable from More and in-app links) */
+function tabsFor(knockout: boolean) {
+  const phase = knockout ? NAV[3] : NAV[2] // bracket : groups
+  return [NAV[0], NAV[1], phase, NAV.find((n) => n.key === 'navTeams') ?? NAV[4], MORE_TAB]
+}
 
 // display order comes from LANG_LABEL's key order (single source of truth in i18n/strings.ts)
 const LANGS = Object.keys(LANG_LABEL) as Lang[]
@@ -114,6 +117,7 @@ function Logo() {
 export default function Layout() {
   const { t, locale } = useI18n()
   const { data } = useData()
+  const tabs = tabsFor(groupStageComplete(data?.standings))
   const headerRef = useRef<HTMLElement>(null)
 
   // sticky children (day headers, filter bars) offset themselves by the real
@@ -195,7 +199,7 @@ export default function Layout() {
       </footer>
 
       <nav className="tab-bar">
-        {TABS.map((n) => (
+        {tabs.map((n) => (
           <NavLink key={n.to} to={n.to} end={n.to === '/'}>
             <Icon name={n.icon} />
             {t(n.key)}

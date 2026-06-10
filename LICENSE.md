@@ -1,6 +1,4 @@
-MIT License
-
-Copyright (c) 2026 Tom Chen
+Copyright (c) Tom Chen (tomchen.org)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,6 +18,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-NOTE: The MIT license above covers the original code and curated datasets of
-this repository only. Third-party data and images fetched into public/ have
-their own terms — see the COPYRIGHT file for a detailed inventory.
+[**Detailed copyright**](COPYRIGHT)

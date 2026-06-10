@@ -6,7 +6,7 @@ Clean and complete 2026 FIFA World Cup companion: schedule, groups, bracket, squ
 
 Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikipedia: every fact about the tournament is one or two taps away, in your language and your time zone, with nothing you don't need (no ads, no news feeds, no videos, no cookie banners, no sign-in).
 
-> **Unofficial, fan-made, not-for-profit, open-source project**, hosted on GitHub Pages. Not affiliated with, endorsed by, or connected to FIFA, any national football association, team, player, or broadcaster. Code and curated data are MIT-licensed (see [LICENSE](LICENSE)); third-party data terms are inventoried in [COPYRIGHT](COPYRIGHT).
+> **Unofficial, fan-made, not-for-profit, open-source project**, hosted on GitHub Pages. Not affiliated with, endorsed by, or connected to FIFA, any national football association, team, player, or broadcaster. Code and curated data are MIT-licensed (see [LICENSE](LICENSE.md)); third-party data terms are inventoried in [COPYRIGHT](COPYRIGHT).
 
 ## Features
 
@@ -146,4 +146,4 @@ src/                  application code (pages, components, i18n, settings)
 
 ## License
 
-Code and curated data: [MIT](LICENSE). Detailed third-party data and image licensing: [COPYRIGHT](COPYRIGHT). Data courtesy of FIFA's public API, Wikipedia, and Open-Meteo; verify broadcast rights with local listings.
+Code and curated data: [MIT](LICENSE.md). Detailed third-party data and image licensing: [COPYRIGHT](COPYRIGHT). Data courtesy of FIFA's public API, Wikipedia, and Open-Meteo; verify broadcast rights with local listings.

@@ -6,7 +6,7 @@ endorsed by, or connected to FIFA, any national football association, team,
 player, or broadcaster. "FIFA", "FIFA World Cup", and "FIFA World Cup 26" are
 trademarks of FIFA.
 
-1. ORIGINAL CODE — MIT (see LICENSE)
+1. ORIGINAL CODE — MIT (see LICENSE.md)
 ------------------------------------
 Copyright (c) 2026 Tom Chen.
   - src/**                     application source (React/TypeScript/CSS)

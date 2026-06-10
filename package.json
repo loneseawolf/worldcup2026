@@ -31,7 +31,7 @@
     "url": "git+https://github.com/26worldcup/26worldcup.github.io.git"
   },
   "license": "MIT",
-  "author": "Tom Chen <tomchen.org@gmail.com> (https://github.com/26worldcup)",
+  "author": "Tom Chen (tomchen.org)",
   "type": "module",
   "engines": {
     "bun": ">=1.1"

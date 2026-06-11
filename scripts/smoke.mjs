@@ -13,7 +13,6 @@ const CHROME = process.env.CHROME_PATH || '/usr/bin/google-chrome'
 
 const ROUTES = [
   ['home', '#/'],
-  ['game', '#/game'],
   ['matches', '#/matches'],
   ['groups', '#/groups'],
   ['bracket', '#/bracket'],
@@ -23,6 +22,7 @@ const ROUTES = [
   ['venues', '#/venues'],
   ['watch', '#/watch'],
   ['stats', '#/stats'],
+  ['simulate', '#/simulate'],
   ['settings', '#/settings'],
   ['more', '#/more'],
   ['match-1', '#/match/400021443'],

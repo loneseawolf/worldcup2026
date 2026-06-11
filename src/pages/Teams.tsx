@@ -40,6 +40,30 @@ function TeamCard({ team }: { team: Team }) {
   )
 }
 
+// common alternate names people actually type (FIFA's official English
+// names are formal: "USA", "Korea Republic", "Czechia", "Türkiye"...)
+const SEARCH_ALIASES: Record<string, string> = {
+  USA: 'United States America US',
+  KOR: 'South Korea',
+  CIV: 'Ivory Coast',
+  CZE: 'Czech Republic',
+  TUR: 'Turkey',
+  CPV: 'Cape Verde',
+  COD: 'DR Congo Democratic Republic of the Congo Congo-Kinshasa',
+  NED: 'Holland',
+  GER: 'Deutschland',
+  KSA: 'Saudi',
+  RSA: 'South Africa',
+  NZL: 'New Zealand',
+}
+
+/** lowercase + strip diacritics so "cote" finds Côte d'Ivoire, "turkiye" finds Türkiye */
+const norm = (v: string) =>
+  v
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+
 export default function Teams() {
   const { t, lang } = useI18n()
   const { settings } = useSettings()
@@ -59,8 +83,9 @@ export default function Teams() {
     return { by, letters }
   }, [teams])
 
-  // space-separated terms AND together: "ko pu" finds Korea Republic, "墨 哥" finds 墨西哥
-  const termsKey = query.trim().toLowerCase()
+  // space-separated terms AND together: "ko pu" finds Korea Republic, "墨 哥" finds 墨西哥;
+  // matching is diacritic-insensitive and includes common English aliases
+  const termsKey = norm(query.trim())
   const visible = useMemo(() => {
     const terms = termsKey.split(/\s+/).filter(Boolean)
     if (!terms.length) return null // no filter — show everything
@@ -70,15 +95,16 @@ export default function Teams() {
     const set = new Set<string>()
     for (const team of Object.values(teams)) {
       // search the user's language + English (all 12 name locales would cross-match noise)
-      const hay = [
-        team.code,
-        team.nickname ?? '',
-        team.name[lang] ?? '',
-        (fallbackLang && team.name[fallbackLang]) ?? '',
-        team.name.en ?? '',
-      ]
-        .join(' ')
-        .toLowerCase()
+      const hay = norm(
+        [
+          team.code,
+          team.nickname ?? '',
+          team.name[lang] ?? '',
+          (fallbackLang && team.name[fallbackLang]) ?? '',
+          team.name.en ?? '',
+          SEARCH_ALIASES[team.code] ?? '',
+        ].join(' '),
+      )
       if (terms.every((term) => hay.includes(term))) set.add(team.code)
     }
     return set

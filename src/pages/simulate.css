@@ -1,0 +1,272 @@
+/* ============ Tournament simulator ============ */
+.sim-page {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.sim-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 22px;
+}
+.sim-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sim-radio {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+.sim-runs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 220px;
+}
+.sim-runs input[type="range"] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+.sim-n {
+  width: 76px;
+  text-align: center;
+}
+.sim-note {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.sim-odds h2 {
+  font-size: 1rem;
+  margin: 0 0 10px;
+}
+.sim-odds-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 4px 0;
+}
+.sim-odds-name {
+  width: 150px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 650;
+  font-size: 0.88rem;
+}
+.sim-odds-bar {
+  flex: 1;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--chip-bg);
+  overflow: hidden;
+  direction: ltr;
+}
+.sim-odds-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+}
+.sim-odds-pct {
+  width: 52px;
+  text-align: end;
+  font-weight: 700;
+}
+
+.sim-champ {
+  margin-top: 14px;
+}
+.sim-champ-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.sim-champ-label {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.sim-champ-name {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 850;
+}
+
+.section-title-h {
+  font-size: 1.05rem;
+  margin: 20px 0 10px;
+}
+
+.sim-groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+.sim-group {
+  padding: 8px 10px;
+}
+.sim-group-head {
+  font-weight: 750;
+  font-size: 0.78rem;
+  color: var(--text-2);
+  margin-bottom: 5px;
+}
+.sim-group-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+  font-size: 0.82rem;
+}
+.sim-group-row.q .sim-team {
+  font-weight: 750;
+}
+.sim-group-row:not(.q) {
+  opacity: 0.62;
+}
+.sim-pos {
+  width: 12px;
+  color: var(--text-3);
+  font-size: 0.72rem;
+}
+.sim-team {
+  flex: 1;
+}
+.sim-gd {
+  color: var(--text-3);
+  font-size: 0.74rem;
+  width: 26px;
+  text-align: end;
+}
+.sim-pts {
+  font-weight: 800;
+  width: 18px;
+  text-align: end;
+}
+
+.sim-stage h3 {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  margin: 12px 0 6px;
+}
+.sim-stage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 6px 14px;
+}
+.sim-ko-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  font-size: 0.84rem;
+}
+.sim-ko-team {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sim-ko-team.away {
+  justify-content: flex-end;
+}
+.sim-ko-team.win {
+  font-weight: 800;
+}
+.sim-ko-score {
+  flex: none;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+/* per-group simulated scorelines under each table */
+.sim-group-matches {
+  margin-top: 7px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.sim-gm {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  color: var(--text-2);
+}
+.sim-gm > span:first-child,
+.sim-gm > span:last-child {
+  flex: 1;
+}
+.sim-gm > span:last-child {
+  text-align: end;
+}
+.sim-gm .win {
+  font-weight: 800;
+  color: var(--text);
+}
+.sim-gm-score {
+  color: var(--text-3);
+}
+
+/* knockout: a.e.t. badge + 90'/pens detail line */
+.sim-ko-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+.sim-aet {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--accent-text);
+  vertical-align: super;
+}
+.sim-ko-sub {
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--text-3);
+  white-space: nowrap;
+}
+
+/* places 2-4 under the champion */
+.sim-podium {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.sim-podium-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.86rem;
+}
+.sim-podium-label {
+  color: var(--text-3);
+  font-weight: 700;
+  font-size: 0.76rem;
+}
+.sim-podium-name {
+  font-weight: 650;
+}

@@ -215,6 +215,13 @@ export interface Broadcasters {
   asOf?: string
 }
 
+export interface MatchProbs {
+  h: number // home win %
+  d: number // draw %
+  a: number // away win %
+  ah?: number // knockout: home advance % (incl. ET/pens)
+}
+
 export interface Stats {
   scorers: { id: string; name: string; code: string; goals: number; ownGoals: number }[]
 }
@@ -236,6 +243,7 @@ export interface AppData {
   weather: Record<string, WeatherInfo>
   lineups: Record<string, MatchLineups>
   stats: Stats
+  probs: Record<string, MatchProbs>
   broadcasters: Broadcasters | null
 }
 

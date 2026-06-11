@@ -14,7 +14,7 @@ export default defineConfig({
         name: '2026 World Cup Open Source Companion',
         short_name: '2026 WC',
         description:
-          '2026 World Cup — schedule, groups, bracket, teams, venues, weather and TV channels in 23 languages. Unofficial fan-made open-source project.',
+          '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and a tournament simulator, in 23 languages. Unofficial open-source PWA',
         start_url: './',
         scope: './',
         display: 'standalone',

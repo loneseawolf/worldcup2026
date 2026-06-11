@@ -82,7 +82,7 @@ export default function MatchDetail() {
     o.typeName.en ??
     o.role
   const { settings } = useSettings()
-  const { matches, teams, venues, weather, lineups, broadcasters } = useAppData()
+  const { matches, teams, venues, weather, lineups, broadcasters, probs } = useAppData()
 
   const m = matches.find((x) => x.id === id)
   const venue = m?.venueId ? (venues[m.venueId] ?? null) : null
@@ -211,6 +211,40 @@ export default function MatchDetail() {
           <HeroSide side={m.away} ph={m.phB} />
         </div>
         {m.status === 'live' && <p className="md-semilive small">{t('semiLiveNote')}</p>}
+        {m.home && m.away && probs[m.id] && (
+          <div className="md-prob">
+            <div className="md-prob-head small">
+              <span>{t('probTitle')}</span>
+            </div>
+            <div
+              className="md-prob-bar"
+              role="img"
+              aria-label={`${m.home.code} ${probs[m.id].h}% · ${t('probDraw')} ${probs[m.id].d}% · ${m.away.code} ${probs[m.id].a}%`}
+            >
+              <span className="md-prob-h" style={{ width: `${probs[m.id].h}%` }} />
+              <span className="md-prob-d" style={{ width: `${probs[m.id].d}%` }} />
+              <span className="md-prob-a" style={{ width: `${probs[m.id].a}%` }} />
+            </div>
+            <div className="md-prob-legend small tnum">
+              <span>
+                {m.home.code} {probs[m.id].h}%
+              </span>
+              <span>
+                {t('probDraw')} {probs[m.id].d}%
+              </span>
+              <span>
+                {m.away.code} {probs[m.id].a}%
+              </span>
+            </div>
+            {probs[m.id].ah != null && (
+              <div className="md-prob-adv small muted">
+                {t('probAdvance')}: {m.home.code} {probs[m.id].ah}% · {m.away.code}{' '}
+                {100 - (probs[m.id].ah ?? 0)}%
+              </div>
+            )}
+            <p className="md-prob-note small muted">{t('probNote')}</p>
+          </div>
+        )}
 
         <div className="md-when">
           <Icon name="clock" size={15} />

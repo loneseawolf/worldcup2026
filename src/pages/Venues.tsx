@@ -420,9 +420,7 @@ function VenueMap({
             label={t('filterTeams')}
           />
           {selTeam && (
-            <span className="muted small vn-team-hint tnum">
-              {t('matchesShown', { n: selMatchCount })}
-            </span>
+            <span className="muted small vn-team-hint tnum">{t('matchesShown', { n: selMatchCount })}</span>
           )}
         </span>
       </div>

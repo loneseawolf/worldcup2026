@@ -345,5 +345,52 @@ a.md-side {
 .md-semilive {
   margin: 8px 0 0;
   text-align: center;
-  color: rgb(255 255 255 / 0.75);
+  color: var(--text-3);
+}
+
+/* Elo win/draw/loss probabilities (scheduled matches) */
+.md-prob {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.md-prob-head {
+  color: var(--text-2);
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.md-prob-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  direction: ltr;
+}
+.md-prob-h {
+  background: var(--accent-2);
+}
+.md-prob-d {
+  background: color-mix(in srgb, var(--text-3) 45%, transparent);
+}
+.md-prob-a {
+  background: var(--accent);
+}
+.md-prob-legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: var(--text-2);
+  font-weight: 650;
+  direction: ltr;
+}
+.md-prob-adv {
+  margin-top: 6px;
+  text-align: center;
+  color: var(--text-2);
+}
+.md-prob-note {
+  margin: 6px 0 0;
+  text-align: center;
+  color: var(--text-3);
 }

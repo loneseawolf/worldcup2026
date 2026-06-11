@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-10T21:49:20.622Z",
+ "updatedAt": "2026-06-11T01:25:24.108Z",
  "season": "285023",
  "counts": {
   "matches": 104,
@@ -15,6 +15,7 @@
  "sources": [
   "api.fifa.com",
   "en.wikipedia.org",
-  "open-meteo.com"
+  "open-meteo.com",
+  "github.com/martj42/international_results"
  ]
 }

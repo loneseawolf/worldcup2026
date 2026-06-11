@@ -25,7 +25,8 @@
     "tr": "Cezayir",
     "uz": "Jazoir",
     "fa": "الجزایر",
-    "uk": "Алжир"
+    "uk": "Алжир",
+    "zh-TW": "阿爾及利亞"
    },
    "iso2": "DZ",
    "ranking": 28,
@@ -70,7 +71,8 @@
     "tr": "Arjantin",
     "uz": "Argentina",
     "fa": "آرژانتین",
-    "uk": "Аргентина"
+    "uk": "Аргентина",
+    "zh-TW": "阿根廷"
    },
    "iso2": "AR",
    "ranking": 1,
@@ -115,7 +117,8 @@
     "tr": "Avustralya",
     "uz": "Avstraliya",
     "fa": "استرالیا",
-    "uk": "Австралія"
+    "uk": "Австралія",
+    "zh-TW": "澳洲"
    },
    "iso2": "AU",
    "ranking": 27,
@@ -160,7 +163,8 @@
     "tr": "Avusturya",
     "uz": "Avstriya",
     "fa": "اتریش",
-    "uk": "Австрія"
+    "uk": "Австрія",
+    "zh-TW": "奧地利"
    },
    "iso2": "AT",
    "ranking": 24,
@@ -205,7 +209,8 @@
     "tr": "Belçika",
     "uz": "Belgiya",
     "fa": "بلژیک",
-    "uk": "Бельгія"
+    "uk": "Бельгія",
+    "zh-TW": "比利時"
    },
    "iso2": "BE",
    "ranking": 9,
@@ -250,7 +255,8 @@
     "tr": "Bosna-Hersek",
     "uz": "Bosniya va Gertsegovina",
     "fa": "بوسنی و هرزگوین",
-    "uk": "Боснія і Герцеговина"
+    "uk": "Боснія і Герцеговина",
+    "zh-TW": "波士尼亞與赫塞哥維納"
    },
    "iso2": "BA",
    "ranking": 64,
@@ -295,7 +301,8 @@
     "tr": "Brezilya",
     "uz": "Braziliya",
     "fa": "برزیل",
-    "uk": "Бразилія"
+    "uk": "Бразилія",
+    "zh-TW": "巴西"
    },
    "iso2": "BR",
    "ranking": 6,
@@ -340,7 +347,8 @@
     "tr": "Kanada",
     "uz": "Kanada",
     "fa": "کانادا",
-    "uk": "Канада"
+    "uk": "Канада",
+    "zh-TW": "加拿大"
    },
    "iso2": "CA",
    "ranking": 30,
@@ -385,7 +393,8 @@
     "tr": "Côte d’Ivoire",
     "uz": "Kot-d’Ivuar",
     "fa": "ساحل عاج",
-    "uk": "Кот-дʼІвуар"
+    "uk": "Кот-дʼІвуар",
+    "zh-TW": "象牙海岸"
    },
    "iso2": "CI",
    "ranking": 33,
@@ -430,7 +439,8 @@
     "tr": "Kongo - Kinşasa",
     "uz": "Kongo – Kinshasa",
     "fa": "کنگو - کینشاسا",
-    "uk": "Конго – Кіншаса"
+    "uk": "Конго – Кіншаса",
+    "zh-TW": "民主剛果"
    },
    "iso2": "CD",
    "ranking": 46,
@@ -475,7 +485,8 @@
     "tr": "Kolombiya",
     "uz": "Kolumbiya",
     "fa": "کلمبیا",
-    "uk": "Колумбія"
+    "uk": "Колумбія",
+    "zh-TW": "哥倫比亞"
    },
    "iso2": "CO",
    "ranking": 13,
@@ -520,7 +531,8 @@
     "tr": "Cabo Verde",
     "uz": "Kabo-Verde",
     "fa": "کیپ‌ورد",
-    "uk": "Кабо-Верде"
+    "uk": "Кабо-Верде",
+    "zh-TW": "維德角"
    },
    "iso2": "CV",
    "ranking": 67,
@@ -565,7 +577,8 @@
     "tr": "Hırvatistan",
     "uz": "Xorvatiya",
     "fa": "کرواسی",
-    "uk": "Хорватія"
+    "uk": "Хорватія",
+    "zh-TW": "克羅埃西亞"
    },
    "iso2": "HR",
    "ranking": 11,
@@ -610,7 +623,8 @@
     "tr": "Curaçao",
     "uz": "Kyurasao",
     "fa": "کوراسائو",
-    "uk": "Кюрасао"
+    "uk": "Кюрасао",
+    "zh-TW": "古拉索"
    },
    "iso2": "CW",
    "ranking": 82,
@@ -655,7 +669,8 @@
     "tr": "Çekya",
     "uz": "Chexiya",
     "fa": "چک",
-    "uk": "Чехія"
+    "uk": "Чехія",
+    "zh-TW": "捷克"
    },
    "iso2": "CZ",
    "ranking": 40,
@@ -700,7 +715,8 @@
     "tr": "Ekvador",
     "uz": "Ekvador",
     "fa": "اکوادور",
-    "uk": "Еквадор"
+    "uk": "Еквадор",
+    "zh-TW": "厄瓜多"
    },
    "iso2": "EC",
    "ranking": 23,
@@ -745,7 +761,8 @@
     "tr": "Mısır",
     "uz": "Misr",
     "fa": "مصر",
-    "uk": "Єгипет"
+    "uk": "Єгипет",
+    "zh-TW": "埃及"
    },
    "iso2": "EG",
    "ranking": 29,
@@ -781,7 +798,17 @@
     "ja": "イングランド",
     "ko": "잉글랜드",
     "id": "Inggris",
-    "ru": "Англия"
+    "ru": "Англия",
+    "zh-TW": "英格蘭",
+    "nl": "Engeland",
+    "sv": "England",
+    "no": "England",
+    "cs": "Anglie",
+    "hr": "Engleska",
+    "tr": "İngiltere",
+    "uz": "Angliya",
+    "fa": "انگلیس",
+    "uk": "Англія"
    },
    "iso2": "GB-ENG",
    "ranking": 4,
@@ -826,7 +853,8 @@
     "tr": "İspanya",
     "uz": "Ispaniya",
     "fa": "اسپانیا",
-    "uk": "Іспанія"
+    "uk": "Іспанія",
+    "zh-TW": "西班牙"
    },
    "iso2": "ES",
    "ranking": 2,
@@ -871,7 +899,8 @@
     "tr": "Fransa",
     "uz": "Fransiya",
     "fa": "فرانسه",
-    "uk": "Франція"
+    "uk": "Франція",
+    "zh-TW": "法國"
    },
    "iso2": "FR",
    "ranking": 3,
@@ -916,7 +945,8 @@
     "tr": "Almanya",
     "uz": "Germaniya",
     "fa": "آلمان",
-    "uk": "Німеччина"
+    "uk": "Німеччина",
+    "zh-TW": "德國"
    },
    "iso2": "DE",
    "ranking": 10,
@@ -961,7 +991,8 @@
     "tr": "Gana",
     "uz": "Gana",
     "fa": "غنا",
-    "uk": "Гана"
+    "uk": "Гана",
+    "zh-TW": "迦納"
    },
    "iso2": "GH",
    "ranking": 73,
@@ -1006,7 +1037,8 @@
     "tr": "Haiti",
     "uz": "Gaiti",
     "fa": "هائیتی",
-    "uk": "Гаїті"
+    "uk": "Гаїті",
+    "zh-TW": "海地"
    },
    "iso2": "HT",
    "ranking": 83,
@@ -1051,7 +1083,8 @@
     "tr": "İran",
     "uz": "Eron",
     "fa": "ایران",
-    "uk": "Іран"
+    "uk": "Іран",
+    "zh-TW": "伊朗"
    },
    "iso2": "IR",
    "ranking": 20,
@@ -1096,7 +1129,8 @@
     "tr": "Irak",
     "uz": "Iroq",
     "fa": "عراق",
-    "uk": "Ірак"
+    "uk": "Ірак",
+    "zh-TW": "伊拉克"
    },
    "iso2": "IQ",
    "ranking": 57,
@@ -1141,7 +1175,8 @@
     "tr": "Ürdün",
     "uz": "Iordaniya",
     "fa": "اردن",
-    "uk": "Йорданія"
+    "uk": "Йорданія",
+    "zh-TW": "約旦"
    },
    "iso2": "JO",
    "ranking": 63,
@@ -1186,7 +1221,8 @@
     "tr": "Japonya",
     "uz": "Yaponiya",
     "fa": "ژاپن",
-    "uk": "Японія"
+    "uk": "Японія",
+    "zh-TW": "日本"
    },
    "iso2": "JP",
    "ranking": 18,
@@ -1231,7 +1267,8 @@
     "tr": "Güney Kore",
     "uz": "Janubiy Koreya",
     "fa": "کرهٔ جنوبی",
-    "uk": "Південна Корея"
+    "uk": "Південна Корея",
+    "zh-TW": "南韓"
    },
    "iso2": "KR",
    "ranking": 25,
@@ -1276,7 +1313,8 @@
     "tr": "Suudi Arabistan",
     "uz": "Saudiya Arabistoni",
     "fa": "عربستان سعودی",
-    "uk": "Саудівська Аравія"
+    "uk": "Саудівська Аравія",
+    "zh-TW": "沙烏地阿拉伯"
    },
    "iso2": "SA",
    "ranking": 61,
@@ -1321,7 +1359,8 @@
     "tr": "Fas",
     "uz": "Marokash",
     "fa": "مراکش",
-    "uk": "Марокко"
+    "uk": "Марокко",
+    "zh-TW": "摩洛哥"
    },
    "iso2": "MA",
    "ranking": 7,
@@ -1366,7 +1405,8 @@
     "tr": "Meksika",
     "uz": "Meksika",
     "fa": "مکزیک",
-    "uk": "Мексика"
+    "uk": "Мексика",
+    "zh-TW": "墨西哥"
    },
    "iso2": "MX",
    "ranking": 14,
@@ -1411,7 +1451,8 @@
     "tr": "Hollanda",
     "uz": "Niderlandiya",
     "fa": "هلند",
-    "uk": "Нідерланди"
+    "uk": "Нідерланди",
+    "zh-TW": "荷蘭"
    },
    "iso2": "NL",
    "ranking": 8,
@@ -1456,7 +1497,8 @@
     "tr": "Norveç",
     "uz": "Norvegiya",
     "fa": "نروژ",
-    "uk": "Норвегія"
+    "uk": "Норвегія",
+    "zh-TW": "挪威"
    },
    "iso2": "NO",
    "ranking": 31,
@@ -1501,7 +1543,8 @@
     "tr": "Yeni Zelanda",
     "uz": "Yangi Zelandiya",
     "fa": "نیوزیلند",
-    "uk": "Нова Зеландія"
+    "uk": "Нова Зеландія",
+    "zh-TW": "紐西蘭"
    },
    "iso2": "NZ",
    "ranking": 85,
@@ -1546,7 +1589,8 @@
     "tr": "Panama",
     "uz": "Panama",
     "fa": "پاناما",
-    "uk": "Панама"
+    "uk": "Панама",
+    "zh-TW": "巴拿馬"
    },
    "iso2": "PA",
    "ranking": 34,
@@ -1589,7 +1633,8 @@
     "tr": "Paraguay",
     "uz": "Paragvay",
     "fa": "پاراگوئه",
-    "uk": "Парагвай"
+    "uk": "Парагвай",
+    "zh-TW": "巴拉圭"
    },
    "iso2": "PY",
    "ranking": 41,
@@ -1633,7 +1678,8 @@
     "tr": "Portekiz",
     "uz": "Portugaliya",
     "fa": "پرتغال",
-    "uk": "Португалія"
+    "uk": "Португалія",
+    "zh-TW": "葡萄牙"
    },
    "iso2": "PT",
    "ranking": 5,
@@ -1678,7 +1724,8 @@
     "tr": "Katar",
     "uz": "Qatar",
     "fa": "قطر",
-    "uk": "Катар"
+    "uk": "Катар",
+    "zh-TW": "卡達"
    },
    "iso2": "QA",
    "ranking": 56,
@@ -1723,7 +1770,8 @@
     "tr": "Güney Afrika",
     "uz": "Janubiy Afrika Respublikasi",
     "fa": "افریقای جنوبی",
-    "uk": "Південно-Африканська Республіка"
+    "uk": "Південно-Африканська Республіка",
+    "zh-TW": "南非"
    },
    "iso2": "ZA",
    "ranking": 60,
@@ -1759,7 +1807,17 @@
     "ja": "スコットランド",
     "ko": "스코틀랜드",
     "id": "Skotlandia",
-    "ru": "Шотландия"
+    "ru": "Шотландия",
+    "zh-TW": "蘇格蘭",
+    "nl": "Schotland",
+    "sv": "Skottland",
+    "no": "Skottland",
+    "cs": "Skotsko",
+    "hr": "Škotska",
+    "tr": "İskoçya",
+    "uz": "Shotlandiya",
+    "fa": "اسکاتلند",
+    "uk": "Шотландія"
    },
    "iso2": "GB-SCT",
    "ranking": 42,
@@ -1804,7 +1862,8 @@
     "tr": "Senegal",
     "uz": "Senegal",
     "fa": "سنگال",
-    "uk": "Сенегал"
+    "uk": "Сенегал",
+    "zh-TW": "塞內加爾"
    },
    "iso2": "SN",
    "ranking": 15,
@@ -1849,7 +1908,8 @@
     "tr": "İsviçre",
     "uz": "Shveytsariya",
     "fa": "سوئیس",
-    "uk": "Швейцарія"
+    "uk": "Швейцарія",
+    "zh-TW": "瑞士"
    },
    "iso2": "CH",
    "ranking": 19,
@@ -1894,7 +1954,8 @@
     "tr": "İsveç",
     "uz": "Shvetsiya",
     "fa": "سوئد",
-    "uk": "Швеція"
+    "uk": "Швеція",
+    "zh-TW": "瑞典"
    },
    "iso2": "SE",
    "ranking": 38,
@@ -1939,7 +2000,8 @@
     "tr": "Tunus",
     "uz": "Tunis",
     "fa": "تونس",
-    "uk": "Туніс"
+    "uk": "Туніс",
+    "zh-TW": "突尼西亞"
    },
    "iso2": "TN",
    "ranking": 45,
@@ -1984,7 +2046,8 @@
     "tr": "Türkiye",
     "uz": "Turkiya",
     "fa": "ترکیه",
-    "uk": "Туреччина"
+    "uk": "Туреччина",
+    "zh-TW": "土耳其"
    },
    "iso2": "TR",
    "ranking": 22,
@@ -2029,7 +2092,8 @@
     "tr": "Uruguay",
     "uz": "Urugvay",
     "fa": "اروگوئه",
-    "uk": "Уругвай"
+    "uk": "Уругвай",
+    "zh-TW": "烏拉圭"
    },
    "iso2": "UY",
    "ranking": 16,
@@ -2074,7 +2138,8 @@
     "tr": "Amerika Birleşik Devletleri",
     "uz": "Amerika Qo‘shma Shtatlari",
     "fa": "ایالات متحده",
-    "uk": "Сполучені Штати"
+    "uk": "Сполучені Штати",
+    "zh-TW": "美國"
    },
    "iso2": "US",
    "ranking": 17,
@@ -2119,7 +2184,8 @@
     "tr": "Özbekistan",
     "uz": "Oʻzbekiston",
     "fa": "ازبکستان",
-    "uk": "Узбекистан"
+    "uk": "Узбекистан",
+    "zh-TW": "烏茲別克"
    },
    "iso2": "UZ",
    "ranking": 50,

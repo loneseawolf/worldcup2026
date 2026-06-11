@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import type { AppData, Squads } from '../types'
+import type { SimModel } from '../sim/engine'
 
 interface DataCtx {
   data: AppData | null
@@ -8,6 +9,8 @@ interface DataCtx {
   /** squads are loaded lazily on first use */
   squads: Squads | null
   loadSquads: () => void
+  simModel: SimModel | null
+  loadSimModel: () => void
 }
 
 const Ctx = createContext<DataCtx | null>(null)
@@ -40,6 +43,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<AppData | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [squads, setSquads] = useState<Squads | null>(null)
+  const [simModel, setSimModel] = useState<SimModel | null>(null)
+  const simRequested = useRef(false)
   const squadsRequested = useRef(false)
   const dataRef = useRef<AppData | null>(null)
   const refreshing = useRef(false)
@@ -58,9 +63,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
       getJson<AppData['weather']>('weather.json'),
       getJson<AppData['lineups']>('lineups.json'),
       getJson<AppData['stats']>('stats.json'),
+      getJson<AppData['probs']>('probs.json'),
       getJson<AppData['meta']>('meta.json'),
       getJson<NonNullable<AppData['broadcasters']>>('broadcasters.json'),
-    ]).then(([m, t, v, standings, weather, lineups, stats, meta, broadcasters]) => {
+    ]).then(([m, t, v, standings, weather, lineups, stats, probs, meta, broadcasters]) => {
       if (!on) return
       // matches/teams/venues are required: without them nothing can render
       if (m.status !== 'fulfilled' || t.status !== 'fulfilled' || v.status !== 'fulfilled') {
@@ -78,6 +84,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         weather: settled(weather, {}),
         lineups: settled(lineups, {}),
         stats: settled(stats, EMPTY_STATS),
+        probs: settled(probs, {}),
         meta: settled(meta, EMPTY_META),
         broadcasters: settled(broadcasters, null),
       })
@@ -94,11 +101,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
       if (refreshing.current || !dataRef.current) return
       refreshing.current = true
       try {
-        const [m, standings, lineups, stats, weather, meta] = await Promise.allSettled([
+        const [m, standings, lineups, stats, probs, weather, meta] = await Promise.allSettled([
           getJson<{ matches: AppData['matches'] }>('matches.json'),
           getJson<AppData['standings']>('standings.json'),
           getJson<AppData['lineups']>('lineups.json'),
           getJson<AppData['stats']>('stats.json'),
+          getJson<AppData['probs']>('probs.json'),
           getJson<AppData['weather']>('weather.json'),
           getJson<AppData['meta']>('meta.json'),
         ])
@@ -110,6 +118,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
                 standings: settled(standings, prev.standings),
                 lineups: settled(lineups, prev.lineups),
                 stats: settled(stats, prev.stats),
+                probs: settled(probs, prev.probs),
                 weather: settled(weather, prev.weather),
                 meta: settled(meta, prev.meta),
               }
@@ -160,7 +169,21 @@ export function DataProvider({ children }: { children: ReactNode }) {
       })
   }
 
-  return <Ctx.Provider value={{ data, error, squads, loadSquads }}>{children}</Ctx.Provider>
+  const loadSimModel = () => {
+    if (simRequested.current) return
+    simRequested.current = true
+    getJson<SimModel>('sim-model.json')
+      .then(setSimModel)
+      .catch(() => {
+        simRequested.current = false
+      })
+  }
+
+  return (
+    <Ctx.Provider value={{ data, error, squads, loadSquads, simModel, loadSimModel }}>
+      {children}
+    </Ctx.Provider>
+  )
 }
 
 export function useData(): DataCtx {

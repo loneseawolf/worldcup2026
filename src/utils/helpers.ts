@@ -360,7 +360,9 @@ export function download(filename: string, content: string, mime = 'text/calenda
 }
 
 /** all twelve groups finished -> the knockout phase drives the UI */
-export function groupStageComplete(standings: { complete: Record<string, boolean> } | null | undefined): boolean {
+export function groupStageComplete(
+  standings: { complete: Record<string, boolean> } | null | undefined,
+): boolean {
   if (!standings) return false
   const flags = Object.values(standings.complete)
   return flags.length >= 12 && flags.every(Boolean)

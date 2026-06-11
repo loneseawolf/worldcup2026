@@ -18,6 +18,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { blend, CONFED_LISTS, intify, rawProbs, replay, RESULTS_URL } from './elo.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const OUT = path.join(ROOT, 'public', 'data')
@@ -766,7 +767,8 @@ async function fetchRankings() {
   const d = await fetchJson(`${FIFA}/fifarankings/rankings/live?gender=1&sportType=0&language=en`)
   const out = {}
   for (const r of d.Results || []) {
-    if (r.IdCountry && r.Rank) out[r.IdCountry] = { rank: r.Rank, prev: r.PrevRank ?? null }
+    if (r.IdCountry && r.Rank)
+      out[r.IdCountry] = { rank: r.Rank, prev: r.PrevRank ?? null, pts: r.TotalPoints ?? null }
   }
   if (Object.keys(out).length < 100)
     throw new Error(`suspiciously few ranking entries: ${Object.keys(out).length}`)
@@ -876,6 +878,7 @@ async function main() {
   const climate = (await readJsonSafe(path.join(CURATED, 'climate.json')))?.venues || {}
   const venuesResearch = (await readJsonSafe(path.join(CURATED, 'venues-research.json')))?.venues || {}
   const cityL10n = (await readJsonSafe(path.join(CURATED, 'city-l10n.json')))?.cities || {}
+  const teamL10n = (await readJsonSafe(path.join(CURATED, 'team-names-l10n.json'))) || {}
   const teamsExtra = (await readJsonSafe(path.join(CURATED, 'teams-extra.json')))?.teams || {}
   const fifaIso = (await readJsonSafe(path.join(CURATED, 'fifa-iso.json')))?.map || {}
   const broadcasters = await readJsonSafe(path.join(CURATED, 'broadcasters.json'))
@@ -957,7 +960,11 @@ async function main() {
       code,
       fifaId: fifaTeamIds[code] || null,
       group: groupOf[code],
-      name: withCldrNames(names.teams[code] || { en: code }, fifaIso[code]),
+      name: {
+        ...withCldrNames(names.teams[code] || { en: code }, fifaIso[code]),
+        ...(teamL10n['zh-TW']?.[code] ? { 'zh-TW': teamL10n['zh-TW'][code] } : {}),
+        ...(teamL10n.perTeam?.[code] || {}),
+      },
       iso2: fifaIso[code] || null,
       ranking: liveRanks[code]?.rank ?? extra.fifaRanking ?? null,
       rankingPrev: liveRanks[code]?.prev ?? null,
@@ -1010,6 +1017,132 @@ async function main() {
   // 8b. country flags served locally (idempotent — only fetches missing files)
   const flagCount = await downloadFlags(fifaIso, broadcasters)
 
+  // 8c. win/draw/loss probabilities (Elo over martj42/international_results, CC0)
+  let probs = {}
+  const prevProbs = (await readJsonSafe(path.join(OUT, 'probs.json'))) || {}
+  try {
+    const csvPath = path.join(CACHE, 'intl-results.csv')
+    let csv = null
+    try {
+      const st = await fs.stat(csvPath)
+      if (Date.now() - st.mtimeMs < 20 * 3600e3) csv = await fs.readFile(csvPath, 'utf8')
+    } catch {}
+    if (!csv) {
+      const res = await fetch(RESULTS_URL)
+      if (!res.ok) throw new Error(`results.csv HTTP ${res.status}`)
+      csv = await res.text()
+      await fs.writeFile(csvPath, csv)
+    }
+    const { ratings, outcomeCurve, offsets } = replay(csv)
+    const DATASET_NAME = {
+      ALG: 'Algeria',
+      ARG: 'Argentina',
+      AUS: 'Australia',
+      AUT: 'Austria',
+      BEL: 'Belgium',
+      BIH: 'Bosnia and Herzegovina',
+      BRA: 'Brazil',
+      CAN: 'Canada',
+      CIV: 'Ivory Coast',
+      COD: 'DR Congo',
+      COL: 'Colombia',
+      CPV: 'Cape Verde',
+      CRO: 'Croatia',
+      CUW: 'Curaçao',
+      CZE: 'Czech Republic',
+      ECU: 'Ecuador',
+      EGY: 'Egypt',
+      ENG: 'England',
+      ESP: 'Spain',
+      FRA: 'France',
+      GER: 'Germany',
+      GHA: 'Ghana',
+      HAI: 'Haiti',
+      IRN: 'Iran',
+      IRQ: 'Iraq',
+      JOR: 'Jordan',
+      JPN: 'Japan',
+      KOR: 'South Korea',
+      KSA: 'Saudi Arabia',
+      MAR: 'Morocco',
+      MEX: 'Mexico',
+      NED: 'Netherlands',
+      NOR: 'Norway',
+      NZL: 'New Zealand',
+      PAN: 'Panama',
+      PAR: 'Paraguay',
+      POR: 'Portugal',
+      QAT: 'Qatar',
+      RSA: 'South Africa',
+      SCO: 'Scotland',
+      SEN: 'Senegal',
+      SUI: 'Switzerland',
+      SWE: 'Sweden',
+      TUN: 'Tunisia',
+      TUR: 'Turkey',
+      URU: 'Uruguay',
+      USA: 'United States',
+      UZB: 'Uzbekistan',
+    }
+    const CONFED_OF = {}
+    for (const [conf, names] of Object.entries(CONFED_LISTS)) {
+      for (const [code, dsName] of Object.entries(DATASET_NAME)) {
+        if (names.includes(dsName)) CONFED_OF[code] = conf
+      }
+    }
+    const HOST_OF = { USA: 'US', CAN: 'CA', MEX: 'MX' }
+    const elo = (code) => ratings.get(DATASET_NAME[code]) ?? null
+    let missing = 0
+    for (const m of matches) {
+      if (!m.home || !m.away) continue
+      // freeze at kickoff: the last pre-match value (the KO-10min run) is the
+      // probability of record — post-match rating shifts must not rewrite history
+      if (Date.parse(m.date) <= Date.now() && prevProbs[m.id]) {
+        probs[m.id] = prevProbs[m.id]
+        continue
+      }
+      const eh = elo(m.home.code)
+      const ea = elo(m.away.code)
+      if (eh == null || ea == null) {
+        missing++
+        continue
+      }
+      const vc = venues[m.venueId]?.country
+      const bonus = HOST_OF[m.home.code] === vc ? 60 : HOST_OF[m.away.code] === vc ? -60 : 0
+      // leg 1: replayed Elo, corrected by fitted inter-confederation offsets
+      const adj = (offsets[CONFED_OF[m.home.code]] ?? 0) - (offsets[CONFED_OF[m.away.code]] ?? 0)
+      const pElo = rawProbs(eh - ea + bonus + adj, outcomeCurve)
+      // leg 2: official FIFA points — an independent rating with opposite
+      // confederation biases — mapped via the SUM formula's 600 scale
+      const ptsH = liveRanks[m.home.code]?.pts
+      const ptsA = liveRanks[m.away.code]?.pts
+      const pFifa =
+        ptsH != null && ptsA != null ? rawProbs(((ptsH - ptsA) * 400) / 600 + bonus, outcomeCurve) : null
+      probs[m.id] = intify(blend(pElo, pFifa), m.stage !== 'group')
+    }
+    if (missing) warn(`probs: ${missing} matches missing elo mapping`)
+    log(`probs: ${Object.keys(probs).length} fixtures scored`)
+    // compact model for the client-side tournament simulator: per-team strengths
+    // (confed offset folded into elo) + the empirical outcome curve
+    const simTeams = {}
+    for (const code of Object.keys(teams)) {
+      const e = elo(code)
+      if (e == null) continue
+      simTeams[code] = {
+        r: Math.round(e + (offsets[CONFED_OF[code]] ?? 0)),
+        f: liveRanks[code]?.pts != null ? Math.round(liveRanks[code].pts) : null,
+      }
+    }
+    await writeJson(path.join(OUT, 'sim-model.json'), {
+      curve: outcomeCurve.map((b) => ({ w: +b.w.toFixed(4), d: +b.d.toFixed(4) })),
+      hostBonus: 60,
+      teams: simTeams,
+    })
+  } catch (e) {
+    warn(`probs: ${e.message} — keeping previous file`)
+    probs = prevProbs
+  }
+
   // 9. write everything
   await writeJson(path.join(OUT, 'matches.json'), { matches })
   await writeJson(path.join(OUT, 'teams.json'), { teams })
@@ -1018,6 +1151,7 @@ async function main() {
   await writeJson(path.join(OUT, 'lineups.json'), lineups)
   await writeJson(path.join(OUT, 'stats.json'), stats)
   await writeJson(path.join(OUT, 'weather.json'), weather)
+  await writeJson(path.join(OUT, 'probs.json'), probs)
   await writeJson(path.join(OUT, 'squads.json'), squads)
   // per-team squad payloads (small fetches for the team detail page; the
   // monolithic squads.json above is kept for compatibility)
@@ -1051,7 +1185,12 @@ async function main() {
       flags: flagCount,
     },
     errors,
-    sources: ['api.fifa.com', 'en.wikipedia.org', 'open-meteo.com'],
+    sources: [
+      'api.fifa.com',
+      'en.wikipedia.org',
+      'open-meteo.com',
+      'github.com/martj42/international_results',
+    ],
   })
   log(`done. ${errors.length} warnings`)
 }

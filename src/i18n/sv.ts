@@ -41,6 +41,8 @@ const sv: Dict = {
   venue: 'Arena',
   none: '—',
   updatedAt: 'Data uppdaterad {date}',
+  footerBy: 'av {name}',
+  footerLicense: 'MIT-licens & datakällor',
   backToList: 'Tillbaka',
   capacityK: '{n} platser',
   // stages

@@ -41,6 +41,8 @@ const hr: Dict = {
   venue: 'Stadion',
   none: '—',
   updatedAt: 'Podaci ažurirani {date}',
+  footerBy: 'autor: {name}',
+  footerLicense: 'MIT licenca i izvori podataka',
   backToList: 'Natrag',
   capacityK: '{n} mjesta',
   // stages

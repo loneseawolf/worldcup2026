@@ -41,6 +41,8 @@ const uk: Dict = {
   venue: 'Стадіон',
   none: '—',
   updatedAt: 'Дані оновлено {date}',
+  footerBy: 'автор: {name}',
+  footerLicense: 'Ліцензія MIT і джерела даних',
   backToList: 'Назад',
   capacityK: '{n} місць',
   // stages

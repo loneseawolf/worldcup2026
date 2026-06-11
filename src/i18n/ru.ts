@@ -41,6 +41,8 @@ const ru: Dict = {
   venue: 'Стадион',
   none: '—',
   updatedAt: 'Данные обновлены {date}',
+  footerBy: 'автор: {name}',
+  footerLicense: 'Лицензия MIT и источники данных',
   backToList: 'Назад',
   capacityK: '{n} мест',
   // stages

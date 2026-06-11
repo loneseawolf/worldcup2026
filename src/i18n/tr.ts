@@ -41,6 +41,8 @@ const tr: Dict = {
   venue: 'Stat',
   none: '—',
   updatedAt: 'Veriler {date} tarihinde güncellendi',
+  footerBy: '{name} tarafından',
+  footerLicense: 'MIT lisansı ve veri kaynakları',
   backToList: 'Geri',
   capacityK: '{n} koltuk',
   // stages

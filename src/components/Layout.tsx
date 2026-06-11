@@ -162,6 +162,9 @@ export default function Layout() {
     }
   }, [t])
 
+  // split the localized "by {name}" around the author link (word order varies)
+  const [byPre, byPost] = t('footerBy', { name: '\u0000' }).split('\u0000')
+
   return (
     <>
       <header className="shell-header" ref={headerRef}>
@@ -199,8 +202,31 @@ export default function Layout() {
       </main>
 
       <footer className="shell-footer">
-        {/* meta.json can degrade to updatedAt: '' — fmtDateTime would throw on it */}
-        {data?.meta.updatedAt && t('updatedAt', { date: fmtDateTime(data.meta.updatedAt, locale) })}
+        <div>
+          {/* meta.json can degrade to updatedAt: '' — fmtDateTime would throw on it */}
+          {data?.meta.updatedAt && t('updatedAt', { date: fmtDateTime(data.meta.updatedAt, locale) })}
+        </div>
+        <div className="shell-footer-links">
+          <a href="https://github.com/26worldcup/26worldcup.github.io" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <span aria-hidden="true">·</span>
+          <span>
+            {byPre}
+            <a href="https://github.com/tomchen" target="_blank" rel="noreferrer">
+              Tom Chen
+            </a>
+            {byPost}
+          </span>
+          <span aria-hidden="true">·</span>
+          <a
+            href="https://github.com/26worldcup/26worldcup.github.io/blob/main/COPYRIGHT.md"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t('footerLicense')}
+          </a>
+        </div>
       </footer>
 
       <nav className="tab-bar">

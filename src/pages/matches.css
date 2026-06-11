@@ -6,6 +6,7 @@
   top: var(--hdr-h, 58px);
   z-index: 30;
   background: var(--bg);
+  padding-top: 8px;
 }
 .mxp-sticky::after {
   content: "";
@@ -58,14 +59,45 @@
   margin-inline-start: auto;
   white-space: nowrap;
 }
-/* collapsible panel (every width — the flag wall stays out of the way) */
+/* collapsible panel (every width); grid-rows 0fr->1fr animates the height */
 .mxp-panel {
-  display: none;
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    grid-template-rows 0.28s ease,
+    opacity 0.22s ease,
+    margin-top 0.28s ease,
+    visibility 0s linear 0.28s;
+  margin-top: 0;
 }
 .mxp-panel.open {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  opacity: 1;
+  transition:
+    grid-template-rows 0.28s ease,
+    opacity 0.22s ease 0.06s,
+    margin-top 0.28s ease,
+    visibility 0s;
+  margin-top: 12px;
+}
+.mxp-panel-in {
   display: flex;
   flex-direction: column;
-  margin-top: 12px;
+  min-height: 0;
+  overflow: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mxp-panel,
+  .mxp-panel.open,
+  .mxp-odds-wrap,
+  .mxp-odds-wrap.open,
+  .mxp-odds-restore,
+  .mxp-odds-restore.on {
+    transition: none;
+  }
 }
 
 /* selects + summary */
@@ -207,39 +239,83 @@
   margin: 0;
 }
 
-/* title-odds strip: first list element, links to the forecast page */
+/* title-odds ticker: top of the sticky block, under the app bar.
+   Dismiss tucks it toward the restore chip (top right); restore grows it back */
+.mxp-odds-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px) scale(0.97);
+  transform-origin: top right;
+  transition:
+    grid-template-rows 0.26s ease,
+    opacity 0.2s ease,
+    transform 0.26s ease,
+    margin 0.26s ease,
+    visibility 0s linear 0.26s;
+}
+.mxp-odds-wrap.open {
+  grid-template-rows: 1fr;
+  margin: 8px 0 2px;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    grid-template-rows 0.26s ease,
+    opacity 0.2s ease 0.05s,
+    transform 0.26s ease,
+    margin 0.26s ease,
+    visibility 0s;
+}
+.mxp-odds-wrap > .mxp-odds {
+  min-height: 0;
+  overflow: hidden;
+}
+
 .mxp-odds {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px 14px;
-  margin: 14px 0 0;
-  padding: 9px 14px;
+  gap: 4px 12px;
+  padding: 6px 12px;
   background: var(--bg-elev);
   border: 1px solid var(--border);
   border-radius: var(--r-md);
   text-decoration: none;
   color: var(--text);
+  font-size: 0.8rem;
+  transition:
+    padding 0.26s ease,
+    border-width 0.26s ease;
+}
+.mxp-odds-wrap:not(.open) > .mxp-odds {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
 }
 .mxp-odds:hover {
   border-color: var(--accent-2);
 }
 .mxp-odds-label {
-  font-size: 0.82rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 750;
   white-space: nowrap;
 }
 .mxp-odds-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 12px;
-  font-size: 0.82rem;
+  gap: 4px 10px;
   font-weight: 650;
 }
 .mxp-odds-item {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   white-space: nowrap;
 }
 .mxp-odds-champ {
@@ -250,21 +326,19 @@
 }
 .mxp-odds-cta {
   margin-inline-start: auto;
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 650;
   color: var(--accent-2);
   white-space: nowrap;
 }
-
-/* dismiss / restore the odds strip */
 .mxp-odds-close {
   flex: none;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   display: grid;
   place-items: center;
   padding: 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1;
   color: var(--text-3);
   background: transparent;
@@ -274,17 +348,35 @@
 }
 .mxp-odds-close:hover {
   color: var(--text);
-  background: var(--chip-bg, var(--border));
+  background: var(--border);
+}
+.mxp-head-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 .mxp-odds-restore {
-  display: block;
-  margin: 14px 0 0;
-  padding: 4px 12px;
-  font-size: 0.85rem;
-  background: var(--bg-elev);
+  display: grid;
+  place-items: center;
+  padding: 2px 8px;
+  background: transparent;
   border: 1px dashed var(--border);
   border-radius: 999px;
   cursor: pointer;
+  opacity: 0;
+  transform: scale(0.4);
+  pointer-events: none;
+  transition:
+    opacity 0.2s ease,
+    transform 0.22s ease;
+}
+.mxp-odds-restore.on {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+  transition:
+    opacity 0.2s ease 0.18s,
+    transform 0.24s cubic-bezier(0.34, 1.56, 0.64, 1) 0.18s;
 }
 .mxp-odds-restore:hover {
   border-color: var(--accent-2);

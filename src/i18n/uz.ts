@@ -42,6 +42,8 @@ const uz: Dict = {
   venue: 'Stadion',
   none: '—',
   updatedAt: "Ma'lumotlar {date} yangilangan",
+  footerBy: 'muallif: {name}',
+  footerLicense: "MIT litsenziyasi va ma'lumot manbalari",
   backToList: 'Orqaga',
   capacityK: "{n} o'rin",
   // stages

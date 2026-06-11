@@ -41,6 +41,8 @@ const es: Dict = {
   venue: 'Estadio',
   none: '—',
   updatedAt: 'Datos actualizados el {date}',
+  footerBy: 'por {name}',
+  footerLicense: 'Licencia MIT y créditos de datos',
   backToList: 'Volver',
   capacityK: '{n} localidades',
   // stages

@@ -41,6 +41,8 @@ const nl: Dict = {
   venue: 'Stadion',
   none: '—',
   updatedAt: 'Gegevens bijgewerkt op {date}',
+  footerBy: 'door {name}',
+  footerLicense: 'MIT-licentie & databronnen',
   backToList: 'Terug',
   capacityK: '{n} plaatsen',
   // stages

@@ -41,6 +41,8 @@ const ar: Dict = {
   venue: 'الملعب',
   none: '—',
   updatedAt: 'آخر تحديث للبيانات: {date}',
+  footerBy: 'بواسطة {name}',
+  footerLicense: 'رخصة MIT ومصادر البيانات',
   backToList: 'رجوع',
   capacityK: '{n} مقعد',
   // stages

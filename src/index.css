@@ -823,3 +823,20 @@ input.input {
   display: inline-block;
   vertical-align: -0.15em;
 }
+
+/* footer link row */
+.shell-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 8px;
+  margin-top: 4px;
+}
+.shell-footer-links a {
+  color: var(--text-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.shell-footer-links a:hover {
+  color: var(--accent-2);
+}

@@ -41,6 +41,8 @@ const ko: Dict = {
   venue: '경기장',
   none: '—',
   updatedAt: '데이터 업데이트: {date}',
+  footerBy: '제작: {name}',
+  footerLicense: 'MIT 라이선스 및 데이터 출처',
   backToList: '뒤로',
   capacityK: '{n}석',
   // stages

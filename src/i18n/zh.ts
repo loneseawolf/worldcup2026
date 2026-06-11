@@ -41,6 +41,8 @@ const zh: Dict = {
   venue: '场馆',
   none: '—',
   updatedAt: '数据更新于{date}',
+  footerBy: '作者 {name}',
+  footerLicense: 'MIT 许可与版权信息',
   backToList: '返回',
   capacityK: '{n}座',
   // stages

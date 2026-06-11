@@ -41,6 +41,8 @@ const ja: Dict = {
   venue: 'スタジアム',
   none: '—',
   updatedAt: 'データ更新: {date}',
+  footerBy: '作者: {name}',
+  footerLicense: 'MITライセンスとデータ出典',
   backToList: '戻る',
   capacityK: '{n}席',
   // stages

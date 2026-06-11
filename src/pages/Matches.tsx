@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useEffect, useMemo, useRef, useState, useLayoutEffect } from 'react'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
 import type { Match } from '../types'
 import { useI18n } from '../i18n'
@@ -195,18 +195,18 @@ export default function Matches() {
   useEffect(() => {
     if (jumpedRef.current || days.length === 0) return
     jumpedRef.current = true
-    if (jumps.now && jumps.now !== days[0]?.[0]) scrollToDay(jumps.now, 'auto')
+    if (jumps.now && jumps.now !== days[0]?.[0]) requestAnimationFrame(() => scrollToDay(jumps.now, 'auto'))
   }, [days])
 
   // everything above the list is sticky; expose its height so day headers can
   // stack right below it and anchored scrolling lands clear of it
   const stickyRef = useRef<HTMLDivElement>(null)
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = stickyRef.current
     if (!el) return
-    const ro = new ResizeObserver(() => {
-      el.parentElement?.style.setProperty('--mxp-sticky-h', `${el.offsetHeight}px`)
-    })
+    const set = () => el.parentElement?.style.setProperty('--mxp-sticky-h', `${el.offsetHeight}px`)
+    set() // before the initial-position scroll reads the scroll margins
+    const ro = new ResizeObserver(set)
     ro.observe(el)
     return () => ro.disconnect()
   }, [])
@@ -232,9 +232,68 @@ export default function Matches() {
   return (
     <div className="mxp">
       <div className="mxp-sticky" ref={stickyRef}>
+        {meta.titleOdds && meta.titleOdds.length > 0 && (
+          <div className={`mxp-odds-wrap${oddsHidden ? '' : ' open'}`}>
+            <Link to="/forecast" className="mxp-odds" tabIndex={oddsHidden ? -1 : 0}>
+              {meta.titleOdds[0].p >= 100 ? (
+                <>
+                  <span className="mxp-odds-label">
+                    <Trophy size={17} /> {t('champion')}
+                  </span>
+                  <span className="mxp-odds-champ">
+                    <Flag team={teams[meta.titleOdds[0].c]} size={20} />
+                    {pick(teams[meta.titleOdds[0].c]?.name, meta.titleOdds[0].c)}
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span className="mxp-odds-label">
+                    <Trophy size={17} /> {t('titleOdds')}
+                  </span>
+                  <span className="mxp-odds-list tnum">
+                    {meta.titleOdds.map((o) => (
+                      <span key={o.c} className="mxp-odds-item">
+                        <Flag team={teams[o.c]} size={16} />
+                        {o.p}%
+                      </span>
+                    ))}
+                  </span>
+                </>
+              )}
+              <span className="mxp-odds-cta">{t('runForecast')} →</span>
+              <button
+                type="button"
+                className="mxp-odds-close"
+                aria-label={t('probHide')}
+                onClick={(e) => {
+                  e.preventDefault()
+                  e.stopPropagation()
+                  setOddsHidden(true)
+                }}
+              >
+                ×
+              </button>
+            </Link>
+          </div>
+        )}
         <div className="page-head mxp-head">
           <h1>{t('navMatches')}</h1>
-          <span className="muted small tnum">{t('matchesShown', { n: filtered.length })}</span>
+          <span className="mxp-head-right">
+            {meta.titleOdds && meta.titleOdds.length > 0 && (
+              <button
+                type="button"
+                className={`mxp-odds-restore${oddsHidden ? ' on' : ''}`}
+                title={t('titleOdds')}
+                aria-label={t('titleOdds')}
+                tabIndex={oddsHidden ? 0 : -1}
+                aria-hidden={!oddsHidden}
+                onClick={() => setOddsHidden(false)}
+              >
+                <Trophy size={16} />
+              </button>
+            )}
+            <span className="muted small tnum">{t('matchesShown', { n: filtered.length })}</span>
+          </span>
         </div>
 
         <div className="mxp-bar">
@@ -252,79 +311,81 @@ export default function Matches() {
           </div>
 
           <div className={`mxp-panel${open ? ' open' : ''}`}>
-            <div className="mxp-row1">
-              {/* desktop-only summary */}
-              <div className="mxp-summary">
-                {teamCodes.length > 0 && (
-                  <span className="muted small tnum">{t('selectedNTeams', { n: teamCodes.length })}</span>
-                )}
-                {anyFilter && (
+            <div className="mxp-panel-in">
+              <div className="mxp-row1">
+                {/* desktop-only summary */}
+                <div className="mxp-summary">
+                  {teamCodes.length > 0 && (
+                    <span className="muted small tnum">{t('selectedNTeams', { n: teamCodes.length })}</span>
+                  )}
+                  {anyFilter && (
+                    <button type="button" className="btn" onClick={clearAll}>
+                      {t('clearFilters')}
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              <div className="mxp-teams-row">
+                <div className="mxp-quick">
+                  <button
+                    type="button"
+                    className={`mxp-tchip${teamCodes.length === 0 ? ' on' : ''}`}
+                    onClick={() => setParam('teams', '')}
+                  >
+                    {t('allTeams')}
+                  </button>
+                  {favs.length > 0 && (
+                    <button
+                      type="button"
+                      className={`mxp-tchip${favsActive ? ' on' : ''}`}
+                      onClick={() => setParam('teams', favs.join(','))}
+                    >
+                      <Icon name="star" size={14} />
+                      {t('favoritesOnly')}
+                    </button>
+                  )}
+                  <span className="mxp-quick-selects">
+                    <select
+                      className="input mxp-select"
+                      value={stage}
+                      aria-label={t('filterStage')}
+                      onChange={(e) => setParam('stage', e.target.value)}
+                    >
+                      <option value="">{t('allStages')}</option>
+                      {STAGE_FILTERS.map((s) => (
+                        <option key={s} value={s}>
+                          {s === 'ko' ? t('filterKnockout') : t(STAGE_LABEL_KEY[s])}
+                        </option>
+                      ))}
+                    </select>
+                    <select
+                      className="input mxp-select"
+                      value={venueId}
+                      aria-label={t('filterVenue')}
+                      onChange={(e) => setParam('venue', e.target.value)}
+                    >
+                      <option value="">{t('allVenues')}</option>
+                      {venueList.map((v) => (
+                        <option key={v.id} value={v.id}>
+                          {v.realName} · {pick(v.cityName, v.city)}
+                        </option>
+                      ))}
+                    </select>
+                  </span>
+                </div>
+                <div className="mxp-teams">{allCodes.map(teamChip)}</div>
+              </div>
+
+              {/* mobile-only clear row */}
+              {anyFilter && (
+                <div className="mxp-clear-row">
                   <button type="button" className="btn" onClick={clearAll}>
                     {t('clearFilters')}
                   </button>
-                )}
-              </div>
+                </div>
+              )}
             </div>
-
-            <div className="mxp-teams-row">
-              <div className="mxp-quick">
-                <button
-                  type="button"
-                  className={`mxp-tchip${teamCodes.length === 0 ? ' on' : ''}`}
-                  onClick={() => setParam('teams', '')}
-                >
-                  {t('allTeams')}
-                </button>
-                {favs.length > 0 && (
-                  <button
-                    type="button"
-                    className={`mxp-tchip${favsActive ? ' on' : ''}`}
-                    onClick={() => setParam('teams', favs.join(','))}
-                  >
-                    <Icon name="star" size={14} />
-                    {t('favoritesOnly')}
-                  </button>
-                )}
-                <span className="mxp-quick-selects">
-                  <select
-                    className="input mxp-select"
-                    value={stage}
-                    aria-label={t('filterStage')}
-                    onChange={(e) => setParam('stage', e.target.value)}
-                  >
-                    <option value="">{t('allStages')}</option>
-                    {STAGE_FILTERS.map((s) => (
-                      <option key={s} value={s}>
-                        {s === 'ko' ? t('filterKnockout') : t(STAGE_LABEL_KEY[s])}
-                      </option>
-                    ))}
-                  </select>
-                  <select
-                    className="input mxp-select"
-                    value={venueId}
-                    aria-label={t('filterVenue')}
-                    onChange={(e) => setParam('venue', e.target.value)}
-                  >
-                    <option value="">{t('allVenues')}</option>
-                    {venueList.map((v) => (
-                      <option key={v.id} value={v.id}>
-                        {v.realName} · {pick(v.cityName, v.city)}
-                      </option>
-                    ))}
-                  </select>
-                </span>
-              </div>
-              <div className="mxp-teams">{allCodes.map(teamChip)}</div>
-            </div>
-
-            {/* mobile-only clear row */}
-            {anyFilter && (
-              <div className="mxp-clear-row">
-                <button type="button" className="btn" onClick={clearAll}>
-                  {t('clearFilters')}
-                </button>
-              </div>
-            )}
           </div>
 
           <div className="mxp-jump">
@@ -349,60 +410,6 @@ export default function Matches() {
         </div>
       </div>
 
-      {meta.titleOdds && meta.titleOdds.length > 0 && oddsHidden && (
-        <button
-          type="button"
-          className="mxp-odds-restore"
-          title={t('titleOdds')}
-          aria-label={t('titleOdds')}
-          onClick={() => setOddsHidden(false)}
-        >
-          <Trophy size={18} />
-        </button>
-      )}
-      {meta.titleOdds && meta.titleOdds.length > 0 && !oddsHidden && (
-        <Link to="/forecast" className="mxp-odds">
-          {meta.titleOdds[0].p >= 100 ? (
-            <>
-              <span className="mxp-odds-label">
-                <Trophy size={17} /> {t('champion')}
-              </span>
-              <span className="mxp-odds-champ">
-                <Flag team={teams[meta.titleOdds[0].c]} size={20} />
-                {pick(teams[meta.titleOdds[0].c]?.name, meta.titleOdds[0].c)}
-              </span>
-            </>
-          ) : (
-            <>
-              <span className="mxp-odds-label">
-                <Trophy size={17} /> {t('titleOdds')}
-              </span>
-              <span className="mxp-odds-list tnum">
-                {meta.titleOdds.map((o) => (
-                  <span key={o.c} className="mxp-odds-item">
-                    <Flag team={teams[o.c]} size={16} />
-                    {o.p}%
-                  </span>
-                ))}
-              </span>
-            </>
-          )}
-          <span className="mxp-odds-cta">{t('runForecast')} →</span>
-          <button
-            type="button"
-            className="mxp-odds-close"
-            aria-label={t('probHide')}
-            onClick={(e) => {
-              e.preventDefault()
-              e.stopPropagation()
-              setOddsHidden(true)
-            }}
-          >
-            ×
-          </button>
-        </Link>
-      )}
-
       {days.length === 0 ? (
         <div className="empty">
           <p>{t('noMatchesFound')}</p>
@@ -416,21 +423,23 @@ export default function Matches() {
           const tz0 = displayTz(settings, first.venueId ? venues[first.venueId] : null)
           const rel = relativeDay(first.date, tz0)
           return (
-            <section className="mxp-day" key={k} id={`mxp-day-${k}`}>
-              <div className="day-head">
-                <span>{fmtDateLong(first.date, locale, tz0)}</span>
-                {rel !== null && (
-                  <span className="chip rel">
-                    {t(rel === 0 ? 'today' : rel === 1 ? 'tomorrow' : 'yesterday')}
-                  </span>
-                )}
-              </div>
-              <div className="cards-grid three">
-                {ms.map((m) => (
-                  <MatchCard key={m.id} match={m} hideDate showWeather />
-                ))}
-              </div>
-            </section>
+            <Fragment key={k}>
+              <section className="mxp-day" id={`mxp-day-${k}`}>
+                <div className="day-head">
+                  <span>{fmtDateLong(first.date, locale, tz0)}</span>
+                  {rel !== null && (
+                    <span className="chip rel">
+                      {t(rel === 0 ? 'today' : rel === 1 ? 'tomorrow' : 'yesterday')}
+                    </span>
+                  )}
+                </div>
+                <div className="cards-grid three">
+                  {ms.map((m) => (
+                    <MatchCard key={m.id} match={m} hideDate showWeather />
+                  ))}
+                </div>
+              </section>
+            </Fragment>
           )
         })
       )}

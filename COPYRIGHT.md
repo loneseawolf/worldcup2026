@@ -37,6 +37,8 @@ The compilations are released under MIT. They consist of factual information col
 
 - `public/flags/*.png` — country flag images from [Flagpedia / flagcdn.com](https://flagpedia.net). Per flagpedia.net, national flag images are in the public domain and may be used freely.
 
+- Trophy image (`public/icons/trophy.png`) — AI-generated image of the World Cup trophy (no photographic source); treated as **public domain** — no copyright is claimed and none is believed to subsist. Used inline in place of the 🏆 emoji.
+
 ## 6. Fonts
 
 - `src/assets/fonts/archivo-latin-var.woff2` — "Archivo" by Omnibus-Type, licensed under the [SIL Open Font License 1.1](https://fonts.google.com/specimen/Archivo/license). Latin subset, used for display typography (headings, brand, large numerals).
@@ -54,8 +56,3 @@ The compilations are released under MIT. They consist of factual information col
 | Flagpedia / flagcdn | public domain | country flags |
 | martj42/international_results | CC0 | historical results for the Elo probability model |
 | Archivo, Inter, Inter Tight | SIL OFL 1.1 | typography |
-
-### Trophy image (`public/icons/trophy.png`)
-
-AI-generated image of the World Cup trophy (no photographic source); treated as **public domain** — no copyright is claimed and none is believed to subsist. Used inline in place of the 🏆 emoji.
-

@@ -41,6 +41,8 @@ const cs: Dict = {
   venue: 'Stadion',
   none: '—',
   updatedAt: 'Data aktualizována {date}',
+  footerBy: 'autor: {name}',
+  footerLicense: 'Licence MIT a zdroje dat',
   backToList: 'Zpět',
   capacityK: '{n} míst',
   // stages

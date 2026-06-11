@@ -41,6 +41,8 @@ const no: Dict = {
   venue: 'Stadion',
   none: '—',
   updatedAt: 'Data oppdatert {date}',
+  footerBy: 'av {name}',
+  footerLicense: 'MIT-lisens & datakilder',
   backToList: 'Tilbake',
   capacityK: '{n} plasser',
   // stages

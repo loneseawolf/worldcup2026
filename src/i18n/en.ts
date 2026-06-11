@@ -41,6 +41,8 @@ const en: Dict = {
   venue: 'Venue',
   none: '—',
   updatedAt: 'Data updated {date}',
+  footerBy: 'by {name}',
+  footerLicense: 'MIT license & data credits',
   backToList: 'Back',
   capacityK: '{n} seats',
   // stages

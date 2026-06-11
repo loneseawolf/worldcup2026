@@ -41,6 +41,8 @@ const id: Dict = {
   venue: 'Stadion',
   none: '—',
   updatedAt: 'Data diperbarui {date}',
+  footerBy: 'oleh {name}',
+  footerLicense: 'Lisensi MIT & sumber data',
   backToList: 'Kembali',
   capacityK: '{n} kursi',
   // stages

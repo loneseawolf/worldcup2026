@@ -41,6 +41,8 @@ const it: Dict = {
   venue: 'Stadio',
   none: '—',
   updatedAt: 'Dati aggiornati il {date}',
+  footerBy: 'di {name}',
+  footerLicense: 'Licenza MIT e crediti dei dati',
   backToList: 'Indietro',
   capacityK: '{n} posti',
   // stages

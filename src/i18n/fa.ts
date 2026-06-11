@@ -42,6 +42,8 @@ const fa: Dict = {
   venue: 'ورزشگاه',
   none: '—',
   updatedAt: 'به‌روزرسانی داده‌ها: {date}',
+  footerBy: 'ساخته {name}',
+  footerLicense: 'مجوز MIT و منابع داده',
   backToList: 'بازگشت',
   capacityK: '{n} صندلی',
   // stages

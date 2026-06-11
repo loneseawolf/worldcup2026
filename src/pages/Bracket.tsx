@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import type { Match, MatchSide, Stage } from '../types'
@@ -86,6 +86,7 @@ function BkRow({
     <div className={`bk-row${cls}`} title={title}>
       <Flag team={team} size={flagSize} />
       <span className={`bk-nm${team ? '' : ' bk-tbd'}`}>{label}</span>
+      {team && <span className="bk-code tnum">{code}</span>}
       {(m.status === 'finished' || m.status === 'live') && side && (
         <span className="bk-score tnum">
           {side.score ?? '–'}
@@ -167,6 +168,7 @@ export default function Bracket() {
   const { matches, venues } = useAppData()
   const { standings } = useAppData()
   const overlay = useMemo(() => resolvedSlots(matches, standings), [matches, standings])
+  const [half, setHalf] = useState<'l' | 'r'>('l')
 
   const bk = useMemo(() => {
     const ko = matches.filter((m) => m.stage !== 'group')
@@ -266,7 +268,16 @@ export default function Bracket() {
       </div>
 
       <div className="bk-wrap">
-        <div className="bk-grid">
+        {/* narrow screens show one half of the tree at a time */}
+        <div className="seg bk-half-seg">
+          <button type="button" className={half === 'l' ? 'on' : ''} onClick={() => setHalf('l')}>
+            {t('bkHalfL')}
+          </button>
+          <button type="button" className={half === 'r' ? 'on' : ''} onClick={() => setHalf('r')}>
+            {t('bkHalfR')}
+          </button>
+        </div>
+        <div className={`bk-grid bk-m-${half}`}>
           {HEAD_COLS.map(({ col, stage }) => (
             <div key={col} className="bk-head" style={{ gridColumn: col, gridRow: 1 }}>
               <div className="bk-head-stage">{t(STAGE_LABEL_KEY[stage])}</div>
@@ -313,6 +324,25 @@ export default function Bracket() {
               )}
             </div>
           </div>
+        </div>
+
+        <div className="bk-mobile-center">
+          {championCode && (
+            <div className="bk-champion">
+              <span className="bk-champ-cup" aria-hidden="true">
+                🏆
+              </span>
+              <span className="bk-champ-label">{t('champion')}</span>
+              <TeamName code={championCode} bold flagSize={26} />
+            </div>
+          )}
+          {bk.final && <BkNode m={bk.final} big overlay={overlay[bk.final.id]} />}
+          {bk.third && (
+            <div className="bk-third">
+              <div className="bk-third-label">{t(STAGE_LABEL_KEY.third)}</div>
+              <BkNode m={bk.third} overlay={overlay[bk.third.id]} />
+            </div>
+          )}
         </div>
       </div>
     </div>

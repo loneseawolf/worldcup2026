@@ -5,7 +5,7 @@ const hr: Dict = {
   appSub: 'SAD · Kanada · Meksiko',
   appFullName: 'Open source vodič za SP 2026',
   metaDesc:
-    'SP 2026: raspored, skupine, kostur, momčadi, stadioni, vrijeme, gdje gledati, vjerojatnosti pobjede i simulator turnira, na 23 jezika. Neslužbeni open source PWA',
+    'SP 2026: raspored, skupine, kostur, momčadi, stadioni, vrijeme, gdje gledati, vjerojatnosti pobjede i prognoza turnira, na 23 jezika. Neslužbeni open source PWA',
   // nav
   navHome: 'Početna',
   navMatches: 'Utakmice',
@@ -57,18 +57,8 @@ const hr: Dict = {
   statusPostponed: 'Odgođeno',
   pens: '11 m',
   // home
-  heroDays: '{n} dana do početka',
-  'heroDays#one': '{n} dan do početka',
-  heroTomorrow: 'Počinje sutra!',
-  heroToday: 'Svjetsko prvenstvo počinje danas!',
-  heroLive: 'Svjetsko prvenstvo je u tijeku!',
-  favHint: 'Savjet: dodirnite zvjezdicu na stranici momčadi da je pratite ovdje.',
-  nextMatches: 'Sljedeće utakmice',
   liveNow: 'Trenutno uživo',
-  recentResults: 'Nedavni rezultati',
-  seeAllMatches: 'Sve utakmice',
   favoritesOnly: 'Moje momčadi',
-  noFavMatches: 'Nema nadolazećih utakmica vaših odabranih momčadi.',
   // matches page
   filterTeams: 'Momčadi',
   filterStage: 'Faza',
@@ -99,6 +89,8 @@ const hr: Dict = {
   groupFixtures: 'Raspored utakmica',
   // bracket
   bracketTitle: 'Faza na ispadanje',
+  bkHalfL: 'Lijeva polovica',
+  bkHalfR: 'Desna polovica',
   champion: 'Svjetski prvak',
   bracketWinnerOf: 'Pobjednik U{n}',
   bracketLoserOf: 'Poraženi U{n}',
@@ -124,14 +116,15 @@ const hr: Dict = {
   probNote: 'Procjena modela na temelju povijesnih rezultata, samo informativno.',
   probShow: 'Prikaži vjerojatnosti prije utakmice',
   probHide: 'Sakrij vjerojatnosti',
-  // ---- tournament simulator ----
-  navSim: 'Simulator',
-  simTitle: 'Simulator turnira',
-  simSub: 'Predvidite cijelo SP prema modelskim vjerojatnostima: rezultati, tablice, kostur, prvak.',
+  // ---- tournament forecast ----
+  navSim: 'Prognoza',
+  simTitle: 'Prognoza turnira',
+  simSub:
+    'Predvidite cijelo SP simulirajući ga prema modelskim vjerojatnostima: rezultati, tablice, kostur, prvak.',
   simContinue: 'Zadrži stvarne rezultate, simuliraj ostatak',
   simFresh: 'Simuliraj sve ispočetka',
   simRuns: 'Pokretanja',
-  simRunBtn: 'Pokreni simulaciju',
+  simRunBtn: 'Pokreni prognozu',
   simChampion: 'Prvak',
   simOdds: 'Izgledi za naslov ({n} pokretanja)',
   simSample: 'Primjer simulacije',
@@ -218,6 +211,9 @@ const hr: Dict = {
     'Odaberite momčadi koje pratite. Popisi i početna stranica tada se mogu filtrirati prema vašim momčadima. Prazno = sve momčadi.',
   settingMarket: 'Država/regija za TV kanale',
   settingTheme: 'Tema',
+  settingUnits: 'Jedinice',
+  unitsMetric: 'Metričke (°C, km/h)',
+  unitsImperial: 'Imperijalne (°F, mph)',
   themeAuto: 'Automatska (sustav)',
   themeLight: 'Svijetla',
   themeDark: 'Tamna',

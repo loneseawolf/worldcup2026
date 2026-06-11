@@ -6,7 +6,7 @@ import { runTournament } from '../sim/engine'
 import type { SimRun, SimScore } from '../sim/engine'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
-import './simulate.css'
+import './forecast.css'
 
 const STAGES: { key: string; stages: string[] }[] = [
   { key: 'stageR32', stages: ['r32'] },
@@ -17,7 +17,7 @@ const STAGES: { key: string; stages: string[] }[] = [
   { key: 'stageFinal', stages: ['final'] },
 ]
 
-export default function Simulate() {
+export default function Forecast() {
   const { t, pick } = useI18n()
   const { matches, teams, venues } = useAppData()
   const { simModel, loadSimModel } = useData()

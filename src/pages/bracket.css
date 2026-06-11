@@ -396,94 +396,116 @@
 }
 
 /* ============ narrow screens: vertical round-by-round list ============ */
+/* desktop: half switcher, compact codes and mobile centre are hidden */
+.bk-half-seg {
+  display: none;
+}
+.bk-code {
+  display: none;
+}
+.bk-mobile-center {
+  display: none;
+}
+
+/* ===== narrow screens: one half of the real tree at a time, no h-scroll ===== */
 @media (max-width: 879.5px) {
-  .bk-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  .bk-half-seg {
+    display: inline-flex;
+    margin-bottom: 10px;
   }
-  .bk-head {
-    display: none;
-  }
-  .bk-cell::before,
-  .bk-cell::after {
-    display: none;
-  }
-  .bk-ghost {
-    display: none;
-  }
-  .bk-cell {
-    min-height: 0;
-  }
-
   .bk-mhead {
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
-    margin: 18px 2px 2px;
+    display: none;
   }
-  .bk-mhead:first-of-type {
-    margin-top: 4px;
+  .bk-page {
+    --bk-gap: 8px;
+    --bk-row-m: 58px;
   }
-  .bk-mhead .bk-head-stage {
-    font-size: 1rem;
+  .bk-grid {
+    column-gap: var(--bk-gap);
+    grid-template-rows: auto repeat(8, minmax(var(--bk-row-m), auto));
   }
-
-  /* round-grouped ordering: R32 (left then right half), R16, QF, SF, centre */
-  .bk-mhead-r32 {
-    order: 10;
+  /* left view: tracks 1-4 visible, the rest collapse to zero */
+  .bk-grid.bk-m-l {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) 0 0 0 0 0;
   }
-  .bk-cell.bk-rd-r32 {
-    order: 11;
+  .bk-grid.bk-m-l .bk-r,
+  .bk-grid.bk-m-l .bk-head:nth-child(n + 5) {
+    display: none;
   }
-  .bk-mhead-r16 {
-    order: 20;
+  /* right view: tracks 6-9 visible (tree converges leftward, mirrored) */
+  .bk-grid.bk-m-r {
+    grid-template-columns: 0 0 0 0 0 repeat(4, minmax(0, 1fr));
   }
-  .bk-cell.bk-rd-r16 {
-    order: 21;
+  .bk-grid.bk-m-r .bk-l,
+  .bk-grid.bk-m-r .bk-head:nth-child(-n + 5) {
+    display: none;
   }
-  .bk-mhead-qf {
-    order: 30;
-  }
-  .bk-cell.bk-rd-qf {
-    order: 31;
-  }
-  .bk-mhead-sf {
-    order: 40;
-  }
-  .bk-cell.bk-rd-sf {
-    order: 41;
-  }
-  .bk-cell.bk-center {
-    order: 50;
+  .bk-grid .bk-cell.bk-center {
+    display: none;
   }
 
-  /* roomier list nodes */
+  /* compact nodes: flag + 3-letter code + score */
   .bk-node {
-    padding: 9px 12px 10px;
-    gap: 3px;
-    min-height: 0;
+    padding: 4px 5px 5px;
+    min-height: 44px;
+    border-radius: 8px;
   }
   .bk-meta {
-    font-size: 0.7rem;
+    display: none;
   }
-  .bk-when {
-    font-size: 0.7rem;
+  .bk-node .bk-row {
+    gap: 4px;
   }
   .bk-nm {
-    font-size: 0.88rem;
+    display: none;
   }
-  .bk-tbd {
-    font-size: 0.8rem;
+  .bk-nm.bk-tbd {
+    display: -webkit-box;
+    font-size: 0.58rem;
+    line-height: 1.15;
   }
-  .bk-cell.bk-center {
+  .bk-code {
+    display: inline;
+    flex: 1;
+    min-width: 0;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+  .bk-score {
+    font-size: 0.74rem;
+  }
+  .bk-pen {
+    font-size: 0.6rem;
+  }
+  .bk-head-stage {
+    font-size: 0.66rem;
+  }
+  .bk-head-dates {
+    display: none;
+  }
+  .bk-head {
+    padding-bottom: 8px;
+  }
+
+  /* final / third / champion stacked under the tree */
+  .bk-mobile-center {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
     gap: 12px;
-    margin-top: 16px;
+    margin-top: 18px;
   }
-  .bk-center-top:empty {
+  .bk-mobile-center .bk-node {
+    padding: 9px 12px 10px;
+    min-height: 0;
+  }
+  .bk-mobile-center .bk-meta {
+    display: flex;
+  }
+  .bk-mobile-center .bk-nm {
+    display: -webkit-box;
+    font-size: 0.88rem;
+  }
+  .bk-mobile-center .bk-code {
     display: none;
   }
 }

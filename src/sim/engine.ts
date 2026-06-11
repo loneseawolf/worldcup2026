@@ -1,5 +1,5 @@
-// Client-side tournament simulator. Mirrors the pipeline's probability model
-// (scripts/elo.mjs) so knockout pairings produced by the simulation itself can
+// Client-side tournament forecast engine. Mirrors the pipeline's probability model
+// (scripts/elo.mjs) so knockout pairings produced by the forecast itself can
 // be scored on the fly, then plays out groups -> thirds -> bracket -> champion.
 
 import type { Match, Team, Venue } from '../types'

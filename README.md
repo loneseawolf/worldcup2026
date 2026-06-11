@@ -1,6 +1,6 @@
 # [2026 World Cup Open Source Companion ⚽](https://26worldcup.github.io)
 
-Clean and complete 2026 FIFA World Cup companion: schedule, groups, bracket, squads, venues, weather, where to watch, match win **probabilities** and a tournament **simulator**, in 23 languages.
+Clean and complete 2026 FIFA World Cup companion: schedule, groups, bracket, squads, venues, weather, where to watch, match win **probabilities** and tournament **forecast**, in 23 languages.
 
 👉 **[Click me to use 2026 World Cup Open Source Companion now!](https://26worldcup.github.io)** ⚽ ([26worldcup.github.io](https://26worldcup.github.io))
 
@@ -22,7 +22,7 @@ Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikip
 
 - 🧢 **48 team pages**: live FIFA ranking, coach, group table, full fixtures, training base camp (with map + Google Maps links), official website, and Wikipedia links
 - 👥 **Official 26-player squads**: numbers, positions, ages, caps, goals, clubs; every player links to their English Wikipedia article
-- ⭐ **Favorites**: star the teams you follow and filter the home page and schedule to them
+- ⭐ **Favorites**: star the teams you follow and filter the schedule to them
 
 ### 🗺️ Venues & maps
 
@@ -36,7 +36,7 @@ Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikip
 ### 📊 Stats & predictions
 
 - 👟 **Golden-boot table** and tournament stats, updated throughout the competition
-- 🎲 **Match probabilities & tournament simulator**: every fixture gets a win/draw/loss **probability** from an Elo model replayed over 49,000 historical internationals blended with the official FIFA ranking, and the **simulate** page lets you play out the whole tournament (group tables, knockout bracket, extra time, penalty shoot-outs) 1 to 10,000 times to see each team's title odds, like a fun **prediction** machine
+- 🎲 **Match probabilities & tournament forecast**: every fixture gets a win/draw/loss **probability** from an Elo model replayed over 49,000 historical internationals blended with the official FIFA ranking, and the **forecast** page lets you **simulate** the whole tournament (group tables, knockout bracket, extra time, penalty shoot-outs) 1 to 10,000 times to see each team's title odds, like a fun **prediction** machine
 
 ### 🌍 Languages
 

@@ -227,6 +227,19 @@
    "wiki": "https://en.wikipedia.org/wiki/Romano_Schmid"
   },
   {
+   "id": "dejan-ljubicic",
+   "no": 19,
+   "pos": "MF",
+   "name": "Dejan Ljubičić",
+   "dob": "1997-10-08",
+   "caps": 9,
+   "goals": 1,
+   "club": "Schalke 04",
+   "clubNat": "GER",
+   "captain": false,
+   "wiki": "https://en.wikipedia.org/wiki/Dejan_Ljubi%C4%8Di%C4%87"
+  },
+  {
    "id": "konrad-laimer",
    "no": 20,
    "pos": "MF",

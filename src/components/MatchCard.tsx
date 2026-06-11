@@ -5,7 +5,7 @@ import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData } from '../data/DataContext'
 import { displayTz, fmtDate, fmtTime } from '../utils/time'
-import { placeholderLabel, STAGE_LABEL_KEY, wmoEmoji } from '../utils/helpers'
+import { fmtTemp, placeholderLabel, STAGE_LABEL_KEY, wmoEmoji } from '../utils/helpers'
 import Flag from './Flag'
 
 interface MatchCardProps {
@@ -80,7 +80,7 @@ function MatchCard({ match: m, hideDate = false, showWeather = false }: MatchCar
         <span className="spacer" />
         {w && (
           <span title={t('weatherForecast')}>
-            {wmoEmoji(w.code)} {Math.round(w.tC)}°C
+            {wmoEmoji(w.code)} {fmtTemp(w.tC, settings.units)}
           </span>
         )}
         {m.status === 'live' && <span className="chip chip-live">{t('statusLive')}</span>}

@@ -877,7 +877,16 @@ async function main() {
   const curatedVenues = (await readJsonSafe(path.join(CURATED, 'venues.json')))?.venues || {}
   const climate = (await readJsonSafe(path.join(CURATED, 'climate.json')))?.venues || {}
   const venuesResearch = (await readJsonSafe(path.join(CURATED, 'venues-research.json')))?.venues || {}
-  const cityL10n = (await readJsonSafe(path.join(CURATED, 'city-l10n.json')))?.cities || {}
+  const cityL10nDoc = await readJsonSafe(path.join(CURATED, 'city-l10n.json'))
+  const cityL10n = cityL10nDoc?.cities || {}
+  const stadiumL10n = cityL10nDoc?.stadiums || {}
+  // every venue name field covers all 21 data languages: curated overrides
+  // first, then English for Latin-script languages that use the original name
+  const fillLangs = (obj) => {
+    if (!obj?.en) return obj
+    for (const l of [...LANGS, ...CLDR_LANGS]) if (!obj[l]) obj[l] = obj.en
+    return obj
+  }
   const teamL10n = (await readJsonSafe(path.join(CURATED, 'team-names-l10n.json'))) || {}
   const teamsExtra = (await readJsonSafe(path.join(CURATED, 'teams-extra.json')))?.teams || {}
   const fifaIso = (await readJsonSafe(path.join(CURATED, 'fifa-iso.json')))?.map || {}
@@ -993,10 +1002,12 @@ async function main() {
       },
       capacity: r.wcCapacity || v.capacity,
       note: r.note || null,
-      fifaName: names.stadiums[vid] || null,
+      fifaName: names.stadiums[vid]
+        ? fillLangs({ ...names.stadiums[vid], ...(stadiumL10n[vid] || {}) })
+        : null,
       cityName:
         names.cities[vid] || cityL10n[vid]
-          ? { ...(names.cities[vid] || {}), ...(cityL10n[vid] || {}) }
+          ? fillLangs({ ...(names.cities[vid] || {}), ...(cityL10n[vid] || {}) })
           : null,
       climate: climate[vid] || null,
       matches: matches.filter((m) => m.venueId === vid).map((m) => m.id),
@@ -1122,7 +1133,7 @@ async function main() {
     }
     if (missing) warn(`probs: ${missing} matches missing elo mapping`)
     log(`probs: ${Object.keys(probs).length} fixtures scored`)
-    // compact model for the client-side tournament simulator: per-team strengths
+    // compact model for the client-side tournament forecast (Monte-Carlo simulation): per-team strengths
     // (confed offset folded into elo) + the empirical outcome curve
     const simTeams = {}
     for (const code of Object.keys(teams)) {

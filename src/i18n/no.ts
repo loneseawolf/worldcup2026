@@ -5,7 +5,7 @@ const no: Dict = {
   appSub: 'USA · Canada · Mexico',
   appFullName: 'Open source-følgesvenn for VM 2026',
   metaDesc:
-    'VM 2026: kampprogram, grupper, sluttspilltre, lag, stadioner, vær, hvor du ser kampene, vinnersannsynligheter og turneringssimulator, på 23 språk. Uoffisiell open source-PWA',
+    'VM 2026: kampprogram, grupper, sluttspilltre, lag, stadioner, vær, hvor du ser kampene, vinnersannsynligheter og turneringsprognose, på 23 språk. Uoffisiell open source-PWA',
   // nav
   navHome: 'Hjem',
   navMatches: 'Kamper',
@@ -57,17 +57,8 @@ const no: Dict = {
   statusPostponed: 'Utsatt',
   pens: 'Str.',
   // home
-  heroDays: '{n} dager til avspark',
-  heroTomorrow: 'Avspark i morgen!',
-  heroToday: 'VM starter i dag!',
-  heroLive: 'VM er i gang!',
-  favHint: 'Tips: trykk på stjernen på en lagside for å følge lagene dine her.',
-  nextMatches: 'Neste kamper',
   liveNow: 'Direkte nå',
-  recentResults: 'Siste resultater',
-  seeAllMatches: 'Alle kamper',
   favoritesOnly: 'Mine lag',
-  noFavMatches: 'Ingen kommende kamper for lagene du har valgt.',
   // matches page
   filterTeams: 'Lag',
   filterStage: 'Fase',
@@ -98,6 +89,8 @@ const no: Dict = {
   groupFixtures: 'Kampoppsett',
   // bracket
   bracketTitle: 'Sluttspilltre',
+  bkHalfL: 'Venstre halvdel',
+  bkHalfR: 'Høyre halvdel',
   champion: 'Verdensmester',
   bracketWinnerOf: 'Vinner K{n}',
   bracketLoserOf: 'Taper K{n}',
@@ -123,14 +116,15 @@ const no: Dict = {
   probNote: 'Modellanslag fra historiske resultater, kun veiledende.',
   probShow: 'Vis vinnersannsynlighet før kampen',
   probHide: 'Skjul vinnersannsynlighet',
-  // ---- tournament simulator ----
-  navSim: 'Simulator',
-  simTitle: 'Turneringssimulator',
-  simSub: 'Forutsi hele VM med modellens sannsynligheter: resultater, tabeller, sluttspilltre, mester.',
+  // ---- tournament forecast ----
+  navSim: 'Prognose',
+  simTitle: 'Turneringsprognose',
+  simSub:
+    'Forutsi hele VM ved å simulere det med modellens sannsynligheter: resultater, tabeller, sluttspilltre, mester.',
   simContinue: 'Behold ekte resultater, simuler resten',
   simFresh: 'Simuler alt på nytt',
   simRuns: 'Kjøringer',
-  simRunBtn: 'Kjør simulering',
+  simRunBtn: 'Kjør prognose',
   simChampion: 'Mester',
   simOdds: 'Tittelsjanser ({n} kjøringer)',
   simSample: 'Eksempelkjøring',
@@ -217,6 +211,9 @@ const no: Dict = {
     'Velg lagene du følger. Lister og forsiden kan da filtreres til lagene dine. Tomt = alle lag.',
   settingMarket: 'Land/region for TV-kanaler',
   settingTheme: 'Tema',
+  settingUnits: 'Enheter',
+  unitsMetric: 'Metrisk (°C, km/h)',
+  unitsImperial: 'Imperial (°F, mph)',
   themeAuto: 'Auto (system)',
   themeLight: 'Lyst',
   themeDark: 'Mørkt',

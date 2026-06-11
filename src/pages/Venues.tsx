@@ -1,11 +1,18 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, useLayoutEffect } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import type { Match, MatchSide, Team, Venue } from '../types'
 import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData } from '../data/DataContext'
 import { displayTz, fmtDate, fmtTime, tzAbbr } from '../utils/time'
-import { flagSrc, localizedNote, placeholderLabel, sortMatches, STAGE_LABEL_KEY } from '../utils/helpers'
+import {
+  flagSrc,
+  fmtTemp,
+  localizedNote,
+  placeholderLabel,
+  sortMatches,
+  STAGE_LABEL_KEY,
+} from '../utils/helpers'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
 import './venues.css'
@@ -238,6 +245,22 @@ function VenueMap({
   const navigate = useNavigate()
   const [showCamps, setShowCamps] = useState(true)
 
+  // crop horizontal whitespace: hug the pins/labels/camps extent (the coasts),
+  // which also ignores off-frame slivers like the Alaska fragment
+  const contentRef = useRef<SVGGElement>(null)
+  const [crop, setCrop] = useState<[number, number, number, number] | null>(null)
+  useLayoutEffect(() => {
+    const b = contentRef.current?.getBBox()
+    if (b && b.width > 0) {
+      const pad = 14
+      const x0 = Math.max(Math.floor(b.x - pad), 0)
+      const x1 = Math.min(Math.ceil(b.x + b.width + pad), MAP_W)
+      const y0 = Math.max(Math.floor(b.y - pad), 0)
+      const y1 = Math.min(Math.ceil(b.y + b.height + pad), MAP_H)
+      setCrop([x0, y0, x1 - x0, y1 - y0])
+    }
+  }, [])
+
   const teamOptions = useMemo(
     () => camps.slice().sort((a, b) => pick(a.name, a.code).localeCompare(pick(b.name, b.code), locale)),
     [camps, pick, locale],
@@ -318,78 +341,85 @@ function VenueMap({
   return (
     <div className="card vn-map-card">
       <div className="vn-map-wrap">
-        <svg className="vn-svg" viewBox={`0 0 ${MAP_W} ${MAP_H}`} role="group" aria-label={t('venuesSub')}>
+        <svg
+          className="vn-svg"
+          viewBox={crop ? crop.join(' ') : `0 0 ${MAP_W} ${MAP_H}`}
+          role="group"
+          aria-label={t('venuesSub')}
+        >
           <path className="vn-ctx" d={naMap.context} />
           {COUNTRIES.map((c) => (
             <path key={c} className={`vn-country ${COUNTRY_CLASS[c]}`} d={naMap.countries[c]} />
           ))}
           <path className="vn-lakes" d={naMap.lakes} />
 
-          {showCamps &&
-            campPins.map(({ tm, x, y }) => (
-              <g
-                key={tm.code}
-                className={`vn-camp${selTeam && tm.code !== selTeam ? ' vn-dim' : ''}${selTeam === tm.code ? ' vn-camp-sel' : ''}`}
-                transform={`translate(${x.toFixed(1)} ${y.toFixed(1)})`}
-                role="button"
-                tabIndex={0}
-                aria-label={`${t('baseCamp')}: ${pick(tm.name, tm.code)}`}
-                onClick={() => navigate(`/team/${tm.code}`)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    navigate(`/team/${tm.code}`)
-                  }
-                }}
-              >
-                <title>{`${pick(tm.name, tm.code)} · ${tm.baseCamp?.facility || tm.baseCamp?.city || ''}`}</title>
-                <rect x={-8.5} y={-6.5} width={17} height={13} rx={1.5} className="vn-camp-bg" />
-                {tm.iso2 && (
-                  <image
-                    href={flagSrc(tm.iso2)}
-                    x={-7.5}
-                    y={-5.5}
-                    width={15}
-                    height={11}
-                    preserveAspectRatio="xMidYMid meet"
-                  />
-                )}
-              </g>
-            ))}
+          <g ref={contentRef}>
+            {showCamps &&
+              campPins.map(({ tm, x, y }) => (
+                <g
+                  key={tm.code}
+                  className={`vn-camp${selTeam && tm.code !== selTeam ? ' vn-dim' : ''}${selTeam === tm.code ? ' vn-camp-sel' : ''}`}
+                  transform={`translate(${x.toFixed(1)} ${y.toFixed(1)})`}
+                  role="button"
+                  tabIndex={0}
+                  aria-label={`${t('baseCamp')}: ${pick(tm.name, tm.code)}`}
+                  onClick={() => navigate(`/team/${tm.code}`)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      navigate(`/team/${tm.code}`)
+                    }
+                  }}
+                >
+                  <title>{`${pick(tm.name, tm.code)} · ${tm.baseCamp?.facility || tm.baseCamp?.city || ''}`}</title>
+                  <rect x={-8.5} y={-6.5} width={17} height={13} rx={1.5} className="vn-camp-bg" />
+                  {tm.iso2 && (
+                    <image
+                      href={flagSrc(tm.iso2)}
+                      x={-7.5}
+                      y={-5.5}
+                      width={15}
+                      height={11}
+                      preserveAspectRatio="xMidYMid meet"
+                    />
+                  )}
+                </g>
+              ))}
 
-          {venues.map((v) => {
-            const { x, y } = project(v.lat, v.lon)
-            const tw = LABEL_TWEAK[v.id] ?? {}
-            const anchor = tw.anchor ?? 'start'
-            const dx = tw.dx ?? 11
-            const dy = tw.dy ?? 4
-            const color = COUNTRY_COLOR[v.country]
-            const dim = selTeam !== null && !selVenueIds.has(v.id)
-            return (
-              <g
-                key={v.id}
-                className={`vn-pin${dim ? ' vn-dim' : ''}${flashVenue === v.id ? ' vn-flash' : ''}`}
-                transform={`translate(${x.toFixed(1)} ${y.toFixed(1)})`}
-                role="button"
-                tabIndex={0}
-                aria-label={v.realName}
-                onClick={() => onPin(v.id)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    onPin(v.id)
-                  }
-                }}
-              >
-                <title>{v.realName}</title>
-                <circle className="vn-halo" r="12" fill={color} />
-                <circle className="vn-core" r="6.5" fill={color} stroke="#fff" strokeWidth="2" />
-                <text className="vn-lbl" x={dx} y={dy} textAnchor={anchor}>
-                  {shortCity(pick(v.cityName, v.city), v.id, lang)}
-                </text>
-              </g>
-            )
-          })}
+            {venues.map((v) => {
+              const { x, y } = project(v.lat, v.lon)
+              const tw = LABEL_TWEAK[v.id] ?? {}
+              const anchor = tw.anchor ?? 'start'
+              const dx = tw.dx ?? 11
+              const dy = tw.dy ?? 4
+              const color = COUNTRY_COLOR[v.country]
+              const dim = selTeam !== null && !selVenueIds.has(v.id)
+              return (
+                <g
+                  key={v.id}
+                  className={`vn-pin${dim ? ' vn-dim' : ''}${flashVenue === v.id ? ' vn-flash' : ''}`}
+                  transform={`translate(${x.toFixed(1)} ${y.toFixed(1)})`}
+                  role="button"
+                  tabIndex={0}
+                  aria-label={v.realName}
+                  onClick={() => onPin(v.id)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      onPin(v.id)
+                    }
+                  }}
+                >
+                  <title>{v.realName}</title>
+                  <circle className="vn-halo" r="12" fill={color} />
+                  <circle className="vn-core" r="6.5" fill={color} stroke="#fff" strokeWidth="2" />
+                  <text className="vn-lbl" x={dx} y={dy} textAnchor={anchor}>
+                    {shortCity(pick(v.cityName, v.city), v.id, lang)}
+                  </text>
+                </g>
+              )
+            })}
+          </g>
         </svg>
       </div>
 
@@ -516,7 +546,7 @@ function VenueCard({ venue: v, matches }: { venue: Venue; matches: Match[] }) {
                 <>
                   {monthShort(locale, 5)}{' '}
                   <b>
-                    {cl.jun.highC}°/{cl.jun.lowC}°
+                    {fmtTemp(cl.jun.highC, settings.units)}/{fmtTemp(cl.jun.lowC, settings.units)}
                   </b>
                 </>
               )}
@@ -525,7 +555,7 @@ function VenueCard({ venue: v, matches }: { venue: Venue; matches: Match[] }) {
                 <>
                   {monthShort(locale, 6)}{' '}
                   <b>
-                    {cl.jul.highC}°/{cl.jul.lowC}°
+                    {fmtTemp(cl.jul.highC, settings.units)}/{fmtTemp(cl.jul.lowC, settings.units)}
                   </b>
                 </>
               )}
@@ -567,7 +597,7 @@ function VenueCard({ venue: v, matches }: { venue: Venue; matches: Match[] }) {
 /* ================= page ================= */
 
 export default function Venues() {
-  const { t, pick, locale } = useI18n()
+  const { t } = useI18n()
   const data = useAppData()
 
   const venueList = useMemo(() => Object.values(data.venues), [data.venues])
@@ -630,9 +660,14 @@ export default function Venues() {
         country: c,
         venues: venueList
           .filter((v) => v.country === c)
-          .sort((a, b) => pick(a.cityName, a.city).localeCompare(pick(b.cityName, b.city), locale)),
+          // fixed order in every language: tournament weight first
+          // (matches hosted desc, then capacity desc, then stable id)
+          .sort(
+            (a, b) =>
+              b.matches.length - a.matches.length || b.capacity - a.capacity || a.id.localeCompare(b.id),
+          ),
       })),
-    [venueList, pick, locale],
+    [venueList],
   )
 
   const scrollToVenue = (id: string) => {

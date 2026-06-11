@@ -7,7 +7,6 @@
   overflow: hidden;
 }
 .vn-map-wrap {
-  max-width: 880px;
   margin: 0 auto;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -15,9 +14,11 @@
 .vn-svg {
   display: block;
   width: 100%;
-  min-width: 640px; /* keeps labels/pins readable & tappable on small screens (map scrolls instead) */
+  max-height: 460px;
+  min-width: 540px;
   height: auto;
   direction: ltr; /* geography: the map and its SVG text labels must never mirror in RTL */
+  overflow: visible; /* edge labels may overhang the land-cropped viewBox */
 }
 
 /* real geography layers (Natural Earth via scripts/genmap.mjs) */

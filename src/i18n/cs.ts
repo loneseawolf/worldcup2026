@@ -5,7 +5,7 @@ const cs: Dict = {
   appSub: 'USA · Kanada · Mexiko',
   appFullName: 'Open source průvodce MS 2026',
   metaDesc:
-    'MS 2026: rozpis, skupiny, pavouk, týmy, stadiony, počasí, kde sledovat, pravděpodobnosti výher a simulátor turnaje, ve 23 jazycích. Neoficiální open source PWA',
+    'MS 2026: rozpis, skupiny, pavouk, týmy, stadiony, počasí, kde sledovat, pravděpodobnosti výher a prognóza turnaje, ve 23 jazycích. Neoficiální open source PWA',
   // nav
   navHome: 'Domů',
   navMatches: 'Zápasy',
@@ -57,17 +57,8 @@ const cs: Dict = {
   statusPostponed: 'Odloženo',
   pens: 'Pen.',
   // home
-  heroDays: 'Dní do výkopu: {n}',
-  heroTomorrow: 'Výkop už zítra!',
-  heroToday: 'Mistrovství světa začíná dnes!',
-  heroLive: 'Mistrovství světa je v plném proudu!',
-  favHint: 'Tip: klepnutím na hvězdičku na stránce týmu ho budete sledovat zde.',
-  nextMatches: 'Nejbližší zápasy',
   liveNow: 'Právě se hraje',
-  recentResults: 'Poslední výsledky',
-  seeAllMatches: 'Všechny zápasy',
   favoritesOnly: 'Moje týmy',
-  noFavMatches: 'Žádné nadcházející zápasy vašich vybraných týmů.',
   // matches page
   filterTeams: 'Týmy',
   filterStage: 'Fáze',
@@ -96,6 +87,8 @@ const cs: Dict = {
   groupFixtures: 'Rozpis zápasů',
   // bracket
   bracketTitle: 'Pavouk vyřazovací fáze',
+  bkHalfL: 'Levá polovina',
+  bkHalfR: 'Pravá polovina',
   champion: 'Mistr světa',
   bracketWinnerOf: 'Vítěz Z{n}',
   bracketLoserOf: 'Poražený Z{n}',
@@ -121,14 +114,15 @@ const cs: Dict = {
   probNote: 'Modelový odhad z historických výsledků, jen pro zajímavost.',
   probShow: 'Zobrazit předzápasové pravděpodobnosti',
   probHide: 'Skrýt pravděpodobnosti',
-  // ---- tournament simulator ----
-  navSim: 'Simulátor',
-  simTitle: 'Simulátor turnaje',
-  simSub: 'Předpovězte celé MS podle modelových pravděpodobností: výsledky, tabulky, pavouk, mistr.',
+  // ---- tournament forecast ----
+  navSim: 'Prognóza',
+  simTitle: 'Prognóza turnaje',
+  simSub:
+    'Předpovězte celé MS jeho simulací podle modelových pravděpodobností: výsledky, tabulky, pavouk, mistr.',
   simContinue: 'Zachovat reálné výsledky, dohrát zbytek',
   simFresh: 'Simulovat vše znovu',
   simRuns: 'Běhy',
-  simRunBtn: 'Spustit simulaci',
+  simRunBtn: 'Spustit prognózu',
   simChampion: 'Mistr',
   simOdds: 'Šance na titul ({n} běhů)',
   simSample: 'Ukázkový běh',
@@ -217,6 +211,9 @@ const cs: Dict = {
     'Vyberte týmy, které sledujete. Seznamy a domovskou stránku pak lze filtrovat podle vašich týmů. Prázdné = všechny týmy.',
   settingMarket: 'Země/region pro TV kanály',
   settingTheme: 'Motiv',
+  settingUnits: 'Jednotky',
+  unitsMetric: 'Metrické (°C, km/h)',
+  unitsImperial: 'Imperiální (°F, mph)',
   themeAuto: 'Automaticky (systém)',
   themeLight: 'Světlý',
   themeDark: 'Tmavý',

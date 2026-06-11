@@ -3,7 +3,7 @@ import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData } from '../data/DataContext'
 import { LANG_LABEL } from '../i18n/strings'
-import type { Lang, MatchSide, Team, Theme, TzMode } from '../types'
+import type { Lang, MatchSide, Team, Theme, TzMode, Units } from '../types'
 import { allTimezones, fmtDateTime } from '../utils/time'
 import {
   buildIcs,
@@ -41,6 +41,7 @@ export default function Settings() {
     setFavorites,
     setTheme,
     setMarket,
+    setUnits,
     reset,
   } = useSettings()
   const { matches, teams, venues, meta, broadcasters } = useAppData()
@@ -254,6 +255,23 @@ export default function Settings() {
                 onClick={() => setTheme(th)}
               >
                 {t(th === 'auto' ? 'themeAuto' : th === 'light' ? 'themeLight' : 'themeDark')}
+              </button>
+            ))}
+          </div>
+        </section>
+
+        {/* units */}
+        <section className="card card-pad se-card">
+          <h2>{t('settingUnits')}</h2>
+          <div className="seg">
+            {(['metric', 'imperial'] as Units[]).map((u) => (
+              <button
+                key={u}
+                type="button"
+                className={settings.units === u ? 'on' : ''}
+                onClick={() => setUnits(u)}
+              >
+                {t(u === 'metric' ? 'unitsMetric' : 'unitsImperial')}
               </button>
             ))}
           </div>

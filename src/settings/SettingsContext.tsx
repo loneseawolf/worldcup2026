@@ -1,7 +1,8 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
-import type { Lang, Settings, Theme, TzMode } from '../types'
+import type { Lang, Settings, Theme, TzMode, Units } from '../types'
 import { LANG_LABEL, RTL_LANGS } from '../i18n/strings'
+import { detectCountry } from '../utils/helpers'
 
 const KEY = 'wc2026-settings'
 
@@ -62,6 +63,7 @@ function defaults(): Settings {
     favorites: [],
     theme: 'auto',
     market: legacyMarket,
+    units: detectCountry() === 'US' ? 'imperial' : 'metric',
   }
 }
 
@@ -96,6 +98,7 @@ function load(): Settings {
         : d.favorites,
       theme: p.theme === 'auto' || p.theme === 'light' || p.theme === 'dark' ? p.theme : d.theme,
       market: typeof p.market === 'string' ? p.market : d.market,
+      units: p.units === 'metric' || p.units === 'imperial' ? p.units : d.units,
     }
   } catch {
     // corrupted storage must not become a persistent crash loop: drop the bad
@@ -118,6 +121,7 @@ interface SettingsCtx {
   setFavorites: (codes: string[]) => void
   setTheme: (t: Theme) => void
   setMarket: (iso2: string) => void
+  setUnits: (u: Units) => void
   reset: () => void
 }
 
@@ -158,6 +162,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setFavorites: (favorites) => setSettings((s) => ({ ...s, favorites })),
       setTheme: (theme) => setSettings((s) => ({ ...s, theme })),
       setMarket: (market) => setSettings((s) => ({ ...s, market })),
+      setUnits: (units) => setSettings((s) => ({ ...s, units })),
       reset: () => setSettings(defaults()),
     }),
     [settings],

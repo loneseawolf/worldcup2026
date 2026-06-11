@@ -5,7 +5,7 @@ const en: Dict = {
   appSub: 'United States · Canada · Mexico',
   appFullName: '2026 World Cup Open Source Companion',
   metaDesc:
-    '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and a tournament simulator, in 23 languages. Unofficial open-source PWA',
+    '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and tournament forecast, in 23 languages. Unofficial open-source PWA',
   // nav
   navHome: 'Home',
   navMatches: 'Matches',
@@ -57,18 +57,8 @@ const en: Dict = {
   statusPostponed: 'Postponed',
   pens: 'Pens',
   // home
-  heroDays: '{n} days until kick-off',
-  'heroDays#one': '{n} day until kick-off',
-  heroTomorrow: 'Kicks off tomorrow!',
-  heroToday: 'The World Cup starts today!',
-  heroLive: 'The World Cup is on!',
-  favHint: 'Tip: tap the star on a team page to follow your teams here.',
-  nextMatches: 'Next matches',
   liveNow: 'Live now',
-  recentResults: 'Recent results',
-  seeAllMatches: 'All matches',
   favoritesOnly: 'My teams',
-  noFavMatches: 'No upcoming matches for your selected teams.',
   // matches page
   filterTeams: 'Teams',
   filterStage: 'Stage',
@@ -99,6 +89,8 @@ const en: Dict = {
   groupFixtures: 'Fixtures',
   // bracket
   bracketTitle: 'Knockout bracket',
+  bkHalfL: 'Left half',
+  bkHalfR: 'Right half',
   champion: 'World champion',
   bracketWinnerOf: 'Winner M{n}',
   bracketLoserOf: 'Loser M{n}',
@@ -124,14 +116,15 @@ const en: Dict = {
   probNote: 'Model estimate from historical results, for fun only.',
   probShow: 'Show pre-match win probability',
   probHide: 'Hide win probability',
-  // ---- tournament simulator ----
-  navSim: 'Simulator',
-  simTitle: 'Tournament simulator',
-  simSub: 'Predict the whole World Cup with the model probabilities: scores, tables, bracket, champion.',
+  // ---- tournament forecast ----
+  navSim: 'Forecast',
+  simTitle: 'Tournament forecast',
+  simSub:
+    'Predict the whole World Cup by simulating it with the model probabilities: scores, tables, bracket, champion.',
   simContinue: 'Keep real results, simulate the rest',
   simFresh: 'Resimulate everything',
   simRuns: 'Runs',
-  simRunBtn: 'Run simulation',
+  simRunBtn: 'Run forecast',
   simChampion: 'Champion',
   simOdds: 'Title odds ({n} runs)',
   simSample: 'Sample run',
@@ -219,6 +212,9 @@ const en: Dict = {
     'Pick the teams you follow. Lists and the home page can then be filtered to your teams. Empty = all teams.',
   settingMarket: 'Country/region for TV channels',
   settingTheme: 'Theme',
+  settingUnits: 'Units',
+  unitsMetric: 'Metric (°C, km/h)',
+  unitsImperial: 'Imperial (°F, mph)',
   themeAuto: 'Auto (system)',
   themeLight: 'Light',
   themeDark: 'Dark',

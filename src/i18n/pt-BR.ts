@@ -5,7 +5,7 @@ const ptBR: Dict = {
   appSub: 'Estados Unidos · Canadá · México',
   appFullName: 'Companheiro open source da Copa 2026',
   metaDesc:
-    'Copa 2026: calendário, grupos, chaveamento, seleções, estádios, clima, onde assistir, probabilidades de vitória e simulador do torneio, em 23 idiomas. PWA open source não oficial',
+    'Copa 2026: calendário, grupos, chaveamento, seleções, estádios, clima, onde assistir, probabilidades de vitória e prognóstico do torneio, em 23 idiomas. PWA open source não oficial',
   // nav
   navHome: 'Início',
   navMatches: 'Jogos',
@@ -57,17 +57,8 @@ const ptBR: Dict = {
   statusPostponed: 'Adiado',
   pens: 'Pên.',
   // home
-  heroDays: 'Faltam {n} dias para o pontapé inicial',
-  heroTomorrow: 'Começa amanhã!',
-  heroToday: 'A Copa do Mundo começa hoje!',
-  heroLive: 'A Copa do Mundo está em andamento!',
-  favHint: 'Dica: toque na estrela na página de uma seleção para segui-la aqui.',
-  nextMatches: 'Próximos jogos',
   liveNow: 'Ao vivo agora',
-  recentResults: 'Resultados recentes',
-  seeAllMatches: 'Todos os jogos',
   favoritesOnly: 'Minhas seleções',
-  noFavMatches: 'Nenhum jogo próximo das suas seleções.',
   // matches page
   filterTeams: 'Seleções',
   filterStage: 'Fase',
@@ -98,6 +89,8 @@ const ptBR: Dict = {
   groupFixtures: 'Jogos',
   // bracket
   bracketTitle: 'Chaveamento do mata-mata',
+  bkHalfL: 'Metade esquerda',
+  bkHalfR: 'Metade direita',
   champion: 'Campeão do mundo',
   bracketWinnerOf: 'Vencedor J{n}',
   bracketLoserOf: 'Perdedor J{n}',
@@ -123,14 +116,15 @@ const ptBR: Dict = {
   probNote: 'Estimativa do modelo com base em resultados históricos, apenas por diversão.',
   probShow: 'Mostrar probabilidades pré-jogo',
   probHide: 'Ocultar probabilidades',
-  // ---- tournament simulator ----
-  navSim: 'Simulador',
-  simTitle: 'Simulador do torneio',
-  simSub: 'Preveja toda a Copa com as probabilidades do modelo: placares, tabelas, chaveamento e campeão.',
+  // ---- tournament forecast ----
+  navSim: 'Prognóstico',
+  simTitle: 'Prognóstico do torneio',
+  simSub:
+    'Preveja toda a Copa simulando-a com as probabilidades do modelo: placares, tabelas, chaveamento e campeão.',
   simContinue: 'Manter resultados reais e simular o resto',
   simFresh: 'Resimular tudo',
   simRuns: 'Execuções',
-  simRunBtn: 'Rodar simulação',
+  simRunBtn: 'Executar prognóstico',
   simChampion: 'Campeão',
   simOdds: 'Chance de título ({n} execuções)',
   simSample: 'Execução de exemplo',
@@ -218,6 +212,9 @@ const ptBR: Dict = {
     'Escolha as seleções que você acompanha. As listas e a página inicial podem ser filtradas pelas suas seleções. Vazio = todas as seleções.',
   settingMarket: 'País/região para canais de TV',
   settingTheme: 'Tema',
+  settingUnits: 'Unidades',
+  unitsMetric: 'Métricas (°C, km/h)',
+  unitsImperial: 'Imperiais (°F, mph)',
   themeAuto: 'Automático (sistema)',
   themeLight: 'Claro',
   themeDark: 'Escuro',

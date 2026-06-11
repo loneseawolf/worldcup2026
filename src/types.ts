@@ -255,6 +255,8 @@ export type TzMode = 'local' | 'venue' | 'fixed'
 
 export type Theme = 'auto' | 'light' | 'dark'
 
+export type Units = 'metric' | 'imperial'
+
 export interface Settings {
   lang: Lang
   tzMode: TzMode
@@ -262,4 +264,5 @@ export interface Settings {
   favorites: string[] // team codes; empty = all teams
   theme: Theme
   market: string | null // ISO2 country for TV channels; null = auto-detect
+  units: Units // °C+km/h vs °F+mph
 }

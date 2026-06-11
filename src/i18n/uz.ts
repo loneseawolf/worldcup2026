@@ -5,7 +5,7 @@ const uz: Dict = {
   appSub: 'AQSH · Kanada · Meksika',
   appFullName: '2026 Jahon chempionati ochiq kodli hamrohi',
   metaDesc:
-    "2026 Jahon chempionati: taqvim, guruhlar, pley-off, jamoalar, stadionlar, ob-havo, qayerda ko'rish, g'alaba ehtimollari va turnir simulyatori, 23 tilda. Norasmiy ochiq kodli PWA",
+    "2026 Jahon chempionati: taqvim, guruhlar, pley-off, jamoalar, stadionlar, ob-havo, qayerda ko'rish, g'alaba ehtimollari va turnir prognozi, 23 tilda. Norasmiy ochiq kodli PWA",
   // nav
   navHome: 'Bosh sahifa',
   navMatches: "O'yinlar",
@@ -58,17 +58,8 @@ const uz: Dict = {
   statusPostponed: 'Kechiktirildi',
   pens: 'Pen.',
   // home
-  heroDays: 'Boshlanishiga {n} kun qoldi',
-  heroTomorrow: 'Ertaga boshlanadi!',
-  heroToday: 'Jahon chempionati bugun boshlanadi!',
-  heroLive: 'Jahon chempionati davom etmoqda!',
-  favHint: 'Maslahat: jamoa sahifasidagi yulduzchani bosib, jamoalaringizni shu yerda kuzating.',
-  nextMatches: "Navbatdagi o'yinlar",
   liveNow: 'Hozir jonli efirda',
-  recentResults: "So'nggi natijalar",
-  seeAllMatches: "Barcha o'yinlar",
   favoritesOnly: 'Mening jamoalarim',
-  noFavMatches: "Tanlangan jamoalaringizning yaqin o'yinlari yo'q.",
   // matches page
   filterTeams: 'Jamoalar',
   filterStage: 'Bosqich',
@@ -97,6 +88,8 @@ const uz: Dict = {
   groupFixtures: "O'yinlar taqvimi",
   // bracket
   bracketTitle: 'Pley-off setkasi',
+  bkHalfL: 'Chap yarim',
+  bkHalfR: 'O‘ng yarim',
   champion: 'Jahon chempioni',
   bracketWinnerOf: "M{n} g'olibi",
   bracketLoserOf: "M{n} mag'lubi",
@@ -122,14 +115,15 @@ const uz: Dict = {
   probNote: "Tarixiy natijalarga asoslangan model bahosi, shunchaki ma'lumot uchun.",
   probShow: "O'yin oldidagi ehtimollarni ko'rsatish",
   probHide: 'Ehtimollarni yashirish',
-  // ---- tournament simulator ----
-  navSim: 'Simulyator',
-  simTitle: 'Turnir simulyatori',
-  simSub: 'Butun JCHni model ehtimollari bilan bashorat qiling: hisoblar, jadvallar, pley-off, chempion.',
+  // ---- tournament forecast ----
+  navSim: 'Prognoz',
+  simTitle: 'Turnir prognozi',
+  simSub:
+    'Butun JCHni model ehtimollari bilan simulyatsiya qilib bashorat qiling: hisoblar, jadvallar, pley-off, chempion.',
   simContinue: 'Haqiqiy natijalarni saqlab, qolganini simulyatsiya qilish',
   simFresh: 'Hammasini qaytadan simulyatsiya qilish',
   simRuns: 'Yurgizishlar',
-  simRunBtn: 'Simulyatsiyani boshlash',
+  simRunBtn: 'Prognozni boshlash',
   simChampion: 'Chempion',
   simOdds: 'Chempionlik imkoniyati ({n} yurgizish)',
   simSample: 'Namuna yurgizish',
@@ -217,6 +211,9 @@ const uz: Dict = {
     "Kuzatadigan jamoalaringizni tanlang. Ro'yxatlar va bosh sahifani shu jamoalar bo'yicha filtrlash mumkin bo'ladi. Bo'sh = barcha jamoalar.",
   settingMarket: 'TV kanallari uchun mamlakat/hudud',
   settingTheme: 'Mavzu',
+  settingUnits: 'Birliklar',
+  unitsMetric: 'Metrik (°C, km/soat)',
+  unitsImperial: 'Imperial (°F, mph)',
   themeAuto: 'Avto (tizim)',
   themeLight: "Yorug'",
   themeDark: "Qorong'i",

@@ -5,7 +5,7 @@ const nl: Dict = {
   appSub: 'Verenigde Staten · Canada · Mexico',
   appFullName: 'Open source-metgezel voor het WK 2026',
   metaDesc:
-    'WK 2026: speelschema, groepen, schema, teams, stadions, weer, waar te kijken, winkansen en toernooisimulator, in 23 talen. Onofficiële opensource-PWA',
+    'WK 2026: speelschema, groepen, schema, teams, stadions, weer, waar te kijken, winkansen en toernooiprognose, in 23 talen. Onofficiële opensource-PWA',
   // nav
   navHome: 'Home',
   navMatches: 'Wedstrijden',
@@ -57,17 +57,8 @@ const nl: Dict = {
   statusPostponed: 'Uitgesteld',
   pens: 'Pen.',
   // home
-  heroDays: 'Nog {n} dagen tot de aftrap',
-  heroTomorrow: 'Morgen is de aftrap!',
-  heroToday: 'Het WK begint vandaag!',
-  heroLive: 'Het WK is bezig!',
-  favHint: 'Tip: tik op de ster op een teampagina om je teams hier te volgen.',
-  nextMatches: 'Volgende wedstrijden',
   liveNow: 'Nu live',
-  recentResults: 'Recente uitslagen',
-  seeAllMatches: 'Alle wedstrijden',
   favoritesOnly: 'Mijn teams',
-  noFavMatches: 'Geen aankomende wedstrijden voor je geselecteerde teams.',
   // matches page
   filterTeams: 'Teams',
   filterStage: 'Fase',
@@ -98,6 +89,8 @@ const nl: Dict = {
   groupFixtures: 'Programma',
   // bracket
   bracketTitle: 'Knock-outschema',
+  bkHalfL: 'Linkerhelft',
+  bkHalfR: 'Rechterhelft',
   champion: 'Wereldkampioen',
   bracketWinnerOf: 'Winnaar W{n}',
   bracketLoserOf: 'Verliezer W{n}',
@@ -123,14 +116,15 @@ const nl: Dict = {
   probNote: 'Modelschatting op basis van historische uitslagen, puur indicatief.',
   probShow: 'Winkans van vóór de wedstrijd tonen',
   probHide: 'Winkans verbergen',
-  // ---- tournament simulator ----
-  navSim: 'Simulator',
-  simTitle: 'Toernooisimulator',
-  simSub: 'Voorspel het hele WK met de modelkansen: uitslagen, standen, schema, kampioen.',
+  // ---- tournament forecast ----
+  navSim: 'Prognose',
+  simTitle: 'Toernooiprognose',
+  simSub:
+    'Voorspel het hele WK door het te simuleren met de modelkansen: uitslagen, standen, schema, kampioen.',
   simContinue: 'Echte uitslagen behouden, de rest simuleren',
   simFresh: 'Alles opnieuw simuleren',
   simRuns: 'Runs',
-  simRunBtn: 'Simulatie starten',
+  simRunBtn: 'Prognose uitvoeren',
   simChampion: 'Kampioen',
   simOdds: 'Titelkansen ({n} runs)',
   simSample: 'Voorbeeldrun',
@@ -218,6 +212,9 @@ const nl: Dict = {
     'Kies de teams die je volgt. Lijsten en de homepagina kunnen dan op jouw teams worden gefilterd. Leeg = alle teams.',
   settingMarket: 'Land/regio voor tv-zenders',
   settingTheme: 'Thema',
+  settingUnits: 'Eenheden',
+  unitsMetric: 'Metrisch (°C, km/h)',
+  unitsImperial: 'Imperiaal (°F, mph)',
   themeAuto: 'Automatisch (systeem)',
   themeLight: 'Licht',
   themeDark: 'Donker',

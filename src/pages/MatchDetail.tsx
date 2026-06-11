@@ -8,6 +8,8 @@ import { dayKey, displayTz, fmtDateLong, fmtDateTime, fmtTime, tzAbbr } from '..
 import {
   detectMarket,
   fifaToIso2,
+  fmtSpeed,
+  fmtTemp,
   localizedNote,
   placeholderLabel,
   STAGE_LABEL_KEY,
@@ -141,7 +143,7 @@ export default function MatchDetail() {
       <div className="card">
         <div className="empty">
           <p>{t('matchNotFound')}</p>
-          <Link className="btn" to="/matches">
+          <Link className="btn" to="/">
             <Icon name="back" size={17} />
             {t('backToList')}
           </Link>
@@ -320,7 +322,7 @@ export default function MatchDetail() {
                     {wmoEmoji(w.code)}
                   </span>
                   <div>
-                    <div className="md-wx-temp tnum">{Math.round(w.tC)}°C</div>
+                    <div className="md-wx-temp tnum">{fmtTemp(w.tC, settings.units)}</div>
                     <div className="md-wx-cond">{t(wmoKey(w.code))}</div>
                   </div>
                   {m.status !== 'finished' && <span className="chip md-wx-chip">{t('weatherForecast')}</span>}
@@ -328,7 +330,7 @@ export default function MatchDetail() {
                 <div className="md-rows">
                   <div className="md-row">
                     <span className="lbl">{t('feelsLike')}</span>
-                    <span className="val tnum">{Math.round(w.feelsC)}°C</span>
+                    <span className="val tnum">{fmtTemp(w.feelsC, settings.units)}</span>
                   </div>
                   <div className="md-row">
                     <span className="lbl">{t('precipChance')}</span>
@@ -340,7 +342,7 @@ export default function MatchDetail() {
                   </div>
                   <div className="md-row">
                     <span className="lbl">{t('wind')}</span>
-                    <span className="val tnum">{Math.round(w.windKmh)} km/h</span>
+                    <span className="val tnum">{fmtSpeed(w.windKmh, settings.units)}</span>
                   </div>
                 </div>
               </>
@@ -354,7 +356,7 @@ export default function MatchDetail() {
                     </span>
                     <div>
                       <div className="md-wx-temp tnum">
-                        {clim.lowC}–{clim.highC}°C
+                        {fmtTemp(clim.lowC, settings.units)}–{fmtTemp(clim.highC, settings.units)}
                       </div>
                       <div className="md-wx-cond">{t(monthKey === 'jul' ? 'monthJul' : 'monthJun')}</div>
                     </div>

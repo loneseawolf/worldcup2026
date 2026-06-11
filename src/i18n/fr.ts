@@ -5,7 +5,7 @@ const fr: Dict = {
   appSub: 'États-Unis · Canada · Mexique',
   appFullName: 'Compagnon open source de la Coupe du Monde 2026',
   metaDesc:
-    'Coupe du Monde 2026 : calendrier, groupes, tableau, équipes, stades, météo, diffusion, probabilités de victoire et simulateur de tournoi, en 23 langues. PWA open source non officielle',
+    'Coupe du Monde 2026 : calendrier, groupes, tableau, équipes, stades, météo, diffusion, probabilités de victoire et pronostics du tournoi, en 23 langues. PWA open source non officielle',
   // nav
   navHome: 'Accueil',
   navMatches: 'Matchs',
@@ -57,17 +57,8 @@ const fr: Dict = {
   statusPostponed: 'Reporté',
   pens: 'T.A.B.',
   // home
-  heroDays: "Coup d'envoi dans {n} jours",
-  heroTomorrow: "Coup d'envoi demain !",
-  heroToday: "La Coupe du Monde commence aujourd'hui !",
-  heroLive: 'La Coupe du Monde bat son plein !',
-  favHint: "Astuce : touchez l'étoile sur la page d'une équipe pour la suivre ici.",
-  nextMatches: 'Prochains matchs',
   liveNow: 'En direct',
-  recentResults: 'Derniers résultats',
-  seeAllMatches: 'Tous les matchs',
   favoritesOnly: 'Mes équipes',
-  noFavMatches: 'Aucun match à venir pour vos équipes sélectionnées.',
   // matches page
   filterTeams: 'Équipes',
   filterStage: 'Phase',
@@ -98,6 +89,8 @@ const fr: Dict = {
   groupFixtures: 'Calendrier du groupe',
   // bracket
   bracketTitle: 'Tableau final',
+  bkHalfL: 'Moitié gauche',
+  bkHalfR: 'Moitié droite',
   champion: 'Champion du monde',
   bracketWinnerOf: 'V. M{n}',
   bracketLoserOf: 'P. M{n}',
@@ -123,15 +116,15 @@ const fr: Dict = {
   probNote: 'Estimation statistique à partir des résultats historiques, à titre indicatif.',
   probShow: 'Afficher les probabilités d’avant-match',
   probHide: 'Masquer les probabilités',
-  // ---- tournament simulator ----
-  navSim: 'Simulateur',
-  simTitle: 'Simulateur de tournoi',
+  // ---- tournament forecast ----
+  navSim: 'Pronostics',
+  simTitle: 'Pronostics du tournoi',
   simSub:
-    'Prédisez toute la Coupe du Monde selon les probabilités du modèle : scores, classements, tableau, champion.',
+    'Prédisez toute la Coupe du Monde en la simulant selon les probabilités du modèle : scores, classements, tableau, champion.',
   simContinue: 'Garder les résultats réels, simuler le reste',
   simFresh: 'Tout resimuler',
   simRuns: 'Tirages',
-  simRunBtn: 'Lancer la simulation',
+  simRunBtn: 'Lancer le pronostic',
   simChampion: 'Champion',
   simOdds: 'Chances de titre ({n} tirages)',
   simSample: 'Exemple de tirage',
@@ -218,6 +211,9 @@ const fr: Dict = {
     "Sélectionnez vos équipes pour filtrer l'accueil et le calendrier. Vide = toutes les équipes.",
   settingMarket: 'Pays/région pour les chaînes TV',
   settingTheme: 'Thème',
+  settingUnits: 'Unités',
+  unitsMetric: 'Métriques (°C, km/h)',
+  unitsImperial: 'Impériales (°F, mph)',
   themeAuto: 'Auto (système)',
   themeLight: 'Clair',
   themeDark: 'Sombre',

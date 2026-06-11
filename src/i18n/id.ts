@@ -5,7 +5,7 @@ const id: Dict = {
   appSub: 'Amerika Serikat · Kanada · Meksiko',
   appFullName: 'Pendamping open source Piala Dunia 2026',
   metaDesc:
-    'Piala Dunia 2026: jadwal, grup, bagan, tim, stadion, cuaca, tempat menonton, peluang menang, dan simulator turnamen, dalam 23 bahasa. PWA open source tidak resmi',
+    'Piala Dunia 2026: jadwal, grup, bagan, tim, stadion, cuaca, tempat menonton, peluang menang, dan prediksi turnamen, dalam 23 bahasa. PWA open source tidak resmi',
   // nav
   navHome: 'Beranda',
   navMatches: 'Pertandingan',
@@ -57,17 +57,8 @@ const id: Dict = {
   statusPostponed: 'Ditunda',
   pens: 'Pen.',
   // home
-  heroDays: '{n} hari menuju kick-off',
-  heroTomorrow: 'Kick-off besok!',
-  heroToday: 'Piala Dunia dimulai hari ini!',
-  heroLive: 'Piala Dunia sedang berlangsung!',
-  favHint: 'Tips: ketuk bintang di halaman tim untuk mengikuti tim Anda di sini.',
-  nextMatches: 'Pertandingan berikutnya',
   liveNow: 'Sedang berlangsung',
-  recentResults: 'Hasil terbaru',
-  seeAllMatches: 'Semua pertandingan',
   favoritesOnly: 'Tim saya',
-  noFavMatches: 'Tidak ada pertandingan mendatang untuk tim pilihan Anda.',
   // matches page
   filterTeams: 'Tim',
   filterStage: 'Babak',
@@ -96,6 +87,8 @@ const id: Dict = {
   groupFixtures: 'Jadwal',
   // bracket
   bracketTitle: 'Bagan fase gugur',
+  bkHalfL: 'Paruh kiri',
+  bkHalfR: 'Paruh kanan',
   champion: 'Juara dunia',
   bracketWinnerOf: 'Pemenang L{n}',
   bracketLoserOf: 'Kalah L{n}',
@@ -121,14 +114,15 @@ const id: Dict = {
   probNote: 'Perkiraan model dari hasil historis, sekadar hiburan.',
   probShow: 'Tampilkan peluang sebelum pertandingan',
   probHide: 'Sembunyikan peluang',
-  // ---- tournament simulator ----
-  navSim: 'Simulator',
-  simTitle: 'Simulator turnamen',
-  simSub: 'Prediksi seluruh Piala Dunia dengan probabilitas model: skor, klasemen, bagan, juara.',
+  // ---- tournament forecast ----
+  navSim: 'Prediksi',
+  simTitle: 'Prediksi turnamen',
+  simSub:
+    'Prediksi seluruh Piala Dunia dengan menyimulasikannya memakai probabilitas model: skor, klasemen, bagan, juara.',
   simContinue: 'Pertahankan hasil nyata, simulasikan sisanya',
   simFresh: 'Simulasikan ulang semuanya',
   simRuns: 'Jumlah run',
-  simRunBtn: 'Jalankan simulasi',
+  simRunBtn: 'Jalankan prediksi',
   simChampion: 'Juara',
   simOdds: 'Peluang juara ({n} run)',
   simSample: 'Contoh run',
@@ -215,6 +209,9 @@ const id: Dict = {
     'Pilih tim yang Anda ikuti. Daftar pertandingan dan beranda dapat difilter sesuai tim Anda. Kosong = semua tim.',
   settingMarket: 'Negara/wilayah untuk saluran TV',
   settingTheme: 'Tema',
+  settingUnits: 'Satuan',
+  unitsMetric: 'Metrik (°C, km/j)',
+  unitsImperial: 'Imperial (°F, mph)',
   themeAuto: 'Otomatis (sistem)',
   themeLight: 'Terang',
   themeDark: 'Gelap',

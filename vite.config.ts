@@ -14,7 +14,7 @@ export default defineConfig({
         name: '2026 World Cup Open Source Companion',
         short_name: '2026 WC',
         description:
-          '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and a tournament simulator, in 23 languages. Unofficial open-source PWA',
+          '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and tournament forecast, in 23 languages. Unofficial open-source PWA',
         start_url: './',
         scope: './',
         display: 'standalone',
@@ -30,7 +30,7 @@ export default defineConfig({
         shortcuts: [
           {
             name: 'Matches',
-            url: './#/matches',
+            url: './#/',
             icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
           },
           {

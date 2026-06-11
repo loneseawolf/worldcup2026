@@ -5,7 +5,7 @@ const es: Dict = {
   appSub: 'Estados Unidos · Canadá · México',
   appFullName: 'Compañero open source del Mundial 2026',
   metaDesc:
-    'Mundial 2026: calendario, grupos, cuadro, selecciones, estadios, clima, dónde ver, probabilidades de victoria y simulador del torneo, en 23 idiomas. PWA open source no oficial',
+    'Mundial 2026: calendario, grupos, cuadro, selecciones, estadios, clima, dónde ver, probabilidades de victoria y pronóstico del torneo, en 23 idiomas. PWA open source no oficial',
   // nav
   navHome: 'Inicio',
   navMatches: 'Partidos',
@@ -57,17 +57,8 @@ const es: Dict = {
   statusPostponed: 'Aplazado',
   pens: 'Pen.',
   // home
-  heroDays: 'Faltan {n} días para el inicio',
-  heroTomorrow: '¡Comienza mañana!',
-  heroToday: '¡El Mundial comienza hoy!',
-  heroLive: '¡El Mundial está en marcha!',
-  favHint: 'Consejo: toca la estrella en la página de un equipo para seguirlo aquí.',
-  nextMatches: 'Próximos partidos',
   liveNow: 'En vivo ahora',
-  recentResults: 'Resultados recientes',
-  seeAllMatches: 'Todos los partidos',
   favoritesOnly: 'Mis selecciones',
-  noFavMatches: 'No hay próximos partidos de tus selecciones.',
   // matches page
   filterTeams: 'Selecciones',
   filterStage: 'Fase',
@@ -98,6 +89,8 @@ const es: Dict = {
   groupFixtures: 'Calendario',
   // bracket
   bracketTitle: 'Cuadro de eliminatorias',
+  bkHalfL: 'Mitad izquierda',
+  bkHalfR: 'Mitad derecha',
   champion: 'Campeón del mundo',
   bracketWinnerOf: 'Ganador P{n}',
   bracketLoserOf: 'Perdedor P{n}',
@@ -123,15 +116,15 @@ const es: Dict = {
   probNote: 'Estimación del modelo según resultados históricos, solo orientativa.',
   probShow: 'Ver la probabilidad previa al partido',
   probHide: 'Ocultar la probabilidad',
-  // ---- tournament simulator ----
-  navSim: 'Simulador',
-  simTitle: 'Simulador del torneo',
+  // ---- tournament forecast ----
+  navSim: 'Pronóstico',
+  simTitle: 'Pronóstico del torneo',
   simSub:
-    'Pronostica todo el Mundial con las probabilidades del modelo: marcadores, tablas, cuadro y campeón.',
+    'Pronostica todo el Mundial simulándolo con las probabilidades del modelo: marcadores, tablas, cuadro y campeón.',
   simContinue: 'Mantener resultados reales y simular el resto',
   simFresh: 'Resimular todo',
   simRuns: 'Simulaciones',
-  simRunBtn: 'Ejecutar simulación',
+  simRunBtn: 'Ejecutar pronóstico',
   simChampion: 'Campeón',
   simOdds: 'Probabilidad de título ({n} simulaciones)',
   simSample: 'Simulación de muestra',
@@ -218,6 +211,9 @@ const es: Dict = {
     'Elige las selecciones que sigues. Las listas y la página de inicio podrán filtrarse por tus selecciones. Vacío = todas.',
   settingMarket: 'País/región para canales de TV',
   settingTheme: 'Tema',
+  settingUnits: 'Unidades',
+  unitsMetric: 'Métricas (°C, km/h)',
+  unitsImperial: 'Imperiales (°F, mph)',
   themeAuto: 'Automático (sistema)',
   themeLight: 'Claro',
   themeDark: 'Oscuro',

@@ -5,7 +5,7 @@ const de: Dict = {
   appSub: 'USA · Kanada · Mexiko',
   appFullName: 'Open-Source-Begleiter zur WM 2026',
   metaDesc:
-    'WM 2026: Spielplan, Gruppen, Turnierbaum, Teams, Stadien, Wetter, TV-Übersicht, Siegwahrscheinlichkeiten und Turnier-Simulator, in 23 Sprachen. Inoffizielle Open-Source-PWA',
+    'WM 2026: Spielplan, Gruppen, Turnierbaum, Teams, Stadien, Wetter, TV-Übersicht, Siegwahrscheinlichkeiten und Turnier-Prognose, in 23 Sprachen. Inoffizielle Open-Source-PWA',
   // nav
   navHome: 'Start',
   navMatches: 'Spiele',
@@ -57,17 +57,8 @@ const de: Dict = {
   statusPostponed: 'Verschoben',
   pens: 'i. E.',
   // home
-  heroDays: 'Noch {n} Tage bis zum Anstoß',
-  heroTomorrow: 'Morgen geht es los!',
-  heroToday: 'Die WM startet heute!',
-  heroLive: 'Die WM läuft!',
-  favHint: 'Tipp: Tippe auf den Stern auf einer Teamseite, um deine Teams hier zu sehen.',
-  nextMatches: 'Nächste Spiele',
   liveNow: 'Jetzt live',
-  recentResults: 'Letzte Ergebnisse',
-  seeAllMatches: 'Alle Spiele',
   favoritesOnly: 'Meine Teams',
-  noFavMatches: 'Keine anstehenden Spiele deiner ausgewählten Teams.',
   // matches page
   filterTeams: 'Teams',
   filterStage: 'Runde',
@@ -98,6 +89,8 @@ const de: Dict = {
   groupFixtures: 'Spielplan',
   // bracket
   bracketTitle: 'K.-o.-Runde',
+  bkHalfL: 'Linke Hälfte',
+  bkHalfR: 'Rechte Hälfte',
   champion: 'Weltmeister',
   bracketWinnerOf: 'Sieger S{n}',
   bracketLoserOf: 'Verlierer S{n}',
@@ -123,15 +116,15 @@ const de: Dict = {
   probNote: 'Modellschätzung aus historischen Ergebnissen, nur zur Orientierung.',
   probShow: 'Siegwahrscheinlichkeit vor dem Spiel anzeigen',
   probHide: 'Siegwahrscheinlichkeit ausblenden',
-  // ---- tournament simulator ----
-  navSim: 'Simulator',
-  simTitle: 'Turnier-Simulator',
+  // ---- tournament forecast ----
+  navSim: 'Prognose',
+  simTitle: 'Turnier-Prognose',
   simSub:
-    'Sage die ganze WM mit den Modellwahrscheinlichkeiten voraus: Ergebnisse, Tabellen, Turnierbaum, Weltmeister.',
+    'Sage die ganze WM voraus, indem du sie mit den Modellwahrscheinlichkeiten simulierst: Ergebnisse, Tabellen, Turnierbaum, Weltmeister.',
   simContinue: 'Echte Ergebnisse behalten, Rest simulieren',
   simFresh: 'Alles neu simulieren',
   simRuns: 'Durchläufe',
-  simRunBtn: 'Simulation starten',
+  simRunBtn: 'Prognose starten',
   simChampion: 'Weltmeister',
   simOdds: 'Titelchancen ({n} Durchläufe)',
   simSample: 'Beispiel-Durchlauf',
@@ -219,6 +212,9 @@ const de: Dict = {
     'Wähle die Teams, denen du folgst. Listen und Startseite lassen sich dann darauf filtern. Leer = alle Teams.',
   settingMarket: 'Land/Region für TV-Sender',
   settingTheme: 'Design',
+  settingUnits: 'Einheiten',
+  unitsMetric: 'Metrisch (°C, km/h)',
+  unitsImperial: 'Imperial (°F, mph)',
   themeAuto: 'Automatisch (System)',
   themeLight: 'Hell',
   themeDark: 'Dunkel',

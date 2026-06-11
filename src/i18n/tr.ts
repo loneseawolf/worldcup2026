@@ -5,7 +5,7 @@ const tr: Dict = {
   appSub: 'ABD · Kanada · Meksika',
   appFullName: '2026 Dünya Kupası Açık Kaynak Rehberi',
   metaDesc:
-    '2026 Dünya Kupası: fikstür, gruplar, eleme tablosu, takımlar, statlar, hava durumu, nereden izlenir, kazanma olasılıkları ve turnuva simülatörü, 23 dilde. Resmî olmayan açık kaynak PWA',
+    '2026 Dünya Kupası: fikstür, gruplar, eleme tablosu, takımlar, statlar, hava durumu, nereden izlenir, kazanma olasılıkları ve turnuva tahmini, 23 dilde. Resmî olmayan açık kaynak PWA',
   // nav
   navHome: 'Ana sayfa',
   navMatches: 'Maçlar',
@@ -57,17 +57,8 @@ const tr: Dict = {
   statusPostponed: 'Ertelendi',
   pens: 'Pen.',
   // home
-  heroDays: 'Açılışa {n} gün',
-  heroTomorrow: 'Yarın başlıyor!',
-  heroToday: 'Dünya Kupası bugün başlıyor!',
-  heroLive: 'Dünya Kupası devam ediyor!',
-  favHint: 'İpucu: Takımlarınızı burada takip etmek için takım sayfasındaki yıldıza dokunun.',
-  nextMatches: 'Sıradaki maçlar',
   liveNow: 'Şu anda canlı',
-  recentResults: 'Son sonuçlar',
-  seeAllMatches: 'Tüm maçlar',
   favoritesOnly: 'Takımlarım',
-  noFavMatches: 'Seçtiğiniz takımların yaklaşan maçı yok.',
   // matches page
   filterTeams: 'Takımlar',
   filterStage: 'Aşama',
@@ -96,6 +87,8 @@ const tr: Dict = {
   groupFixtures: 'Fikstür',
   // bracket
   bracketTitle: 'Eleme tablosu',
+  bkHalfL: 'Sol yarı',
+  bkHalfR: 'Sağ yarı',
   champion: 'Dünya şampiyonu',
   bracketWinnerOf: 'M{n} galibi',
   bracketLoserOf: 'M{n} mağlubu',
@@ -121,15 +114,15 @@ const tr: Dict = {
   probNote: 'Geçmiş sonuçlara dayalı model tahmini, yalnızca fikir verir.',
   probShow: 'Maç öncesi kazanma olasılığını göster',
   probHide: 'Olasılığı gizle',
-  // ---- tournament simulator ----
-  navSim: 'Simülatör',
-  simTitle: 'Turnuva simülatörü',
+  // ---- tournament forecast ----
+  navSim: 'Tahmin',
+  simTitle: 'Turnuva tahmini',
   simSub:
-    'Tüm Dünya Kupasını model olasılıklarıyla tahmin edin: skorlar, puan durumu, eleme tablosu, şampiyon.',
+    'Tüm Dünya Kupasını model olasılıklarıyla simüle ederek tahmin edin: skorlar, puan durumu, eleme tablosu, şampiyon.',
   simContinue: 'Gerçek sonuçları koru, kalanını simüle et',
   simFresh: 'Hepsini yeniden simüle et',
   simRuns: 'Çalıştırma',
-  simRunBtn: 'Simülasyonu çalıştır',
+  simRunBtn: 'Tahmini çalıştır',
   simChampion: 'Şampiyon',
   simOdds: 'Şampiyonluk ihtimali ({n} çalıştırma)',
   simSample: 'Örnek çalıştırma',
@@ -216,6 +209,9 @@ const tr: Dict = {
     'Takip ettiğiniz takımları seçin. Listeler ve ana sayfa takımlarınıza göre filtrelenebilir. Boş = tüm takımlar.',
   settingMarket: 'TV kanalları için ülke/bölge',
   settingTheme: 'Tema',
+  settingUnits: 'Birimler',
+  unitsMetric: 'Metrik (°C, km/sa)',
+  unitsImperial: 'İngiliz (°F, mph)',
   themeAuto: 'Otomatik (sistem)',
   themeLight: 'Açık',
   themeDark: 'Koyu',

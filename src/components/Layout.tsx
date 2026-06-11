@@ -11,15 +11,14 @@ import Icon from './Icon'
 import type { IconName } from './Icon'
 
 const NAV: { to: string; key: string; icon: IconName }[] = [
-  { to: '/', key: 'navHome', icon: 'home' },
-  { to: '/matches', key: 'navMatches', icon: 'calendar' },
+  { to: '/', key: 'navMatches', icon: 'calendar' },
   { to: '/groups', key: 'navGroups', icon: 'table' },
   { to: '/bracket', key: 'navBracket', icon: 'bracket' },
   { to: '/teams', key: 'navTeams', icon: 'shirt' },
   { to: '/venues', key: 'navVenues', icon: 'stadium' },
   { to: '/watch', key: 'navWatch', icon: 'tv' },
   { to: '/stats', key: 'navStats', icon: 'chart' },
-  { to: '/simulate', key: 'navSim', icon: 'target' },
+  { to: '/forecast', key: 'navSim', icon: 'target' },
   { to: '/settings', key: 'navSettings', icon: 'gear' },
 ]
 
@@ -29,8 +28,14 @@ const MORE_TAB = { to: '/more', key: 'navMore' as string, icon: 'dots' as IconNa
  * Bracket once all twelve groups are complete (the page it replaces stays
  * reachable from More and in-app links) */
 function tabsFor(knockout: boolean) {
-  const phase = knockout ? NAV[3] : NAV[2] // bracket : groups
-  return [NAV[0], NAV[1], phase, NAV.find((n) => n.key === 'navTeams') ?? NAV[4], MORE_TAB]
+  const phase = knockout ? NAV[2] : NAV[1] // bracket : groups
+  return [
+    NAV[0],
+    phase,
+    NAV.find((n) => n.key === 'navTeams') ?? NAV[3],
+    NAV.find((n) => n.key === 'navSim') ?? MORE_TAB,
+    MORE_TAB,
+  ]
 }
 
 // display order comes from LANG_LABEL's key order (single source of truth in i18n/strings.ts)

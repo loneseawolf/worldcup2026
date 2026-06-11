@@ -74,7 +74,7 @@ export function resolvedSlots(matches: Match[], standings: Standings): SlotOverl
 }
 
 /** materialize resolved slots as real (scoreless) sides so every consumer —
- * match pages, cards, team fixtures, the simulator — sees the known pairing */
+ * match pages, cards, team fixtures, the forecast engine — sees the known pairing */
 export function withResolvedSides(matches: Match[], standings: Standings): Match[] {
   const overlay = resolvedSlots(matches, standings)
   if (Object.keys(overlay).length === 0) return matches

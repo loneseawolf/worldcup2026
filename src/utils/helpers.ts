@@ -189,6 +189,34 @@ const TZ_PREFIX: [string, string][] = [
  * Returns null when the detected country has no broadcaster data, so callers
  * can show an explicit "pick your country" state instead of a wrong market.
  */
+/** best-effort ISO2 country from the device timezone/locale (no permission needed) */
+export function detectCountry(): string | null {
+  try {
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone
+    if (tz) {
+      const c = TZ_COUNTRY[tz] ?? TZ_PREFIX.find(([p]) => tz.startsWith(p))?.[1]
+      if (c) return c
+    }
+  } catch {
+    /* fall through */
+  }
+  try {
+    const region = new Intl.Locale(navigator.language).maximize().region
+    if (region) return region
+  } catch {
+    /* unknown */
+  }
+  return null
+}
+
+export function fmtTemp(celsius: number, units: 'metric' | 'imperial'): string {
+  return units === 'imperial' ? `${Math.round((celsius * 9) / 5 + 32)}°F` : `${Math.round(celsius)}°C`
+}
+
+export function fmtSpeed(kmh: number, units: 'metric' | 'imperial'): string {
+  return units === 'imperial' ? `${Math.round(kmh * 0.621371)} mph` : `${Math.round(kmh)} km/h`
+}
+
 export function detectMarketOrNull(available: ReadonlySet<string>): string | null {
   try {
     const tz = Intl.DateTimeFormat().resolvedOptions().timeZone

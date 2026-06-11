@@ -5,7 +5,6 @@ import { useI18n } from './i18n'
 import Layout from './components/Layout'
 
 // route-level code splitting: each page loads on demand (Venues also pulls the 42 KB map JSON)
-const Home = lazy(() => import('./pages/Home'))
 const Matches = lazy(() => import('./pages/Matches'))
 const MatchDetail = lazy(() => import('./pages/MatchDetail'))
 const Groups = lazy(() => import('./pages/Groups'))
@@ -15,13 +14,12 @@ const TeamDetail = lazy(() => import('./pages/TeamDetail'))
 const Venues = lazy(() => import('./pages/Venues'))
 const Watch = lazy(() => import('./pages/Watch'))
 const Stats = lazy(() => import('./pages/Stats'))
-const Simulate = lazy(() => import('./pages/Simulate'))
+const Forecast = lazy(() => import('./pages/Forecast'))
 const Settings = lazy(() => import('./pages/Settings'))
 const More = lazy(() => import('./pages/More'))
 
 // first path segment -> localized page-name key
 const TITLE_KEY: Record<string, string> = {
-  matches: 'navMatches',
   match: 'navMatches',
   groups: 'navGroups',
   bracket: 'navBracket',
@@ -30,9 +28,9 @@ const TITLE_KEY: Record<string, string> = {
   venues: 'navVenues',
   watch: 'navWatch',
   stats: 'navStats',
-  simulate: 'navSim',
+  forecast: 'navSim',
   settings: 'navSettings',
-  more: 'navHome',
+  more: 'navMore',
 }
 
 /** keeps document.title in sync with the route (and language) */
@@ -96,8 +94,7 @@ export default function App() {
       <Suspense fallback={<div className="page-loading" />}>
         <Routes>
           <Route element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="/matches" element={<Matches />} />
+            <Route index element={<Matches />} />
             <Route path="/match/:id" element={<MatchDetail />} />
             <Route path="/groups" element={<Groups />} />
             <Route path="/bracket" element={<Bracket />} />
@@ -106,10 +103,10 @@ export default function App() {
             <Route path="/venues" element={<Venues />} />
             <Route path="/watch" element={<Watch />} />
             <Route path="/stats" element={<Stats />} />
-            <Route path="/simulate" element={<Simulate />} />
+            <Route path="/forecast" element={<Forecast />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/more" element={<More />} />
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={<Matches />} />
           </Route>
         </Routes>
       </Suspense>

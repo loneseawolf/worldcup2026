@@ -87,13 +87,6 @@ export function relativeDay(dateIso: string, tz?: string): number | null {
   return null
 }
 
-/** whole calendar days from today until the given date (in the display tz) */
-export function daysUntil(dateIso: string, tz?: string): number {
-  const target = Date.parse(`${dayKey(dateIso, tz)}T00:00:00Z`)
-  const today = Date.parse(`${dayKey(new Date().toISOString(), tz)}T00:00:00Z`)
-  return Math.round((target - today) / 86400e3)
-}
-
 /** common IANA timezones offered in the settings picker */
 export const COMMON_TZS = [
   'America/Los_Angeles',

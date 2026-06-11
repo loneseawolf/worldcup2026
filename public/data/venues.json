@@ -27,7 +27,16 @@
     "ja": "ロサンゼルススタジアム",
     "ko": "로스앤젤레스 스타디움",
     "id": "Stadion Los Angeles",
-    "ru": "Los Angeles Stadium"
+    "ru": "Los Angeles Stadium",
+    "uz": "Los-Anjeles stadioni",
+    "fa": "ورزشگاه لس‌آنجلس",
+    "uk": "Стадіон Лос-Анджелес",
+    "nl": "Los Angeles Stadium",
+    "sv": "Los Angeles Stadium",
+    "no": "Los Angeles Stadium",
+    "cs": "Los Angeles Stadium",
+    "hr": "Los Angeles Stadium",
+    "tr": "Los Angeles Stadium"
    },
    "cityName": {
     "en": "Los Angeles",
@@ -43,7 +52,14 @@
     "id": "Los Angeles",
     "ru": "Лос-Анджелес",
     "fa": "اینگلوود (لس‌آنجلس)",
-    "uk": "Інглвуд (Лос-Анджелес)"
+    "uk": "Інглвуд (Лос-Анджелес)",
+    "uz": "Los-Anjeles",
+    "nl": "Los Angeles",
+    "sv": "Los Angeles",
+    "no": "Los Angeles",
+    "cs": "Los Angeles",
+    "hr": "Los Angeles",
+    "tr": "Los Angeles"
    },
    "climate": {
     "jun": {
@@ -119,7 +135,16 @@
     "ja": "アトランタスタジアム",
     "ko": "애틀랜타 스타디움",
     "id": "Stadion Atlanta",
-    "ru": "Atlanta Stadium"
+    "ru": "Atlanta Stadium",
+    "uz": "Atlanta stadioni",
+    "fa": "ورزشگاه آتلانتا",
+    "uk": "Стадіон Атланта",
+    "nl": "Atlanta Stadium",
+    "sv": "Atlanta Stadium",
+    "no": "Atlanta Stadium",
+    "cs": "Atlanta Stadium",
+    "hr": "Atlanta Stadium",
+    "tr": "Atlanta Stadium"
    },
    "cityName": {
     "en": "Atlanta",
@@ -135,7 +160,14 @@
     "id": "Atlanta",
     "ru": "Атланта",
     "fa": "آتلانتا",
-    "uk": "Атланта"
+    "uk": "Атланта",
+    "nl": "Atlanta",
+    "sv": "Atlanta",
+    "no": "Atlanta",
+    "cs": "Atlanta",
+    "hr": "Atlanta",
+    "tr": "Atlanta",
+    "uz": "Atlanta"
    },
    "climate": {
     "jun": {
@@ -211,7 +243,16 @@
     "ja": "シアトルスタジアム",
     "ko": "시애틀 스타디움",
     "id": "Stadion Seattle",
-    "ru": "Сиэтл-стейдиум"
+    "ru": "Сиэтл-стейдиум",
+    "uz": "Sietl stadioni",
+    "fa": "ورزشگاه سیاتل",
+    "uk": "Стадіон Сіетл",
+    "nl": "Seattle Stadium",
+    "sv": "Seattle Stadium",
+    "no": "Seattle Stadium",
+    "cs": "Seattle Stadium",
+    "hr": "Seattle Stadium",
+    "tr": "Seattle Stadium"
    },
    "cityName": {
     "en": "Seattle",
@@ -227,7 +268,14 @@
     "id": "Seattle",
     "ru": "Сиэтл",
     "fa": "سیاتل",
-    "uk": "Сіетл"
+    "uk": "Сіетл",
+    "uz": "Sietl",
+    "nl": "Seattle",
+    "sv": "Seattle",
+    "no": "Seattle",
+    "cs": "Seattle",
+    "hr": "Seattle",
+    "tr": "Seattle"
    },
    "climate": {
     "jun": {
@@ -301,7 +349,16 @@
     "ja": "メキシコシティスタジアム",
     "ko": "멕시코시티 스타디움",
     "id": "Stadion Mexico City",
-    "ru": "Стадион Мехико"
+    "ru": "Стадион Мехико",
+    "uz": "Mexiko stadioni",
+    "fa": "ورزشگاه مکزیکوسیتی",
+    "uk": "Стадіон Мехіко",
+    "nl": "Mexico City Stadium",
+    "sv": "Mexico City Stadium",
+    "no": "Mexico City Stadium",
+    "cs": "Mexico City Stadium",
+    "hr": "Mexico City Stadium",
+    "tr": "Mexico City Stadium"
    },
    "cityName": {
     "en": "Mexico City",
@@ -317,7 +374,14 @@
     "id": "Kota Meksiko",
     "ru": "Мехико",
     "fa": "مکزیکوسیتی",
-    "uk": "Мехіко"
+    "uk": "Мехіко",
+    "nl": "Mexico-Stad",
+    "no": "Mexico by",
+    "cs": "Ciudad de México",
+    "hr": "Ciudad de México",
+    "uz": "Mexiko",
+    "sv": "Mexico City",
+    "tr": "Mexico City"
    },
    "climate": {
     "jun": {
@@ -390,7 +454,16 @@
     "ja": "モンテレースタジアム",
     "ko": "몬테레이 스타디움",
     "id": "Stadion Monterrey",
-    "ru": "Монтеррей-стейдиум"
+    "ru": "Монтеррей-стейдиум",
+    "uz": "Monterrey stadioni",
+    "fa": "ورزشگاه مونتری",
+    "uk": "Стадіон Монтеррей",
+    "nl": "Monterrey Stadium",
+    "sv": "Monterrey Stadium",
+    "no": "Monterrey Stadium",
+    "cs": "Monterrey Stadium",
+    "hr": "Monterrey Stadium",
+    "tr": "Monterrey Stadium"
    },
    "cityName": {
     "en": "Monterrey",
@@ -406,7 +479,14 @@
     "id": "Monterrey",
     "ru": "Монтеррей",
     "fa": "گوادالوپه (مونتری)",
-    "uk": "Гвадалупе (Монтеррей)"
+    "uk": "Гвадалупе (Монтеррей)",
+    "nl": "Monterrey",
+    "sv": "Monterrey",
+    "no": "Monterrey",
+    "cs": "Monterrey",
+    "hr": "Monterrey",
+    "tr": "Monterrey",
+    "uz": "Monterrey"
    },
    "climate": {
     "jun": {
@@ -478,7 +558,16 @@
     "ja": "トロントスタジアム",
     "ko": "토론토 스타디움",
     "id": "Stadion Toronto",
-    "ru": "Торонто-стейдиум "
+    "ru": "Торонто-стейдиум ",
+    "uz": "Toronto stadioni",
+    "fa": "ورزشگاه تورنتو",
+    "uk": "Стадіон Торонто",
+    "nl": "Toronto Stadium",
+    "sv": "Toronto Stadium",
+    "no": "Toronto Stadium",
+    "cs": "Toronto Stadium",
+    "hr": "Toronto Stadium",
+    "tr": "Toronto Stadium"
    },
    "cityName": {
     "en": "Toronto",
@@ -494,7 +583,14 @@
     "id": "Toronto",
     "ru": "Торонто",
     "fa": "تورنتو",
-    "uk": "Торонто"
+    "uk": "Торонто",
+    "nl": "Toronto",
+    "sv": "Toronto",
+    "no": "Toronto",
+    "cs": "Toronto",
+    "hr": "Toronto",
+    "tr": "Toronto",
+    "uz": "Toronto"
    },
    "climate": {
     "jun": {
@@ -568,7 +664,16 @@
     "ja": "BCプレイスバンクーバー",
     "ko": "BC 플레이스 밴쿠버",
     "id": "BC Place Vancouver",
-    "ru": "Стадион «Би-си-плейс-Ванкувер»"
+    "ru": "Стадион «Би-си-плейс-Ванкувер»",
+    "uz": "BC Place (Vankuver)",
+    "fa": "بی‌سی پلیس ونکوور",
+    "uk": "Бі-Сі Плейс (Ванкувер)",
+    "nl": "BC Place Vancouver",
+    "sv": "BC Place Vancouver",
+    "no": "BC Place Vancouver",
+    "cs": "BC Place Vancouver",
+    "hr": "BC Place Vancouver",
+    "tr": "BC Place Vancouver"
    },
    "cityName": {
     "en": "Vancouver",
@@ -584,7 +689,14 @@
     "id": "Vancouver",
     "ru": "Ванкувер",
     "fa": "ونکوور",
-    "uk": "Ванкувер"
+    "uk": "Ванкувер",
+    "uz": "Vankuver",
+    "nl": "Vancouver",
+    "sv": "Vancouver",
+    "no": "Vancouver",
+    "cs": "Vancouver",
+    "hr": "Vancouver",
+    "tr": "Vancouver"
    },
    "climate": {
     "jun": {
@@ -659,7 +771,16 @@
     "ja": "フィラデルフィアスタジアム",
     "ko": "필라델피아 스타디움",
     "id": "Stadion Philadelphia",
-    "ru": "Филадельфия-стейдиум"
+    "ru": "Филадельфия-стейдиум",
+    "uz": "Filadelfiya stadioni",
+    "fa": "ورزشگاه فیلادلفیا",
+    "uk": "Стадіон Філадельфія",
+    "nl": "Philadelphia Stadium",
+    "sv": "Philadelphia Stadium",
+    "no": "Philadelphia Stadium",
+    "cs": "Philadelphia Stadium",
+    "hr": "Philadelphia Stadium",
+    "tr": "Philadelphia Stadium"
    },
    "cityName": {
     "en": "Philadelphia",
@@ -675,7 +796,14 @@
     "id": "Philadelphia",
     "ru": "Филадельфия",
     "fa": "فیلادلفیا",
-    "uk": "Філадельфія"
+    "uk": "Філадельфія",
+    "cs": "Filadelfie",
+    "uz": "Filadelfiya",
+    "nl": "Philadelphia",
+    "sv": "Philadelphia",
+    "no": "Philadelphia",
+    "hr": "Philadelphia",
+    "tr": "Philadelphia"
    },
    "climate": {
     "jun": {
@@ -749,7 +877,16 @@
     "ja": "ボストンスタジアム",
     "ko": "보스턴 스타디움",
     "id": "Stadion Boston",
-    "ru": "Бостон-стейдиум"
+    "ru": "Бостон-стейдиум",
+    "uz": "Boston stadioni",
+    "fa": "ورزشگاه بوستون",
+    "uk": "Стадіон Бостон",
+    "nl": "Boston Stadium",
+    "sv": "Boston Stadium",
+    "no": "Boston Stadium",
+    "cs": "Boston Stadium",
+    "hr": "Boston Stadium",
+    "tr": "Boston Stadium"
    },
    "cityName": {
     "en": "Boston",
@@ -765,7 +902,14 @@
     "id": "Boston",
     "ru": "Бостон",
     "fa": "فاکسبورو (بوستون)",
-    "uk": "Фоксборо (Бостон)"
+    "uk": "Фоксборо (Бостон)",
+    "nl": "Boston",
+    "sv": "Boston",
+    "no": "Boston",
+    "cs": "Boston",
+    "hr": "Boston",
+    "tr": "Boston",
+    "uz": "Boston"
    },
    "climate": {
     "jun": {
@@ -840,7 +984,16 @@
     "ja": "ヒューストンスタジアム",
     "ko": "휴스턴 스타디움",
     "id": "Stadion Houston",
-    "ru": "Хьюстон-стейдиум"
+    "ru": "Хьюстон-стейдиум",
+    "uz": "Xyuston stadioni",
+    "fa": "ورزشگاه هیوستون",
+    "uk": "Стадіон Х'юстон",
+    "nl": "Houston Stadium",
+    "sv": "Houston Stadium",
+    "no": "Houston Stadium",
+    "cs": "Houston Stadium",
+    "hr": "Houston Stadium",
+    "tr": "Houston Stadium"
    },
    "cityName": {
     "en": "Houston",
@@ -856,7 +1009,14 @@
     "id": "Houston",
     "ru": "Хьюстон",
     "fa": "هیوستون",
-    "uk": "Х’юстон"
+    "uk": "Х’юстон",
+    "uz": "Xyuston",
+    "nl": "Houston",
+    "sv": "Houston",
+    "no": "Houston",
+    "cs": "Houston",
+    "hr": "Houston",
+    "tr": "Houston"
    },
    "climate": {
     "jun": {
@@ -931,7 +1091,16 @@
     "ja": "グアダラハラスタジアム",
     "ko": "과달라하라 스타디움",
     "id": "Stadion Guadalajara",
-    "ru": "Гвадалахара-стейдиум"
+    "ru": "Гвадалахара-стейдиум",
+    "uz": "Gvadalaxara stadioni",
+    "fa": "ورزشگاه گوادالاخارا",
+    "uk": "Стадіон Гвадалахара",
+    "nl": "Guadalajara Stadium",
+    "sv": "Guadalajara Stadium",
+    "no": "Guadalajara Stadium",
+    "cs": "Guadalajara Stadium",
+    "hr": "Guadalajara Stadium",
+    "tr": "Guadalajara Stadium"
    },
    "cityName": {
     "en": "Guadalajara",
@@ -947,7 +1116,14 @@
     "id": "Guadalajara",
     "ru": "Гвадалахара",
     "fa": "ساپوپان (گوادالاخارا)",
-    "uk": "Сапопан (Гвадалахара)"
+    "uk": "Сапопан (Гвадалахара)",
+    "uz": "Gvadalaxara",
+    "nl": "Guadalajara",
+    "sv": "Guadalajara",
+    "no": "Guadalajara",
+    "cs": "Guadalajara",
+    "hr": "Guadalajara",
+    "tr": "Guadalajara"
    },
    "climate": {
     "jun": {
@@ -1019,7 +1195,16 @@
     "ja": "カンザスシティスタジアム",
     "ko": "캔자스시티 스타디움",
     "id": "Stadion Kansas City",
-    "ru": "Kansas City Stadium"
+    "ru": "Kansas City Stadium",
+    "uz": "Kanzas-Siti stadioni",
+    "fa": "ورزشگاه کانزاس‌سیتی",
+    "uk": "Стадіон Канзас-Сіті",
+    "nl": "Kansas City Stadium",
+    "sv": "Kansas City Stadium",
+    "no": "Kansas City Stadium",
+    "cs": "Kansas City Stadium",
+    "hr": "Kansas City Stadium",
+    "tr": "Kansas City Stadium"
    },
    "cityName": {
     "en": "Kansas City",
@@ -1035,7 +1220,14 @@
     "id": "Kota Kansas",
     "ru": "Канзас-Сити",
     "fa": "کانزاس‌سیتی",
-    "uk": "Канзас-Сіті"
+    "uk": "Канзас-Сіті",
+    "uz": "Kanzas-Siti",
+    "nl": "Kansas City",
+    "sv": "Kansas City",
+    "no": "Kansas City",
+    "cs": "Kansas City",
+    "hr": "Kansas City",
+    "tr": "Kansas City"
    },
    "climate": {
     "jun": {
@@ -1109,7 +1301,16 @@
     "ja": "サンフランシスコベイエリアスタジアム",
     "ko": "샌프란시스코 베이 에어리어 스타디움",
     "id": "Stadion San Francisco Bay Area",
-    "ru": "San Francisco Bay Area Stadium"
+    "ru": "San Francisco Bay Area Stadium",
+    "uz": "San-Fransisko ko‘rfazi stadioni",
+    "fa": "ورزشگاه منطقه خلیج سان‌فرانسیسکو",
+    "uk": "Стадіон Сан-Франциско-Бей",
+    "nl": "San Francisco Bay Area Stadium",
+    "sv": "San Francisco Bay Area Stadium",
+    "no": "San Francisco Bay Area Stadium",
+    "cs": "San Francisco Bay Area Stadium",
+    "hr": "San Francisco Bay Area Stadium",
+    "tr": "San Francisco Bay Area Stadium"
    },
    "cityName": {
     "en": "San Francisco Bay Area",
@@ -1125,7 +1326,14 @@
     "id": "Wilayah Teluk San Francisco",
     "ru": "область залива Сан-Франциско",
     "fa": "سانتا کلارا (منطقه خلیج)",
-    "uk": "Санта-Клара (затока СФ)"
+    "uk": "Санта-Клара (затока СФ)",
+    "uz": "San-Fransisko ko‘rfazi",
+    "nl": "San Francisco Bay Area",
+    "sv": "San Francisco Bay Area",
+    "no": "San Francisco Bay Area",
+    "cs": "San Francisco Bay Area",
+    "hr": "San Francisco Bay Area",
+    "tr": "San Francisco Bay Area"
    },
    "climate": {
     "jun": {
@@ -1199,7 +1407,16 @@
     "ja": "マイアミスタジアム",
     "ko": "마이애미 스타디움",
     "id": "Stadion Miami",
-    "ru": "Miami Stadium"
+    "ru": "Miami Stadium",
+    "uz": "Mayami stadioni",
+    "fa": "ورزشگاه میامی",
+    "uk": "Стадіон Маямі",
+    "nl": "Miami Stadium",
+    "sv": "Miami Stadium",
+    "no": "Miami Stadium",
+    "cs": "Miami Stadium",
+    "hr": "Miami Stadium",
+    "tr": "Miami Stadium"
    },
    "cityName": {
     "en": "Miami",
@@ -1215,7 +1432,14 @@
     "id": "Miami",
     "ru": "Майами",
     "fa": "میامی گاردنز",
-    "uk": "Маямі-Гарденс"
+    "uk": "Маямі-Гарденс",
+    "uz": "Mayami",
+    "nl": "Miami",
+    "sv": "Miami",
+    "no": "Miami",
+    "cs": "Miami",
+    "hr": "Miami",
+    "tr": "Miami"
    },
    "climate": {
     "jun": {
@@ -1290,7 +1514,16 @@
     "ja": "ダラススタジアム",
     "ko": "댈러스 스타디움",
     "id": "Stadion Dallas",
-    "ru": "Dallas Stadium"
+    "ru": "Dallas Stadium",
+    "uz": "Dallas stadioni",
+    "fa": "ورزشگاه دالاس",
+    "uk": "Стадіон Даллас",
+    "nl": "Dallas Stadium",
+    "sv": "Dallas Stadium",
+    "no": "Dallas Stadium",
+    "cs": "Dallas Stadium",
+    "hr": "Dallas Stadium",
+    "tr": "Dallas Stadium"
    },
    "cityName": {
     "en": "Dallas",
@@ -1306,7 +1539,14 @@
     "id": "Dallas",
     "ru": "Даллас",
     "fa": "آرلینگتون (دالاس)",
-    "uk": "Арлінгтон (Даллас)"
+    "uk": "Арлінгтон (Даллас)",
+    "nl": "Dallas",
+    "sv": "Dallas",
+    "no": "Dallas",
+    "cs": "Dallas",
+    "hr": "Dallas",
+    "tr": "Dallas",
+    "uz": "Dallas"
    },
    "climate": {
     "jun": {
@@ -1383,7 +1623,16 @@
     "ja": "ニューヨーク/ニュージャージースタジアム",
     "ko": "뉴욕/뉴저지 스타디움",
     "id": "Stadion New York/New Jersey",
-    "ru": "New York/New Jersey Stadium"
+    "ru": "New York/New Jersey Stadium",
+    "uz": "Nyu-York/Nyu-Jersi stadioni",
+    "fa": "ورزشگاه نیویورک/نیوجرسی",
+    "uk": "Стадіон Нью-Йорк/Нью-Джерсі",
+    "nl": "New York/New Jersey Stadium",
+    "sv": "New York/New Jersey Stadium",
+    "no": "New York/New Jersey Stadium",
+    "cs": "New York/New Jersey Stadium",
+    "hr": "New York/New Jersey Stadium",
+    "tr": "New York/New Jersey Stadium"
    },
    "cityName": {
     "en": "New Jersey",
@@ -1399,7 +1648,14 @@
     "id": "New Jersey",
     "ru": "Нью-Джерси",
     "fa": "ایست راترفورد (نیویورک)",
-    "uk": "Іст-Резерфорд (Нью-Йорк)"
+    "uk": "Іст-Резерфорд (Нью-Йорк)",
+    "uz": "Nyu-Jersi",
+    "nl": "New Jersey",
+    "sv": "New Jersey",
+    "no": "New Jersey",
+    "cs": "New Jersey",
+    "hr": "New Jersey",
+    "tr": "New Jersey"
    },
    "climate": {
     "jun": {

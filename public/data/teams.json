@@ -489,7 +489,7 @@
     "zh-TW": "哥倫比亞"
    },
    "iso2": "CO",
-   "ranking": 13,
+   "ranking": 14,
    "rankingPrev": 13,
    "baseCamp": {
     "city": "Guadalajara",
@@ -1317,7 +1317,7 @@
     "zh-TW": "沙烏地阿拉伯"
    },
    "iso2": "SA",
-   "ranking": 61,
+   "ranking": 60,
    "rankingPrev": 61,
    "baseCamp": {
     "city": "Austin",
@@ -1409,7 +1409,7 @@
     "zh-TW": "墨西哥"
    },
    "iso2": "MX",
-   "ranking": 15,
+   "ranking": 13,
    "rankingPrev": 14,
    "baseCamp": {
     "city": "Mexico City",
@@ -1774,7 +1774,7 @@
     "zh-TW": "南非"
    },
    "iso2": "ZA",
-   "ranking": 60,
+   "ranking": 61,
    "rankingPrev": 60,
    "baseCamp": {
     "city": "Pachuca",
@@ -1866,7 +1866,7 @@
     "zh-TW": "塞內加爾"
    },
    "iso2": "SN",
-   "ranking": 14,
+   "ranking": 15,
    "rankingPrev": 15,
    "baseCamp": {
     "city": "New Brunswick",

@@ -5,7 +5,7 @@ const fr: Dict = {
   appSub: 'États-Unis · Canada · Mexique',
   appFullName: 'Compagnon open source de la Coupe du Monde 2026',
   metaDesc:
-    'Coupe du Monde 2026 : calendrier, groupes, tableau, équipes, stades, météo, diffusion, probabilités de victoire et pronostics du tournoi, en 23 langues. PWA open source non officielle',
+    'Coupe du Monde 2026 : calendrier, groupes, tableau, équipes, stades, météo, diffusion, probabilités de victoire et pronostics du tournoi, en 23 langues. PWA open source non officielle',
   // nav
   navHome: 'Accueil',
   navMatches: 'Matchs',
@@ -72,6 +72,11 @@ const fr: Dict = {
   allStages: 'Toutes les phases',
   allVenues: 'Tous les stades',
   filters: 'Filtres',
+  colon: ' : ',
+  filterStageSel: '1 Phase',
+  filterVenueSel: '1 Stade',
+  filterTeamsSel: '{n} Équipes',
+  'filterTeamsSel#one': '{n} Équipe',
   clearFilters: 'Effacer les filtres',
   noMatchesFound: 'Aucun match ne correspond à ces filtres.',
   jumpOpener: "Match d'ouverture",
@@ -132,7 +137,7 @@ const fr: Dict = {
   navSim: 'Pronostics',
   simTitle: 'Pronostics du tournoi',
   simSub:
-    'Prédisez toute la Coupe du Monde en la simulant selon les probabilités du modèle : scores, classements, tableau, champion.',
+    'Prédisez toute la Coupe du Monde en la simulant selon les probabilités du modèle : scores, classements, tableau, champion.',
   simContinue: 'Garder les résultats réels, simuler le reste',
   simFresh: 'Tout resimuler',
   simRuns: 'Tirages',
@@ -190,7 +195,7 @@ const fr: Dict = {
   roofCanopy: 'Auvent',
   roofRetractable: 'Toit rétractable',
   roofFixed: 'Toit fixe',
-  localTime: 'Heure locale : ',
+  localTime: 'Heure locale : ',
   matchesAtVenue: 'Matchs dans ce stade',
   hostUS: 'États-Unis',
   hostCA: 'Canada',

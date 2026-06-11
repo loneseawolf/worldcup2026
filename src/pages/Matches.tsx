@@ -78,7 +78,6 @@ export default function Matches() {
   }, [teamsParam, teams])
 
   const anyFilter = stage !== '' || venueId !== '' || teamCodes.length > 0
-  const nActive = (stage !== '' ? 1 : 0) + (venueId !== '' ? 1 : 0) + (teamCodes.length > 0 ? 1 : 0)
 
   // mobile: collapsible filter panel; start open when arriving with filters in the URL
   // title-odds strip: deliberately dismissible (remembered); a tiny trophy
@@ -305,27 +304,19 @@ export default function Matches() {
               aria-expanded={open}
               onClick={() => setOpen((o) => !o)}
             >
-              {`${t('filterStage')} · ${t('filterVenue')} · ${t('filterTeams')} - ${t('filters')}`}
-              {nActive > 0 && <span className="chip chip-accent tnum">{nActive}</span>}
+              {`${t('filters')}${t('colon')}${stage ? t('filterStageSel') : t('filterStage')} · ${
+                venueId ? t('filterVenueSel') : t('filterVenue')
+              } · ${teamCodes.length > 0 ? t('filterTeamsSel', { n: teamCodes.length }) : t('filterTeams')}`}
             </button>
+            {anyFilter && (
+              <button type="button" className="btn" onClick={clearAll}>
+                {t('clearFilters')}
+              </button>
+            )}
           </div>
 
           <div className={`mxp-panel${open ? ' open' : ''}`}>
             <div className="mxp-panel-in">
-              <div className="mxp-row1">
-                {/* desktop-only summary */}
-                <div className="mxp-summary">
-                  {teamCodes.length > 0 && (
-                    <span className="muted small tnum">{t('selectedNTeams', { n: teamCodes.length })}</span>
-                  )}
-                  {anyFilter && (
-                    <button type="button" className="btn" onClick={clearAll}>
-                      {t('clearFilters')}
-                    </button>
-                  )}
-                </div>
-              </div>
-
               <div className="mxp-teams-row">
                 <div className="mxp-quick">
                   <button
@@ -376,15 +367,6 @@ export default function Matches() {
                 </div>
                 <div className="mxp-teams">{allCodes.map(teamChip)}</div>
               </div>
-
-              {/* mobile-only clear row */}
-              {anyFilter && (
-                <div className="mxp-clear-row">
-                  <button type="button" className="btn" onClick={clearAll}>
-                    {t('clearFilters')}
-                  </button>
-                </div>
-              )}
             </div>
           </div>
 

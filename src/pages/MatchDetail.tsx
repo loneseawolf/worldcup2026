@@ -283,8 +283,9 @@ export default function MatchDetail() {
             ) : (
               probs[m.id].ah != null && (
                 <div className="md-prob-adv small muted">
-                  {t('probAdvance')}: {m.home.code} {probs[m.id].ah}% · {m.away.code}{' '}
-                  {100 - (probs[m.id].ah ?? 0)}%
+                  {t('probAdvance')}
+                  {t('colon')}
+                  {m.home.code} {probs[m.id].ah}% · {m.away.code} {100 - (probs[m.id].ah ?? 0)}%
                 </div>
               )
             )}

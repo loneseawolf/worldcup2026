@@ -100,13 +100,6 @@
   }
 }
 
-/* selects + summary */
-.mxp-row1 {
-  display: flex;
-  align-items: flex-end;
-  gap: 10px;
-  flex-wrap: wrap;
-}
 /* label-less selects share the quick row, pushed to the end */
 .mxp-quick-selects {
   display: flex;
@@ -119,19 +112,6 @@
   padding: 4px 8px;
   max-width: 180px;
   min-width: 0;
-}
-.mxp-summary {
-  display: none;
-}
-@media (min-width: 760px) {
-  .mxp-summary {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-inline-start: auto;
-    padding-bottom: 7px;
-    white-space: nowrap;
-  }
 }
 
 /* team chips: fixed quick actions + scrollable 2-row strip of 48 teams */
@@ -179,16 +159,6 @@
   border-color: var(--accent);
   color: var(--accent-text);
   background: color-mix(in srgb, var(--accent) 10%, transparent);
-}
-
-/* mobile-only clear button row */
-.mxp-clear-row {
-  display: flex;
-}
-@media (min-width: 760px) {
-  .mxp-clear-row {
-    display: none;
-  }
 }
 
 /* day sections: sticky day headers stack below the sticky filter block */

@@ -44,7 +44,7 @@
   }
  ],
  "cards": {
-  "yellow": 7,
+  "yellow": 8,
   "red": 3,
   "players": [
    {
@@ -100,6 +100,13 @@
     "id": "492315",
     "name": "LEE Gihyuk",
     "code": "KOR",
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "480322",
+    "name": "Luc DE FOUGEROLLES",
+    "code": "CAN",
     "y": 1,
     "r": 0
    },

@@ -259,7 +259,7 @@
     "zh-TW": "波士尼亞與赫塞哥維納"
    },
    "iso2": "BA",
-   "ranking": 63,
+   "ranking": 61,
    "rankingPrev": 64,
    "baseCamp": {
     "city": "Sandy",
@@ -351,7 +351,7 @@
     "zh-TW": "加拿大"
    },
    "iso2": "CA",
-   "ranking": 31,
+   "ranking": 35,
    "rankingPrev": 30,
    "baseCamp": {
     "city": "Vancouver",
@@ -397,7 +397,7 @@
     "zh-TW": "象牙海岸"
    },
    "iso2": "CI",
-   "ranking": 33,
+   "ranking": 32,
    "rankingPrev": 33,
    "baseCamp": {
     "city": "Chester",
@@ -1593,7 +1593,7 @@
     "zh-TW": "巴拿馬"
    },
    "iso2": "PA",
-   "ranking": 34,
+   "ranking": 33,
    "rankingPrev": 34,
    "baseCamp": {
     "city": "New Tecumseth",
@@ -1774,7 +1774,7 @@
     "zh-TW": "南非"
    },
    "iso2": "ZA",
-   "ranking": 61,
+   "ranking": 62,
    "rankingPrev": 60,
    "baseCamp": {
     "city": "Pachuca",

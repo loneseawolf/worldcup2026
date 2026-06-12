@@ -1979,11 +1979,18 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "519954",
+     "minute": "21'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "17'",
+  "matchTime": "23'",
   "period": 3,
   "final": false
  }

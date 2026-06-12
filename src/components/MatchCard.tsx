@@ -83,7 +83,6 @@ function MatchCard({ match: m, hideDate = false, showWeather = false }: MatchCar
             {wmoEmoji(w.code)} {fmtTemp(w.tC, settings.units)}
           </span>
         )}
-        {m.status === 'live' && <span className="chip chip-live">{t('statusLive')}</span>}
       </div>
       <div className="mc-mid">
         <div className="mc-teams">
@@ -93,7 +92,11 @@ function MatchCard({ match: m, hideDate = false, showWeather = false }: MatchCar
         <div className="mc-when">
           {m.status === 'finished' ? (
             <div className="st">{t('statusFinished')}</div>
-          ) : m.status === 'live' ? null : (
+          ) : m.status === 'live' ? (
+            <div className="st">
+              <span className="chip chip-live">{t('statusLive')}</span>
+            </div>
+          ) : (
             <div className="tm">{fmtTime(m.date, locale, tz)}</div>
           )}
           {!hideDate && <div className="dt">{fmtDate(m.date, locale, tz)}</div>}

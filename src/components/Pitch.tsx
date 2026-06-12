@@ -110,7 +110,7 @@ function PlayerDot({ pl, side, card }: { pl: Placed; side: 'home' | 'away'; card
         textAnchor="middle"
         y={7.9}
         style={{
-          fontSize: 3,
+          fontSize: 2.4,
           fontWeight: 650,
           fill: '#ffffff',
           paintOrder: 'stroke',

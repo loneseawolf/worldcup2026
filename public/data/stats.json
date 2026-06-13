@@ -58,7 +58,7 @@
   }
  ],
  "cards": {
-  "yellow": 10,
+  "yellow": 12,
   "red": 3,
   "players": [
    {
@@ -132,6 +132,13 @@
     "r": 0
    },
    {
+    "id": "369761",
+    "name": "Miguel ALMIRON",
+    "code": "PAR",
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "403616",
     "name": "MOKOENA",
     "code": "RSA",
@@ -149,6 +156,13 @@
     "id": "463221",
     "name": "Nkosinathi SIBISI",
     "code": "RSA",
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "390238",
+    "name": "Tyler ADAMS",
+    "code": "USA",
     "y": 1,
     "r": 0
    }

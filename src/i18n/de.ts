@@ -143,7 +143,6 @@ const de: Dict = {
   simRuns: 'Durchläufe',
   simRunBtn: 'Prognose starten',
   simChampion: 'Weltmeister',
-  simOdds: 'Titelchancen ({n} Durchläufe)',
   simSample: 'Beispiel-Durchlauf',
   simAet: 'n.V.',
   podium2: 'Zweiter',

@@ -148,7 +148,6 @@ const ar: Dict = {
   simRuns: 'عدد المحاكاة',
   simRunBtn: 'تشغيل التوقعات',
   simChampion: 'البطل',
-  simOdds: 'فرص اللقب ({n} محاكاة)',
   simSample: 'محاكاة نموذجية',
   simAet: 'و.إ.',
   podium2: 'الوصيف',

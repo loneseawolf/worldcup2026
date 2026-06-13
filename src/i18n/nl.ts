@@ -143,7 +143,6 @@ const nl: Dict = {
   simRuns: 'Runs',
   simRunBtn: 'Prognose uitvoeren',
   simChampion: 'Kampioen',
-  simOdds: 'Titelkansen ({n} runs)',
   simSample: 'Voorbeeldrun',
   simAet: 'n.v.',
   podium2: 'Tweede',

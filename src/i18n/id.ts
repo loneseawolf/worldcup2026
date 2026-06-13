@@ -140,7 +140,6 @@ const id: Dict = {
   simRuns: 'Jumlah run',
   simRunBtn: 'Jalankan prediksi',
   simChampion: 'Juara',
-  simOdds: 'Peluang juara ({n} run)',
   simSample: 'Contoh run',
   simAet: 'p.w.',
   podium2: 'Runner-up',

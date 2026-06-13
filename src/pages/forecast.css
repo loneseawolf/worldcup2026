@@ -40,47 +40,12 @@
   margin: 0;
 }
 
-.sim-odds h2 {
-  font-size: 1rem;
-  margin: 0 0 10px;
-}
-.sim-odds-row {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  padding: 4px 0;
-}
-.sim-odds-name {
-  width: 150px;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 650;
-  font-size: 0.88rem;
-}
-.sim-odds-bar {
-  flex: 1;
-  height: 10px;
-  border-radius: 999px;
-  background: var(--chip-bg);
-  overflow: hidden;
-  direction: ltr;
-}
-.sim-odds-bar > span {
-  display: block;
-  height: 100%;
-  background: var(--accent);
-  border-radius: 999px;
-}
-.sim-odds-pct {
-  width: 52px;
-  text-align: end;
-  font-weight: 700;
-}
-
 .sim-champ {
   margin-top: 14px;
+}
+.sim-sample-h {
+  font-size: 1rem;
+  margin: 0 0 10px;
 }
 .sim-champ-row {
   display: flex;
@@ -287,6 +252,9 @@
 .sim-from .sim-radio {
   gap: 6px;
 }
+.sim-radio-off {
+  opacity: 0.55;
+}
 .sim-from input[type="radio"] {
   accent-color: var(--accent);
 }
@@ -389,13 +357,13 @@ input.sim-matchno {
   z-index: 2;
 }
 .fc-sec {
-  font-size: 0.66rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--text-3);
   font-weight: 750;
   padding: 5px 4px;
-  border-inline-start: 1px solid var(--border);
+  border-inline-start: 2px solid var(--border-strong);
 }
 .fc-col-btn {
   width: 100%;
@@ -422,7 +390,9 @@ input.sim-matchno {
   z-index: 3;
   background: var(--bg-elev);
   text-align: start;
-  min-width: 122px;
+  /* shrink-to-fit: the column is exactly as wide as the longest team name */
+  width: 1px;
+  white-space: nowrap;
 }
 .fc-table thead .fc-team-h {
   z-index: 4;
@@ -441,10 +411,7 @@ input.sim-matchno {
   color: var(--accent-text);
 }
 .fc-team-name {
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 132px;
 }
 .fc-cell {
   padding: 4px 7px;

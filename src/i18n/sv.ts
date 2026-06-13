@@ -142,7 +142,6 @@ const sv: Dict = {
   simRuns: 'Körningar',
   simRunBtn: 'Kör prognos',
   simChampion: 'Mästare',
-  simOdds: 'Titelchanser ({n} körningar)',
   simSample: 'Exempelkörning',
   simAet: 'e.f.',
   podium2: 'Tvåa',

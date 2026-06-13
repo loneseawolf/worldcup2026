@@ -27,9 +27,9 @@ export interface FcRow {
 type ColKey = Exclude<keyof FcRow, 'code'>
 
 const SECTIONS: { key: string; cols: ColKey[] }[] = [
+  { key: 'fcTop4', cols: ['oChamp', 'oRu', 'o3', 'o4'] },
+  { key: 'fcElim', cols: ['oQf', 'oR16', 'oR32', 'oGroup'] },
   { key: 'fcSeed', cols: ['s1', 's2', 's3'] },
-  { key: 'fcElim', cols: ['oGroup', 'oR32', 'oR16', 'oQf'] },
-  { key: 'fcTop4', cols: ['o4', 'o3', 'oRu', 'oChamp'] },
 ]
 const ALL_COLS = SECTIONS.flatMap((s) => s.cols)
 

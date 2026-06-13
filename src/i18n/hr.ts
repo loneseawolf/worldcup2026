@@ -143,7 +143,6 @@ const hr: Dict = {
   simRuns: 'Pokretanja',
   simRunBtn: 'Pokreni prognozu',
   simChampion: 'Prvak',
-  simOdds: 'Izgledi za naslov ({n} pokretanja)',
   simSample: 'Primjer simulacije',
   simAet: 'n.p.',
   podium2: '2. mjesto',

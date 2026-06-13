@@ -141,7 +141,6 @@ const uz: Dict = {
   simRuns: 'Yurgizishlar',
   simRunBtn: 'Prognozni boshlash',
   simChampion: 'Chempion',
-  simOdds: 'Chempionlik imkoniyati ({n} yurgizish)',
   simSample: 'Namuna yurgizish',
   simAet: 'q.v.',
   podium2: '2-oʻrin',

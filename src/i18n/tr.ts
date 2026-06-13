@@ -140,7 +140,6 @@ const tr: Dict = {
   simRuns: 'Çalıştırma',
   simRunBtn: 'Tahmini çalıştır',
   simChampion: 'Şampiyon',
-  simOdds: 'Şampiyonluk ihtimali ({n} çalıştırma)',
   simSample: 'Örnek çalıştırma',
   simAet: 'u.s.',
   podium2: 'İkinci',

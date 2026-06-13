@@ -143,7 +143,6 @@ const es: Dict = {
   simRuns: 'Simulaciones',
   simRunBtn: 'Ejecutar pronóstico',
   simChampion: 'Campeón',
-  simOdds: 'Probabilidad de título ({n} simulaciones)',
   simSample: 'Simulación de muestra',
   simAet: 'pr.',
   podium2: 'Subcampeón',

@@ -143,7 +143,6 @@ const en: Dict = {
   simRuns: 'Runs',
   simRunBtn: 'Run forecast',
   simChampion: 'Champion',
-  simOdds: 'Title odds ({n} runs)',
   simSample: 'Sample run',
   simAet: 'a.e.t.',
   podium2: 'Runner-up',

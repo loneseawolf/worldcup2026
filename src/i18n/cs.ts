@@ -142,7 +142,6 @@ const cs: Dict = {
   simRuns: 'Běhy',
   simRunBtn: 'Spustit prognózu',
   simChampion: 'Mistr',
-  simOdds: 'Šance na titul ({n} běhů)',
   simSample: 'Ukázkový běh',
   simAet: 'po prodl.',
   podium2: '2. místo',

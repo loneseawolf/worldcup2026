@@ -139,7 +139,6 @@ const ko: Dict = {
   simRuns: '실행 횟수',
   simRunBtn: '예측 실행',
   simChampion: '우승',
-  simOdds: '우승 확률({n}회 실행)',
   simSample: '샘플 실행',
   simAet: '연장',
   podium2: '준우승',

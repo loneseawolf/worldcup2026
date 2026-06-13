@@ -52,10 +52,16 @@ export default function Forecast() {
   })
 
   const anyFinished = useMemo(() => matches.some((m) => m.status === 'finished'), [matches])
+  // once the final is played, "Now" would just replay the real result (nothing left
+  // to simulate), so default to the opener and disable "Now"
+  const finalDone = useMemo(
+    () => matches.some((m) => m.stage === 'final' && m.status === 'finished'),
+    [matches],
+  )
   const [runs, setRuns] = useState(100)
 
   // ---- "simulate from" cut point ----
-  const [simMode, setSimMode] = useState<SimMode>('now')
+  const [simMode, setSimMode] = useState<SimMode>(finalDone ? 'opener' : 'now')
   const { minDate, maxDate } = useMemo(() => {
     const days = matches.map((m) => localDay(m.date)).sort()
     return { minDate: days[0] ?? '2026-06-11', maxDate: days[days.length - 1] ?? '2026-07-19' }
@@ -93,7 +99,6 @@ export default function Forecast() {
     return Math.round(lg <= 2 ? lg * 125 : lg <= 3 ? 250 + (lg - 2) * 250 : 500 + (lg - 3) * 500)
   }
   const [last, setLast] = useState<SimRun | null>(null)
-  const [odds, setOdds] = useState<{ code: string; wins: number }[] | null>(null)
   const [stats, setStats] = useState<FcRow[] | null>(null)
   const [ranToCount, setRanToCount] = useState(0)
   const [progress, setProgress] = useState<number | null>(null)
@@ -130,7 +135,6 @@ export default function Forecast() {
     if (!simModel || progress !== null) return
     const n = Math.min(Math.max(runs, 1), 10000)
     const keep = keepReal
-    const champs = new Map<string, number>()
     // per team: [g1,g2,g3,g4, group,r32,r16,qf, 4th,3rd,ru,champ]
     const agg = new Map<string, number[]>()
     const bump = (code: string, i: number) => {
@@ -148,7 +152,6 @@ export default function Forecast() {
       const upto = Math.min(done + BATCH, n)
       for (let i = done; i < upto; i++) {
         lastRun = runTournament(simModel, matches, venues, teams, keep)
-        champs.set(lastRun.champion, (champs.get(lastRun.champion) ?? 0) + 1)
         for (const rows of Object.values(lastRun.groupTables)) {
           for (let p = 0; p < rows.length && p < 4; p++) bump(rows[p].code, p)
         }
@@ -159,11 +162,6 @@ export default function Forecast() {
     }
     setLast(lastRun)
     setRanToCount(n)
-    setOdds(
-      n > 1
-        ? [...champs.entries()].map(([code, wins]) => ({ code, wins })).sort((a, b) => b.wins - a.wins)
-        : null,
-    )
     setStats(
       n > 1
         ? [...agg.entries()].map(([code, c]) => ({
@@ -201,6 +199,22 @@ export default function Forecast() {
     }
   }, [simModel])
 
+  // "Now" radio: first by default, but disabled and moved last once the final is done
+  const nowRadio = (
+    <div className={`sim-radio${finalDone ? ' sim-radio-off' : ''}`}>
+      <input
+        type="radio"
+        id="sf-now"
+        name="simfrom"
+        checked={simMode === 'now'}
+        disabled={finalDone}
+        onChange={() => setSimMode('now')}
+      />
+      <label htmlFor="sf-now">{t('jumpNow')}</label>
+      <InfoDot text={t('simNowTip')} />
+    </div>
+  )
+
   return (
     <div className="sim-page">
       <div className="page-head">
@@ -212,17 +226,7 @@ export default function Forecast() {
         {anyFinished && (
           <div className="sim-from" role="radiogroup" aria-label={t('simFrom')}>
             <span className="sim-from-label">{t('simFrom')}</span>
-            <div className="sim-radio">
-              <input
-                type="radio"
-                id="sf-now"
-                name="simfrom"
-                checked={simMode === 'now'}
-                onChange={() => setSimMode('now')}
-              />
-              <label htmlFor="sf-now">{t('jumpNow')}</label>
-              <InfoDot text={t('simNowTip')} />
-            </div>
+            {!finalDone && nowRadio}
             <div className="sim-radio">
               <input
                 type="radio"
@@ -282,6 +286,7 @@ export default function Forecast() {
               />
               <InfoDot text={t('simMatchTip')} />
             </div>
+            {finalDone && nowRadio}
           </div>
         )}
         <div className="sim-runs">
@@ -323,24 +328,6 @@ export default function Forecast() {
         <p className="muted small sim-note">{t('probNote')}</p>
       </div>
 
-      {odds && (
-        <section className="card card-pad sim-odds">
-          <h2>{t('simOdds', { n: ranToCount })}</h2>
-          <div className="sim-odds-list">
-            {odds.slice(0, 12).map(({ code, wins }) => (
-              <div key={code} className="sim-odds-row">
-                <Flag team={teams[code]} size={20} />
-                <span className="sim-odds-name">{pick(teams[code]?.name, code)}</span>
-                <span className="sim-odds-bar">
-                  <span style={{ width: `${(wins / ranToCount) * 100}%` }} />
-                </span>
-                <span className="sim-odds-pct tnum">{((wins / ranToCount) * 100).toFixed(1)}%</span>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
-
       {stats && (
         <section className="card card-pad fc-section">
           <h2>{t('fcTitle', { n: ranToCount })}</h2>
@@ -351,7 +338,7 @@ export default function Forecast() {
       {last && (
         <>
           <section className="card card-pad sim-champ">
-            {ranToCount > 1 && <div className="muted small">{t('simSample')}</div>}
+            {ranToCount > 1 && <h2 className="sim-sample-h">{t('simSample')}</h2>}
             <div className="sim-champ-row">
               <Flag team={teams[last.champion]} size={44} />
               <div>

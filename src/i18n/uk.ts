@@ -143,7 +143,6 @@ const uk: Dict = {
   simRuns: 'Прогонів',
   simRunBtn: 'Запустити прогноз',
   simChampion: 'Чемпіон',
-  simOdds: 'Шанси на титул ({n} прогонів)',
   simSample: 'Приклад прогону',
   simAet: 'д.ч.',
   podium2: '2-ге місце',

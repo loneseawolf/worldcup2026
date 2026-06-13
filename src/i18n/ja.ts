@@ -139,7 +139,6 @@ const ja: Dict = {
   simRuns: '回数',
   simRunBtn: '予想を実行',
   simChampion: '優勝',
-  simOdds: '優勝確率({n}回)',
   simSample: 'サンプル実行',
   simAet: '延長',
   podium2: '準優勝',

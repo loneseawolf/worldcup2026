@@ -143,7 +143,6 @@ const ru: Dict = {
   simRuns: 'Прогонов',
   simRunBtn: 'Запустить прогноз',
   simChampion: 'Чемпион',
-  simOdds: 'Шансы на титул ({n} прогонов)',
   simSample: 'Пример прогона',
   simAet: 'д.в.',
   podium2: '2-е место',

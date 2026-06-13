@@ -142,7 +142,6 @@ const no: Dict = {
   simRuns: 'Kjøringer',
   simRunBtn: 'Kjør prognose',
   simChampion: 'Mester',
-  simOdds: 'Tittelsjanser ({n} kjøringer)',
   simSample: 'Eksempelkjøring',
   simAet: 'e.e.o.',
   podium2: '2. plass',

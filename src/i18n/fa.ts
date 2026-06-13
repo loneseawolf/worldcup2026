@@ -140,7 +140,6 @@ const fa: Dict = {
   simRuns: 'تعداد اجرا',
   simRunBtn: 'اجرای پیش‌بینی',
   simChampion: 'قهرمان',
-  simOdds: 'شانس قهرمانی ({n} اجرا)',
   simSample: 'اجرای نمونه',
   simAet: 'و.ا.',
   podium2: 'نایب‌قهرمان',

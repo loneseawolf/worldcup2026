@@ -2427,6 +2427,12 @@
      "on": "419082",
      "minute": "72'",
      "period": 5
+    },
+    {
+     "off": "448214",
+     "on": "419068",
+     "minute": "82'",
+     "period": 5
     }
    ]
   },
@@ -2742,6 +2748,18 @@
      "minute": "53'",
      "card": 1,
      "period": 5
+    },
+    {
+     "player": "463128",
+     "minute": "79'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "485802",
+     "minute": "88'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": [
@@ -2756,10 +2774,28 @@
      "on": "485802",
      "minute": "62'",
      "period": 5
+    },
+    {
+     "off": "369761",
+     "on": "463125",
+     "minute": "79'",
+     "period": 5
+    },
+    {
+     "off": "479601",
+     "on": "486875",
+     "minute": "79'",
+     "period": 5
+    },
+    {
+     "off": "463128",
+     "on": "386458",
+     "minute": "79'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "76'",
+  "matchTime": "90'",
   "period": 5,
   "final": false
  }

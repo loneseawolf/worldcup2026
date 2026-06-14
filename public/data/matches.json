@@ -598,10 +598,10 @@
    "date": "2026-06-14T20:00:00Z",
    "venueId": "400257526",
    "status": "live",
-   "time": "57'",
+   "time": "73'",
    "home": {
     "code": "NED",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -612,7 +612,7 @@
    "phA": "F1",
    "phB": "F2",
    "winner": null,
-   "attendance": null,
+   "attendance": 69285,
    "officials": [
     {
      "id": "392406",

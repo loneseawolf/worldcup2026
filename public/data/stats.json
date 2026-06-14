@@ -92,6 +92,13 @@
    "ownGoals": 0
   },
   {
+   "id": "492363",
+   "name": "NMECHA",
+   "code": "GER",
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "356731",
    "name": "RAÚL",
    "code": "MEX",
@@ -276,11 +283,11 @@
   "as": 1
  },
  "fastestGoal": {
-  "min": 9,
-  "minute": "9'",
-  "name": "Julian QUINONES",
-  "code": "MEX",
-  "id": "400021443"
+  "min": 6,
+  "minute": "6'",
+  "name": "NMECHA",
+  "code": "GER",
+  "id": "400021464"
  },
  "suspensions": {
   "MEX": [

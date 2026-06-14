@@ -107,7 +107,7 @@
   }
  ],
  "cards": {
-  "yellow": 21,
+  "yellow": 22,
   "red": 3,
   "players": [
    {
@@ -130,6 +130,13 @@
     "code": "RSA",
     "y": 0,
     "r": 1
+   },
+   {
+    "id": "442428",
+    "name": "Aaron HICKEY",
+    "code": "SCO",
+    "y": 1,
+    "r": 0
    },
    {
     "id": "485802",
@@ -240,13 +247,6 @@
     "id": "403616",
     "name": "MOKOENA",
     "code": "RSA",
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "489520",
-    "name": "Nikola KATIC",
-    "code": "BIH",
     "y": 1,
     "r": 0
    }

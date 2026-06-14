@@ -538,16 +538,16 @@
    "group": "E",
    "date": "2026-06-14T17:00:00Z",
    "venueId": "400249385",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "2'",
    "home": {
     "code": "GER",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CUW",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "E1",

@@ -244,7 +244,7 @@
    "date": "2026-06-14T01:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "23'",
+   "time": "38'",
    "home": {
     "code": "HAI",
     "score": 0,
@@ -252,7 +252,7 @@
    },
    "away": {
     "code": "SCO",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "C3",

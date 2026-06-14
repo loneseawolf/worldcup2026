@@ -627,7 +627,7 @@
     "zh-TW": "古拉索"
    },
    "iso2": "CW",
-   "ranking": 83,
+   "ranking": 82,
    "rankingPrev": 82,
    "baseCamp": {
     "city": "Boca Raton",
@@ -1041,7 +1041,7 @@
     "zh-TW": "海地"
    },
    "iso2": "HT",
-   "ranking": 80,
+   "ranking": 84,
    "rankingPrev": 83,
    "baseCamp": {
     "city": "Galloway",
@@ -1820,7 +1820,7 @@
     "uk": "Шотландія"
    },
    "iso2": "GB-SCT",
-   "ranking": 41,
+   "ranking": 37,
    "rankingPrev": 42,
    "baseCamp": {
     "city": "Charlotte",
@@ -1958,7 +1958,7 @@
     "zh-TW": "瑞典"
    },
    "iso2": "SE",
-   "ranking": 38,
+   "ranking": 39,
    "rankingPrev": 38,
    "baseCamp": {
     "city": "Frisco",

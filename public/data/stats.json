@@ -107,7 +107,7 @@
   }
  ],
  "cards": {
-  "yellow": 20,
+  "yellow": 21,
   "red": 3,
   "players": [
    {
@@ -181,6 +181,13 @@
     "r": 0
    },
    {
+    "id": "430697",
+    "name": "Jean-Ricner BELLEGARDE",
+    "code": "HAI",
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "519954",
     "name": "Jovo LUKIC",
     "code": "BIH",
@@ -240,13 +247,6 @@
     "id": "489520",
     "name": "Nikola KATIC",
     "code": "BIH",
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "463221",
-    "name": "Nkosinathi SIBISI",
-    "code": "RSA",
     "y": 1,
     "r": 0
    }

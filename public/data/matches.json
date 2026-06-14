@@ -479,16 +479,16 @@
    "group": "E",
    "date": "2026-06-14T23:00:00Z",
    "venueId": "400248622",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "1'",
    "home": {
     "code": "CIV",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ECU",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "E3",

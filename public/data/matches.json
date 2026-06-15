@@ -893,7 +893,7 @@
    "date": "2026-06-15T19:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "45'",
+   "time": null,
    "home": {
     "code": "BEL",
     "score": 0,

@@ -716,7 +716,7 @@
    "date": "2026-06-15T22:00:00Z",
    "venueId": "400257525",
    "status": "live",
-   "time": "74'",
+   "time": "88'",
    "home": {
     "code": "KSA",
     "score": 1,
@@ -724,13 +724,13 @@
    },
    "away": {
     "code": "URU",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "H3",
    "phB": "H4",
    "winner": null,
-   "attendance": null,
+   "attendance": 62764,
    "officials": [
     {
      "id": "415965",

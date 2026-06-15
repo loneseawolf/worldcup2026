@@ -11602,7 +11602,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Maxim_De_Cuyper",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -11852,7 +11852,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/SSC_Napoli",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Romelu_Lukaku",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -12096,7 +12096,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Ain_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Ramy_Rabia",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -12330,7 +12330,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Hamza_Abdelkarim",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -12420,7 +12420,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Zizo_(footballer)",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -13900,7 +13900,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al-Ula_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Mohammed_Al-Owais",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -13972,7 +13972,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Abdulelah_Al-Amri",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -13990,7 +13990,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Hassan_Al-Tambakti",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14008,7 +14008,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/RC_Lens",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Saud_Abdulhamid",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14062,7 +14062,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Moteb_Al-Harbi",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14098,7 +14098,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Mohammed_Abu_Al-Shamat",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14134,7 +14134,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Musab_Al-Juwayr",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14152,7 +14152,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Abdullah_Al-Khaibari",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14206,7 +14206,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Mohamed_Kanno",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14242,7 +14242,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Firas_Al-Buraikan",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14260,7 +14260,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Salem_Al-Dawsari",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14874,7 +14874,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Estudiantes_de_La_Plata",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Fernando_Muslera",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14910,7 +14910,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_C%C3%A1ceres",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14946,7 +14946,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Guillermo_Varela",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14964,7 +14964,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/SSC_Napoli",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Math%C3%ADas_Olivera",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -14982,7 +14982,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Mat%C3%ADas_Vi%C3%B1a",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -15018,7 +15018,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Manuel_Ugarte_(footballer)",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -15036,7 +15036,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Bentancur",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -15072,7 +15072,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Federico_Valverde",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -15144,7 +15144,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Maximiliano_Ara%C3%BAjo",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -15216,7 +15216,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Darwin_N%C3%BA%C3%B1ez",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -15288,7 +15288,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Real_Oviedo",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Federico_Vi%C3%B1as",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0

@@ -282,7 +282,7 @@
   }
  ],
  "cards": {
-  "yellow": 38,
+  "yellow": 39,
   "red": 3,
   "players": [
    {
@@ -374,6 +374,14 @@
     "r": 0
    },
    {
+    "id": "448373",
+    "name": "DE CUYPER",
+    "code": "BEL",
+    "no": 5,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "463128",
     "name": "Diego GOMEZ",
     "code": "PAR",
@@ -434,14 +442,6 @@
     "name": "Jovo LUKIC",
     "code": "BIH",
     "no": 25,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "479601",
-    "name": "Juan Jose CACERES",
-    "code": "PAR",
-    "no": 4,
     "y": 1,
     "r": 0
    }

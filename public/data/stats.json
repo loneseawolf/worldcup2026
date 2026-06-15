@@ -274,7 +274,7 @@
   }
  ],
  "cards": {
-  "yellow": 35,
+  "yellow": 37,
   "red": 3,
   "players": [
    {
@@ -338,6 +338,14 @@
     "name": "CASEMIRO",
     "code": "BRA",
     "no": 5,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "411443",
+    "name": "CASTAGNE",
+    "code": "BEL",
+    "no": 21,
     "y": 1,
     "r": 0
    },
@@ -426,14 +434,6 @@
     "name": "Junior ALONSO",
     "code": "PAR",
     "no": 6,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "484051",
-    "name": "Kenny McLEAN",
-    "code": "SCO",
-    "no": 23,
     "y": 1,
     "r": 0
    }

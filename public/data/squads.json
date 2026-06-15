@@ -11674,7 +11674,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Timothy_Castagne",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -12278,7 +12278,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Marwan_Attia",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -14535,9 +14535,9 @@
     "dob": "1998-07-22",
     "caps": 24,
     "goals": 1,
-    "club": "Chelsea",
-    "clubNat": "ENG",
-    "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+    "club": "Real Madrid",
+    "clubNat": "ESP",
+    "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Marc_Cucurella",
     "wcApps": 1,

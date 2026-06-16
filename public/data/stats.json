@@ -17,6 +17,14 @@
    "ownGoals": 0
   },
   {
+   "id": "405454",
+   "name": "JUST",
+   "code": "NZL",
+   "no": 11,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "489688",
    "name": "Yasin AYARI",
    "code": "SWE",
@@ -145,14 +153,6 @@
    "ownGoals": 0
   },
   {
-   "id": "405454",
-   "name": "JUST",
-   "code": "NZL",
-   "no": 11,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
    "id": "448557",
    "name": "KAMADA",
    "code": "JPN",
@@ -172,6 +172,14 @@
    "id": "494989",
    "name": "Livano COMENENCIA",
    "code": "CUW",
+   "no": 8,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "448497",
+   "name": "M.MOHEBBI",
+   "code": "IRN",
    "no": 8,
    "goals": 1,
    "ownGoals": 0

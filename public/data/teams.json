@@ -167,7 +167,7 @@
     "zh-TW": "奧地利"
    },
    "iso2": "AT",
-   "ranking": 23,
+   "ranking": 24,
    "rankingPrev": 24,
    "baseCamp": {
     "city": "Goleta",
@@ -1087,7 +1087,7 @@
     "zh-TW": "伊朗"
    },
    "iso2": "IR",
-   "ranking": 25,
+   "ranking": 23,
    "rankingPrev": 20,
    "baseCamp": {
     "city": "Tijuana",
@@ -1547,7 +1547,7 @@
     "zh-TW": "紐西蘭"
    },
    "iso2": "NZ",
-   "ranking": 79,
+   "ranking": 82,
    "rankingPrev": 85,
    "baseCamp": {
     "city": "San Diego",

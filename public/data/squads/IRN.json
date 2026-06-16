@@ -90,7 +90,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Sepahan_S.C.",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Ehsan_Hajsafi",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -271,7 +271,7 @@
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Mohammad_Mohebi",
    "wcApps": 1,
-   "wcGoals": 0,
+   "wcGoals": 1,
    "wcYellow": 0,
    "wcRed": 0
   },

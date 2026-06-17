@@ -1128,11 +1128,11 @@
    "group": "J",
    "date": "2026-06-17T04:00:00Z",
    "venueId": "400257521",
-   "status": "live",
-   "time": "90'+2'",
+   "status": "finished",
+   "time": "103'",
    "home": {
     "code": "AUT",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {
@@ -1142,7 +1142,7 @@
    },
    "phA": "J3",
    "phB": "J4",
-   "winner": null,
+   "winner": "AUT",
    "attendance": 68527,
    "officials": [
     {

@@ -1241,6 +1241,29 @@ async function main() {
         )
       }
     }
+    // career caps/goals are a frozen pre-tournament snapshot: Wikipedia lists them
+    // "correct as of the start of the tournament", so we never overwrite the numbers
+    // we already have. the team page shows a live career total by adding this World
+    // Cup's tally on top (caps + wcApps, goals + wcGoals); freezing the base here is
+    // what keeps that sum from ever double-counting if an editor later folds the
+    // World Cup goals back into the wiki squad table. roster, club, position, captain
+    // and coach all still refresh from wiki every run; only caps/goals are pinned.
+    for (const [code, sq] of Object.entries(squads)) {
+      const prev = oldSquads[code]
+      if (!prev) continue // first time we see this team: keep the fresh wiki numbers
+      const byId = {}
+      const byNo = {}
+      for (const op of prev.players || []) {
+        if (op.id) byId[op.id] = op
+        if (op.no != null) byNo[op.no] = op
+      }
+      for (const p of sq.players || []) {
+        const op = byId[p.id] ?? (p.no != null ? byNo[p.no] : null)
+        if (!op) continue // newly added player: keep the fresh wiki numbers as the base
+        if (op.caps != null) p.caps = op.caps // gap-fill only: a null base still takes wiki
+        if (op.goals != null) p.goals = op.goals
+      }
+    }
     const sizes = Object.values(squads).map((s) => s.players.length)
     log(`wiki squads: ${Object.keys(squads).length} teams, ${sizes.reduce((a, b) => a + b, 0)} players`)
     for (const [code, s] of Object.entries(squads)) {

@@ -63,8 +63,10 @@ function PlayerCard({ p }: { p: SquadPlayer }) {
   const age = p.dob ? ageFrom(p.dob) : null
   const showStats = p.caps !== null || p.goals !== null || (p.wcApps ?? 0) > 0 || (p.wcGoals ?? 0) > 0
 
-  // "<n> Apps (<g>⚽)" — first segment is this World Cup, second the national-team
-  // career; each gets its own hover tooltips for apps and goals
+  // "<n> Apps (<g>⚽)" — first segment is this World Cup alone, second the running
+  // national-team career total (frozen pre-tournament base + this World Cup's tally,
+  // so the career figure stays live without double-counting); each gets its own hover
+  // tooltips for apps and goals
   const statSeg = (apps: number, g: number, appsTitle: string, goalsTitle: string) => (
     <span className="td-stat">
       <span className="td-apps" title={appsTitle}>
@@ -99,7 +101,12 @@ function PlayerCard({ p }: { p: SquadPlayer }) {
           <div className="td-p-row td-p-stats">
             {statSeg(p.wcApps ?? 0, p.wcGoals ?? 0, t('appsWc'), t('goalsWc'))}
             <span className="sep">·</span>
-            {statSeg(p.caps ?? 0, p.goals ?? 0, t('appsCareer'), t('goalsCareer'))}
+            {statSeg(
+              (p.caps ?? 0) + (p.wcApps ?? 0),
+              (p.goals ?? 0) + (p.wcGoals ?? 0),
+              t('appsCareer'),
+              t('goalsCareer'),
+            )}
           </div>
         )}
         {((p.wcYellow ?? 0) > 0 || (p.wcRed ?? 0) > 0) && (

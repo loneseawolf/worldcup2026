@@ -14355,7 +14355,14 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "441316",
+     "minute": "45'+5'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [
     {
      "player": "356532",
@@ -14366,8 +14373,8 @@
    ],
    "substitutions": []
   },
-  "matchTime": "44'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021507": {

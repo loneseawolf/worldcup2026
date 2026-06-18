@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 48,
+  "yellow": 49,
   "red": 3,
   "players": [
    {
@@ -430,6 +430,14 @@
     "r": 0
    },
    {
+    "id": "441242",
+    "name": "Cesar BLACKMAN",
+    "code": "PAN",
+    "no": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "356532",
     "name": "Chancel MBEMBA",
     "code": "COD",
@@ -474,14 +482,6 @@
     "name": "Ermedin DEMIROVIC",
     "code": "BIH",
     "no": 10,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "520217",
-    "name": "Findlay CURTIS",
-    "code": "SCO",
-    "no": 25,
     "y": 1,
     "r": 0
    }

@@ -161,6 +161,14 @@
    "ownGoals": 0
   },
   {
+   "id": "431200",
+   "name": "Daniel MUNOZ",
+   "code": "COL",
+   "no": 2,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "484851",
    "name": "Deniz UNDAV",
    "code": "GER",
@@ -308,14 +316,6 @@
    "id": "419100",
    "name": "Maxi ARAUJO",
    "code": "URU",
-   "no": 20,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "496358",
-   "name": "MBAYE",
-   "code": "SEN",
    "no": 20,
    "goals": 1,
    "ownGoals": 0

@@ -1582,7 +1582,7 @@
    "date": "2026-06-18T19:00:00Z",
    "venueId": "400017978",
    "status": "live",
-   "time": "59'",
+   "time": "72'",
    "home": {
     "code": "SUI",
     "score": 0,
@@ -1596,7 +1596,7 @@
    "phA": "B4",
    "phB": "B2",
    "winner": null,
-   "attendance": null,
+   "attendance": 70026,
    "officials": [
     {
      "id": "392268",

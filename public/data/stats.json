@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 55,
+  "yellow": 58,
   "red": 3,
   "players": [
    {
@@ -394,6 +394,14 @@
     "name": "Alistair JOHNSTON",
     "code": "CAN",
     "no": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "482976",
+    "name": "Amar DEDIC",
+    "code": "BIH",
+    "no": 7,
     "y": 1,
     "r": 0
    },
@@ -474,14 +482,6 @@
     "name": "DE CUYPER",
     "code": "BEL",
     "no": 5,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "463128",
-    "name": "Diego GOMEZ",
-    "code": "PAR",
-    "no": 8,
     "y": 1,
     "r": 0
    }

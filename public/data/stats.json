@@ -225,6 +225,14 @@
    "ownGoals": 0
   },
   {
+   "id": "405755",
+   "name": "Jaminton CAMPAZ",
+   "code": "COL",
+   "no": 21,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "484141",
    "name": "JOÃO NEVES",
    "code": "POR",
@@ -309,14 +317,6 @@
    "name": "Martin BATURINA",
    "code": "CRO",
    "no": 16,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "433795",
-   "name": "Mattias SVANBERG",
-   "code": "SWE",
-   "no": 19,
    "goals": 1,
    "ownGoals": 0
   }

@@ -8205,11 +8205,17 @@
      "minute": "16'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "448014",
+     "minute": "32'",
+     "card": 1,
+     "period": 3
     }
    ],
    "substitutions": []
   },
-  "matchTime": "30'",
+  "matchTime": "43'",
   "period": 3,
   "final": false
  },

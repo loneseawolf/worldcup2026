@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 63,
+  "yellow": 64,
   "red": 6,
   "players": [
    {
@@ -414,6 +414,14 @@
     "r": 0
    },
    {
+    "id": "448014",
+    "name": "Alessandro CIRCATI",
+    "code": "AUS",
+    "no": 3,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "485802",
     "name": "Alex ARCE",
     "code": "PAR",
@@ -474,14 +482,6 @@
     "name": "CASEMIRO",
     "code": "BRA",
     "no": 5,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "411443",
-    "name": "CASTAGNE",
-    "code": "BEL",
-    "no": 21,
     "y": 1,
     "r": 0
    }

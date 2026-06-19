@@ -152,6 +152,7 @@ export const COMMON_TZS = [
   'Asia/Shanghai',
   'Asia/Hong_Kong',
   'Asia/Taipei',
+  'Asia/Manila',
   'Asia/Singapore',
   'Asia/Seoul',
   'Asia/Tokyo',

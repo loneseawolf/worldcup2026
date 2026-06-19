@@ -10,6 +10,18 @@ Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikip
 
 README in [français](README.fr.md) · [中文](README.zh.md)
 
+## 🍴 Personal fork
+
+This is a personal fork of the excellent **[26worldcup/26worldcup.github.io](https://github.com/26worldcup/26worldcup.github.io)** by [Tom Chen](https://github.com/tomchen), used under its MIT license (see [LICENSE](LICENSE.md) / [COPYRIGHT](COPYRIGHT.md)). All credit for the original app — schedule, groups, bracket, squads, venues, weather, probabilities, the Monte-Carlo forecast, and 23 languages — goes to the upstream project.
+
+Personal additions in this fork:
+
+- 🌙 **Dark theme by default** and 🇵🇭 **Philippine Time (Asia/Manila)** as the default time zone (both still changeable in Settings).
+- 🏆 **Road to Finals** — pick a champion and see their projected knockout path (most-likely opponent, per-round win probability, difficulty, and cumulative title odds), override any matchup, and save/share the bracket via a link.
+- 📺 **Live TV** — a community live-stream index plus Philippine broadcasters.
+
+Live: **[loneseawolf.github.io/worldcup2026](https://loneseawolf.github.io/worldcup2026/)**
+
 ## ✨ Features
 
 ### 🏆 Tournament

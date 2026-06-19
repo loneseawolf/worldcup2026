@@ -57,11 +57,12 @@ function defaults(): Settings {
   }
   return {
     lang: detectLang(),
-    tzMode: 'local',
-    // host-country anchor: most matches and the final are on US Eastern time
-    fixedTz: 'America/New_York',
+    // personal default: anchor every kickoff to Philippine Time out of the box
+    tzMode: 'fixed',
+    fixedTz: 'Asia/Manila',
     favorites: [],
-    theme: 'auto',
+    // personal default: dark UI (the PWA manifest colors are already dark)
+    theme: 'dark',
     market: legacyMarket,
     units: detectCountry() === 'US' ? 'imperial' : 'metric',
   }

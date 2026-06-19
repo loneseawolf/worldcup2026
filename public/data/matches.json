@@ -1935,8 +1935,8 @@
    "group": "D",
    "date": "2026-06-19T19:00:00Z",
    "venueId": "400216606",
-   "status": "live",
-   "time": "87'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "USA",
     "score": 2,
@@ -1949,7 +1949,7 @@
    },
    "phA": "D1",
    "phB": "D3",
-   "winner": null,
+   "winner": "USA",
    "attendance": 66925,
    "officials": [
     {

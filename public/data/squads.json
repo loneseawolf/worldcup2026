@@ -5848,7 +5848,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Jacob_Italiano",
     "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -5938,7 +5938,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Harry_Souttar",
     "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -7264,7 +7264,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Chris_Richards_(soccer)",
     "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -7442,7 +7442,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Giovanni_Reyna",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 1,
     "wcYellow": 0,
     "wcRed": 0
@@ -7586,7 +7586,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Haji_Wright",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -7606,7 +7606,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Folarin_Balogun",
     "wcApps": 2,
     "wcGoals": 2,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {

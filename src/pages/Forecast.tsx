@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { Match } from '../types'
 import { useI18n } from '../i18n'
+import { useSettings } from '../settings/SettingsContext'
 import { useAppData, useData } from '../data/DataContext'
 import { runTournament } from '../sim/engine'
 import type { Outcome, SimRun, SimScore } from '../sim/engine'
@@ -46,11 +47,31 @@ const localDay = (iso: string): string => {
 
 export default function Forecast() {
   const { t, pick } = useI18n()
+  const { settings } = useSettings()
   const { matches, teams, venues } = useAppData()
   const { simModel, loadSimModel } = useData()
   useEffect(() => {
     loadSimModel()
   })
+
+  // name-sorted team list for the sample-run picker
+  const teamList = useMemo(
+    () =>
+      Object.values(teams)
+        .map((tm) => ({ code: tm.code, name: pick(tm.name, tm.code) }))
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    [teams, pick],
+  )
+  // the team the user follows in a sample run — defaults to their champion pick,
+  // then their first favorite, then the first team alphabetically
+  const [sampleTeam, setSampleTeam] = useState('')
+  useEffect(() => {
+    if (sampleTeam || !teamList.length) return
+    const fav = settings.favorites.find((c) => teams[c])
+    setSampleTeam(
+      (settings.champion && teams[settings.champion] && settings.champion) || fav || teamList[0].code,
+    )
+  }, [sampleTeam, teamList, settings, teams])
 
   const anyFinished = useMemo(() => matches.some((m) => m.status === 'finished'), [matches])
   // once the final is played, "Now" would just replay the real result (nothing left
@@ -182,6 +203,23 @@ export default function Forecast() {
         : null,
     )
     setProgress(null)
+  }
+
+  // roll a single tournament to inspect one possible bracket (the aggregate is
+  // untouched — this just replaces the sample shown below the table)
+  const runSample = () => {
+    if (!simModel || progress !== null) return
+    setLast(runTournament(simModel, matches, venues, teams, keepReal))
+  }
+
+  // map the followed team's outcome in the current sample to a result label
+  const sampleResultLabel = (o: Outcome): string => {
+    if (o === 'champ') return t('simChampion')
+    if (o === 'ru') return t('podium2')
+    if (o === 'third') return t('podium3')
+    if (o === 'fourth') return t('podium4')
+    const key = o === 'qf' ? 'stageQf' : o === 'r16' ? 'stageR16' : o === 'r32' ? 'stageR32' : 'stageGroup'
+    return t('simSampleOut', { stage: t(key) })
   }
 
   const koMatches = useMemo(
@@ -342,6 +380,34 @@ export default function Forecast() {
         </section>
       )}
 
+      <div className="card card-pad sim-sample-ctrl">
+        <span className="sim-sample-label">{t('simSampleRun')}</span>
+        <div className="sim-sample-row">
+          <label htmlFor="sim-sample-team">{t('simSampleTeamLabel')}</label>
+          <select
+            id="sim-sample-team"
+            className="input sim-sample-select"
+            value={sampleTeam}
+            onChange={(e) => setSampleTeam(e.target.value)}
+          >
+            {teamList.map((tm) => (
+              <option key={tm.code} value={tm.code}>
+                {tm.name}
+              </option>
+            ))}
+          </select>
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={runSample}
+            disabled={!simModel || progress !== null}
+          >
+            <Icon name="target" size={16} />
+            {t('simSamplePick')}
+          </button>
+        </div>
+      </div>
+
       {last && (
         <>
           <section className="card card-pad sim-champ">
@@ -374,6 +440,15 @@ export default function Forecast() {
                 ) : null,
               )}
             </div>
+            {sampleTeam && last.outcome[sampleTeam] && (
+              <div className="sim-sample-result">
+                <Flag team={teams[sampleTeam]} size={18} />
+                {t('simSampleResult', {
+                  team: pick(teams[sampleTeam]?.name, sampleTeam),
+                  result: sampleResultLabel(last.outcome[sampleTeam]),
+                })}
+              </div>
+            )}
           </section>
 
           <section className="sim-groups">
@@ -388,7 +463,10 @@ export default function Forecast() {
                       const third = i === 2
                       const q = i < 2 || (third && last.thirds.find((x) => x.code === r.code)?.qualifies)
                       return (
-                        <div key={r.code} className={`sim-group-row${q ? ' q' : ''}`}>
+                        <div
+                          key={r.code}
+                          className={`sim-group-row${q ? ' q' : ''}${r.code === sampleTeam ? ' sim-hl' : ''}`}
+                        >
                           <span className="tnum sim-pos">{i + 1}</span>
                           <Flag team={teams[r.code]} size={16} />
                           <span className="sim-team">{r.code}</span>
@@ -429,7 +507,7 @@ export default function Forecast() {
                   <h3>{t(key)}</h3>
                   <div className="sim-stage-grid">
                     {ms.map((m) => (
-                      <KoRow key={m.id} m={m} r={last.results[m.id]} />
+                      <KoRow key={m.id} m={m} r={last.results[m.id]} hlTeam={sampleTeam} />
                     ))}
                   </div>
                 </div>
@@ -442,13 +520,14 @@ export default function Forecast() {
   )
 }
 
-function KoRow({ m, r }: { m: Match; r: SimScore }) {
+function KoRow({ m, r, hlTeam }: { m: Match; r: SimScore; hlTeam?: string }) {
   const { teams } = useAppData()
   const { pick, t } = useI18n()
   const home = r.homeCode ?? m.home?.code
   const away = r.awayCode ?? m.away?.code
+  const hl = Boolean(hlTeam) && (home === hlTeam || away === hlTeam)
   return (
-    <div className="sim-ko-row">
+    <div className={`sim-ko-row${hl ? ' sim-hl' : ''}`}>
       <span className={`sim-ko-team${r.winner === home ? ' win' : ''}`}>
         <Flag team={home ? teams[home] : undefined} size={16} />
         {home ? pick(teams[home]?.name, home) : '—'}

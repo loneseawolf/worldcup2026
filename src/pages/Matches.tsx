@@ -98,6 +98,26 @@ export default function Matches() {
     }
   }
 
+  // schedule view: a window around "now" by default; the user can reveal the
+  // full list or collapse it entirely (remembered across visits)
+  const [scheduleMode, setScheduleModeState] = useState<'window' | 'full' | 'hidden'>(() => {
+    try {
+      const s = localStorage.getItem('wc2026-schedule-mode')
+      if (s === 'full' || s === 'hidden' || s === 'window') return s
+    } catch {
+      /* blocked storage */
+    }
+    return 'window'
+  })
+  const setScheduleMode = (v: 'window' | 'full' | 'hidden') => {
+    setScheduleModeState(v)
+    try {
+      localStorage.setItem('wc2026-schedule-mode', v)
+    } catch {
+      /* blocked storage */
+    }
+  }
+
   // filters panel: remembered across visits; first visit defaults to open on
   // wide screens, and to open-when-filters-active on narrow ones
   const [open, setOpenState] = useState(() => {
@@ -189,8 +209,41 @@ export default function Matches() {
     }
   }, [days, settings])
 
+  // default view: a window around "now" — yesterday → next ~3 days (or the first
+  // ~5 upcoming days pre-tournament). The user can expand to the full schedule.
+  const windowDays = useMemo(() => {
+    if (!days.length) return days
+    if (!jumps.nowMatchId) {
+      const fi = Math.max(
+        0,
+        days.findIndex(([k]) => k === jumps.nowFallbackDay),
+      )
+      return days.slice(fi, fi + 5)
+    }
+    const nowIdx = days.findIndex(([, ms]) => ms.some((m) => m.id === jumps.nowMatchId))
+    const i = nowIdx < 0 ? 0 : nowIdx
+    return days.slice(Math.max(0, i - 1), i + 4)
+  }, [days, jumps])
+
+  // a filter is an explicit search → always show every matching day. Otherwise
+  // honor the schedule mode.
+  const visibleDays =
+    scheduleMode === 'hidden' ? [] : scheduleMode === 'full' || anyFilter ? days : windowDays
+  const hiddenCount = days.length - windowDays.length
+
   const scrollToDay = (k: string | undefined, behavior: ScrollBehavior = 'smooth') => {
     if (k) document.getElementById(`mxp-day-${k}`)?.scrollIntoView({ block: 'start', behavior })
+  }
+
+  // jump shortcuts must mount the target day first: switch to the full schedule,
+  // then scroll once React has committed the now-visible days
+  const jumpToDay = (k: string | undefined) => {
+    setScheduleMode('full')
+    requestAnimationFrame(() => requestAnimationFrame(() => scrollToDay(k)))
+  }
+  const jumpNow = () => {
+    setScheduleMode('full')
+    requestAnimationFrame(() => requestAnimationFrame(() => goNow()))
   }
 
   // scroll a single match card clear of the sticky header + filter block + the
@@ -202,7 +255,12 @@ export default function Matches() {
     const head = el.closest('.mxp-day')?.querySelector<HTMLElement>('.day-head')
     const hdr =
       Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--hdr-h')) || 58
-    const offset = hdr + (stickyRef.current?.offsetHeight ?? 0) + (head?.offsetHeight ?? 0) + 4
+    const offset =
+      hdr +
+      (oddsRef.current?.offsetHeight ?? 0) +
+      (stickyRef.current?.offsetHeight ?? 0) +
+      (head?.offsetHeight ?? 0) +
+      4
     window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - offset, behavior })
   }
 
@@ -236,6 +294,20 @@ export default function Matches() {
     return () => ro.disconnect()
   }, [])
 
+  // the floating odds banner pins under the nav; expose its height so the filter
+  // block + day headers stack right below it (mirror of --mxp-sticky-h)
+  const oddsRef = useRef<HTMLDivElement>(null)
+  // biome-ignore lint/correctness/useExhaustiveDependencies: re-attach when the odds banner mounts (titleOdds becomes available)
+  useLayoutEffect(() => {
+    const el = oddsRef.current
+    if (!el) return
+    const set = () => el.parentElement?.style.setProperty('--mxp-odds-h', `${el.offsetHeight}px`)
+    set()
+    const ro = new ResizeObserver(set)
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [meta.titleOdds])
+
   const teamChip = (code: string) => {
     const team = teams[code]
     const on = teamCodes.includes(code)
@@ -254,58 +326,75 @@ export default function Matches() {
     )
   }
 
+  const titleOdds = meta.titleOdds
+
   return (
     <div className="mxp">
-      <HeroMatches />
-      <div className="mxp-sticky" ref={stickyRef}>
-        {meta.titleOdds && meta.titleOdds.length > 0 && (
-          <div className={`mxp-odds-wrap${oddsHidden ? '' : ' open'}`}>
-            <Link to="/forecast" className="mxp-odds" tabIndex={oddsHidden ? -1 : 0}>
-              {meta.titleOdds[0].p >= 100 ? (
-                <>
-                  <span className="mxp-odds-label">
-                    <Trophy size={17} /> {t('champion')}
-                  </span>
-                  <span className="mxp-odds-champ">
-                    <Flag team={teams[meta.titleOdds[0].c]} size={20} />
-                    {pick(teams[meta.titleOdds[0].c]?.name, meta.titleOdds[0].c)}
-                  </span>
-                </>
-              ) : (
-                <>
-                  <span className="mxp-odds-label">
-                    <Trophy size={17} /> {t('titleOdds')}
-                  </span>
-                  <span className="mxp-odds-list tnum">
-                    {meta.titleOdds.map((o) => (
-                      <span key={o.c} className="mxp-odds-item">
-                        <Flag team={teams[o.c]} size={16} />
-                        {o.p}%
+      {titleOdds && titleOdds.length > 0 && (
+        <div className={`mxp-odds-wrap${oddsHidden ? '' : ' open'}`} ref={oddsRef}>
+          <Link to="/forecast" className="mxp-odds" tabIndex={oddsHidden ? -1 : 0}>
+            {titleOdds[0].p >= 100 ? (
+              <div className="mxp-odds-decided">
+                <span className="mxp-odds-label">
+                  <Trophy size={18} /> {t('champion')}
+                </span>
+                <span className="mxp-odds-champ">
+                  <Flag team={teams[titleOdds[0].c]} size={28} />
+                  {pick(teams[titleOdds[0].c]?.name, titleOdds[0].c)}
+                </span>
+              </div>
+            ) : (
+              <>
+                <span className="mxp-odds-label">
+                  <Trophy size={18} /> {t('titleOdds')}
+                </span>
+                <ol className="mxp-odds-board tnum">
+                  {titleOdds.slice(0, 5).map((o) => (
+                    <li key={o.c} className="mxp-odds-row">
+                      <Flag team={teams[o.c]} size={20} />
+                      <span className="mxp-odds-name">{pick(teams[o.c]?.name, o.c)}</span>
+                      <span className="mxp-odds-bar">
+                        <span
+                          className="mxp-odds-fill"
+                          style={{ width: `${(o.p / titleOdds[0].p) * 100}%` }}
+                        />
                       </span>
-                    ))}
-                  </span>
-                </>
-              )}
-              <span className="mxp-odds-cta">{t('runForecast')} →</span>
-              <button
-                type="button"
-                className="mxp-odds-close"
-                aria-label={t('probHide')}
-                onClick={(e) => {
-                  e.preventDefault()
-                  e.stopPropagation()
-                  setOddsHidden(true)
-                }}
-              >
-                ×
-              </button>
-            </Link>
-          </div>
-        )}
+                      <span className="mxp-odds-pct">{o.p}%</span>
+                    </li>
+                  ))}
+                </ol>
+                <span className="mxp-odds-cta">{t('runForecast')} →</span>
+              </>
+            )}
+            <button
+              type="button"
+              className="mxp-odds-close"
+              aria-label={t('probHide')}
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setOddsHidden(true)
+              }}
+            >
+              ×
+            </button>
+          </Link>
+        </div>
+      )}
+      <HeroMatches />
+      <Link to="/pickems" className="mxp-cta">
+        <Icon name="pencil" size={22} className="mxp-cta-icon" />
+        <span className="mxp-cta-text">
+          <span className="mxp-cta-title">{t('pickemTitle')}</span>
+          <span className="mxp-cta-sub">{t('pickemCtaSub')}</span>
+        </span>
+        <span className="mxp-cta-arrow">→</span>
+      </Link>
+      <div className="mxp-sticky" ref={stickyRef}>
         <div className="page-head mxp-head">
           <h1>{t('navMatches')}</h1>
           <span className="mxp-head-right">
-            {meta.titleOdds && meta.titleOdds.length > 0 && (
+            {titleOdds && titleOdds.length > 0 && (
               <button
                 type="button"
                 className={`mxp-odds-restore${oddsHidden ? ' on' : ''}`}
@@ -398,20 +487,56 @@ export default function Matches() {
           </div>
 
           <div className="mxp-jump">
-            <button type="button" className="mxp-jump-btn" onClick={() => scrollToDay(jumps.opener)}>
+            <button type="button" className="mxp-jump-btn" onClick={() => jumpToDay(jumps.opener)}>
               {t('jumpOpener')}
             </button>
-            <button type="button" className="mxp-jump-btn" onClick={() => goNow()}>
+            <button type="button" className="mxp-jump-btn" onClick={jumpNow}>
               {t('jumpNow')}
             </button>
             {jumps.ko && (
-              <button type="button" className="mxp-jump-btn" onClick={() => scrollToDay(jumps.ko)}>
+              <button type="button" className="mxp-jump-btn" onClick={() => jumpToDay(jumps.ko)}>
                 {t('filterKnockout')}
               </button>
             )}
-            <button type="button" className="mxp-jump-btn" onClick={() => scrollToDay(jumps.final)}>
+            <button type="button" className="mxp-jump-btn" onClick={() => jumpToDay(jumps.final)}>
               {t('stageFinal')}
             </button>
+
+            {!anyFilter && days.length > 0 && (
+              <span className="mxp-sched">
+                {scheduleMode === 'hidden' ? (
+                  <button type="button" className="mxp-jump-btn" onClick={() => setScheduleMode('window')}>
+                    {t('schedShow')}
+                  </button>
+                ) : (
+                  <>
+                    {scheduleMode === 'full' ? (
+                      <button
+                        type="button"
+                        className="mxp-jump-btn"
+                        onClick={() => setScheduleMode('window')}
+                      >
+                        {t('schedShowLess')}
+                      </button>
+                    ) : (
+                      hiddenCount > 0 && (
+                        <button
+                          type="button"
+                          className="mxp-jump-btn"
+                          onClick={() => setScheduleMode('full')}
+                        >
+                          {t('schedShowFull')}
+                          <span className="mxp-sched-hint">{t('schedMoreDays', { n: hiddenCount })}</span>
+                        </button>
+                      )
+                    )}
+                    <button type="button" className="mxp-jump-btn" onClick={() => setScheduleMode('hidden')}>
+                      {t('schedHideAll')}
+                    </button>
+                  </>
+                )}
+              </span>
+            )}
           </div>
         </div>
       </div>
@@ -424,7 +549,7 @@ export default function Matches() {
           </button>
         </div>
       ) : (
-        days.map(([k, ms]) => {
+        visibleDays.map(([k, ms]) => {
           const first = ms[0]
           const tz0 = displayTz(settings, first.venueId ? venues[first.venueId] : null)
           const rel = relativeDay(first.date, tz0)

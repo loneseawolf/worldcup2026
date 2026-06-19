@@ -269,50 +269,7 @@ input.sim-matchno {
   text-align: center;
 }
 
-/* ============ info dot + tooltip ============ */
-.infodot {
-  position: relative;
-  display: inline-flex;
-  vertical-align: middle;
-}
-.infodot-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: none;
-  background: none;
-  color: var(--text-3);
-  cursor: pointer;
-  border-radius: 999px;
-}
-.infodot-btn:hover {
-  color: var(--accent-text);
-}
-.infodot-tip {
-  position: absolute;
-  z-index: 60;
-  inset-inline-start: 50%;
-  top: calc(100% + 6px);
-  transform: translateX(-50%);
-  width: max-content;
-  max-width: 240px;
-  padding: 7px 10px;
-  border-radius: var(--r-sm);
-  background: var(--text);
-  color: var(--bg-elev);
-  font-size: 0.76rem;
-  font-weight: 500;
-  line-height: 1.35;
-  text-align: start;
-  box-shadow: 0 4px 16px #0003;
-  display: none;
-}
-.infodot:hover .infodot-tip,
-.infodot:focus-within .infodot-tip,
-.infodot-tip.open {
-  display: block;
-}
+/* info dot + tooltip styles live in index.css (shared by InfoDot + Tip globally) */
 
 /* ============ outcome-probability table ============ */
 .fc-section h2 {

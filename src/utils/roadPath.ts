@@ -25,6 +25,10 @@ export interface RoundStep {
   /** champion's probability of advancing past this opponent (incl. ET/pens) */
   winProb: number
   difficulty: Difficulty
+  /** opponent's model Elo rating — drives the difficulty band (presentational) */
+  oppElo: number
+  /** champion-perspective 90' split (h = champion win) — for the advance tooltip */
+  prob90: { h: number; d: number; a: number }
   venueId: string | null
 }
 
@@ -226,7 +230,17 @@ export function buildRoadPath(
     const override = overrides[round]
     const opponent = override && override !== champion ? override : projectedOpponent
 
-    const winProb = opponent ? advanceProb(model, champion, opponent, vcOf(current)) : 0
+    // evaluate the model once, then derive both the advance odds (90' win + its
+    // share of draws decided in ET/pens, same formula as advanceProb) and the
+    // raw 90' split that the tooltip surfaces
+    const prob90 = opponent
+      ? (() => {
+          const { h, d, a } = pairProbs(model, champion, opponent, vcOf(current))
+          return { h, d, a }
+        })()
+      : { h: 0, d: 0, a: 0 }
+    const decisive = prob90.h + prob90.a
+    const winProb = opponent ? prob90.h + prob90.d * (decisive > 0 ? prob90.h / decisive : 0.5) : 0
     titleOdds *= winProb
     steps.push({
       round,
@@ -236,6 +250,8 @@ export function buildRoadPath(
       overridden: !!override && override !== projectedOpponent && override !== champion,
       winProb,
       difficulty: opponent ? difficultyOf(model, opponent) : 'easy',
+      oppElo: opponent ? eloOf(model, opponent) : DEFAULT_ELO,
+      prob90,
       venueId: current.venueId,
     })
 

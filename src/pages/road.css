@@ -215,6 +215,17 @@
   color: var(--text-3);
   font-weight: 650;
 }
+/* the Tip wrapper becomes the flex child, so it carries the push-to-end margin */
+.road-prob-wrap {
+  margin-inline-start: auto;
+}
+/* the advance-% sits at the row's end; anchor its tooltip to that end so the
+   240px popup extends inward instead of spilling past the card on narrow screens */
+.road-prob-wrap .infodot-tip {
+  inset-inline-start: auto;
+  inset-inline-end: 0;
+  transform: none;
+}
 .road-prob {
   margin-inline-start: auto;
   display: flex;

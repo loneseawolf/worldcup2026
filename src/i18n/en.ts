@@ -320,6 +320,9 @@ const en: Dict = {
   roadDiffEasy: 'Easy',
   roadDiffTough: 'Tough',
   roadDiffBrutal: 'Brutal',
+  roadDiffTip: '{label}: reflects {opp}’s overall strength — rating {elo}. (Brutal ≥ 2030, Tough ≥ 1900.)',
+  roadAdvanceTip:
+    '{champ}’s chance to get past {opp} and advance — through extra time and penalties if needed. Derived from the teams’ Elo ratings (plus home advantage when a host plays at home). Model 90′: {w}% win · {d}% draw · {l}% loss.',
   roadDisclaimer:
     'Opponents are the model’s most-likely qualifier for each slot (Elo-based), so the path assumes your team wins every round. Tap “Change opponent” to swap any matchup. Estimates, for fun only.',
   // stats

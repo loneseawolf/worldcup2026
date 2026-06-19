@@ -6,6 +6,7 @@ import { useSettings } from '../settings/SettingsContext'
 import TeamName from '../components/TeamName'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
+import Tip from '../components/Tip'
 import { STAGE_LABEL_KEY } from '../utils/helpers'
 import { buildRoadPath, ROUND_KEYS } from '../utils/roadPath'
 import type { Difficulty, RoundKey } from '../utils/roadPath'
@@ -246,13 +247,39 @@ export default function RoadToFinals() {
                     <span className="road-vs">{t('vs')}</span>
                     {s.opponent ? <TeamName code={s.opponent} /> : <span className="muted">{t('tbd')}</span>}
                     {s.opponent && (
-                      <span className={`chip road-diff-${s.difficulty}`}>{t(DIFF_KEY[s.difficulty])}</span>
+                      <Tip
+                        text={t('roadDiffTip', {
+                          label: t(DIFF_KEY[s.difficulty]),
+                          opp: pick(teams[s.opponent]?.name, s.opponent),
+                          elo: Math.round(s.oppElo),
+                        })}
+                      >
+                        <span className={`chip road-diff-${s.difficulty}`}>{t(DIFF_KEY[s.difficulty])}</span>
+                      </Tip>
                     )}
                     {s.overridden && <span className="chip chip-accent">{t('roadCustom')}</span>}
-                    <span className="road-prob">
-                      <span className="road-prob-pct">{(s.winProb * 100).toFixed(0)}%</span>
-                      <span className="road-prob-cap">{t('roadAdvance')}</span>
-                    </span>
+                    {s.opponent ? (
+                      <Tip
+                        className="road-prob-wrap"
+                        text={t('roadAdvanceTip', {
+                          champ: championName,
+                          opp: pick(teams[s.opponent]?.name, s.opponent),
+                          w: Math.round(s.prob90.h * 100),
+                          d: Math.round(s.prob90.d * 100),
+                          l: Math.round(s.prob90.a * 100),
+                        })}
+                      >
+                        <span className="road-prob">
+                          <span className="road-prob-pct">{(s.winProb * 100).toFixed(0)}%</span>
+                          <span className="road-prob-cap">{t('roadAdvance')}</span>
+                        </span>
+                      </Tip>
+                    ) : (
+                      <span className="road-prob">
+                        <span className="road-prob-pct">{(s.winProb * 100).toFixed(0)}%</span>
+                        <span className="road-prob-cap">{t('roadAdvance')}</span>
+                      </span>
+                    )}
                   </div>
 
                   <div className="road-round-actions">

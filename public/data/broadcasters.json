@@ -1,40 +1,6 @@
 {
  "markets": [
   {
-   "iso2": "PH",
-   "channels": [
-    {
-     "name": "TV5 / RPTV",
-     "type": "tv",
-     "free": true,
-     "lang": "en",
-     "note": "Free-to-air terrestrial network (Cignal/MediaQuest group); has carried recent FIFA World Cup coverage in the Philippines. Confirm 2026 rights closer to the tournament."
-    },
-    {
-     "name": "One Sports / One Sports+",
-     "type": "tv",
-     "free": false,
-     "lang": "en",
-     "note": "Cignal cable and satellite sports channels"
-    },
-    {
-     "name": "Pilipinas Live",
-     "type": "streaming",
-     "free": false,
-     "lang": "en",
-     "note": "Streaming app (Smart/Cignal) that carried recent FIFA World Cup matches in the Philippines"
-    },
-    {
-     "name": "TapGo (Tap Sports)",
-     "type": "tv+streaming",
-     "free": false,
-     "lang": "en",
-     "note": "TAP DMV / Tap Sports channels with TapGo streaming"
-    }
-   ],
-   "source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_broadcasting_rights"
-  },
-  {
    "iso2": "US",
    "channels": [
     {

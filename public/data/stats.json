@@ -49,6 +49,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448598",
+   "name": "Ismael SAIBARI",
+   "code": "MAR",
+   "no": 11,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "502727",
    "name": "Johan MANZAMBI",
    "code": "SUI",
@@ -311,14 +319,6 @@
    "no": 7,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "419672",
-   "name": "Leo OSTIGARD",
-   "code": "NOR",
-   "no": 4,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
@@ -497,11 +497,11 @@
   "as": 1
  },
  "fastestGoal": {
-  "min": 6,
-  "minute": "6'",
-  "name": "Michal SADILEK",
-  "code": "CZE",
-  "id": "400021440"
+  "min": 2,
+  "minute": "2'",
+  "name": "Ismael SAIBARI",
+  "code": "MAR",
+  "id": "400021454"
  },
  "fairPlay": {
   "group": {

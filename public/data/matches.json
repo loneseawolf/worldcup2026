@@ -1699,8 +1699,8 @@
    "group": "A",
    "date": "2026-06-19T01:00:00Z",
    "venueId": "400252150",
-   "status": "live",
-   "time": "90'+1'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "MEX",
     "score": 1,
@@ -1713,7 +1713,7 @@
    },
    "phA": "A1",
    "phB": "A3",
-   "winner": null,
+   "winner": "MEX",
    "attendance": 45522,
    "officials": [
     {
@@ -3267,7 +3267,11 @@
    "venueId": "400222084",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "1A",
    "phB": "3CEFHI",

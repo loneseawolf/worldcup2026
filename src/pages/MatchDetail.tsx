@@ -617,8 +617,8 @@ export default function MatchDetail() {
             <h3 className="md-info-title">
               <Icon name="tv" size={18} />
               {t('whereToWatch')}
-              <Link to="/watch" className="md-cardlink">
-                {t('navWatch')}
+              <Link to="/live" className="md-cardlink">
+                {t('navLive')}
                 <Icon name="external" size={13} />
               </Link>
             </h3>

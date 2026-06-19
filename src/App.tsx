@@ -15,7 +15,7 @@ const RoadToFinals = lazy(() => import('./pages/RoadToFinals'))
 const Teams = lazy(() => import('./pages/Teams'))
 const TeamDetail = lazy(() => import('./pages/TeamDetail'))
 const Venues = lazy(() => import('./pages/Venues'))
-const Watch = lazy(() => import('./pages/Watch'))
+const Live = lazy(() => import('./pages/Live'))
 const Stats = lazy(() => import('./pages/Stats'))
 const Forecast = lazy(() => import('./pages/Forecast'))
 const PickEms = lazy(() => import('./pages/PickEms'))
@@ -31,7 +31,7 @@ const TITLE_KEY: Record<string, string> = {
   teams: 'navTeams',
   team: 'navTeams',
   venues: 'navVenues',
-  watch: 'navWatch',
+  live: 'navLive',
   road: 'navRoad',
   stats: 'navStats',
   forecast: 'navSim',
@@ -112,9 +112,10 @@ export default function App() {
             <Route path="/teams" element={<Teams />} />
             <Route path="/team/:code" element={<TeamDetail />} />
             <Route path="/venues" element={<Venues />} />
-            <Route path="/watch" element={<Watch />} />
-            {/* old "Live TV" page folded into Watch — keep shared links/bookmarks working */}
-            <Route path="/livetv" element={<Navigate to="/watch" replace />} />
+            <Route path="/live" element={<Live />} />
+            {/* Watch + the old "Live TV" page folded into Live — keep shared links/bookmarks working */}
+            <Route path="/watch" element={<Navigate to="/live" replace />} />
+            <Route path="/livetv" element={<Navigate to="/live" replace />} />
             <Route path="/stats" element={<Stats />} />
             <Route path="/forecast" element={<Forecast />} />
             <Route path="/pickems" element={<PickEms />} />

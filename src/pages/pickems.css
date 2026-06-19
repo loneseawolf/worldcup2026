@@ -169,6 +169,20 @@
   font-size: 1.02rem;
 }
 
+/* Pick'ems carries long country names in narrow bracket columns; widen only this
+   page (not the shared Bracket) past the global page width via a centered viewport
+   breakout, so wider columns let full names fit on one line. 100% = .shell-main
+   content width; width is capped at 96vw so no horizontal scrollbar appears. */
+@media (min-width: 1360px) {
+  .pk-page {
+    width: min(96vw, 1600px);
+    margin-inline: calc((100% - min(96vw, 1600px)) / 2);
+    /* tighter connector gap than the Bracket page reclaims width for the team
+       names in the compressed interior columns (still room for the lines) */
+    --bk-gap: 10px;
+  }
+}
+
 /* on narrow screens the score-round pills wrap full-width under the total */
 @media (max-width: 559.5px) {
   .pk-score-rounds {

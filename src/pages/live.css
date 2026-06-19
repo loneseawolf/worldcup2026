@@ -1,0 +1,252 @@
+/* ============ Live page — featured match, events feed, where to watch ============ */
+
+/* ---- featured-match hero ---- */
+.live-hero {
+  padding: 14px 16px 12px;
+  margin-bottom: 12px;
+}
+.live-hero-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.live-hero-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.live-side {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+.live-side-name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+.live-score {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 96px;
+}
+.live-score-big {
+  font-family: var(--font-display);
+  font-weight: 850;
+  font-size: 2rem;
+  line-height: 1;
+}
+.live-minute {
+  font-size: 0.82rem;
+  font-weight: 750;
+  color: var(--live);
+}
+.live-countdown {
+  font-family: var(--font-display);
+  font-weight: 850;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.live-ko-time {
+  margin-top: 2px;
+}
+.live-hero-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.live-detail-link {
+  margin-inline-start: auto;
+  font-weight: 650;
+  color: var(--accent-2);
+}
+.live-detail-link:hover {
+  text-decoration: underline;
+}
+
+/* ---- events feed ---- */
+.live-feed {
+  padding: 4px 14px;
+}
+.live-noevents {
+  padding: 24px 16px;
+}
+.live-ev {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-top: 1px solid var(--border);
+}
+.live-ev:first-child {
+  border-top: 0;
+}
+.live-ev-min {
+  flex: none;
+  min-width: 38px;
+  font-weight: 750;
+  font-size: 0.82rem;
+  color: var(--text-3);
+}
+.live-ev-icon {
+  flex: none;
+  font-size: 1rem;
+  width: 20px;
+  text-align: center;
+}
+.live-ev-body {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+.live-ev-label {
+  font-size: 0.68rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-3);
+}
+.live-ev-players {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-weight: 650;
+}
+.live-ev-goal .live-ev-players {
+  font-weight: 800;
+}
+.live-ev-off {
+  color: var(--text-3);
+  font-weight: 600;
+}
+.live-semilive {
+  margin: 10px 2px 0;
+}
+
+/* ============ where to watch (folded from the former Watch page) ============ */
+.live-watch-head {
+  align-items: center;
+}
+
+.watch-panel {
+  margin-top: 4px;
+  max-width: 760px;
+  padding: 8px 16px 14px;
+}
+.watch-panel-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0 8px;
+}
+.watch-ch {
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+.watch-ch-line {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.watch-ch-name {
+  font-size: 0.95rem;
+  margin-inline-end: 2px;
+}
+.watch-ch-lang {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+.watch-ch-note {
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+/* the panel heading doubles as the market dropdown */
+.watch-h2-select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  cursor: pointer;
+  padding: 2px 26px 2px 0;
+  margin-inline-start: -2px;
+  max-width: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+[dir="rtl"] .watch-h2-select {
+  padding: 2px 0 2px 26px;
+  background-position: left center;
+}
+.watch-h2-select:hover {
+  color: var(--accent-2);
+}
+.watch-h2-select option {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--bg-elev);
+}
+.watch-hint {
+  margin: 2px 0 0;
+}
+/* when the user's country has no broadcaster data nothing is preselected —
+   the pick-your-country hint becomes the panel's main message */
+.watch-hint-strong {
+  margin: 2px 0 0;
+  font-size: 0.95rem;
+  font-weight: 650;
+  color: var(--text);
+}
+
+.watch-disclaimer {
+  margin-top: 16px;
+  max-width: 760px;
+}
+
+/* ---- free live streams (FMHY CTA, folded in from the former Live TV page) ---- */
+.watch-streams {
+  margin-top: 20px;
+}
+.livetv-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.livetv-head h2 {
+  margin: 0;
+}
+.livetv-tag {
+  margin-inline-start: auto;
+}
+.livetv-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}

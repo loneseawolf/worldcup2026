@@ -295,4 +295,6 @@ export interface Settings {
   market: string | null // ISO2 country for TV channels; null = auto-detect
   units: Units // °C+km/h vs °F+mph
   champion: string | null // picked champion (team code) — recolors the site accent; null = hunter-green default
+  top4: string[] // ordered team codes (≤4) from onboarding; [0] is the champion pick
+  onboarded: boolean // has the user seen the first-run "choose your top 4" gate
 }

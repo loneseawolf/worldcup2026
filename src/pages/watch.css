@@ -121,6 +121,31 @@
   max-width: 760px;
 }
 
+/* ---- free live streams (FMHY CTA, folded in from the former Live TV page) ---- */
+.watch-streams {
+  margin-top: 20px;
+}
+.livetv-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.livetv-head h2 {
+  margin: 0;
+}
+.livetv-tag {
+  margin-inline-start: auto;
+}
+/* aligned with the panel's normal flow (no align-self: flex-start — that was the
+   misalignment); a left-aligned CTA consistent with other primary buttons */
+.livetv-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+
 /* the panel heading doubles as the market dropdown */
 .watch-h2-select {
   appearance: none;

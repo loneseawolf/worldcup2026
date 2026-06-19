@@ -42,6 +42,7 @@ export default function Settings() {
     setTheme,
     setMarket,
     setUnits,
+    setOnboarded,
     reset,
   } = useSettings()
   const { matches, teams, venues, meta, broadcasters } = useAppData()
@@ -240,6 +241,29 @@ export default function Settings() {
             </div>
           </section>
         )}
+
+        {/* your top 4 (ordered picks from onboarding) */}
+        <section className="card card-pad se-card">
+          <div className="se-fav-head">
+            <h2>{t('top4Title')}</h2>
+            <button type="button" className="btn se-clear" onClick={() => setOnboarded(false)}>
+              {t('top4Edit')}
+            </button>
+          </div>
+          {settings.top4.length ? (
+            <div className="se-chips">
+              {settings.top4.map((code, i) => (
+                <span key={code} className="se-chip on">
+                  <strong className="tnum">{t(`ordinal${i + 1}`)}</strong>
+                  <Flag team={teams[code]} size={18} />
+                  <span>{pick(teams[code]?.name, code)}</span>
+                </span>
+              ))}
+            </div>
+          ) : (
+            <p className="se-hint">{t('top4Empty')}</p>
+          )}
+        </section>
 
         {/* favorite teams */}
         <section className="card card-pad se-card">

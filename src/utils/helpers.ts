@@ -451,6 +451,11 @@ export function placeholderLabel(
   return ph
 }
 
+/** 1-based rank of a team in the user's ordered top-4, or 0 if not picked */
+export function top4Rank(code: string, top4: string[]): number {
+  return top4.indexOf(code) + 1
+}
+
 /** does this match involve any of the given team codes (empty set = all match) */
 export function involvesTeams(m: Match, codes: string[]): boolean {
   if (!codes.length) return true

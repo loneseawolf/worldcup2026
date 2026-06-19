@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useI18n } from '../i18n'
 import { useAppData } from '../data/DataContext'
+import { useSettings } from '../settings/SettingsContext'
+import { top4Rank } from '../utils/helpers'
 import Flag from './Flag'
 
 interface TeamNameProps {
@@ -21,14 +23,22 @@ export default function TeamName({
 }: TeamNameProps) {
   const { pick } = useI18n()
   const { teams } = useAppData()
+  const { settings } = useSettings()
   const team = teams[code]
   const name = team ? pick(team.name, code) : code
+  // app-wide rank badge: shown only for teams the user picked in their top 4
+  const rank = top4Rank(code, settings.top4)
   const inner = (
     <>
       <Flag team={team} size={flagSize} />
       <span className="nm" style={bold ? { fontWeight: 700 } : undefined}>
         {name}
       </span>
+      {rank > 0 && (
+        <span className="tn-rank" title={`#${rank}`}>
+          {rank}
+        </span>
+      )}
     </>
   )
   if (link && team) {

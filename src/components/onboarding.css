@@ -1,0 +1,131 @@
+/* ============ first-run "choose your top 4" gate ============ */
+.ob-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: color-mix(in srgb, #000 62%, transparent);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  overflow-y: auto;
+}
+
+.ob-panel {
+  width: 100%;
+  max-width: 720px;
+  max-height: calc(100dvh - 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 22px 22px 18px;
+  border-radius: 16px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elev);
+  box-shadow: 0 24px 60px -12px rgba(0, 0, 0, 0.55);
+  animation: ob-rise 0.22s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ob-panel {
+    animation: none;
+  }
+}
+@keyframes ob-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ob-head h1 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+}
+.ob-head p {
+  margin: 0;
+  color: var(--text-2);
+}
+.ob-head .ob-instruction {
+  margin-top: 8px;
+  font-weight: 650;
+  color: var(--accent-text);
+}
+
+.ob-grid {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  padding: 2px;
+}
+
+.ob-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+  transition:
+    border-color 0.15s,
+    background 0.15s,
+    transform 0.1s;
+}
+.ob-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+.ob-card.on {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, var(--bg-elev));
+}
+@media (prefers-reduced-motion: reduce) {
+  .ob-card:hover {
+    transform: none;
+  }
+}
+.ob-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.ob-rank {
+  position: absolute;
+  top: -7px;
+  inset-inline-end: -7px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  border: 2px solid var(--bg-elev);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.ob-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

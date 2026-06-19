@@ -45,6 +45,16 @@ const en: Dict = {
   updatedAt: 'Data updated {date}',
   footerBy: 'by {name}',
   footerLicense: 'MIT license & data credits',
+  // first-run onboarding ("choose your top 4")
+  onboardTitle: 'Pick your top 4',
+  onboardSub: 'Choose up to four teams you are backing for the 2026 World Cup, in order.',
+  onboardInstruction: 'Tap teams in order — your #1 pick recolors the app and leads your Road to Finals.',
+  onboardSave: 'Save',
+  onboardSkip: 'Skip for now',
+  // "your top 4" strip (Road page)
+  top4Title: 'Your Top 4',
+  top4Edit: 'Edit your Top 4',
+  top4Empty: 'You haven’t picked your top 4 yet.',
   backToList: 'Back',
   capacityK: '{n} seats',
   // stages

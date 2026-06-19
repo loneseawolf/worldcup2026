@@ -679,6 +679,24 @@ input.input {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+/* app-wide rank badge for the user's ordered top-4 picks (subtle hunter pill) */
+.tn-rank {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 15px;
+  height: 15px;
+  padding: 0 3px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--accent-text);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
 
 /* ============ match card ============ */
 .match-card {

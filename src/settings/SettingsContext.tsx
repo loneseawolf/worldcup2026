@@ -66,6 +66,8 @@ function defaults(): Settings {
     market: legacyMarket,
     units: detectCountry() === 'US' ? 'imperial' : 'metric',
     champion: null,
+    top4: [],
+    onboarded: false,
   }
 }
 
@@ -102,6 +104,10 @@ function load(): Settings {
       market: typeof p.market === 'string' ? p.market : d.market,
       units: p.units === 'metric' || p.units === 'imperial' ? p.units : d.units,
       champion: typeof p.champion === 'string' ? p.champion : d.champion,
+      top4: Array.isArray(p.top4)
+        ? p.top4.filter((c): c is string => typeof c === 'string').slice(0, 4)
+        : d.top4,
+      onboarded: typeof p.onboarded === 'boolean' ? p.onboarded : d.onboarded,
     }
   } catch {
     // corrupted storage must not become a persistent crash loop: drop the bad
@@ -126,6 +132,8 @@ interface SettingsCtx {
   setMarket: (iso2: string) => void
   setUnits: (u: Units) => void
   setChampion: (code: string | null) => void
+  setTop4: (codes: string[]) => void
+  setOnboarded: (v: boolean) => void
   reset: () => void
 }
 
@@ -168,6 +176,10 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setMarket: (market) => setSettings((s) => ({ ...s, market })),
       setUnits: (units) => setSettings((s) => ({ ...s, units })),
       setChampion: (champion) => setSettings((s) => ({ ...s, champion })),
+      // the #1 pick also drives the app accent (champion stays the accent source
+      // of truth; the Road page select can still override it afterwards)
+      setTop4: (codes) => setSettings((s) => ({ ...s, top4: codes.slice(0, 4), champion: codes[0] ?? null })),
+      setOnboarded: (onboarded) => setSettings((s) => ({ ...s, onboarded })),
       reset: () => setSettings(defaults()),
     }),
     [settings],

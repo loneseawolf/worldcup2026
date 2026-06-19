@@ -14,6 +14,28 @@ const TYPE_KEY: Record<BroadcastChannel['type'], string> = {
   'tv+streaming': 'typeTvStreaming',
 }
 
+// community-maintained free live-TV / sports stream index (unofficial, third-party)
+const FMHY_URL = 'https://fmhy.net/video#live-tv'
+
+/** unofficial free-live-streams CTA (folded in from the former Live TV page) */
+function FreeStreams() {
+  const { t } = useI18n()
+  return (
+    <section className="card watch-panel watch-streams">
+      <div className="section-title livetv-head">
+        <Icon name="broadcast" />
+        <h2>{t('liveTvStreamsHead')}</h2>
+        <span className="chip livetv-tag">{t('liveTvUnofficial')}</span>
+      </div>
+      <p className="muted small">{t('liveTvStreamsBody')}</p>
+      <a className="btn btn-primary livetv-cta" href={FMHY_URL} target="_blank" rel="noopener noreferrer">
+        {t('liveTvStreamsLink')}
+        <Icon name="external" size={16} />
+      </a>
+    </section>
+  )
+}
+
 export default function Watch() {
   const { t, countryName, pick } = useI18n()
   const { broadcasters } = useAppData()
@@ -46,6 +68,7 @@ export default function Watch() {
           <Icon name="tv" size={30} />
           <div>{t('none')}</div>
         </div>
+        <FreeStreams />
       </div>
     )
   }
@@ -134,6 +157,8 @@ export default function Watch() {
           )
         })}
       </div>
+
+      <FreeStreams />
 
       <p className="muted small watch-disclaimer">{t('watchDisclaimer')}</p>
     </div>

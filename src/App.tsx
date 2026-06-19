@@ -1,9 +1,10 @@
 import { Suspense, lazy, useEffect } from 'react'
-import { Route, Routes, useLocation, useNavigationType } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation, useNavigationType } from 'react-router-dom'
 import { useData } from './data/DataContext'
 import { useI18n } from './i18n'
 import Layout from './components/Layout'
 import ChampionAccent from './components/ChampionAccent'
+import OnboardingGate from './components/OnboardingGate'
 
 // route-level code splitting: each page loads on demand (Venues also pulls the 42 KB map JSON)
 const Matches = lazy(() => import('./pages/Matches'))
@@ -15,7 +16,6 @@ const Teams = lazy(() => import('./pages/Teams'))
 const TeamDetail = lazy(() => import('./pages/TeamDetail'))
 const Venues = lazy(() => import('./pages/Venues'))
 const Watch = lazy(() => import('./pages/Watch'))
-const LiveTv = lazy(() => import('./pages/LiveTv'))
 const Stats = lazy(() => import('./pages/Stats'))
 const Forecast = lazy(() => import('./pages/Forecast'))
 const Settings = lazy(() => import('./pages/Settings'))
@@ -30,7 +30,6 @@ const TITLE_KEY: Record<string, string> = {
   team: 'navTeams',
   venues: 'navVenues',
   watch: 'navWatch',
-  livetv: 'navLiveTv',
   road: 'navRoad',
   stats: 'navStats',
   forecast: 'navSim',
@@ -97,6 +96,7 @@ export default function App() {
       <ScrollToTop />
       <TitleManager />
       <ChampionAccent />
+      <OnboardingGate />
       <Suspense fallback={<div className="page-loading" />}>
         <Routes>
           <Route element={<Layout />}>
@@ -109,7 +109,8 @@ export default function App() {
             <Route path="/team/:code" element={<TeamDetail />} />
             <Route path="/venues" element={<Venues />} />
             <Route path="/watch" element={<Watch />} />
-            <Route path="/livetv" element={<LiveTv />} />
+            {/* old "Live TV" page folded into Watch — keep shared links/bookmarks working */}
+            <Route path="/livetv" element={<Navigate to="/watch" replace />} />
             <Route path="/stats" element={<Stats />} />
             <Route path="/forecast" element={<Forecast />} />
             <Route path="/settings" element={<Settings />} />

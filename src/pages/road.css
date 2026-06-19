@@ -1,9 +1,122 @@
+/* ============ Road to Finals ============ */
+
+/* ---- "Your Top 4" strip ---- */
+.road-top4 {
+  padding: 12px 16px 14px;
+  margin-bottom: 14px;
+}
+.road-top4-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.road-top4-head h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+.road-top4-edit {
+  margin-inline-start: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+}
+.road-top4-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.road-top4-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px 6px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elev);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.15s,
+    background 0.15s;
+}
+.road-top4-chip:hover {
+  border-color: var(--accent);
+}
+.road-top4-chip.on {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-elev));
+}
+.road-top4-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.road-top4-name {
+  font-weight: 650;
+  font-size: 0.9rem;
+}
+
+/* ---- champion banner ---- */
+.road-banner {
+  margin-bottom: 18px;
+  padding: 16px;
+}
+.road-banner-hero {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.road-crest {
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+}
+.road-banner-meta {
+  min-width: 0;
+}
+.road-banner-name {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+.road-banner-trophy {
+  margin-inline-start: auto;
+  color: var(--accent);
+  flex: none;
+}
+.road-odds-big {
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 1.05;
+  color: var(--accent-text);
+}
+.road-odds-cap {
+  color: var(--text-3);
+  font-weight: 650;
+  font-size: 0.82rem;
+}
+
 .road-pick {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  margin-bottom: 16px;
 }
 .road-pick label {
   font-weight: 650;
@@ -19,38 +132,70 @@
   font: inherit;
 }
 
-/* title-odds headline */
-.road-odds {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 18px;
-}
-.road-odds-big {
-  font-size: 2.1rem;
-  font-weight: 800;
-  line-height: 1;
-  color: var(--gold);
-}
-.road-odds-cap {
-  font-weight: 650;
-}
-
-/* per-round timeline */
-.road-steps {
+/* ---- connected vertical timeline ---- */
+.road-timeline {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  margin-inline-start: 7px;
+  padding-inline-start: 22px;
 }
-.road-step {
+/* the connector line runs through the node dots */
+.road-timeline::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--accent) 55%, transparent),
+    var(--border-strong)
+  );
+}
+.road-round {
+  position: relative;
+}
+.road-node {
+  position: absolute;
+  inset-inline-start: -27px;
+  top: 18px;
+  width: 11px;
+  height: 11px;
+  border-radius: 999px;
+  background: var(--accent);
+  border: 2px solid var(--bg-elev);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .road-node {
+    animation: road-node-pop 0.3s ease-out backwards;
+  }
+}
+@keyframes road-node-pop {
+  from {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.road-round-card {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding: 12px 14px;
 }
-.road-step-top {
+.road-round-head {
   display: flex;
   align-items: baseline;
   gap: 8px;
+  flex-wrap: wrap;
 }
 .road-stage {
   font-weight: 700;
@@ -60,7 +205,7 @@
   color: var(--text-3);
   font-size: 0.8rem;
 }
-.road-step-mid {
+.road-round-body {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -99,7 +244,7 @@
   color: var(--accent-text);
 }
 
-.road-step-actions {
+.road-round-actions {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -120,4 +265,7 @@
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 18px;
+}
+.road-disclaimer {
+  margin-top: 16px;
 }

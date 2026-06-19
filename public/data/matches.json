@@ -1818,7 +1818,7 @@
    "date": "2026-06-19T22:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "67'",
+   "time": "80'",
    "home": {
     "code": "SCO",
     "score": 0,
@@ -1832,7 +1832,7 @@
    "phA": "C4",
    "phB": "C2",
    "winner": null,
-   "attendance": null,
+   "attendance": 64146,
    "officials": [
     {
      "id": "360687",

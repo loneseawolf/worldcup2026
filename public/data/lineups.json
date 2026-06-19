@@ -6502,6 +6502,18 @@
      "on": "485131",
      "minute": "60'",
      "period": 5
+    },
+    {
+     "off": "433191",
+     "on": "430098",
+     "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "430097",
+     "on": "484051",
+     "minute": "71'",
+     "period": 5
     }
    ]
   },
@@ -6815,7 +6827,7 @@
    ],
    "substitutions": []
   },
-  "matchTime": "67'",
+  "matchTime": "80'",
   "period": 5,
   "final": false
  },

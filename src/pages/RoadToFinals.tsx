@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useData, useAppData } from '../data/DataContext'
 import { useI18n } from '../i18n'
+import { useSettings } from '../settings/SettingsContext'
 import TeamName from '../components/TeamName'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
@@ -39,10 +40,13 @@ function encodeOverrides(o: Overrides): string {
 export default function RoadToFinals() {
   const { t, pick } = useI18n()
   const { simModel, loadSimModel } = useData()
+  const { settings, setChampion } = useSettings()
   const { teams, matches, venues, standings } = useAppData()
   const [searchParams, setSearchParams] = useSearchParams()
 
-  const [champion, setChampion] = useState('')
+  // champion is global state (recolors the whole app via ChampionAccent); the
+  // bracket overrides + share link stay local (wc2026-road / URL) as before
+  const champion = settings.champion ?? ''
   const [overrides, setOverrides] = useState<Overrides>({})
   const [editing, setEditing] = useState<RoundKey | null>(null)
   const [copied, setCopied] = useState(false)
@@ -60,13 +64,18 @@ export default function RoadToFinals() {
   useEffect(() => {
     const c = searchParams.get('c')
     if (c && isTeam(c)) {
+      // a shared/typed link always wins
       setChampion(c)
       setOverrides(parseOverrides(searchParams.get('o'), isTeam))
     } else {
       try {
         const saved = JSON.parse(localStorage.getItem(LS_KEY) || 'null')
-        if (saved?.champion && isTeam(saved.champion)) {
+        // champion now persists globally in settings; only adopt the legacy
+        // wc2026-road champion when settings has none yet (one-time migration)
+        if (!settings.champion && saved?.champion && isTeam(saved.champion)) {
           setChampion(saved.champion)
+        }
+        if (saved?.overrides) {
           setOverrides(parseOverrides(encodeOverrides(saved.overrides || {}), isTeam))
         }
       } catch {
@@ -113,7 +122,7 @@ export default function RoadToFinals() {
   }
 
   const onPickChampion = (code: string) => {
-    setChampion(code)
+    setChampion(code || null) // '' (placeholder / reset) clears the accent
     setOverrides({}) // a new champion means a brand-new bracket path
     setEditing(null)
   }

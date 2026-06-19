@@ -1,5 +1,44 @@
 /* ============ Matches page (prefix mxp-) ============ */
 
+/* hero band: last 4 results (or next 4 fixtures pre-tournament). Sharp corners
+   + hunter accent bar + uppercase Archivo headline per the design system. */
+.hero-matches {
+  margin: 0 0 6px;
+  padding: 18px 0 14px;
+}
+.hero-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.hero-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  line-height: 1.05;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding-inline-start: 12px;
+  border-inline-start: 4px solid var(--accent);
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+@media (min-width: 640px) {
+  .hero-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1020px) {
+  .hero-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 /* everything above the list sticks; content fades out under it */
 .mxp-sticky {
   position: sticky;

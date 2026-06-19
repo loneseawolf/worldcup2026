@@ -3,6 +3,7 @@ import { Route, Routes, useLocation, useNavigationType } from 'react-router-dom'
 import { useData } from './data/DataContext'
 import { useI18n } from './i18n'
 import Layout from './components/Layout'
+import ChampionAccent from './components/ChampionAccent'
 
 // route-level code splitting: each page loads on demand (Venues also pulls the 42 KB map JSON)
 const Matches = lazy(() => import('./pages/Matches'))
@@ -95,6 +96,7 @@ export default function App() {
     <>
       <ScrollToTop />
       <TitleManager />
+      <ChampionAccent />
       <Suspense fallback={<div className="page-loading" />}>
         <Routes>
           <Route element={<Layout />}>

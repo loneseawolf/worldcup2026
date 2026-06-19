@@ -72,16 +72,19 @@
   --font-display: "Archivo", "Inter Tight", var(--font);
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
-  --r-sm: 8px;
-  --r-md: 12px;
-  --r-lg: 16px;
-  --r-xl: 22px;
+  /* sharper corners per the hunter-green design (utilitarian match data) */
+  --r-sm: 5px;
+  --r-md: 6px;
+  --r-lg: 6px;
+  --r-xl: 12px;
 
-  --accent: #e11d48;
+  /* hunter green is the default accent; a picked champion overrides --accent /
+     --accent-text / --live inline on <html> (see ChampionAccent + teamAccent) */
+  --accent: #355e3b;
   --accent-2: #2563eb;
   --accent-3: #16a34a;
   --gold: #d4a017;
-  --live: #e11d48;
+  --live: #355e3b;
 
   --bg: #f4f5fa;
   --bg-elev: #ffffff;
@@ -89,7 +92,7 @@
   --text: #131722;
   --text-2: #5b6172;
   --text-3: #5f6a83; /* AA on white and the tinted page bg */
-  --accent-text: #be123c; /* accent usable as TEXT (AA on light surfaces) */
+  --accent-text: #2c5132; /* hunter usable as TEXT (AA on light surfaces) */
   --border: #e2e5ef;
   --border-strong: #c9cede;
   --shadow: 0 1px 2px rgb(16 24 40 / 0.05), 0 4px 16px -4px rgb(16 24 40 / 0.08);
@@ -106,17 +109,17 @@
 }
 
 [data-theme="dark"] {
-  --bg: #0b0e15;
-  --bg-elev: #141927;
-  --bg-sunken: #080b11;
+  --bg: #0a0a0a;
+  --bg-elev: #111111;
+  --bg-sunken: #050505;
   --text: #e9ecf4;
   --text-2: #a4abc0;
   --text-3: #959db3;
-  --accent-text: #fb7185;
+  --accent-text: #4a7c52;
   --accent-2: #60a5fa;
   --loss: #f87171;
-  --border: #232a3c;
-  --border-strong: #344056;
+  --border: #2a2a2a;
+  --border-strong: #3a3a3a;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 6px 20px -6px rgb(0 0 0 / 0.5);
   --shadow-lg: 0 8px 16px rgb(0 0 0 / 0.4), 0 24px 56px -12px rgb(0 0 0 / 0.6);
   --header-blur: rgb(11 14 21 / 0.8);
@@ -129,17 +132,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0b0e15;
-    --bg-elev: #141927;
-    --bg-sunken: #080b11;
+    --bg: #0a0a0a;
+    --bg-elev: #111111;
+    --bg-sunken: #050505;
     --text: #e9ecf4;
     --text-2: #a4abc0;
     --text-3: #959db3;
-    --accent-text: #fb7185;
+    --accent-text: #4a7c52;
     --accent-2: #60a5fa;
     --loss: #f87171;
-    --border: #232a3c;
-    --border-strong: #344056;
+    --border: #2a2a2a;
+    --border-strong: #3a3a3a;
     --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 6px 20px -6px rgb(0 0 0 / 0.5);
     --shadow-lg: 0 8px 16px rgb(0 0 0 / 0.4), 0 24px 56px -12px rgb(0 0 0 / 0.6);
     --header-blur: rgb(11 14 21 / 0.8);
@@ -437,6 +440,12 @@ html.nav-fits .shell-main {
   text-align: center;
   padding: 18px 16px calc(74px + env(safe-area-inset-bottom));
 }
+/* keep the divider full-width (like the header) but cap content to the page
+   width so the footer aligns with header/main instead of stretching edge-to-edge */
+.shell-footer > * {
+  max-width: var(--page-w);
+  margin-inline: auto;
+}
 html.nav-fits .shell-footer {
   padding-bottom: 18px;
 }
@@ -481,7 +490,7 @@ html.nav-fits .tab-bar {
 .card {
   background: var(--bg-elev);
   border: 1px solid var(--border);
-  border-radius: var(--r-lg);
+  border-radius: 4px; /* sharp corners per the design; CTA stays at 3px */
   box-shadow: var(--shadow);
 }
 .card-pad {
@@ -543,18 +552,31 @@ html.nav-fits .tab-bar {
   transform: scale(0.985);
 }
 .btn-primary {
-  background: var(--text);
-  color: var(--bg);
+  background: var(--accent);
+  color: #fff;
   border-color: transparent;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition:
+    background 0.15s,
+    box-shadow 0.2s ease,
+    transform 0.08s;
 }
 .btn-primary:hover {
-  background: var(--text);
-  opacity: 0.88;
+  background: var(--accent);
+  filter: brightness(1.12);
+  box-shadow: 0 0 14px rgba(53, 94, 59, 0.45);
 }
 .btn.on {
   border-color: var(--accent);
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 9%, transparent);
+  color: var(--accent-text);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary:hover {
+    box-shadow: none;
+  }
 }
 
 .seg {
@@ -612,6 +634,8 @@ input.input {
 }
 .section-title h2 {
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .section-title .more {
   margin-inline-start: auto;
@@ -674,6 +698,19 @@ input.input {
 }
 .match-card.live {
   border-color: color-mix(in srgb, var(--live) 45%, var(--border));
+  /* signature hunter-green pulsing left rail on live cards (design system) */
+  border-inline-start: 3px solid var(--live);
+  animation: live-rail 1.6s ease-in-out infinite;
+}
+@keyframes live-rail {
+  50% {
+    border-inline-start-color: color-mix(in srgb, var(--live) 55%, transparent);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .match-card.live {
+    animation: none;
+  }
 }
 
 .mc-top {

@@ -60,6 +60,9 @@ const en: Dict = {
   statusFinished: 'Full time',
   statusPostponed: 'Postponed',
   pens: 'Pens',
+  // hero band (matches page)
+  heroRecent: 'Recent results',
+  heroUpcoming: 'Upcoming matches',
   // home
   liveNow: 'Live now',
   favoritesOnly: 'My teams',

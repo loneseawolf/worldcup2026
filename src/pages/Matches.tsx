@@ -7,6 +7,7 @@ import { useAppData } from '../data/DataContext'
 import { displayTz, dayKey, fmtDateLong, relativeDay } from '../utils/time'
 import { involvesTeams, sortMatches, STAGE_LABEL_KEY } from '../utils/helpers'
 import MatchCard from '../components/MatchCard'
+import HeroMatches from '../components/HeroMatches'
 import Flag from '../components/Flag'
 import Trophy from '../components/Trophy'
 import Icon from '../components/Icon'
@@ -255,6 +256,7 @@ export default function Matches() {
 
   return (
     <div className="mxp">
+      <HeroMatches />
       <div className="mxp-sticky" ref={stickyRef}>
         {meta.titleOdds && meta.titleOdds.length > 0 && (
           <div className={`mxp-odds-wrap${oddsHidden ? '' : ' open'}`}>

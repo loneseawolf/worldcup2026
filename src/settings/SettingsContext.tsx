@@ -65,6 +65,7 @@ function defaults(): Settings {
     theme: 'dark',
     market: legacyMarket,
     units: detectCountry() === 'US' ? 'imperial' : 'metric',
+    champion: null,
   }
 }
 
@@ -100,6 +101,7 @@ function load(): Settings {
       theme: p.theme === 'auto' || p.theme === 'light' || p.theme === 'dark' ? p.theme : d.theme,
       market: typeof p.market === 'string' ? p.market : d.market,
       units: p.units === 'metric' || p.units === 'imperial' ? p.units : d.units,
+      champion: typeof p.champion === 'string' ? p.champion : d.champion,
     }
   } catch {
     // corrupted storage must not become a persistent crash loop: drop the bad
@@ -123,6 +125,7 @@ interface SettingsCtx {
   setTheme: (t: Theme) => void
   setMarket: (iso2: string) => void
   setUnits: (u: Units) => void
+  setChampion: (code: string | null) => void
   reset: () => void
 }
 
@@ -164,6 +167,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setTheme: (theme) => setSettings((s) => ({ ...s, theme })),
       setMarket: (market) => setSettings((s) => ({ ...s, market })),
       setUnits: (units) => setSettings((s) => ({ ...s, units })),
+      setChampion: (champion) => setSettings((s) => ({ ...s, champion })),
       reset: () => setSettings(defaults()),
     }),
     [settings],

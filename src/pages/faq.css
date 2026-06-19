@@ -1,0 +1,49 @@
+/* ============ FAQ / how-it-works ============ */
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.faq-item {
+  padding: 0;
+  overflow: hidden;
+}
+.faq-q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: none;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.98rem;
+  text-align: start;
+  cursor: pointer;
+}
+.faq-q:hover {
+  color: var(--accent-text);
+}
+.faq-chevron {
+  flex: none;
+  color: var(--text-3);
+  transition: transform 0.18s ease;
+}
+.faq-item.open .faq-chevron {
+  transform: rotate(180deg);
+}
+.faq-a {
+  padding: 0 16px 14px;
+}
+.faq-a p {
+  margin: 0 0 10px;
+  color: var(--text-2);
+  line-height: 1.55;
+}
+.faq-a p:last-child {
+  margin-bottom: 0;
+}

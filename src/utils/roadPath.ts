@@ -30,6 +30,9 @@ export interface RoundStep {
   /** champion-perspective 90' split (h = champion win) — for the advance tooltip */
   prob90: { h: number; d: number; a: number }
   venueId: string | null
+  /** team codes that can structurally reach this round's opponent slot (champion
+   * excluded) — drives the "change opponent" picker; narrows as groups complete */
+  candidates: string[]
 }
 
 export interface RoadPath {
@@ -92,6 +95,12 @@ interface Resolver {
   ko: Match[]
   /** known/projected team code on a side of a match ('A' = home, 'B' = away) */
   sideOf: (m: Match, side: 'A' | 'B') => string | undefined
+  /** every team that can structurally reach a side of a match (real team if the
+   * slot is already decided, else the union of every group/feeder leaf below it) */
+  candidatesFor: (m: Match, side: 'A' | 'B') => string[]
+  /** most-likely winner of each knockout match (by match number) */
+  projWinner: Map<number, string>
+  byN: Map<number, Match>
 }
 
 function buildResolver(
@@ -104,6 +113,14 @@ function buildResolver(
   const ko = matches.filter((m) => m.stage !== 'group').sort((a, b) => a.n - b.n)
   const realOverlay = resolvedSlots(matches, standings)
   const { groupPos, thirdGroups } = projectGroups(model, teams)
+
+  const byN = new Map<number, Match>()
+  for (const m of ko) byN.set(m.n, m)
+  const teamsByGroup: Record<string, string[]> = {}
+  for (const tm of Object.values(teams)) {
+    if (!teamsByGroup[tm.group]) teamsByGroup[tm.group] = []
+    teamsByGroup[tm.group].push(tm.code)
+  }
 
   // assign projected qualifying thirds to the bracket's third-place slots
   const thirdSlots = ko
@@ -167,7 +184,36 @@ function buildResolver(
     projWinner.set(m.n, pickWinner(model, home, away, vc))
   }
 
-  return { ko, sideOf }
+  // every team that can structurally land on a given slot: a really-decided slot
+  // collapses to that one team; a group placeholder fans out to its whole group; a
+  // W/L feeder recurses into both sides of the match it points at.
+  function candidatesFor(m: Match, side: 'A' | 'B'): string[] {
+    const actual = side === 'A' ? m.home?.code : m.away?.code
+    if (actual) return [actual]
+    const ov = realOverlay[m.id]
+    const real = side === 'A' ? ov?.home : ov?.away
+    if (real) return [real]
+    return phCandidates(side === 'A' ? m.phA : m.phB)
+  }
+  function phCandidates(ph: string | null): string[] {
+    if (!ph) return []
+    let mm = /^([1-4])([A-L])$/.exec(ph)
+    if (mm) return teamsByGroup[mm[2]] ?? []
+    if (/^3[A-L]{2,}$/.test(ph))
+      return ph
+        .slice(1)
+        .split('')
+        .flatMap((g) => teamsByGroup[g] ?? [])
+    mm = /^(?:W|L|RU)(\d+)$/.exec(ph)
+    if (mm) {
+      const src = byN.get(Number(mm[1]))
+      if (!src) return []
+      return [...candidatesFor(src, 'A'), ...candidatesFor(src, 'B')]
+    }
+    return []
+  }
+
+  return { ko, sideOf, candidatesFor, projWinner, byN }
 }
 
 /**
@@ -188,7 +234,7 @@ export function buildRoadPath(
   const empty: RoadPath = { champion, steps: [], titleOdds: 0, ok: false }
   if (!champion || !model || !teams[champion]) return empty
 
-  const { ko, sideOf } = buildResolver(matches, standings, teams, model, venues)
+  const { ko, sideOf, candidatesFor } = buildResolver(matches, standings, teams, model, venues)
   const group = teams[champion].group
 
   // entry slot: group winner, else runner-up — skipping a slot a different team
@@ -242,6 +288,7 @@ export function buildRoadPath(
     const decisive = prob90.h + prob90.a
     const winProb = opponent ? prob90.h + prob90.d * (decisive > 0 ? prob90.h / decisive : 0.5) : 0
     titleOdds *= winProb
+    const candidates = [...new Set(candidatesFor(current, oppSide))].filter((c) => c !== champion)
     steps.push({
       round,
       matchN: current.n,
@@ -253,6 +300,7 @@ export function buildRoadPath(
       oppElo: opponent ? eloOf(model, opponent) : DEFAULT_ELO,
       prob90,
       venueId: current.venueId,
+      candidates,
     })
 
     if (round === 'final') break
@@ -261,4 +309,23 @@ export function buildRoadPath(
   }
 
   return { champion, steps, titleOdds, ok: steps.length > 0 }
+}
+
+/** projected participants (and most-likely winner) of every knockout match, by
+ * match id — the seed for the Pick-ems bracket. Real results take precedence
+ * inside `sideOf`, so decided matches show their actual teams. */
+export function projectedBracket(
+  model: SimModel | null,
+  matches: Match[],
+  standings: Standings,
+  teams: Record<string, Team>,
+  venues: Record<string, Venue>,
+): Record<string, { home?: string; away?: string; winner?: string }> {
+  const out: Record<string, { home?: string; away?: string; winner?: string }> = {}
+  if (!model) return out
+  const { ko, sideOf, projWinner } = buildResolver(matches, standings, teams, model, venues)
+  for (const m of ko) {
+    out[m.id] = { home: sideOf(m, 'A'), away: sideOf(m, 'B'), winner: projWinner.get(m.n) }
+  }
+  return out
 }

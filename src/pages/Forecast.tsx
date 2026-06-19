@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import type { Match } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData, useData } from '../data/DataContext'
@@ -219,7 +220,13 @@ export default function Forecast() {
     <div className="sim-page">
       <div className="page-head">
         <h1>{t('simTitle')}</h1>
-        <p>{t('simSub')}</p>
+        <p>
+          {t('simSub')}{' '}
+          <Link className="sim-faq-link" to="/faq">
+            <Icon name="info" size={14} />
+            {t('fcHowItWorks')}
+          </Link>
+        </p>
       </div>
 
       <div className="card card-pad sim-controls">
@@ -331,7 +338,7 @@ export default function Forecast() {
       {stats && (
         <section className="card card-pad fc-section">
           <h2>{t('fcTitle', { n: ranToCount })}</h2>
-          <ForecastTable rows={stats} teams={teams} />
+          <ForecastTable rows={stats} teams={teams} model={simModel} />
         </section>
       )}
 

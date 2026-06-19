@@ -1,0 +1,182 @@
+/* ============ Pick-ems — interactive prediction bracket ============ */
+/* layout/grid/connectors are reused from bracket.css; this file styles the
+   interactive node states (clickable rows, selection, correct/incorrect). */
+
+/* ---- score card ---- */
+.pk-score {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin-bottom: 12px;
+}
+.pk-score-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.pk-score-head {
+  font-size: 0.76rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-3);
+}
+.pk-score-pts {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 850;
+  color: var(--accent-text);
+  line-height: 1;
+}
+.pk-score-rounds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-inline-start: auto;
+}
+.pk-round-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-sunken);
+  min-width: 58px;
+  opacity: 0.55;
+}
+.pk-round-pill.on {
+  opacity: 1;
+  border-color: var(--border-strong);
+}
+.pk-round-name {
+  font-size: 0.64rem;
+  font-weight: 700;
+  color: var(--text-3);
+  white-space: nowrap;
+}
+.pk-round-pts {
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+.pk-round-w {
+  color: var(--text-3);
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+
+.pk-instructions {
+  margin: 0 0 12px;
+}
+.pk-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+/* ---- interactive node ---- */
+.pk-node {
+  gap: 2px;
+  padding: 5px 6px 6px;
+}
+.pk-meta {
+  justify-content: space-between;
+}
+.pk-badge {
+  flex: none;
+  font-size: 0.58rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 999px;
+  padding: 0 6px;
+}
+.pk-badge.ok {
+  background: #16a34a26;
+  color: var(--accent-3, #16a34a);
+}
+.pk-badge.no {
+  background: #e11d4826;
+  color: var(--accent-text);
+}
+
+/* each side is a button; reset native chrome and lay out like a bracket row */
+.pk-row {
+  width: 100%;
+  border: 1px solid transparent;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 3px 5px;
+  transition:
+    background 0.12s,
+    border-color 0.12s;
+}
+.pk-row:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
+  border-color: var(--border);
+}
+.pk-row:disabled {
+  cursor: default;
+}
+.pk-row .bk-nm,
+.pk-row .bk-code {
+  font-weight: 600;
+}
+/* the user's predicted winner of this match */
+.pk-sel {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.pk-sel .bk-nm,
+.pk-sel .bk-code {
+  font-weight: 800;
+}
+.pk-chev {
+  flex: none;
+  color: var(--accent-text);
+  font-weight: 900;
+}
+/* the team that actually won (real result) */
+.pk-real .bk-nm {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--text-3) 60%, transparent);
+  text-underline-offset: 2px;
+}
+
+/* node-level correctness, visible even on the compact mobile tree (border) */
+.pk-node.pk-correct {
+  border-color: color-mix(in srgb, #16a34a 60%, var(--border));
+  box-shadow: 0 0 0 1px color-mix(in srgb, #16a34a 35%, transparent);
+}
+.pk-node.pk-wrong {
+  border-color: color-mix(in srgb, #e11d48 55%, var(--border));
+}
+
+/* ---- predicted champion card ---- */
+.pk-champ-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-display);
+  font-weight: 850;
+  font-size: 1.02rem;
+}
+
+/* on narrow screens the score-round pills wrap full-width under the total */
+@media (max-width: 559.5px) {
+  .pk-score-rounds {
+    margin-inline-start: 0;
+    width: 100%;
+  }
+  .pk-round-pill {
+    flex: 1;
+    min-width: 0;
+  }
+}

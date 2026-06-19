@@ -1,10 +1,14 @@
 import { type ReactNode, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { Team } from '../types'
+import type { SimModel } from '../sim/engine'
 import { DATA_FALLBACK, useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { makeTeamMatcher } from '../utils/teamSearch'
+import { type Difficulty, difficultyOf } from '../utils/roadPath'
 import Flag from './Flag'
+import InfoDot from './InfoDot'
+import Tip from './Tip'
 import Trophy from './Trophy'
 
 /** one team's outcome distribution (all values are probabilities 0..1).
@@ -27,14 +31,28 @@ export interface FcRow {
 
 type ColKey = Exclude<keyof FcRow, 'code'>
 
-const SECTIONS: { key: string; cols: ColKey[] }[] = [
-  { key: 'fcTop4', cols: ['oChamp', 'oRu', 'o3', 'o4'] },
-  { key: 'fcElim', cols: ['oQf', 'oR16', 'oR32', 'oGroup'] },
-  { key: 'fcSeed', cols: ['s1', 's2', 's3'] },
+const SECTIONS: { key: string; tip: string; cols: ColKey[] }[] = [
+  { key: 'fcTop4', tip: 'fcSecTipTop4', cols: ['oChamp', 'oRu', 'o3', 'o4'] },
+  { key: 'fcElim', tip: 'fcSecTipElim', cols: ['oQf', 'oR16', 'oR32', 'oGroup'] },
+  { key: 'fcSeed', tip: 'fcSecTipSeed', cols: ['s1', 's2', 's3'] },
 ]
 const ALL_COLS = SECTIONS.flatMap((s) => s.cols)
 
-export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: Record<string, Team> }) {
+const DIFF_KEY: Record<Difficulty, string> = {
+  easy: 'roadDiffEasy',
+  tough: 'roadDiffTough',
+  brutal: 'roadDiffBrutal',
+}
+
+export default function ForecastTable({
+  rows,
+  teams,
+  model,
+}: {
+  rows: FcRow[]
+  teams: Record<string, Team>
+  model: SimModel | null
+}) {
   const { t, pick, lang } = useI18n()
   const { settings } = useSettings()
   const [sortKey, setSortKey] = useState<ColKey | null>('oChamp')
@@ -131,9 +149,15 @@ export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: R
           <thead>
             <tr>
               <th rowSpan={2} className="fc-team-h" scope="col" />
-              {SECTIONS.map((s) => (
+              {SECTIONS.map((s, i) => (
                 <th key={s.key} colSpan={s.cols.length} className="fc-sec" scope="colgroup">
-                  {t(s.key)}
+                  <span className="fc-sec-in">
+                    {t(s.key)}
+                    <InfoDot
+                      text={t(s.tip)}
+                      className={i === SECTIONS.length - 1 ? 'fc-sec-tip-end' : 'fc-sec-tip-start'}
+                    />
+                  </span>
                 </th>
               ))}
             </tr>
@@ -162,26 +186,46 @@ export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: R
             </tr>
           </thead>
           <tbody>
-            {view.map((r) => (
-              <tr key={r.code}>
-                <th scope="row" className="fc-team">
-                  <Link to={`/team/${r.code}`}>
-                    <Flag team={teams[r.code]} size={16} />
-                    <span className="fc-team-name">{pick(teams[r.code]?.name, r.code)}</span>
-                  </Link>
-                </th>
-                {ALL_COLS.map((c) => (
-                  <td
-                    key={c}
-                    className={`fc-cell${head[c].champ ? ' fc-champ-col' : ''}`}
-                    style={heat(r[c])}
-                    title={`${head[c].title}: ${(r[c] * 100).toFixed(1)}%`}
-                  >
-                    {fmt(r[c])}
-                  </td>
-                ))}
-              </tr>
-            ))}
+            {view.map((r) => {
+              // the per-row Elo tooltip only renders when the model has this team
+              const fm = model?.teams[r.code] ? model : null
+              const link = (
+                <Link to={`/team/${r.code}`}>
+                  <Flag team={teams[r.code]} size={16} />
+                  <span className="fc-team-name">{pick(teams[r.code]?.name, r.code)}</span>
+                </Link>
+              )
+              return (
+                <tr key={r.code}>
+                  <th scope="row" className="fc-team">
+                    {fm ? (
+                      <Tip
+                        className="fc-team-tip"
+                        text={t('fcEloTip', {
+                          team: pick(teams[r.code]?.name, r.code),
+                          elo: Math.round(fm.teams[r.code].r),
+                          band: t(DIFF_KEY[difficultyOf(fm, r.code)]),
+                        })}
+                      >
+                        {link}
+                      </Tip>
+                    ) : (
+                      link
+                    )}
+                  </th>
+                  {ALL_COLS.map((c) => (
+                    <td
+                      key={c}
+                      className={`fc-cell${head[c].champ ? ' fc-champ-col' : ''}`}
+                      style={heat(r[c])}
+                      title={`${head[c].title}: ${(r[c] * 100).toFixed(1)}%`}
+                    >
+                      {fmt(r[c])}
+                    </td>
+                  ))}
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </div>

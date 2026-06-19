@@ -11,9 +11,12 @@ import { groupStageComplete } from '../utils/helpers'
 // everything that is NOT on the bottom tab bar; the first entry mirrors the
 // stage-aware tab swap (Groups on the bar -> Bracket here, and vice versa)
 const LINKS: { to: string; key: string; icon: IconName }[] = [
+  { to: '/road', key: 'navRoad', icon: 'trophy' },
+  { to: '/pickems', key: 'navPickems', icon: 'pencil' },
   { to: '/venues', key: 'navVenues', icon: 'stadium' },
   { to: '/watch', key: 'navWatch', icon: 'tv' },
   { to: '/stats', key: 'navStats', icon: 'chart' },
+  { to: '/faq', key: 'navFaq', icon: 'info' },
   { to: '/settings', key: 'navSettings', icon: 'gear' },
 ]
 

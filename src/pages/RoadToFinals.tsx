@@ -296,7 +296,14 @@ export default function RoadToFinals() {
                             : ''}
                         </option>
                         {teamList
-                          .filter((tm) => tm.code !== champion)
+                          .filter((tm) =>
+                            // only teams that can structurally reach this slot; always
+                            // keep the current override so old share links still render,
+                            // and fall back to the full list if candidates are unknown
+                            s.candidates.length
+                              ? s.candidates.includes(tm.code) || tm.code === s.opponent
+                              : tm.code !== champion,
+                          )
                           .map((tm) => (
                             <option key={tm.code} value={tm.code}>
                               {tm.name}

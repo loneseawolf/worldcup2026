@@ -18,6 +18,8 @@ const Venues = lazy(() => import('./pages/Venues'))
 const Watch = lazy(() => import('./pages/Watch'))
 const Stats = lazy(() => import('./pages/Stats'))
 const Forecast = lazy(() => import('./pages/Forecast'))
+const PickEms = lazy(() => import('./pages/PickEms'))
+const FAQ = lazy(() => import('./pages/FAQ'))
 const Settings = lazy(() => import('./pages/Settings'))
 const More = lazy(() => import('./pages/More'))
 
@@ -33,6 +35,8 @@ const TITLE_KEY: Record<string, string> = {
   road: 'navRoad',
   stats: 'navStats',
   forecast: 'navSim',
+  pickems: 'navPickems',
+  faq: 'navFaq',
   settings: 'navSettings',
   more: 'navMore',
 }
@@ -113,6 +117,8 @@ export default function App() {
             <Route path="/livetv" element={<Navigate to="/watch" replace />} />
             <Route path="/stats" element={<Stats />} />
             <Route path="/forecast" element={<Forecast />} />
+            <Route path="/pickems" element={<PickEms />} />
+            <Route path="/faq" element={<FAQ />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/more" element={<More />} />
             <Route path="*" element={<Matches />} />

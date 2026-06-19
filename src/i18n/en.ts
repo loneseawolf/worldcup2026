@@ -16,8 +16,10 @@ const en: Dict = {
   navWatch: 'Watch',
   navLiveTv: 'Live TV',
   navRoad: 'Road to Finals',
+  navPickems: 'Pick’ems',
   navStats: 'Stats',
   navSettings: 'Settings',
+  navFaq: 'FAQ',
   navMore: 'More',
   // generic
   loading: 'Loading…',
@@ -214,6 +216,59 @@ const en: Dict = {
   fcPos3: '3rd',
   fcPos4: '4th',
   fcPctNote: 'All values are percentages (%). Tap a column header to sort.',
+  // ---- forecast: header + per-team tooltips ----
+  fcHowItWorks: 'How the forecast works',
+  fcSecTipTop4:
+    'How often each team finishes in the top four — champion, runner-up, third or fourth — across all the simulation runs. From the Elo + FIFA Monte-Carlo model; see the FAQ.',
+  fcSecTipElim:
+    'How often each team’s run ends at this stage: knocked out in the quarter-finals, round of 16 or round of 32, or eliminated in the group stage. From the Elo + FIFA Monte-Carlo model; see the FAQ.',
+  fcSecTipSeed:
+    'How often each team finishes 1st, 2nd or 3rd in its group across all the simulation runs. From the Elo + FIFA Monte-Carlo model; see the FAQ.',
+  fcEloTip:
+    '{team} · Elo {elo} · {band}. Higher Elo means a stronger team — this rating drives every probability in the row.',
+  // ---- FAQ / how-it-works ----
+  faqTitle: 'How it works & FAQ',
+  faqSub: 'How the forecast is built, and how to use each prediction tool.',
+  faqQRatings: 'Where do the team ratings come from?',
+  faqARatings:
+    'Every team has an Elo rating computed from the full history of international results — the public, CC0-licensed martj42/international_results dataset — replayed match by match since 1872. Bigger games count for more: World Cup matches weigh most, then continental cups, then qualifiers and Nations League, then friendlies, with an adjustment for home advantage at non-neutral venues. Recent results dominate, much like eloratings.net.\n\nWhere a team also has FIFA ranking points, an estimate based on those points is blended in 50/50. The fitted ratings ship with the app in public/data/sim-model.json.',
+  faqQMatch: 'How is a single match predicted?',
+  faqAMatch:
+    'The rating gap between the two teams is turned into win / draw / loss probabilities through a curve fitted to the real frequencies of competitive internationals since 1990 (grouped into 50-point rating bins — no formula is assumed). When one of the hosts (USA, Canada or Mexico) plays in its own country, a home-field bonus is added to its rating gap. Draw probability is kept within sensible bounds, so no result is ever treated as impossible.',
+  faqQForecast: 'How is the whole-tournament forecast produced?',
+  faqAForecast:
+    'It is a Monte-Carlo simulation: the app plays the entire tournament thousands of times. Each run simulates every match — sampling a realistic scoreline consistent with the match probabilities — ranks the groups with the official FIFA tie-breakers, picks the 8 best third-placed teams, then plays out the knockout bracket, including extra time and a penalty shoot-out for any drawn knockout game.\n\nCounting how often each team reaches each stage across all the runs gives the percentages you see. More runs make the numbers smoother and more stable.',
+  faqQModes: 'What do the “simulate from” options mean?',
+  faqAModes:
+    '“Now” keeps every real result so far and simulates the rest. “Opener” ignores results and re-simulates the whole tournament from the opening game. “From date” keeps results up to a date you choose and simulates everything after it. “From match” keeps results up to a chosen match number and simulates from there. They let you replay history or forecast purely from the model.',
+  faqQTable: 'How do I read the forecast table?',
+  faqATable:
+    '“Final four” shows how often a team finishes as champion, runner-up, third or fourth. “Eliminated in” shows how often its run ends at the quarter-finals, round of 16, round of 32, or in the group stage. “Group finish” shows how often it finishes 1st, 2nd or 3rd in its group. Every number is a percentage of all the simulation runs. Tap a column header to sort, and hover a team’s name to see its Elo rating and difficulty band.',
+  faqQRoad: 'How does Road to Finals work?',
+  faqARoad:
+    'Pick a champion and the app projects the knockout path they would take to the final, filling each round with the model’s most-likely opponent from the other side of the bracket. Each round shows a difficulty band (from the opponent’s Elo) and the chance of getting past them, including extra time and penalties. Use “Change opponent” to swap in any team that could actually reach that slot, and watch the title odds update.',
+  faqQPickems: 'How do Pick’ems and scoring work?',
+  faqAPickems:
+    'Pick’ems lets you predict every knockout winner from the round of 32 to the final, cascading like a real bracket pool — your winners advance to the next round. It starts pre-filled with the model’s projected qualifiers so you can fill it instantly, then change any pick you like.\n\nScoring is round-weighted, so the later rounds matter most: a correct round-of-32 pick is worth 1 point, round of 16 is 2, a quarter-final 4, a semi-final 8, and the final 16. Picks are scored against the real results as matches finish, and your bracket is saved and shareable by link.',
+  faqQDisclaimer: 'How accurate is all this?',
+  faqADisclaimer:
+    'These are model estimates for entertainment, not betting advice. Football is gloriously unpredictable — that is the fun of it. Enjoy the forecasts, make your picks, and see how they hold up.',
+  // ---- Pick’ems ----
+  pickemTitle: 'Pick’ems',
+  pickemSub: 'Predict every knockout winner and see how your bracket scores against the real results.',
+  pickemInstructions:
+    'Tap a team to send it through to the next round. Your bracket starts on the model’s projection — change any pick you like. Correct picks score more in later rounds: R32 ×1 · R16 ×2 · QF ×4 · SF ×8 · Final ×16.',
+  pickemUseProjection: 'Use model projection',
+  pickemReset: 'Reset',
+  pickemShareLink: 'Copy share link',
+  pickemCopied: 'Link copied!',
+  pickemScoreHead: 'Your score',
+  pickemScore: '{earned} / {available} pts',
+  pickemRoundScore: '{earned}/{available}',
+  pickemCorrect: 'Correct',
+  pickemWrong: 'Wrong',
+  pickemTbd: 'TBD',
+  pickemChampion: 'Your champion',
   weatherTitle: 'Weather at kick-off',
   weatherForecast: 'Forecast',
   weatherTypical: 'Typical conditions',

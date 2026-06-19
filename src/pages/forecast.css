@@ -322,6 +322,30 @@ input.sim-matchno {
   padding: 5px 4px;
   border-inline-start: 2px solid var(--border-strong);
 }
+.fc-sec-in {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+/* the table sits in an overflow:auto scroller, so re-anchor section-header
+   tooltips to the trigger edge (not centered) to keep them inside the table */
+.fc-sec .infodot-tip {
+  max-width: 230px;
+  white-space: normal;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+.fc-sec-tip-start .infodot-tip {
+  inset-inline-start: 0;
+  inset-inline-end: auto;
+  transform: none;
+}
+.fc-sec-tip-end .infodot-tip {
+  inset-inline-start: auto;
+  inset-inline-end: 0;
+  transform: none;
+}
 .fc-col-btn {
   width: 100%;
   border: none;
@@ -371,6 +395,17 @@ input.sim-matchno {
 .fc-team a:hover {
   color: var(--accent-text);
 }
+/* the Tip wrapper around the team link carries the cell's interactivity; anchor
+   its popup to the (leftmost, sticky) column's start so it stays on-screen */
+.fc-team .tip-wrap {
+  display: block;
+}
+.fc-team-tip .infodot-tip {
+  inset-inline-start: 0;
+  inset-inline-end: auto;
+  transform: none;
+  text-align: start;
+}
 .fc-team-name {
   white-space: nowrap;
 }
@@ -392,4 +427,18 @@ input.sim-matchno {
 }
 .fc-note {
   margin: 8px 0 0;
+}
+
+/* "How the forecast works" link in the page head */
+.sim-faq-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-inline-start: 4px;
+  color: var(--accent-2);
+  font-weight: 650;
+  white-space: nowrap;
+}
+.sim-faq-link:hover {
+  color: var(--accent-text);
 }

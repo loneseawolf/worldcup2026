@@ -22,7 +22,13 @@ export default function MapLinks({
         title="Google Maps"
         aria-label="Google Maps"
       >
-        <img src="/icons/gmaps.png" alt="Google Maps" width={size} height={size} loading="lazy" />
+        <img
+          src={`${import.meta.env.BASE_URL}icons/gmaps.png`}
+          alt="Google Maps"
+          width={size}
+          height={size}
+          loading="lazy"
+        />
       </a>
       <a
         href={`https://maps.apple.com/?q=${q}`}
@@ -31,7 +37,13 @@ export default function MapLinks({
         title="Apple Maps"
         aria-label="Apple Maps"
       >
-        <img src="/icons/amaps.png" alt="Apple Maps" width={size} height={size} loading="lazy" />
+        <img
+          src={`${import.meta.env.BASE_URL}icons/amaps.png`}
+          alt="Apple Maps"
+          width={size}
+          height={size}
+          loading="lazy"
+        />
       </a>
       {wiki && (
         <a href={wiki.url} target="_blank" rel="noreferrer" title={wiki.title} aria-label={wiki.title}>

@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 70,
+  "yellow": 71,
   "red": 6,
   "players": [
    {
@@ -446,6 +446,14 @@
     "r": 0
    },
    {
+    "id": "401339",
+    "name": "Andy ROBERTSON",
+    "code": "SCO",
+    "no": 3,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "441251",
     "name": "Antonee ROBINSON",
     "code": "USA",
@@ -474,14 +482,6 @@
     "name": "Caleb YIRENKYI",
     "code": "GHA",
     "no": 3,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "418729",
-    "name": "Carlos HARVEY",
-    "code": "PAN",
-    "no": 14,
     "y": 1,
     "r": 0
    }

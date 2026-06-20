@@ -18,6 +18,10 @@ import { buildMatchTimeline } from '../utils/matchTimeline'
 import type { TimelineEvent } from '../utils/matchTimeline'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
+import Commentary from '../components/Commentary'
+import TeamStats from '../components/TeamStats'
+import WinProbability from '../components/WinProbability'
+import MatchPitch from '../components/MatchPitch'
 import './live.css'
 
 const TYPE_KEY: Record<BroadcastChannel['type'], string> = {
@@ -199,6 +203,35 @@ function EventFeed({ m }: { m: Match }) {
   )
 }
 
+/**
+ * Full rich rendering of the current/featured match: header, live commentary on
+ * top, win probability, team stats, the pitch with player ratings, then the
+ * event ticker. The data-bearing sections only render for a live/finished match;
+ * a scheduled featured match keeps the countdown header + pre-match probability.
+ */
+function FullMatch({ m }: { m: Match }) {
+  const { t } = useI18n()
+  const showSections = m.status === 'live' || m.status === 'finished'
+  return (
+    <>
+      <MatchHead m={m} />
+      {showSections && (
+        <>
+          <div className="section-title">
+            <h2>{t('commentaryTitle')}</h2>
+          </div>
+          <Commentary m={m} />
+        </>
+      )}
+      <WinProbability m={m} card />
+      {showSections && <TeamStats m={m} />}
+      {showSections && <MatchPitch m={m} />}
+      <EventFeed m={m} />
+      <p className="muted small live-semilive">{t('semiLiveNote')}</p>
+    </>
+  )
+}
+
 export default function Live() {
   const { t, countryName, pick } = useI18n()
   const { matches, broadcasters } = useAppData()
@@ -246,9 +279,7 @@ export default function Live() {
         </div>
       ) : (
         <>
-          <MatchHead m={featured.match} />
-          <EventFeed m={featured.match} />
-          <p className="muted small live-semilive">{t('semiLiveNote')}</p>
+          <FullMatch m={featured.match} />
 
           {secondary && (
             <>

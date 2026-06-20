@@ -761,6 +761,281 @@ async function fetchLiveDetails(matches, rawById) {
   return lineups
 }
 
+// ---------------------------------------------------------------- ESPN enrichment
+// FIFA's feed has no commentary / team match-stats / player ratings; ESPN's public
+// fifa.world feed does, but keyed by its own event ids. We resolve FIFA->ESPN by
+// (kickoff day + both team codes), then pull team stats + per-player stats and
+// derive a transparent 0–10 rating. Commentary is best-effort (often absent).
+
+const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world'
+const SKIP_ESPN = process.argv.includes('--skip-espn')
+
+// FIFA 3-letter code -> ESPN abbreviation, only where they differ. ESPN's
+// fifa.world feed largely uses the same codes; extend as mismatches surface.
+const ESPN_CODE_ALIAS = {
+  // examples of historically-seen ESPN soccer abbreviations that differ:
+  // NED: 'NED', GER: 'GER', POR: 'POR' (already equal) — add real misses here
+}
+const espnCode = (code) => (code ? (ESPN_CODE_ALIAS[code] || code).toUpperCase() : null)
+const dayKeyUTC = (iso) => {
+  const t = Date.parse(iso)
+  return Number.isFinite(t) ? new Date(t).toISOString().slice(0, 10).replace(/-/g, '') : null
+}
+const normName = (s) =>
+  (s || '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z]/g, '')
+const num = (v) => {
+  if (v == null) return null
+  const n = typeof v === 'number' ? v : parseFloat(String(v).replace(/[, %]/g, ''))
+  return Number.isFinite(n) ? n : null
+}
+
+// ESPN team-stat name -> our { key, label }. `pct` marks 0–100 percentage rows.
+const TEAM_STAT_DEFS = [
+  { espn: 'possessionPct', key: 'possession', label: 'Possession', pct: true },
+  { espn: 'totalShots', key: 'totalShots', label: 'Shots' },
+  { espn: 'shotsOnTarget', key: 'shotsOnTarget', label: 'Shots on target' },
+  { espn: 'wonCorners', key: 'corners', label: 'Corners' },
+  { espn: 'foulsCommitted', key: 'fouls', label: 'Fouls' },
+  { espn: 'accuratePasses', key: 'accuratePasses', label: 'Accurate passes' },
+  { espn: 'passPct', key: 'passPct', label: 'Pass accuracy', pct: true },
+]
+
+/** find a stat value by name in an ESPN statistics array (objects with .name) */
+function statByName(arr, name) {
+  if (!Array.isArray(arr)) return null
+  const hit = arr.find((s) => s && (s.name === name || s.abbreviation === name))
+  if (!hit) return null
+  return num(hit.value != null ? hit.value : hit.displayValue)
+}
+
+/** transparent, documented 0–10 player rating from ESPN per-match stats */
+function deriveRating(s, isGk) {
+  let r = 6.0
+  r += (s.goals || 0) * 1.0
+  r += (s.assists || 0) * 0.7
+  r += (s.shotsOnTarget || 0) * 0.1
+  if (isGk) {
+    r += (s.saves || 0) * 0.15
+    r -= (s.goalsConceded || 0) * 0.3
+  } else if (s.passPct != null) {
+    // reward passing accuracy above a 70% baseline (±0.5 at the extremes)
+    r += ((s.passPct - 70) / 30) * 0.5
+  }
+  r -= (s.yellow || 0) * 0.3
+  r -= (s.red || 0) * 1.5
+  r -= (s.fouls || 0) * 0.05
+  r = Math.max(4.0, Math.min(10.0, r))
+  return Math.round(r * 10) / 10
+}
+
+/** resolve FIFA matches in the live window to ESPN event ids via scoreboard */
+async function resolveEspnIds(targets) {
+  const map = {} // fifa match id -> espn event id
+  const days = [...new Set(targets.map((m) => dayKeyUTC(m.date)).filter(Boolean))]
+  const events = [] // { id, home, away, date }
+  for (const day of days) {
+    try {
+      const d = await fetchJson(`${ESPN}/scoreboard?dates=${day}`)
+      for (const ev of d?.events || []) {
+        const comp = ev.competitions?.[0]
+        const cs = comp?.competitors || []
+        const h = cs.find((c) => c.homeAway === 'home')
+        const a = cs.find((c) => c.homeAway === 'away')
+        if (!h || !a) continue
+        events.push({
+          id: ev.id,
+          home: (h.team?.abbreviation || '').toUpperCase(),
+          away: (a.team?.abbreviation || '').toUpperCase(),
+          date: ev.date,
+        })
+      }
+      await sleep(300)
+    } catch (e) {
+      warn(`espn scoreboard ${day}: ${e.message}`)
+    }
+  }
+  for (const m of targets) {
+    const h = espnCode(m.home?.code)
+    const a = espnCode(m.away?.code)
+    if (!h || !a) continue
+    const ko = Date.parse(m.date)
+    let best = null
+    let bestDiff = Infinity
+    for (const ev of events) {
+      const same = ev.home === h && ev.away === a
+      const swap = ev.home === a && ev.away === h
+      if (!same && !swap) continue
+      const diff = Math.abs(Date.parse(ev.date) - ko)
+      if (diff < bestDiff && diff < 12 * 3600e3) {
+        best = ev
+        bestDiff = diff
+      }
+    }
+    if (best) map[m.id] = best.id
+    else log(`espn: unresolved ${m.id} (${m.home?.code}-${m.away?.code})`)
+  }
+  return map
+}
+
+async function fetchEspnEnrichment(matches, lineups) {
+  const matchStats = (await readJsonSafe(path.join(OUT, 'matchstats.json'))) || {}
+  const commentary = (await readJsonSafe(path.join(OUT, 'commentary.json'))) || {}
+  if (SKIP_ESPN) {
+    log('espn enrichment skipped (--skip-espn)')
+    return { matchStats, commentary }
+  }
+  // same "plausibly in progress / recently finished" window as live lineups
+  const targets = matches
+    .filter(
+      (m) =>
+        m.status === 'live' ||
+        m.status === 'finished' ||
+        (m.status === 'scheduled' && Math.abs(Date.parse(m.date) - Date.now()) < 3 * 3600e3),
+    )
+    .filter((m) => m.home && m.away)
+  // only matches we have lineups for can be enriched (players join by shirt number)
+  const enrichable = targets.filter((m) => lineups[m.id] && !matchStats[m.id]?.final)
+  log(`espn enrichment targets: ${enrichable.length}`)
+  if (!enrichable.length) return { matchStats, commentary }
+
+  let ids = {}
+  try {
+    ids = await resolveEspnIds(enrichable)
+  } catch (e) {
+    warn(`espn id resolve: ${e.message}`)
+    return { matchStats, commentary }
+  }
+
+  for (const m of enrichable) {
+    const espnId = ids[m.id]
+    if (!espnId || !safeId(espnId)) continue
+    try {
+      const d = await fetchJson(`${ESPN}/summary?event=${espnId}`)
+      // team id -> homeAway, from the header competitors
+      const ha = {}
+      for (const c of d?.header?.competitions?.[0]?.competitors || [])
+        if (c.team?.id) ha[c.team.id] = c.homeAway
+      const homeCode = espnCode(m.home?.code)
+      const codeOf = (team) => {
+        if (team?.id && ha[team.id]) return ha[team.id]
+        const ab = (team?.abbreviation || '').toUpperCase()
+        return ab === homeCode ? 'home' : 'away'
+      }
+
+      // --- team stats ---
+      const byHA = { home: null, away: null }
+      for (const bt of d?.boxscore?.teams || []) byHA[codeOf(bt.team)] = bt.statistics
+      // ESPN is inconsistent: possessionPct comes as 0–100 but passPct as a
+      // 0–1 fraction. Normalise any percentage stat to a 0–100 scale, then round.
+      const asPct = (v) => (v == null ? null : Math.round((v <= 1 ? v * 100 : v) * 10) / 10)
+      const team = []
+      for (const def of TEAM_STAT_DEFS) {
+        let home = statByName(byHA.home, def.espn)
+        let away = statByName(byHA.away, def.espn)
+        if (home == null && away == null) continue
+        if (def.pct) {
+          home = asPct(home)
+          away = asPct(away)
+        }
+        team.push({ key: def.key, label: def.label, home, away, pct: !!def.pct })
+      }
+
+      // --- live win prob (usually absent for this feed) ---
+      let live = null
+      const wp = d?.winprobability
+      if (Array.isArray(wp) && wp.length) {
+        const last = wp[wp.length - 1]
+        const h = num(last?.homeWinPercentage)
+        const t = num(last?.tiePercentage)
+        if (h != null) {
+          const hp = h <= 1 ? h * 100 : h
+          const tp = t == null ? 0 : t <= 1 ? t * 100 : t
+          live = { h: Math.round(hp), d: Math.round(tp), a: Math.round(100 - hp - tp) }
+        }
+      }
+
+      // --- per-player stats -> rating, joined to our lineup by shirt number ---
+      const players = {}
+      const lu = lineups[m.id]
+      const sideXi = { home: lu?.home, away: lu?.away }
+      for (const rs of d?.rosters || []) {
+        const side = rs.homeAway || codeOf(rs.team)
+        const tl = sideXi[side]
+        if (!tl) continue
+        const all = [...(tl.xi || []), ...(tl.subs || [])]
+        const byNum = new Map(all.filter((p) => p.number != null).map((p) => [String(p.number), p]))
+        const byNm = new Map(all.map((p) => [normName(p.name), p]))
+        for (const it of rs.roster || []) {
+          const st = it.stats
+          // stats may be name-tagged objects; if not, we cannot map reliably
+          const g = {
+            goals: statByName(st, 'totalGoals') ?? statByName(st, 'goals'),
+            assists: statByName(st, 'goalAssists') ?? statByName(st, 'assists'),
+            shotsOnTarget: statByName(st, 'shotsOnTarget'),
+            saves: statByName(st, 'saves'),
+            goalsConceded: statByName(st, 'goalsConceded'),
+            yellow: statByName(st, 'yellowCards'),
+            red: statByName(st, 'redCards'),
+            fouls: statByName(st, 'foulsCommitted'),
+            passPct: statByName(st, 'passPct') ?? statByName(st, 'accuratePassPct'),
+          }
+          // join to our player by jersey number, then normalized name
+          const jersey = it.athlete?.jersey != null ? String(it.athlete.jersey) : null
+          const ours = (jersey && byNum.get(jersey)) || byNm.get(normName(it.athlete?.displayName)) || null
+          if (!ours) continue
+          // passPct may arrive as a 0–1 fraction; normalise to a 0–100 scale so
+          // the rating formula and any UI read it consistently
+          if (g.passPct != null && g.passPct <= 1) g.passPct *= 100
+          const hasAny = Object.values(g).some((v) => v != null)
+          if (!hasAny) continue
+          const clean = Object.fromEntries(Object.entries(g).filter(([, v]) => v != null))
+          players[ours.id] = {
+            rating: deriveRating(clean, !!ours.gk),
+            ...clean,
+          }
+        }
+      }
+
+      if (team.length || Object.keys(players).length || live) {
+        matchStats[m.id] = {
+          espnId,
+          team,
+          players,
+          live,
+          final: m.status === 'finished',
+        }
+      }
+
+      // --- commentary (best-effort; often unavailable for this feed) ---
+      const items = []
+      for (const c of d?.commentary || []) {
+        const text = (c.text || '').trim()
+        if (!text) continue
+        const minute = c.time?.displayValue || null
+        items.push({
+          minNum: parseInt(minute || '0', 10) || 0,
+          minute,
+          text,
+          type: c.type?.text || null,
+        })
+      }
+      if (items.length) commentary[m.id] = items
+      await sleep(400)
+    } catch (e) {
+      if (e.status === 404) log(`espn summary ${m.id}: 404`)
+      else warn(`espn summary ${m.id}: ${e.message}`)
+    }
+  }
+  log(
+    `espn: ${Object.keys(matchStats).length} matches w/ stats, ${Object.keys(commentary).length} w/ commentary`,
+  )
+  return { matchStats, commentary }
+}
+
 // FIFA v3 goal Type semantics (verified against 2022 data): 1 = in-game penalty,
 // 2 = open play, 3 = own goal. Own goals sit in the BENEFITING team's Goals array
 // with the opponent player's id. Period 11 entries are shootout kicks, not goals.
@@ -1352,6 +1627,16 @@ async function main() {
   stats.suspensions = computeSuspensions(lineups, matches)
   attachWcStats(squads, lineups, matches) // per-player apps/goals onto squads
 
+  // 6b. ESPN enrichment: team match-stats, derived player ratings, commentary.
+  // Isolated so a failure here never blocks the core FIFA outputs below.
+  let matchStats = (await readJsonSafe(path.join(OUT, 'matchstats.json'))) || {}
+  let commentary = (await readJsonSafe(path.join(OUT, 'commentary.json'))) || {}
+  try {
+    ;({ matchStats, commentary } = await fetchEspnEnrichment(matches, lineups))
+  } catch (e) {
+    warn(`espn enrichment: ${e.message} — keeping previous files`)
+  }
+
   // 7. standings (needs lineups for the fair-play tiebreaker)
   const standings = computeStandings(matches, teams, lineups)
 
@@ -1559,6 +1844,8 @@ async function main() {
   await writeJson(path.join(OUT, 'venues.json'), { venues })
   await writeJson(path.join(OUT, 'standings.json'), standings)
   await writeJson(path.join(OUT, 'lineups.json'), lineups)
+  await writeJson(path.join(OUT, 'matchstats.json'), matchStats)
+  await writeJson(path.join(OUT, 'commentary.json'), commentary)
   await writeJson(path.join(OUT, 'stats.json'), stats)
   await writeJson(path.join(OUT, 'weather.json'), weather)
   await writeJson(path.join(OUT, 'probs.json'), probs)
@@ -1601,12 +1888,21 @@ async function main() {
       'en.wikipedia.org',
       'open-meteo.com',
       'github.com/martj42/international_results',
+      'site.api.espn.com',
     ],
   })
   log(`done. ${errors.length} warnings`)
 }
 
-main().catch((e) => {
-  console.error(e)
-  process.exit(1)
-})
+// run only when invoked directly (so the ESPN helpers can be imported by tests)
+const invokedDirectly =
+  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)
+if (invokedDirectly) {
+  main().catch((e) => {
+    console.error(e)
+    process.exit(1)
+  })
+}
+
+// exported so the ESPN enrichment helpers can be unit-tested in isolation
+export { resolveEspnIds, fetchEspnEnrichment, deriveRating, espnCode, normName }

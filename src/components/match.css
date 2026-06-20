@@ -1,0 +1,216 @@
+/* ===== Shared match sections (Live page + match detail) ===== */
+
+/* pitch card padding (also defined in matchdetail.css; identical) */
+.md-pitch-card {
+  padding: 14px 10px 16px;
+}
+
+/* ---- win/draw/loss probability (Elo pre-match + optional ESPN live) ---- */
+.md-prob {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.md-prob.card-pad {
+  border-top: none;
+}
+.md-prob-head {
+  color: var(--text-2);
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.md-prob-row + .md-prob-row {
+  margin-top: 12px;
+}
+.md-prob-rowhead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 5px;
+  color: var(--text-2);
+  font-weight: 650;
+}
+.md-prob-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  direction: ltr;
+}
+.md-prob-h {
+  background: var(--accent-2);
+}
+.md-prob-d {
+  background: color-mix(in srgb, var(--text-3) 45%, transparent);
+}
+.md-prob-a {
+  background: var(--accent);
+}
+.md-prob-legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: var(--text-2);
+  font-weight: 650;
+  direction: ltr;
+}
+.md-prob-adv {
+  margin-top: 6px;
+  text-align: center;
+  color: var(--text-2);
+}
+.md-prob-note {
+  margin: 6px 0 0;
+  text-align: center;
+  color: var(--text-3);
+}
+
+/* finished matches hide the probability bar behind a small reveal button */
+.md-prob-show {
+  display: block;
+  margin: 12px auto 0;
+  padding: 5px 14px;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--text-2);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.md-prob-show:hover {
+  color: var(--accent-2);
+  border-color: var(--accent-2);
+}
+
+/* knockout path-to-victory breakdown */
+.md-prob-path {
+  margin: 10px auto 0;
+  border-collapse: collapse;
+}
+.md-prob-path th,
+.md-prob-path td {
+  padding: 2px 14px;
+  text-align: end;
+  font-weight: 500;
+  color: var(--text-2);
+}
+.md-prob-path th[scope="row"] {
+  text-align: start;
+  padding-inline-start: 0;
+  font-weight: 500;
+}
+.md-prob-path thead th {
+  font-weight: 750;
+  color: var(--text);
+}
+.md-prob-total th,
+.md-prob-total td {
+  border-top: 1px solid var(--border);
+  font-weight: 750;
+  color: var(--text);
+}
+
+/* ---- commentary feed ---- */
+.mc-feed {
+  padding: 8px 0;
+  max-height: 460px;
+  overflow-y: auto;
+}
+.mc-row {
+  display: grid;
+  grid-template-columns: 34px auto 1fr;
+  align-items: start;
+  gap: 8px;
+  padding: 8px 14px;
+  border-top: 1px solid var(--border);
+}
+.mc-row:first-child {
+  border-top: none;
+}
+.mc-min {
+  font-weight: 750;
+  color: var(--accent-2);
+  text-align: end;
+}
+.mc-icon {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.mc-text {
+  color: var(--text);
+  line-height: 1.45;
+}
+.mc-type {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--text-3);
+}
+.mc-derived {
+  margin: 0;
+  padding: 6px 14px 0;
+  color: var(--text-3);
+}
+
+/* ---- team stats (home vs away mirrored bars) ---- */
+.ts-card {
+  padding: 14px 16px;
+}
+.ts-row {
+  margin-top: 12px;
+}
+.ts-row:first-child {
+  margin-top: 0;
+}
+.ts-head {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.ts-val {
+  font-weight: 750;
+  color: var(--text);
+}
+.ts-val.home {
+  text-align: start;
+}
+.ts-val.away {
+  text-align: end;
+}
+.ts-label {
+  font-size: 0.78rem;
+  color: var(--text-3);
+  text-align: center;
+  white-space: nowrap;
+}
+.ts-bar {
+  display: flex;
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--text-3) 16%, transparent);
+  direction: ltr;
+}
+.ts-bar-h {
+  background: var(--accent-2);
+}
+.ts-bar-gap {
+  width: 2px;
+  background: transparent;
+}
+.ts-bar-a {
+  background: var(--accent);
+  margin-inline-start: auto;
+}
+.ts-derived {
+  margin: 12px 0 0;
+  color: var(--text-3);
+}

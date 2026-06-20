@@ -254,6 +254,48 @@ export interface Stats {
   fairPlay?: { group: Record<string, number>; all: Record<string, number> }
 }
 
+/** one home-vs-away comparison row of ESPN team match-statistics */
+export interface TeamStatRow {
+  key: string
+  label: string
+  home: number | null
+  away: number | null
+  /** value is a 0–100 percentage (possession, pass accuracy) */
+  pct?: boolean
+}
+
+/** ESPN-derived per-player match stats + a documented 0–10 rating heuristic */
+export interface PlayerMatchStat {
+  rating: number | null
+  goals?: number
+  assists?: number
+  shotsOnTarget?: number
+  saves?: number
+  goalsConceded?: number
+  yellow?: number
+  red?: number
+  fouls?: number
+  passPct?: number
+}
+
+export interface MatchStats {
+  espnId?: string
+  team: TeamStatRow[]
+  /** keyed by our LineupPlayer id (joined from ESPN by shirt number) */
+  players: Record<string, PlayerMatchStat>
+  /** optional live win-prob from ESPN (usually absent for this feed) */
+  live?: { h: number; d: number; a: number } | null
+  final?: boolean
+}
+
+export interface CommentaryItem {
+  minNum: number
+  minute: string | null
+  text: string
+  type?: string | null
+  code?: string | null
+}
+
 export interface Meta {
   updatedAt: string
   season: string
@@ -274,6 +316,8 @@ export interface AppData {
   stats: Stats
   probs: Record<string, MatchProbs>
   broadcasters: Broadcasters | null
+  matchStats: Record<string, MatchStats>
+  commentary: Record<string, CommentaryItem[]>
 }
 
 export type Squads = Record<string, TeamSquad>

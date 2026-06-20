@@ -16,6 +16,8 @@ interface PitchProps {
   subOff?: Record<string, string>
   /** player id -> goal minutes string, e.g. "5', 90'" (shown under the XI name) */
   goals?: Record<string, string>
+  /** player id -> 0–10 match rating (ESPN-derived); shown as a colored badge */
+  ratings?: Record<string, number>
 }
 
 interface Placed {
@@ -23,6 +25,14 @@ interface Placed {
   x: number
   y: number
 }
+
+// The pitch is drawn in a coordinate space W units wide × 164 tall. W is wider
+// than a real aspect ratio on purpose: the extra grass on the wings spreads the
+// player rows out horizontally so a back-4/5 row has room for name labels.
+// Field *markings* (boxes, circles, spots) keep their absolute size and stay
+// centred on CX, so they remain undistorted while the players fan out wider.
+const W = 128
+const CX = W / 2
 
 const LINE = 'var(--pitch-line)'
 
@@ -32,6 +42,13 @@ const COLORS = {
 } as const
 
 const lineStyle = { fill: 'none', stroke: LINE, strokeWidth: 0.7 } as const
+
+/** rating badge colour: red <6, amber 6–7, green >7 */
+function ratingColor(r: number): string {
+  if (r < 6) return '#d92d20'
+  if (r <= 7) return '#e08a00'
+  return '#1f9d55'
+}
 
 function shortName(name: string | null): string {
   if (!name) return ''
@@ -69,15 +86,15 @@ function layout(tl: TeamLineup, half: 'top' | 'bottom'): Placed[] {
   const gk = sorted.find((p) => p.gk) ?? sorted[0]
   const field = sorted.filter((p) => p !== gk)
   const rows = parseRows(tl.tactics, field.length)
-  const out: Placed[] = [{ p: gk, x: 50, y: half === 'bottom' ? 144 : 20 }]
+  const out: Placed[] = [{ p: gk, x: CX, y: half === 'bottom' ? 144 : 20 }]
   const yFrom = half === 'bottom' ? 130 : 34 // defenders, near own goal
   const yTo = half === 'bottom' ? 92 : 72 // attackers, near halfway line
   let idx = 0
   rows.forEach((count, ri) => {
     const y = rows.length === 1 ? (yFrom + yTo) / 2 : yFrom + (ri * (yTo - yFrom)) / (rows.length - 1)
     for (let j = 0; j < count && idx < field.length; j++, idx++) {
-      let x = (100 * (j + 1)) / (count + 1)
-      if (half === 'top') x = 100 - x // mirror the away side, broadcast-style
+      let x = (W * (j + 1)) / (count + 1)
+      if (half === 'top') x = W - x // mirror the away side, broadcast-style
       out.push({ p: field[idx], x, y })
     }
   })
@@ -87,7 +104,17 @@ function layout(tl: TeamLineup, half: 'top' | 'bottom'): Placed[] {
 // Dots and labels are drawn in two separate passes (all dots, then all labels)
 // so a player's annotation text below the dot is never covered by a neighbouring
 // player's dot painted later in document order.
-function PlayerMarks({ pl, side, card }: { pl: Placed; side: 'home' | 'away'; card?: 'y' | 'r' }) {
+function PlayerMarks({
+  pl,
+  side,
+  card,
+  rating,
+}: {
+  pl: Placed
+  side: 'home' | 'away'
+  card?: 'y' | 'r'
+  rating?: number
+}) {
   const c = COLORS[side]
   return (
     <g transform={`translate(${pl.x} ${pl.y})`}>
@@ -113,6 +140,21 @@ function PlayerMarks({ pl, side, card }: { pl: Placed; side: 'home' | 'away'; ca
           r={1.9}
           style={{ fill: '#d4a017', stroke: 'rgb(0 0 0 / 0.3)', strokeWidth: 0.35 }}
         />
+      )}
+      {rating != null && (
+        <g transform="translate(5 4.6)">
+          <rect
+            x={-2.7}
+            y={-1.7}
+            width={5.4}
+            height={3.4}
+            rx={1}
+            style={{ fill: ratingColor(rating), stroke: 'rgb(0 0 0 / 0.35)', strokeWidth: 0.3 }}
+          />
+          <text textAnchor="middle" y={0.95} style={{ fontSize: 2.5, fontWeight: 800, fill: '#ffffff' }}>
+            {rating.toFixed(1)}
+          </text>
+        </g>
       )}
     </g>
   )
@@ -268,6 +310,7 @@ export default function Pitch({
   marks,
   subOff,
   goals,
+  ratings,
 }: PitchProps) {
   const homePlaced = home ? layout(home, 'bottom') : []
   const awayPlaced = away ? layout(away, 'top') : []
@@ -275,10 +318,10 @@ export default function Pitch({
 
   return (
     <svg
-      viewBox="0 0 100 164"
+      viewBox={`0 0 ${W} 164`}
       role="img"
       aria-label={`${homeName} – ${awayName}`}
-      style={{ width: '100%', maxWidth: 460, height: 'auto', display: 'block', margin: '0 auto' }}
+      style={{ width: '100%', maxWidth: 600, height: 'auto', display: 'block', margin: '0 auto' }}
     >
       {/* team label: away (top half) */}
       <TeamLabel
@@ -292,48 +335,60 @@ export default function Pitch({
       />
 
       {/* turf */}
-      <rect x={0} y={8} width={100} height={148} rx={2} style={{ fill: 'var(--pitch)' }} />
+      <rect x={0} y={8} width={W} height={148} rx={2} style={{ fill: 'var(--pitch)' }} />
       {[0, 1, 2, 3, 4].map((i) => (
         <rect
           key={i}
           x={0}
           y={11 + i * 28.4}
-          width={100}
+          width={W}
           height={14.2}
           style={{ fill: 'rgb(255 255 255 / 0.045)' }}
         />
       ))}
 
       {/* markings */}
-      <rect x={3} y={11} width={94} height={142} style={lineStyle} />
-      <line x1={3} y1={82} x2={97} y2={82} style={lineStyle} />
-      <circle cx={50} cy={82} r={11.5} style={lineStyle} />
-      <circle cx={50} cy={82} r={0.9} style={{ fill: LINE }} />
+      <rect x={3} y={11} width={W - 6} height={142} style={lineStyle} />
+      <line x1={3} y1={82} x2={W - 3} y2={82} style={lineStyle} />
+      <circle cx={CX} cy={82} r={11.5} style={lineStyle} />
+      <circle cx={CX} cy={82} r={0.9} style={{ fill: LINE }} />
       {/* penalty + goal areas (top) */}
-      <rect x={22} y={11} width={56} height={21} style={lineStyle} />
-      <rect x={37} y={11} width={26} height={7} style={lineStyle} />
-      <circle cx={50} cy={26} r={0.9} style={{ fill: LINE }} />
-      <path d="M 40.2 32 A 11.5 11.5 0 0 0 59.8 32" style={lineStyle} />
+      <rect x={CX - 28} y={11} width={56} height={21} style={lineStyle} />
+      <rect x={CX - 13} y={11} width={26} height={7} style={lineStyle} />
+      <circle cx={CX} cy={26} r={0.9} style={{ fill: LINE }} />
+      <path d={`M ${CX - 9.8} 32 A 11.5 11.5 0 0 0 ${CX + 9.8} 32`} style={lineStyle} />
       {/* penalty + goal areas (bottom) */}
-      <rect x={22} y={132} width={56} height={21} style={lineStyle} />
-      <rect x={37} y={146} width={26} height={7} style={lineStyle} />
-      <circle cx={50} cy={138} r={0.9} style={{ fill: LINE }} />
-      <path d="M 40.2 132 A 11.5 11.5 0 0 1 59.8 132" style={lineStyle} />
+      <rect x={CX - 28} y={132} width={56} height={21} style={lineStyle} />
+      <rect x={CX - 13} y={146} width={26} height={7} style={lineStyle} />
+      <circle cx={CX} cy={138} r={0.9} style={{ fill: LINE }} />
+      <path d={`M ${CX - 9.8} 132 A 11.5 11.5 0 0 1 ${CX + 9.8} 132`} style={lineStyle} />
       {/* goals */}
-      <rect x={45.6} y={8.8} width={8.8} height={2.2} style={lineStyle} />
-      <rect x={45.6} y={153} width={8.8} height={2.2} style={lineStyle} />
+      <rect x={CX - 4.4} y={8.8} width={8.8} height={2.2} style={lineStyle} />
+      <rect x={CX - 4.4} y={153} width={8.8} height={2.2} style={lineStyle} />
       {/* corner arcs */}
       <path d="M 3 13.5 A 2.5 2.5 0 0 0 5.5 11" style={lineStyle} />
-      <path d="M 94.5 11 A 2.5 2.5 0 0 0 97 13.5" style={lineStyle} />
+      <path d={`M ${W - 5.5} 11 A 2.5 2.5 0 0 0 ${W - 3} 13.5`} style={lineStyle} />
       <path d="M 5.5 153 A 2.5 2.5 0 0 0 3 150.5" style={lineStyle} />
-      <path d="M 97 150.5 A 2.5 2.5 0 0 0 94.5 153" style={lineStyle} />
+      <path d={`M ${W - 3} 150.5 A 2.5 2.5 0 0 0 ${W - 5.5} 153`} style={lineStyle} />
 
       {/* players: all dots first, then all labels on top so no text is covered by a dot */}
       {awayPlaced.map((pl) => (
-        <PlayerMarks key={pl.p.id} pl={pl} side="away" card={marks?.[pl.p.id]?.card} />
+        <PlayerMarks
+          key={pl.p.id}
+          pl={pl}
+          side="away"
+          card={marks?.[pl.p.id]?.card}
+          rating={ratings?.[pl.p.id]}
+        />
       ))}
       {homePlaced.map((pl) => (
-        <PlayerMarks key={pl.p.id} pl={pl} side="home" card={marks?.[pl.p.id]?.card} />
+        <PlayerMarks
+          key={pl.p.id}
+          pl={pl}
+          side="home"
+          card={marks?.[pl.p.id]?.card}
+          rating={ratings?.[pl.p.id]}
+        />
       ))}
       {awayPlaced.map((pl) => (
         <PlayerLabels

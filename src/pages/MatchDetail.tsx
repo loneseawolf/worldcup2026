@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import type { Lang, MatchSide, Official, TeamLineup } from '../types'
 import { DATA_FALLBACK, useI18n } from '../i18n'
@@ -25,6 +25,9 @@ import MapLinks from '../components/MapLinks'
 import MatchCard from '../components/MatchCard'
 import Pitch from '../components/Pitch'
 import TeamName from '../components/TeamName'
+import Commentary from '../components/Commentary'
+import TeamStats from '../components/TeamStats'
+import WinProbability from '../components/WinProbability'
 import './matchdetail.css'
 
 const ROLE_KEY: Record<string, string> = {
@@ -103,8 +106,7 @@ export default function MatchDetail() {
     o.typeName.en ??
     o.role
   const { settings } = useSettings()
-  const { matches, teams, venues, weather, lineups, broadcasters, probs } = useAppData()
-  const [showProbPast, setShowProbPast] = useState(false)
+  const { matches, teams, venues, weather, lineups, broadcasters, matchStats } = useAppData()
 
   const m = matches.find((x) => x.id === id)
   const venue = m?.venueId ? (venues[m.venueId] ?? null) : null
@@ -220,6 +222,15 @@ export default function MatchDetail() {
   }, [lu, m])
   const redRows = cardInfo.reds
 
+  // ESPN-derived per-player ratings, keyed by our lineup player id
+  const ratings = useMemo(() => {
+    const players = m ? matchStats[m.id]?.players : undefined
+    if (!players) return undefined
+    const out: Record<string, number> = {}
+    for (const [pid, ps] of Object.entries(players)) if (ps.rating != null) out[pid] = ps.rating
+    return Object.keys(out).length ? out : undefined
+  }, [matchStats, m])
+
   // scorer / red-card name, linked to the player's card on their team's squad page
   const scorerName = (g: GoalRow) =>
     g.playerCode && g.num != null ? (
@@ -259,6 +270,7 @@ export default function MatchDetail() {
   const monthKey: 'jun' | 'jul' = dayKey(m.date, venue?.tz).slice(5, 7) === '07' ? 'jul' : 'jun'
   const clim = venue?.climate?.[monthKey]
   const hasLineups = Boolean(lu && (lu.home || lu.away))
+  const showMatchSections = m.status === 'live' || m.status === 'finished'
 
   return (
     <div>
@@ -358,85 +370,7 @@ export default function MatchDetail() {
           </div>
         )}
         {m.status === 'live' && <p className="md-semilive small">{t('semiLiveNote')}</p>}
-        {m.home && m.away && probs[m.id] && m.status !== 'scheduled' && (
-          <button
-            type="button"
-            className="md-prob-show small"
-            aria-expanded={showProbPast}
-            onClick={() => setShowProbPast((v) => !v)}
-          >
-            {t(showProbPast ? 'probHide' : 'probShow')}
-          </button>
-        )}
-        {m.home && m.away && probs[m.id] && (m.status === 'scheduled' || showProbPast) && (
-          <div className="md-prob">
-            <div className="md-prob-head small">
-              <span>{t('probTitle')}</span>
-            </div>
-            <div
-              className="md-prob-bar"
-              role="img"
-              aria-label={`${m.home.code} ${probs[m.id].h}% · ${t('probDraw')} ${probs[m.id].d}% · ${m.away.code} ${probs[m.id].a}%`}
-            >
-              <span className="md-prob-h" style={{ width: `${probs[m.id].h}%` }} />
-              <span className="md-prob-d" style={{ width: `${probs[m.id].d}%` }} />
-              <span className="md-prob-a" style={{ width: `${probs[m.id].a}%` }} />
-            </div>
-            <div className="md-prob-legend small tnum">
-              <span>
-                {m.home.code} {probs[m.id].h}%
-              </span>
-              <span>
-                {t('probDraw')} {probs[m.id].d}%
-              </span>
-              <span>
-                {m.away.code} {probs[m.id].a}%
-              </span>
-            </div>
-            {probs[m.id].eh != null ? (
-              <table className="md-prob-path small tnum">
-                <thead>
-                  <tr>
-                    <td />
-                    <th scope="col">{m.home.code}</th>
-                    <th scope="col">{m.away.code}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">{t('prob90')}</th>
-                    <td>{probs[m.id].h}%</td>
-                    <td>{probs[m.id].a}%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">{t('probEt')}</th>
-                    <td>+{probs[m.id].eh}%</td>
-                    <td>+{probs[m.id].ea}%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">{t('probPens')}</th>
-                    <td>+{probs[m.id].ph}%</td>
-                    <td>+{probs[m.id].pa}%</td>
-                  </tr>
-                  <tr className="md-prob-total">
-                    <th scope="row">{t('probAdvance')}</th>
-                    <td>{probs[m.id].ah}%</td>
-                    <td>{100 - (probs[m.id].ah ?? 0)}%</td>
-                  </tr>
-                </tbody>
-              </table>
-            ) : (
-              probs[m.id].ah != null && (
-                <div className="md-prob-adv small muted">
-                  {t('probAdvance')}
-                  {t('colon')}
-                  {m.home.code} {probs[m.id].ah}% · {m.away.code} {100 - (probs[m.id].ah ?? 0)}%
-                </div>
-              )
-            )}
-            <p className="md-prob-note small muted">{t('probNote')}</p>
-          </div>
-        )}
+        <WinProbability m={m} />
 
         <div className="md-when">
           <Icon name="clock" size={15} />
@@ -459,6 +393,16 @@ export default function MatchDetail() {
           </a>
         </div>
       </div>
+
+      {/* ===== commentary ===== */}
+      {showMatchSections && (
+        <>
+          <div className="section-title">
+            <h2>{t('commentaryTitle')}</h2>
+          </div>
+          <Commentary m={m} />
+        </>
+      )}
 
       {/* ===== info cards ===== */}
       <div className="md-grid">
@@ -642,6 +586,16 @@ export default function MatchDetail() {
         )}
       </div>
 
+      {/* ===== team stats ===== */}
+      {showMatchSections && matchStats[m.id]?.team?.length ? (
+        <>
+          <div className="section-title">
+            <h2>{t('teamStatsTitle')}</h2>
+          </div>
+          <TeamStats m={m} />
+        </>
+      ) : null}
+
       {/* ===== lineups ===== */}
       <div className="section-title">
         <h2>{t('lineups')}</h2>
@@ -660,6 +614,7 @@ export default function MatchDetail() {
             marks={cardInfo.marks}
             subOff={cardInfo.subOff}
             goals={cardInfo.goals}
+            ratings={ratings}
           />
           {((lu.home?.subs.length ?? 0) > 0 || (lu.away?.subs.length ?? 0) > 0) && (
             <div className="md-subs">
@@ -707,6 +662,7 @@ export default function MatchDetail() {
               )}
             </div>
           )}
+          {ratings && <p className="ts-derived small">{t('ratingsNote')}</p>}
         </div>
       ) : (
         <div className="card">

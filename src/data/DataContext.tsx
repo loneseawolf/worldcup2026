@@ -67,29 +67,35 @@ export function DataProvider({ children }: { children: ReactNode }) {
       getJson<AppData['probs']>('probs.json'),
       getJson<AppData['meta']>('meta.json'),
       getJson<NonNullable<AppData['broadcasters']>>('broadcasters.json'),
-    ]).then(([m, t, v, standings, weather, lineups, stats, probs, meta, broadcasters]) => {
-      if (!on) return
-      // matches/teams/venues are required: without them nothing can render
-      if (m.status !== 'fulfilled' || t.status !== 'fulfilled' || v.status !== 'fulfilled') {
-        const reasons = [m, t, v].flatMap((r) => (r.status === 'rejected' ? [String(r.reason)] : []))
-        setError(reasons.join('; ') || 'load failed')
-        return
-      }
-      // everything else degrades to an empty structure so one transient 404
-      // (e.g. a file briefly missing mid-deploy) cannot blank the whole app
-      setData({
-        matches: m.value.matches,
-        teams: t.value.teams,
-        venues: v.value.venues,
-        standings: settled(standings, EMPTY_STANDINGS),
-        weather: settled(weather, {}),
-        lineups: settled(lineups, {}),
-        stats: settled(stats, EMPTY_STATS),
-        probs: settled(probs, {}),
-        meta: settled(meta, EMPTY_META),
-        broadcasters: settled(broadcasters, null),
-      })
-    })
+      getJson<AppData['matchStats']>('matchstats.json'),
+      getJson<AppData['commentary']>('commentary.json'),
+    ]).then(
+      ([m, t, v, standings, weather, lineups, stats, probs, meta, broadcasters, matchStats, commentary]) => {
+        if (!on) return
+        // matches/teams/venues are required: without them nothing can render
+        if (m.status !== 'fulfilled' || t.status !== 'fulfilled' || v.status !== 'fulfilled') {
+          const reasons = [m, t, v].flatMap((r) => (r.status === 'rejected' ? [String(r.reason)] : []))
+          setError(reasons.join('; ') || 'load failed')
+          return
+        }
+        // everything else degrades to an empty structure so one transient 404
+        // (e.g. a file briefly missing mid-deploy) cannot blank the whole app
+        setData({
+          matches: m.value.matches,
+          teams: t.value.teams,
+          venues: v.value.venues,
+          standings: settled(standings, EMPTY_STANDINGS),
+          weather: settled(weather, {}),
+          lineups: settled(lineups, {}),
+          stats: settled(stats, EMPTY_STATS),
+          probs: settled(probs, {}),
+          meta: settled(meta, EMPTY_META),
+          broadcasters: settled(broadcasters, null),
+          matchStats: settled(matchStats, {}),
+          commentary: settled(commentary, {}),
+        })
+      },
+    )
     return () => {
       on = false
     }
@@ -102,15 +108,18 @@ export function DataProvider({ children }: { children: ReactNode }) {
       if (refreshing.current || !dataRef.current) return
       refreshing.current = true
       try {
-        const [m, standings, lineups, stats, probs, weather, meta] = await Promise.allSettled([
-          getJson<{ matches: AppData['matches'] }>('matches.json'),
-          getJson<AppData['standings']>('standings.json'),
-          getJson<AppData['lineups']>('lineups.json'),
-          getJson<AppData['stats']>('stats.json'),
-          getJson<AppData['probs']>('probs.json'),
-          getJson<AppData['weather']>('weather.json'),
-          getJson<AppData['meta']>('meta.json'),
-        ])
+        const [m, standings, lineups, stats, probs, weather, meta, matchStats, commentary] =
+          await Promise.allSettled([
+            getJson<{ matches: AppData['matches'] }>('matches.json'),
+            getJson<AppData['standings']>('standings.json'),
+            getJson<AppData['lineups']>('lineups.json'),
+            getJson<AppData['stats']>('stats.json'),
+            getJson<AppData['probs']>('probs.json'),
+            getJson<AppData['weather']>('weather.json'),
+            getJson<AppData['meta']>('meta.json'),
+            getJson<AppData['matchStats']>('matchstats.json'),
+            getJson<AppData['commentary']>('commentary.json'),
+          ])
         setData((prev) =>
           prev
             ? {
@@ -122,6 +131,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
                 probs: settled(probs, prev.probs),
                 weather: settled(weather, prev.weather),
                 meta: settled(meta, prev.meta),
+                matchStats: settled(matchStats, prev.matchStats),
+                commentary: settled(commentary, prev.commentary),
               }
             : prev,
         )

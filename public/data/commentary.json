@@ -14014,6 +14014,12 @@
   },
   {
    "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
    "minute": "90'+1'",
    "text": "Lucas Bergvall (Sweden) wins a free kick in the defensive half.",
    "type": null
@@ -14022,6 +14028,66 @@
    "minNum": 90,
    "minute": "90'+1'",
    "text": "Foul by Ryan Gravenberch (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt blocked. Viktor Gyökeres (Sweden) right footed shot from outside the box is blocked. Assisted by Taha Ali.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Foul by Isak Hien (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Noa Lang (Netherlands) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Substitution, Sweden. Elliot Stroud replaces Gabriel Gudmundsson.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Delay in match because of an injury Crysencio Summerville (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Corner, Sweden. Conceded by Virgil van Dijk.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt saved. Gustaf Lagerbielke (Sweden) header from the centre of the box is saved in the centre of the goal by Bart Verbruggen (Netherlands). Assisted by Elliot Stroud with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Netherlands 5, Sweden 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Netherlands 5, Sweden 1.",
    "type": null
   }
  ],

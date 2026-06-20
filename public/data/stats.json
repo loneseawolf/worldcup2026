@@ -33,6 +33,14 @@
    "ownGoals": 0
   },
   {
+   "id": "489518",
+   "name": "Crysencio SUMMERVILLE",
+   "code": "NED",
+   "no": 24,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
@@ -233,14 +241,6 @@
    "ownGoals": 0
   },
   {
-   "id": "489518",
-   "name": "Crysencio SUMMERVILLE",
-   "code": "NED",
-   "no": 24,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
    "id": "431200",
    "name": "Daniel MUNOZ",
    "code": "COL",
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 81,
+  "yellow": 82,
   "red": 7,
   "players": [
    {

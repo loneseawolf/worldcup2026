@@ -8262,21 +8262,21 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 61.7,
-    "away": 38.3,
+    "home": 59.1,
+    "away": 40.9,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 12,
-    "away": 8,
+    "home": 14,
+    "away": 9,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 3,
+    "home": 5,
     "away": 2,
     "pct": false
    },
@@ -8284,21 +8284,21 @@
     "key": "corners",
     "label": "Corners",
     "home": 8,
-    "away": 2,
+    "away": 3,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 3,
-    "away": 5,
+    "home": 5,
+    "away": 6,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 463,
-    "away": 282,
+    "home": 515,
+    "away": 351,
     "pct": false
    },
    {
@@ -8434,11 +8434,11 @@
     "fouls": 0
    },
    "405873": {
-    "rating": 6,
+    "rating": 6.3,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 2,
+    "saves": 4,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
@@ -8532,7 +8532,7 @@
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "430822": {
     "rating": 6,
@@ -8675,10 +8675,10 @@
     "fouls": 0
    },
    "484851": {
-    "rating": 7.1,
+    "rating": 7.2,
     "goals": 1,
     "assists": 0,
-    "shotsOnTarget": 1,
+    "shotsOnTarget": 2,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -8692,7 +8692,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "486259": {
     "rating": 6,
@@ -8753,7 +8753,7 @@
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "498416": {
     "rating": 6,
@@ -8786,10 +8786,10 @@
     "fouls": 1
    },
    "511015": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,

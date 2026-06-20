@@ -13447,6 +13447,32 @@
    "type": null
   }
  ],
+ "400021472": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by Jan Paul van Hecke (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Alexander Isak (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  }
+ ],
  "400021474": [
   {
    "minNum": 0,

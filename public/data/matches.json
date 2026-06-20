@@ -2178,16 +2178,16 @@
    "group": "F",
    "date": "2026-06-20T17:00:00Z",
    "venueId": "400249385",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "3'",
    "home": {
     "code": "NED",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "SWE",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "F1",

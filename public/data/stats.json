@@ -25,6 +25,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448152",
+   "name": "Cody GAKPO",
+   "code": "NED",
+   "no": 11,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
@@ -169,6 +177,14 @@
    "ownGoals": 0
   },
   {
+   "id": "441137",
+   "name": "Anthony ELANGA",
+   "code": "SWE",
+   "no": 11,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "299200",
    "name": "ARNAUTOVIC",
    "code": "AUT",
@@ -205,14 +221,6 @@
    "name": "Caleb YIRENKYI",
    "code": "GHA",
    "no": 3,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "448152",
-   "name": "Cody GAKPO",
-   "code": "NED",
-   "no": 11,
    "goals": 1,
    "ownGoals": 0
   },
@@ -311,18 +319,10 @@
    "no": 15,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "401334",
-   "name": "John McGINN",
-   "code": "SCO",
-   "no": 7,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 79,
+  "yellow": 80,
   "red": 7,
   "players": [
    {

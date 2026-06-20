@@ -97,6 +97,14 @@
    "ownGoals": 0
   },
   {
+   "id": "405742",
+   "name": "VINI JR.",
+   "code": "BRA",
+   "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "489688",
    "name": "Yasin AYARI",
    "code": "SWE",
@@ -311,18 +319,10 @@
    "no": 16,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "448557",
-   "name": "KAMADA",
-   "code": "JPN",
-   "no": 15,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 72,
+  "yellow": 73,
   "red": 6,
   "players": [
    {

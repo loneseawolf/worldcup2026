@@ -2060,11 +2060,11 @@
    "group": "E",
    "date": "2026-06-20T20:00:00Z",
    "venueId": "400242032",
-   "status": "live",
-   "time": "90'+1'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "GER",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -2074,7 +2074,7 @@
    },
    "phA": "E1",
    "phB": "E3",
-   "winner": null,
+   "winner": "GER",
    "attendance": 43036,
    "officials": [
     {

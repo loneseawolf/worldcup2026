@@ -1,6 +1,14 @@
 {
  "scorers": [
   {
+   "id": "484851",
+   "name": "Deniz UNDAV",
+   "code": "GER",
+   "no": 26,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "441257",
    "name": "Jonathan DAVID",
    "code": "CAN",
@@ -45,14 +53,6 @@
    "name": "Cyle LARIN",
    "code": "CAN",
    "no": 9,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "484851",
-   "name": "Deniz UNDAV",
-   "code": "GER",
-   "no": 26,
    "goals": 2,
    "ownGoals": 0
   },
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 65002,
+ "attAvg": 64356,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",

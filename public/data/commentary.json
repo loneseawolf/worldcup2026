@@ -13419,7 +13419,43 @@
   {
    "minNum": 90,
    "minute": "90'+1'",
-   "text": "Attempt saved. Nadiem Amiri (Germany) right footed shot from the centre of the box is saved.",
+   "text": "Attempt saved. Nadiem Amiri (Germany) right footed shot from the centre of the box is saved in the bottom right corner by Yahia Fofana (Côte d'Ivoire). Assisted by Deniz Undav.",
+   "type": null
+  },
+  {
+   "minNum": 91,
+   "minute": "91'+1'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Guéla Doué (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Florian Wirtz (Germany) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Goal! Germany 2, Côte d'Ivoire 1. Deniz Undav (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Felix Nmecha with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 98,
+   "minute": "98'",
+   "text": "Second Half ends, Germany 2, Côte d'Ivoire 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Germany 2, Côte d'Ivoire 1.",
    "type": null
   }
  ],

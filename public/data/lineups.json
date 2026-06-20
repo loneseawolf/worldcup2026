@@ -12744,6 +12744,12 @@
      "minute": "68'",
      "type": 2,
      "period": 5
+    },
+    {
+     "player": "484851",
+     "minute": "90'+4'",
+     "type": 2,
+     "period": 5
     }
    ],
    "bookings": [],
@@ -13114,9 +13120,9 @@
     }
    ]
   },
-  "matchTime": "90'+1'",
-  "period": 5,
-  "final": false
+  "matchTime": "98'",
+  "period": 10,
+  "final": true
  },
  "400021470": {
   "home": {

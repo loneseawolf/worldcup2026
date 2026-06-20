@@ -2061,10 +2061,10 @@
    "date": "2026-06-20T20:00:00Z",
    "venueId": "400242032",
    "status": "live",
-   "time": "63'",
+   "time": "77'",
    "home": {
     "code": "GER",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

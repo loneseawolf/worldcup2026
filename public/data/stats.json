@@ -49,6 +49,14 @@
    "ownGoals": 0
   },
   {
+   "id": "484851",
+   "name": "Deniz UNDAV",
+   "code": "GER",
+   "no": 26,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "466624",
    "name": "Folarin BALOGUN",
    "code": "USA",
@@ -245,14 +253,6 @@
    "name": "Daniel MUNOZ",
    "code": "COL",
    "no": 2,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "484851",
-   "name": "Deniz UNDAV",
-   "code": "GER",
-   "no": 26,
    "goals": 1,
    "ownGoals": 0
   },

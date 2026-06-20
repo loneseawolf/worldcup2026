@@ -12917,6 +12917,188 @@
    "type": null
   }
  ],
+ "400021469": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt missed. Kai Havertz (Germany) left footed shot from the centre of the box is too high. Assisted by Florian Wirtz.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Offside, Côte d'Ivoire. Franck Kessie is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Attempt saved. Kai Havertz (Germany) header from the centre of the box is saved in the bottom left corner by Yahia Fofana (Côte d'Ivoire). Assisted by Joshua Kimmich with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Wilfried Singo (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Jamal Musiala (Germany) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Attempt blocked. Wilfried Singo (Côte d'Ivoire) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Delay in match because of an injury Nico Schlotterbeck (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Attempt missed. Jamal Musiala (Germany) right footed shot from outside the box misses to the right. Assisted by Aleksandar Pavlovic.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Attempt blocked. Felix Nmecha (Germany) right footed shot from outside the box is blocked. Assisted by Nico Schlotterbeck.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Corner, Germany. Conceded by Ibrahim Sangaré.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Yahia Fofana (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Foul by Aleksandar Pavlovic (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Delay in match because of an injury Yahia Fofana (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Attempt blocked. Amad Diallo (Côte d'Ivoire) left footed shot from very close range is blocked. Assisted by Yan Diomande with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Goal! Germany 0, Côte d'Ivoire 1. Franck Kessie (Côte d'Ivoire) right footed shot from the centre of the box to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Handball by Christ Inao Oulaï (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt saved. Ange-Yoan Bonny (Côte d'Ivoire) right footed shot from outside the box is saved in the top right corner by Manuel Neuer (Germany). Assisted by Yan Diomande.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Odilon Kossounou (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by Jamal Musiala (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Foul by Franck Kessie (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Jamal Musiala (Germany) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from the centre of the box is blocked. Assisted by Jamal Musiala.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Corner, Germany. Conceded by Ghislain Konan.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt blocked. Jamal Musiala (Germany) left footed shot from outside the box is blocked.",
+   "type": null
+  }
+ ],
  "400021470": [
   {
    "minNum": 0,

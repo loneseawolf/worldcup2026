@@ -2060,16 +2060,16 @@
    "group": "E",
    "date": "2026-06-20T20:00:00Z",
    "venueId": "400242032",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "44'",
    "home": {
     "code": "GER",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CIV",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "E1",

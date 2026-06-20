@@ -1758,8 +1758,8 @@
    "group": "C",
    "date": "2026-06-20T00:30:00Z",
    "venueId": "400248622",
-   "status": "live",
-   "time": "90'+2'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "BRA",
     "score": 3,
@@ -1772,7 +1772,7 @@
    },
    "phA": "C1",
    "phB": "C3",
-   "winner": null,
+   "winner": "BRA",
    "attendance": 68324,
    "officials": [
     {
@@ -1877,7 +1877,7 @@
    "date": "2026-06-20T03:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "TUR",
     "score": null,

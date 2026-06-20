@@ -17,6 +17,14 @@
    "ownGoals": 0
   },
   {
+   "id": "424051",
+   "name": "Brian BROBBEY",
+   "code": "NED",
+   "no": 19,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
@@ -309,14 +317,6 @@
    "name": "Jovo LUKIC",
    "code": "BIH",
    "no": 25,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "429157",
-   "name": "Julian QUINONES",
-   "code": "MEX",
-   "no": 16,
    "goals": 1,
    "ownGoals": 0
   }

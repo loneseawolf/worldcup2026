@@ -18243,6 +18243,60 @@
    "minute": "87'",
    "text": "Delay in match because of an injury Mohamed Kanno (Saudi Arabia).",
    "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Saudi Arabia. Khalid Al Ghannam replaces Nasser Al Dawsari.",
+   "type": null
+  },
+  {
+   "minNum": 91,
+   "minute": "91'+1'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Offside, Spain. Ferran Torres is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "GOAL OVERTURNED BY VAR: Ferran Torres (Spain) scores but the goal is ruled out after a VAR review.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "VAR Decision: No Goal Spain 4-0 Saudi Arabia.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt blocked. Mikel Merino (Spain) left footed shot from the right side of the box is blocked. Assisted by Fabián Ruiz.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Second Half ends, Spain 4, Saudi Arabia 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Spain 4, Saudi Arabia 0.",
+   "type": null
   }
  ],
  "400021486": [

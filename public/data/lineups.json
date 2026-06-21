@@ -18919,6 +18919,18 @@
      "minute": "10'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "430751",
+     "minute": "21'",
+     "type": 2,
+     "period": 3
+    },
+    {
+     "player": "430751",
+     "minute": "24'",
+     "type": 2,
+     "period": 3
     }
    ],
    "bookings": [],
@@ -19220,7 +19232,7 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "16'",
+  "matchTime": "29'",
   "period": 3,
   "final": false
  },

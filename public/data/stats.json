@@ -145,6 +145,14 @@
    "ownGoals": 0
   },
   {
+   "id": "430751",
+   "name": "Mikel OYARZABAL",
+   "code": "ESP",
+   "no": 21,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "405742",
    "name": "VINI JR.",
    "code": "BRA",
@@ -311,14 +319,6 @@
    "no": 18,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "395186",
-   "name": "HUSSEIN",
-   "code": "IRQ",
-   "no": 18,
-   "goals": 1,
-   "ownGoals": 1
   }
  ],
  "cards": {

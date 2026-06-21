@@ -16403,6 +16403,26 @@
    "type": null
   }
  ],
+ "400021477": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Corner, Belgium. Conceded by Ali Nemati.",
+   "type": null
+  }
+ ],
  "400021478": [
   {
    "minNum": 0,

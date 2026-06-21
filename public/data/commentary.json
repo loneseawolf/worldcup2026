@@ -17935,7 +17935,61 @@
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Attempt missed. Mikel Oyarzabal (Spain) left footed shot from the centre of the box misses to the right.",
+   "text": "Attempt missed. Mikel Oyarzabal (Spain) left footed shot from the left side of the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Corner, Saudi Arabia. Conceded by Pau Cubarsí.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt missed. Rodri (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Álex Baena.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Corner, Spain. Conceded by Saud Abdulhamid.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Attempt blocked. Salem Al Dawsari (Saudi Arabia) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Offside, Saudi Arabia. Musab Al Juwayr is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Salem Al Dawsari (Saudi Arabia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Foul by Mikel Oyarzabal (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "First Half ends, Spain 3, Saudi Arabia 0.",
    "type": null
   }
  ],

@@ -19973,8 +19973,8 @@
    "type": null
   },
   {
-   "minNum": 59,
-   "minute": "59'",
+   "minNum": 58,
+   "minute": "58'",
    "text": "Substitution, Cabo Verde. Hélio Varela replaces Garry Rodrigues.",
    "type": null
   },
@@ -19982,6 +19982,84 @@
    "minNum": 59,
    "minute": "59'",
    "text": "Attempt blocked. Jamiro Monteiro (Cabo Verde) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Foul by Deroy Duarte (Cabo Verde).",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Federico Viñas (Uruguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Goal! Uruguay 2, Cabo Verde 2. Hélio Varela (Cabo Verde) right footed shot from outside the box to the centre of the goal.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Attempt missed. Jamiro Monteiro (Cabo Verde) right footed shot from outside the box is just a bit too high. Assisted by Kevin Pina following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Delay in match because of an injury Kevin Pina (Cabo Verde).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Attempt blocked. Federico Valverde (Uruguay) right footed shot from outside the box is blocked. Assisted by Mathías Olivera.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Corner, Uruguay. Conceded by Sidny Cabral.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Offside, Uruguay. Maxi Araújo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Substitution, Uruguay. Darwin Núñez replaces Federico Viñas.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Cabo Verde. Laros Duarte replaces Kevin Pina because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay in match for a drinks break.",
    "type": null
   }
  ],

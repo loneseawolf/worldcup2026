@@ -20634,7 +20634,7 @@
  },
  "400021487": {
   "home": {
-   "tactics": "4-2-3-1",
+   "tactics": "4-1-2-3",
    "xi": [
     {
      "id": "229498",
@@ -20908,7 +20908,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": "4-1-4-1",
+   "tactics": "4-1-2-3",
    "xi": [
     {
      "id": "364752",
@@ -21200,10 +21200,17 @@
     }
    ],
    "goals": [],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "477832",
+     "minute": "5'",
+     "card": 1,
+     "period": 3
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": "2'",
+  "matchTime": "16'",
   "period": 3,
   "final": false
  },

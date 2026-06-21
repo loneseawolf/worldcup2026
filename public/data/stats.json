@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 92,
+  "yellow": 93,
   "red": 8,
   "players": [
    {
@@ -405,6 +405,14 @@
     "r": 0
    },
    {
+    "id": "477832",
+    "name": "SIDNY LOPES CABRAL",
+    "code": "CPV",
+    "no": 13,
+    "y": 2,
+    "r": 0
+   },
+   {
     "id": "442428",
     "name": "Aaron HICKEY",
     "code": "SCO",
@@ -473,14 +481,6 @@
     "name": "Andy ROBERTSON",
     "code": "SCO",
     "no": 3,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "441251",
-    "name": "Antonee ROBINSON",
-    "code": "USA",
-    "no": 5,
     "y": 1,
     "r": 0
    }
@@ -690,6 +690,22 @@
        "400021477"
       ],
       "banned": "400021481"
+     }
+    ]
+   }
+  ],
+  "CPV": [
+   {
+    "id": "477832",
+    "name": "SIDNY LOPES CABRAL",
+    "bans": [
+     {
+      "type": "yellows",
+      "due": [
+       "400021482",
+       "400021487"
+      ],
+      "banned": "400021485"
      }
     ]
    }

@@ -11124,15 +11124,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 71.3,
-    "away": 28.7,
+    "home": 70.3,
+    "away": 29.7,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 20,
-    "away": 6,
+    "home": 23,
+    "away": 7,
     "pct": false
    },
    {
@@ -11159,8 +11159,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 487,
-    "away": 168,
+    "home": 535,
+    "away": 198,
     "pct": false
    },
    {
@@ -11660,7 +11660,7 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  },
  "400021478": {
   "espnId": "760426",

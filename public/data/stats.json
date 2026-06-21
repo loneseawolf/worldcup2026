@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 87,
+  "yellow": 88,
   "red": 7,
   "players": [
    {
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 64356,
+ "attAvg": 64477,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -521,9 +521,9 @@
    "QAT": -11,
    "SUI": -2,
    "CIV": -3,
-   "ECU": -1,
+   "ECU": -2,
    "GER": 0,
-   "CUW": 0,
+   "CUW": -5,
    "NED": -3,
    "JPN": 0,
    "SWE": -3,
@@ -571,9 +571,9 @@
    "QAT": -11,
    "SUI": -2,
    "CIV": -3,
-   "ECU": -1,
+   "ECU": -2,
    "GER": 0,
-   "CUW": 0,
+   "CUW": -5,
    "NED": -3,
    "JPN": 0,
    "SWE": -3,

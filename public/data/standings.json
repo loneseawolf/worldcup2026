@@ -277,26 +277,26 @@
    },
    {
     "code": "ECU",
-    "p": 1,
+    "p": 2,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 1,
     "gf": 0,
     "ga": 1,
     "gd": -1,
-    "pts": 0,
+    "pts": 1,
     "rank": 3
    },
    {
     "code": "CUW",
-    "p": 1,
+    "p": 2,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 1,
     "gf": 1,
     "ga": 7,
     "gd": -6,
-    "pts": 0,
+    "pts": 1,
     "rank": 4
    }
   ],
@@ -708,6 +708,21 @@
    "qualifies": null
   },
   {
+   "group": "E",
+   "code": "ECU",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 0,
+   "ga": 1,
+   "gd": -1,
+   "pts": 1,
+   "rank": 3,
+   "thirdRank": 8,
+   "qualifies": null
+  },
+  {
    "group": "B",
    "code": "BIH",
    "p": 2,
@@ -718,21 +733,6 @@
    "ga": 5,
    "gd": -3,
    "pts": 1,
-   "rank": 3,
-   "thirdRank": 8,
-   "qualifies": null
-  },
-  {
-   "group": "E",
-   "code": "ECU",
-   "p": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "gf": 0,
-   "ga": 1,
-   "gd": -1,
-   "pts": 0,
    "rank": 3,
    "thirdRank": 9,
    "qualifies": null

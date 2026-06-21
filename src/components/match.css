@@ -122,7 +122,7 @@
 }
 .mc-row {
   display: grid;
-  grid-template-columns: 34px auto 1fr;
+  grid-template-columns: minmax(34px, max-content) auto 1fr;
   align-items: start;
   gap: 8px;
   padding: 8px 14px;
@@ -171,19 +171,33 @@
 .ts-head {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
   margin-bottom: 4px;
 }
 .ts-val {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 750;
   color: var(--text);
+  min-width: 0;
 }
 .ts-val.home {
-  text-align: start;
+  justify-content: flex-start;
 }
 .ts-val.away {
-  text-align: end;
+  justify-content: flex-end;
+}
+/* 3-letter team code beside each value, muted so the number stays prominent */
+.ts-code {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--text-3);
+}
+.ts-val .flag {
+  flex: none;
 }
 .ts-label {
   font-size: 0.78rem;

@@ -2,69 +2,92 @@
 /* layout/grid/connectors are reused from bracket.css; this file styles the
    interactive node states (clickable rows, selection, correct/incorrect). */
 
-/* ---- score card ---- */
-.pk-score {
+/* ---- LoL-style score rail ---- */
+.pk-scorecard {
+  margin-bottom: 14px;
+}
+.pk-sc-head {
   display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 12px 20px;
+  padding-bottom: 12px;
   margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
 }
-.pk-score-main {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.pk-score-head {
+.pk-sc-label {
   font-size: 0.76rem;
   font-weight: 750;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-3);
 }
-.pk-score-pts {
+.pk-sc-total {
   font-family: var(--font-display);
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 850;
   color: var(--accent-text);
   line-height: 1;
 }
-.pk-score-rounds {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-inline-start: auto;
-}
-.pk-round-pill {
+/* one row per round: short label · pips · earned/available */
+.pk-rail {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
+  gap: 4px;
+}
+.pk-rail-row {
+  display: flex;
   align-items: center;
-  gap: 1px;
-  padding: 5px 10px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
+  gap: 12px;
+  padding: 7px 12px;
+  border-radius: 9px;
   background: var(--bg-sunken);
-  min-width: 58px;
-  opacity: 0.55;
+  opacity: 0.6;
+  transition:
+    opacity 0.15s,
+    background 0.15s;
 }
-.pk-round-pill.on {
+.pk-rail-row.on {
   opacity: 1;
-  border-color: var(--border-strong);
+  background: color-mix(in srgb, var(--accent) 7%, var(--bg-sunken));
 }
-.pk-round-name {
-  font-size: 0.64rem;
-  font-weight: 700;
-  color: var(--text-3);
-  white-space: nowrap;
+.pk-rail-name {
+  flex: none;
+  width: 3.2em;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
 }
-.pk-round-pts {
+.pk-rail-pips {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  min-width: 0;
+}
+.pk-pip {
+  flex: 1;
+  max-width: 34px;
+  height: 6px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--text-3) 22%, transparent);
+}
+.pk-pip.fill {
+  background: var(--accent);
+}
+.pk-rail-pts {
+  flex: none;
   font-size: 0.84rem;
   font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-2);
 }
-.pk-round-w {
-  color: var(--text-3);
-  font-weight: 600;
-  font-size: 0.7rem;
+.pk-rail-row.on .pk-rail-pts {
+  color: var(--text);
 }
 
 .pk-instructions {
@@ -118,9 +141,9 @@
     background 0.12s,
     border-color 0.12s;
 }
+/* JSON hover model: brightness only, no border/ring (see bracket-design-system) */
 .pk-row:hover:not(:disabled) {
-  background: color-mix(in srgb, var(--accent) 9%, transparent);
-  border-color: var(--border);
+  filter: brightness(1.15);
 }
 .pk-row:disabled {
   cursor: default;
@@ -129,7 +152,8 @@
 .pk-row .bk-code {
   font-weight: 600;
 }
-/* the user's predicted winner of this match */
+/* the user's predicted winner of this match: accent fill (no side bar — the JSON
+   conveys the pick by brightness/opacity, never a left accent bar) */
 .pk-sel {
   background: color-mix(in srgb, var(--accent) 16%, transparent);
   border-color: color-mix(in srgb, var(--accent) 45%, transparent);
@@ -140,7 +164,7 @@
 }
 .pk-chev {
   flex: none;
-  color: var(--accent-text);
+  color: inherit;
   font-weight: 900;
 }
 /* the team that actually won (real result) */
@@ -150,47 +174,305 @@
   text-underline-offset: 2px;
 }
 
-/* node-level correctness, visible even on the compact mobile tree (border) */
-.pk-node.pk-correct {
-  border-color: color-mix(in srgb, #16a34a 60%, var(--border));
-  box-shadow: 0 0 0 1px color-mix(in srgb, #16a34a 35%, transparent);
-}
-.pk-node.pk-wrong {
-  border-color: color-mix(in srgb, #e11d48 55%, var(--border));
-}
+/* Correctness is conveyed by the .pk-badge text pill ("Correct"/"Wrong") in the
+   node meta — NOT a border/ring. Champion-path glow rings and connector recolor
+   were old-bracket holdovers (not in bracket-design-system.json) and are removed;
+   the champion still surfaces in the reveal card below. The TSX may still emit the
+   pk-correct/pk-wrong/pk-path classes — they are now visually inert. */
 
-/* ---- predicted champion card ---- */
+/* ---- predicted champion reveal (design-system §10.4) ----
+   no card chrome: the big trophy above + accent name carry it. flag stacks over
+   the name, then a muted "Champion" label. Name takes the champion's accent ink
+   (set inline as --champ-ink, contrast-guarded for the active theme). */
+.pk-page .bk-champion {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 6px 8px 10px;
+}
 .pk-champ-name {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  gap: 7px;
-  font-family: var(--font-display);
-  font-weight: 850;
-  font-size: 1.02rem;
+  gap: 4px;
+  color: var(--champ-ink);
+  font-family: var(--pk-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.05rem;
+}
+.pk-page .bk-champion .bk-champ-label {
+  color: var(--text-3);
+  font-family: var(--pk-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.62rem;
+}
+
+/* ============ real trophy (design-system §7) ============
+   the one photographic image; the one allowed drop-shadow in the whole skin. */
+.pk-page .pk-trophy {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: clamp(120px, 16vw, 200px);
+  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.6));
+}
+
+/* ============ orange FINAL card (design-system §8) ============
+   override bracket.css's gold gradient: a white card with an orange italic FINAL
+   header and a white body. Adapts §8's static score bar — the two pick rows stay
+   <button>s so the Final node remains interactive. Use .bk-node.bk-big (0,3,0) to
+   beat both bracket.css's .bk-node.bk-big and the .pk-page .bk-node padding rule. */
+.pk-page .bk-node.bk-big {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 0 8px;
+  overflow: hidden;
+  /* default light guard, removed under dark like the pills */
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+[data-theme="dark"] .pk-page .bk-node.bk-big {
+  box-shadow: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pk-page .bk-node.bk-big {
+    box-shadow: none;
+  }
+}
+.pk-page .bk-big .bk-final-head {
+  background: #e8401a;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  padding: 7px 20px;
+  margin: 0;
+  font-family: var(--pk-display);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.pk-page .bk-big .bk-cup {
+  display: none;
+}
+.pk-page .bk-big .bk-meta {
+  justify-content: center;
+  padding: 6px 12px 0;
+}
+/* the two pick rows sit in the white body; a faint sunken fill separates them */
+.pk-page .bk-big .pk-row {
+  width: auto;
+  margin: 4px 12px 0;
+}
+.pk-page .bk-big .pk-row.pk-slot {
+  background: color-mix(in srgb, #000 4%, #fff);
+}
+/* winner row back to full white + brightness + chevron (0,4,0 beats the fill) */
+.pk-page .bk-big .pk-sel.pk-slot {
+  background: #fff;
+  filter: brightness(1.05);
+}
+
+/* ============ poster typography (design-system §4) — scoped to .pk-page ============
+   the heavy Arial stack on the structural labels/headers only; NOT set on the
+   .pk-page root, so surrounding chrome (.btn/.muted/instructions) keeps the app
+   font. Pill names use --pk-narrow at the one-line-name rule below. */
+.pk-page .bk-head-stage,
+.pk-page .bk-third-label {
+  font-family: var(--pk-display);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.pk-page .pk-sc-label,
+.pk-page .pk-sc-total,
+.pk-page .pk-rail-name {
+  font-family: var(--pk-display);
 }
 
 /* Pick'ems carries long country names in narrow bracket columns; widen only this
    page (not the shared Bracket) past the global page width via a centered viewport
    breakout, so wider columns let full names fit on one line. 100% = .shell-main
    content width; width is capped at 96vw so no horizontal scrollbar appears. */
-@media (min-width: 1360px) {
+@media (min-width: 1080px) {
   .pk-page {
-    width: min(96vw, 1600px);
-    margin-inline: calc((100% - min(96vw, 1600px)) / 2);
+    width: min(98vw, 1760px);
+    margin-inline: calc((100% - min(98vw, 1760px)) / 2);
     /* tighter connector gap than the Bracket page reclaims width for the team
        names in the compressed interior columns (still room for the lines) */
-    --bk-gap: 10px;
+    --bk-gap: 8px;
+  }
+  /* re-bias columns: give the interior rounds more share vs the R32 ends and the
+     center so long names fit on one line (bracket.css grid is left untouched) */
+  .pk-page .bk-grid {
+    grid-template-columns:
+      minmax(0, 1fr)
+      repeat(3, minmax(0, 1fr))
+      minmax(0, 1.3fr)
+      repeat(3, minmax(0, 1fr))
+      minmax(0, 1fr);
   }
 }
 
-/* on narrow screens the score-round pills wrap full-width under the total */
-@media (max-width: 559.5px) {
-  .pk-score-rounds {
-    margin-inline-start: 0;
-    width: 100%;
+/* ---- roomier tree (Pick'ems only) ----
+   the interactive bracket gets more breathing room than the read-only Bracket
+   page: taller rows, larger nodes, softer corners. Scoped to .pk-page so the
+   shared Bracket geometry is untouched; mobile compact nodes are left as-is. */
+.pk-page {
+  --bk-row: 116px;
+  --bk-node-min: 74px;
+  /* design-system §4 — the whole poster skin is the heavy Arial stack. Chains end
+     in app tokens so non-Windows platforms degrade gracefully. Scoped to .pk-page
+     so surrounding app chrome (.btn/.muted/instructions) keeps the app font. */
+  --pk-display: "Arial Black", "Arial Narrow", Arial, var(--font-display);
+  --pk-narrow: "Arial Narrow", "Roboto Condensed", var(--font);
+}
+@media (min-width: 880px) {
+  .pk-page .bk-node {
+    padding: 8px 11px 9px;
+    border-radius: var(--r-lg);
   }
-  .pk-round-pill {
-    flex: 1;
-    min-width: 0;
+  .pk-page .pk-node {
+    gap: 3px;
+  }
+  /* tighter row gap reclaims width for the team names */
+  .pk-page .bk-row {
+    gap: 5px;
+  }
+}
+
+/* ============ white poster-pill slot skin (Copa Del Mundo §6) ============
+   each resolved slot is a translucent-white pill; the team color is carried by
+   the FLAG only — national colors never appear on the pill body. Scoped to
+   .pk-page so the read-only Bracket keeps its neutral cards; TBD slots (no team
+   yet) stay neutral sunken pills (no .pk-slot class). */
+.pk-page .pk-row.pk-slot {
+  background: rgba(255, 255, 255, 0.92);
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 8px;
+  /* default = light-readability guard: a hairline delineation (NOT an accent
+     ring) so white pills separate from a light page. Removed under both dark
+     selectors below — on the near-black dark page the pill already pops. */
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.pk-page .pk-row.pk-slot .bk-nm,
+.pk-page .pk-row.pk-slot .bk-code,
+.pk-page .pk-row.pk-slot .pk-seed,
+.pk-page .pk-row.pk-slot .pk-chev {
+  color: #111;
+}
+.pk-page .pk-row.pk-slot .bk-nm {
+  font-weight: 700;
+}
+/* dark theme (explicit + auto-dark): drop the light guard — no ring on dark */
+[data-theme="dark"] .pk-page .pk-row.pk-slot {
+  box-shadow: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pk-page .pk-row.pk-slot {
+    box-shadow: none;
+  }
+}
+/* §6 hover deviation: brightness only — NO translateX (would detach the pills
+   from the bracket grid connectors). */
+.pk-page .pk-row.pk-slot:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+
+/* picked winner: full-opacity body, a touch brighter, heavy name, keep chevron.
+   box-shadow:none so the light guard never reads as a ring on the pick. */
+.pk-page .pk-sel.pk-slot {
+  box-shadow: none;
+  opacity: 1;
+  filter: brightness(1.05);
+}
+/* .pk-row.pk-sel.pk-slot (0,4,0) so the heavy pick weight beats the one-line-name
+   rule below (0,3,0, later in source) on desktop — else the pick reads at 700. */
+.pk-page .pk-row.pk-sel.pk-slot .bk-nm,
+.pk-page .pk-row.pk-sel.pk-slot .bk-code {
+  font-weight: 900;
+}
+/* unpicked side dims so the pick visibly pops; both stay legible */
+.pk-page .pk-mute.pk-slot {
+  opacity: 0.55;
+}
+/* the team that actually won, on a white pill: recolor the underline to read */
+.pk-page .pk-real .bk-nm {
+  text-decoration-color: rgba(0, 0, 0, 0.35);
+}
+/* TBD slot (no team / no .pk-slot): a faint sunken pill, neutral on any theme */
+.pk-page .pk-row:not(.pk-slot) {
+  background: color-mix(in srgb, var(--text-3) 12%, transparent);
+  border-radius: 8px;
+  opacity: 0.6;
+}
+/* no focus outline anywhere on the page (explicit a11y trade-off, app-wide) */
+.pk-page .pk-row:focus,
+.pk-page .pk-row:focus-visible {
+  outline: none;
+}
+
+/* seed badge = the team's current FIFA ranking. Dark chip on the white pill,
+   #111 tabular number — kept small so it never crowds the flag + name. */
+.pk-seed {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.3em;
+  height: 1.35em;
+  padding: 0 0.34em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.08);
+  color: #111;
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* desktop-only slot presentation: the transparent node frame and one-line names
+   must NOT touch the <880px compact tree (which hides .bk-nm and shows flag +
+   3-letter code in framed compact nodes — see bracket.css mobile rules). */
+@media (min-width: 880px) {
+  /* node frame is invisible: the two white pills ARE the visual unit (stacked-pill
+     look). Exclude .bk-big so the final node keeps its orange-card treatment. */
+  .pk-page .pk-node:not(.bk-big) {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    gap: 2px;
+  }
+  .pk-page .pk-node:not(.bk-big):hover {
+    border: none;
+    box-shadow: none;
+    transform: none;
+  }
+  /* one-line condensed names: full country names fit on a single line in the wider
+     columns; ellipsis is the safety net for the rare overflow (no mid-word wrap) */
+  .pk-page .pk-row.pk-slot .bk-nm {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-family: var(--pk-narrow);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #111;
+  }
+}
+
+/* mobile: smaller trophy so it never overflows the compact center column */
+@media (max-width: 879.5px) {
+  .pk-page .pk-trophy {
+    height: clamp(96px, 28vw, 150px);
   }
 }

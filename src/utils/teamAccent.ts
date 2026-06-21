@@ -90,3 +90,114 @@ export function teamAccent(colors: string[] | undefined, dark: boolean): Accent 
 
   return { accent: toHex(fill), accentText: toHex(text) }
 }
+
+/** is the active theme dark? mirrors SettingsContext's data-theme logic */
+export function isDarkTheme(theme: string): boolean {
+  if (theme === 'dark') return true
+  if (theme === 'light') return false
+  return window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? true
+}
+
+export interface TeamBarColors {
+  /** home fill, or null when no usable color (caller keeps its CSS default) */
+  home: string | null
+  /** away fill, or null when no usable color */
+  away: string | null
+}
+
+/**
+ * Resolve home/away bar/dot fill colors from each team's brand colors (the
+ * contrast-guarded `--accent` fill, so white text/numbers read on them).
+ * Returns null for a side with no usable color — the caller keeps its existing
+ * neutral default. **Distinctness guard:** when both sides resolve but the two
+ * fills are near-identical (small RGB distance), the home side drops to null
+ * (neutral) so the two sides never read as the same color. Flags + codes are
+ * the primary "who is who" signal; color only reinforces it.
+ */
+export function teamBarColors(
+  homeColors: string[] | undefined,
+  awayColors: string[] | undefined,
+  dark: boolean,
+): TeamBarColors {
+  const home = teamAccent(homeColors, dark)?.accent ?? null
+  const away = teamAccent(awayColors, dark)?.accent ?? null
+  if (home && away) {
+    const ch = parseHex(home)
+    const ca = parseHex(away)
+    if (ch && ca) {
+      const dist = Math.hypot(ch.r - ca.r, ch.g - ca.g, ch.b - ca.b)
+      // ~441 is the max RGB distance; <44 reads as the same color at a glance
+      if (dist < 44) return { home: null, away }
+    }
+  }
+  return { home, away }
+}
+
+/** WCAG contrast ratio (1–21) between two relative luminances */
+function contrastRatio(l1: number, l2: number): number {
+  const hi = Math.max(l1, l2)
+  const lo = Math.min(l1, l2)
+  return (hi + 0.05) / (lo + 0.05)
+}
+
+export interface SlotColors {
+  /** slot body — the team's raw national primary (vivid, never near-white) */
+  bg: string
+  /** name ink — black or white, whichever wins WCAG contrast on `bg` (always ≥ AA) */
+  ink: string
+  /** secondary accent — winner left-bar + champion-path tint, distinct from `bg` */
+  pill: string
+}
+
+/**
+ * Resolve a team's brand colors into a vivid, readable Pick'ems slot skin:
+ * a national-color body, an auto black/white ink picked for maximum WCAG
+ * contrast on that body (bottoms out ≈4.58:1, so normal text always clears AA),
+ * and a distinct secondary pill for the winner bar / champion-path accent.
+ * Returns null when no color parses (caller keeps a neutral default slot).
+ */
+export function slotColors(colors: string[] | undefined): SlotColors | null {
+  const raw = colors ?? []
+  const c0 = raw[0] ? parseHex(raw[0]) : null
+  const c1 = raw[1] ? parseHex(raw[1]) : null
+  const base = c0 ?? c1
+  if (!base) return null
+
+  // bg: a visible, vivid body. A near-white primary would wash the slot out, so
+  // fall back to a darker secondary; failing that, darken the primary itself.
+  let bgRgb = base
+  if (luminance(bgRgb) >= 0.78) {
+    if (c1 && c1 !== base && luminance(c1) < 0.78) bgRgb = c1
+    else bgRgb = darken(bgRgb, 0.4)
+  }
+
+  // ink: whichever of white / a warm near-black ink has the higher contrast on
+  // bg. The warm ink's tiny luminance leaves a thin "dead zone" of mid-toned
+  // bodies (≈L 0.18) where neither ink quite clears AA, so when the best ink
+  // still falls short we darken the body until white reads — readability is the
+  // hard requirement, and a darkened body only deepens the national color.
+  const darkInk: RGB = { r: 0x15, g: 0x11, b: 0x0a }
+  const lInk = luminance(darkInk)
+  const inkOf = (rgb: RGB) =>
+    contrastRatio(luminance(rgb), 1) >= contrastRatio(luminance(rgb), lInk) ? '#ffffff' : '#15110a'
+  const contrastOf = (rgb: RGB) => {
+    const l = luminance(rgb)
+    return Math.max(contrastRatio(l, 1), contrastRatio(l, lInk))
+  }
+  let guard = 0
+  while (contrastOf(bgRgb) < 4.5 && guard++ < 12) bgRgb = darken(bgRgb, 0.1)
+  const lbg = luminance(bgRgb)
+  const ink = inkOf(bgRgb)
+
+  // pill: the secondary when it reads as a distinct color from bg (same RGB-
+  // distance idea as teamBarColors), else a shifted bg — lighten a dark body,
+  // darken a light one — so the winner bar always separates from the slot.
+  let pillRgb: RGB
+  if (c1 && Math.hypot(c1.r - bgRgb.r, c1.g - bgRgb.g, c1.b - bgRgb.b) >= 44) {
+    pillRgb = c1
+  } else {
+    pillRgb = lbg < 0.4 ? lighten(bgRgb, 0.4) : darken(bgRgb, 0.32)
+  }
+
+  return { bg: toHex(bgRgb), ink, pill: toHex(pillRgb) }
+}

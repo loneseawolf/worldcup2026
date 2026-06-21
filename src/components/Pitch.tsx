@@ -18,6 +18,14 @@ interface PitchProps {
   goals?: Record<string, string>
   /** player id -> 0–10 match rating (ESPN-derived); shown as a colored badge */
   ratings?: Record<string, number>
+  /** contrast-guarded team fills (from teamBarColors); null falls back to COLORS */
+  homeColor?: string | null
+  awayColor?: string | null
+}
+
+interface DotColors {
+  dot: string
+  text: string
 }
 
 interface Placed {
@@ -86,9 +94,11 @@ function layout(tl: TeamLineup, half: 'top' | 'bottom'): Placed[] {
   const gk = sorted.find((p) => p.gk) ?? sorted[0]
   const field = sorted.filter((p) => p !== gk)
   const rows = parseRows(tl.tactics, field.length)
-  const out: Placed[] = [{ p: gk, x: CX, y: half === 'bottom' ? 144 : 20 }]
-  const yFrom = half === 'bottom' ? 130 : 34 // defenders, near own goal
-  const yTo = half === 'bottom' ? 92 : 72 // attackers, near halfway line
+  const out: Placed[] = [{ p: gk, x: CX, y: half === 'bottom' ? 146 : 18 }]
+  // wider defender→attacker span gives dense formations more vertical breathing
+  // room so goal/sub annotations under a name don't collide with the next row
+  const yFrom = half === 'bottom' ? 131 : 33 // defenders, near own goal
+  const yTo = half === 'bottom' ? 87 : 77 // attackers, near halfway line
   let idx = 0
   rows.forEach((count, ri) => {
     const y = rows.length === 1 ? (yFrom + yTo) / 2 : yFrom + (ri * (yTo - yFrom)) / (rows.length - 1)
@@ -106,19 +116,18 @@ function layout(tl: TeamLineup, half: 'top' | 'bottom'): Placed[] {
 // player's dot painted later in document order.
 function PlayerMarks({
   pl,
-  side,
+  colors,
   card,
   rating,
 }: {
   pl: Placed
-  side: 'home' | 'away'
+  colors: DotColors
   card?: 'y' | 'r'
   rating?: number
 }) {
-  const c = COLORS[side]
   return (
     <g transform={`translate(${pl.x} ${pl.y})`}>
-      <circle r={4.3} style={{ fill: c.dot, stroke: 'rgb(0 0 0 / 0.35)', strokeWidth: 0.5 }} />
+      <circle r={4.3} style={{ fill: colors.dot, stroke: 'rgb(0 0 0 / 0.35)', strokeWidth: 0.5 }} />
       {card && (
         <rect
           x={-5.8}
@@ -162,18 +171,17 @@ function PlayerMarks({
 
 function PlayerLabels({
   pl,
-  side,
+  colors,
   off,
   goals,
   code,
 }: {
   pl: Placed
-  side: 'home' | 'away'
+  colors: DotColors
   off?: string
   goals?: string
   code?: string
 }) {
-  const c = COLORS[side]
   const href = code && pl.p.number != null ? `#/team/${code}?p=${pl.p.number}` : null
   // annotation lines stacked under the name: goals (⚽) then sub-off (↓)
   const notes = [
@@ -200,7 +208,7 @@ function PlayerLabels({
   return (
     <g transform={`translate(${pl.x} ${pl.y})`}>
       {pl.p.number !== null && (
-        <text textAnchor="middle" y={1.45} style={{ fontSize: 3.6, fontWeight: 750, fill: c.text }}>
+        <text textAnchor="middle" y={1.45} style={{ fontSize: 3.6, fontWeight: 750, fill: colors.text }}>
           {pl.p.number}
         </text>
       )}
@@ -225,7 +233,7 @@ function PlayerLabels({
         <text
           key={n.text}
           textAnchor="middle"
-          y={10.8 + i * 2.9}
+          y={10.2 + i * 2.7}
           style={{
             fontSize: 2.1,
             fontWeight: 700,
@@ -242,36 +250,51 @@ function PlayerLabels({
   )
 }
 
-/** team label row: color dot + flag + name (· tactics), linking to /team/<code> */
+/** centered team label: [color swatch] flag + name (· tactics) · HOME/AWAY on CX,
+ * linking to /team/<code>. The swatch matches this team's pitch dots (a legend
+ * cue); the HOME/AWAY caption disambiguates the two halves. */
 function TeamLabel({
-  side,
   cy,
   textY,
   name,
   tactics,
   code,
   flag,
+  color,
+  side,
 }: {
-  side: 'home' | 'away'
   cy: number
   textY: number
   name: string
   tactics?: string | null
   code?: string
   flag?: string
+  /** team-color cue (null when no usable color — the swatch is then omitted) */
+  color?: string | null
+  side: 'home' | 'away'
 }) {
-  const flagX = 7.2
+  const labelText = `${name}${tactics ? `  ·  ${tactics}` : ''}`
+  const caption = `  ·  ${side === 'home' ? 'HOME' : 'AWAY'}`
+  // estimate the text advance width (fontSize 3.8, ~0.52em/char) to place the
+  // flag/swatch just left of the centered text — the standard SVG-centering trick
+  const estW = (labelText.length + caption.length) * 2.0
   const flagW = 5
   const flagH = 3.75
-  const textX = flag ? flagX + flagW + 0.8 : 8.6
+  const swatch = 2.7
+  const flagX = CX - estW / 2 - 1.2 - flagW
+  const swatchX = flagX - 1 - swatch
   const body = (
     <>
-      <circle
-        cx={4.8}
-        cy={cy}
-        r={1.9}
-        style={{ fill: COLORS[side].dot, stroke: 'rgb(0 0 0 / 0.25)', strokeWidth: 0.4 }}
-      />
+      {color && (
+        <rect
+          x={swatchX}
+          y={cy - swatch / 2}
+          width={swatch}
+          height={swatch}
+          rx={0.5}
+          style={{ fill: color, stroke: 'rgb(0 0 0 / 0.3)', strokeWidth: 0.3 }}
+        />
+      )}
       {flag && (
         <image
           href={flag}
@@ -282,9 +305,14 @@ function TeamLabel({
           preserveAspectRatio="xMidYMid meet"
         />
       )}
-      <text x={textX} y={textY} style={{ fontSize: 3.8, fontWeight: 700, fill: 'var(--text)' }}>
-        {name}
-        {tactics ? `  ·  ${tactics}` : ''}
+      <text
+        x={CX}
+        y={textY}
+        textAnchor="middle"
+        style={{ fontSize: 3.8, fontWeight: 700, fill: 'var(--text)' }}
+      >
+        {labelText}
+        <tspan style={{ fontSize: 2.7, fontWeight: 800, fill: 'var(--text-3)' }}>{caption}</tspan>
       </text>
     </>
   )
@@ -311,27 +339,37 @@ export default function Pitch({
   subOff,
   goals,
   ratings,
+  homeColor,
+  awayColor,
 }: PitchProps) {
   const homePlaced = home ? layout(home, 'bottom') : []
   const awayPlaced = away ? layout(away, 'top') : []
   if (!homePlaced.length && !awayPlaced.length) return null
+
+  // team-colored dots when a usable color exists (white number reads on the
+  // contrast-guarded fill); otherwise the generic light/dark COLORS
+  const fill: Record<'home' | 'away', DotColors> = {
+    home: homeColor ? { dot: homeColor, text: '#ffffff' } : COLORS.home,
+    away: awayColor ? { dot: awayColor, text: '#ffffff' } : COLORS.away,
+  }
 
   return (
     <svg
       viewBox={`0 0 ${W} 164`}
       role="img"
       aria-label={`${homeName} – ${awayName}`}
-      style={{ width: '100%', maxWidth: 600, height: 'auto', display: 'block', margin: '0 auto' }}
+      style={{ width: '100%', maxWidth: 640, height: 'auto', display: 'block', margin: '0 auto' }}
     >
       {/* team label: away (top half) */}
       <TeamLabel
-        side="away"
         cy={4.6}
         textY={6}
         name={awayName}
         tactics={away?.tactics}
         code={awayCode}
         flag={awayFlag}
+        color={awayColor}
+        side="away"
       />
 
       {/* turf */}
@@ -376,7 +414,7 @@ export default function Pitch({
         <PlayerMarks
           key={pl.p.id}
           pl={pl}
-          side="away"
+          colors={fill.away}
           card={marks?.[pl.p.id]?.card}
           rating={ratings?.[pl.p.id]}
         />
@@ -385,7 +423,7 @@ export default function Pitch({
         <PlayerMarks
           key={pl.p.id}
           pl={pl}
-          side="home"
+          colors={fill.home}
           card={marks?.[pl.p.id]?.card}
           rating={ratings?.[pl.p.id]}
         />
@@ -394,7 +432,7 @@ export default function Pitch({
         <PlayerLabels
           key={pl.p.id}
           pl={pl}
-          side="away"
+          colors={fill.away}
           off={subOff?.[pl.p.id]}
           goals={goals?.[pl.p.id]}
           code={awayCode}
@@ -404,7 +442,7 @@ export default function Pitch({
         <PlayerLabels
           key={pl.p.id}
           pl={pl}
-          side="home"
+          colors={fill.home}
           off={subOff?.[pl.p.id]}
           goals={goals?.[pl.p.id]}
           code={homeCode}
@@ -413,13 +451,14 @@ export default function Pitch({
 
       {/* team label: home (bottom half) */}
       <TeamLabel
-        side="home"
         cy={159.4}
         textY={160.8}
         name={homeName}
         tactics={home?.tactics}
         code={homeCode}
         flag={homeFlag}
+        color={homeColor}
+        side="home"
       />
     </svg>
   )

@@ -1,14 +1,7 @@
 import { useEffect } from 'react'
 import { useSettings } from '../settings/SettingsContext'
 import { useData } from '../data/DataContext'
-import { teamAccent } from '../utils/teamAccent'
-
-/** is the active theme dark? mirrors SettingsContext's data-theme logic */
-function isDarkTheme(theme: string): boolean {
-  if (theme === 'dark') return true
-  if (theme === 'light') return false
-  return window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? true
-}
+import { isDarkTheme, teamAccent } from '../utils/teamAccent'
 
 /**
  * Applies the picked champion's colors to --accent / --accent-text / --live on

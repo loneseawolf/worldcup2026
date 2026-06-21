@@ -52,8 +52,10 @@ function SideRow({
       )}
       {(m.status === 'finished' || m.status === 'live') && side && (
         <span className="score">
-          {side.score ?? '–'}
-          {(m.home?.pen ?? 0) + (m.away?.pen ?? 0) > 0 && <small className="muted"> ({side.pen ?? 0})</small>}
+          <span className="score-num">{side.score ?? '–'}</span>
+          {(m.home?.pen ?? 0) + (m.away?.pen ?? 0) > 0 && (
+            <small className="score-pen muted">({side.pen ?? 0})</small>
+          )}
         </span>
       )}
     </div>

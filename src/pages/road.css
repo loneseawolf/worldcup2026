@@ -50,19 +50,6 @@
   border-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 12%, var(--bg-elev));
 }
-.road-top4-rank {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 18px;
-  height: 18px;
-  border-radius: 999px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 800;
-  line-height: 1;
-}
 .road-top4-name {
   font-weight: 650;
   font-size: 0.9rem;

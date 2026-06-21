@@ -1,10 +1,12 @@
-import { type ReactNode, useEffect, useMemo, useRef, useState } from 'react'
+import { type CSSProperties, type ReactNode, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import type { Match, Stage } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData, useData } from '../data/DataContext'
 import { STAGE_LABEL_KEY } from '../utils/helpers'
 import { advanceProb, projectedBracket } from '../utils/roadPath'
+import { isDarkTheme, teamAccent } from '../utils/teamAccent'
+import { useSettings } from '../settings/SettingsContext'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
 import Trophy from '../components/Trophy'
@@ -14,9 +16,22 @@ import './pickems.css'
 const LS_KEY = 'wc2026-pickems'
 const HALF_KEY = 'wc2026-bracket-half'
 
-// round-weighted scoring: getting the later rounds right is worth far more
-const WEIGHT: Record<string, number> = { r32: 1, r16: 2, qf: 4, sf: 8, final: 16 }
+// linear scoring: each round is worth a flat amount, rising toward the final.
+// the third-place play-off (match 103) is pickable and scored too.
+const WEIGHT: Record<string, number> = { r32: 5, r16: 10, qf: 15, sf: 20, third: 15, final: 25 }
+// the W-feeder tree geometry only spans these (third place is not a feeder)
 const MAIN_STAGES: Stage[] = ['r32', 'r16', 'qf', 'sf', 'final']
+// rail / scoring order, third place slotted right before the final
+const SCORED_STAGES: Stage[] = ['r32', 'r16', 'qf', 'sf', 'third', 'final']
+// short round labels for the LoL-style score rail (en-only i18n keys)
+const ROUND_LABEL_KEY: Record<string, string> = {
+  r32: 'pkR32',
+  r16: 'pkR16',
+  qf: 'pkQf',
+  sf: 'pkSf',
+  third: 'pkThird',
+  final: 'pkFinal',
+}
 const HEAD_COLS: { col: number; stage: Stage }[] = [
   { col: 1, stage: 'r32' },
   { col: 2, stage: 'r16' },
@@ -54,6 +69,7 @@ function encodePicks(p: Picks): string {
 
 export default function PickEms() {
   const { t, pick } = useI18n()
+  const { settings } = useSettings()
   const { simModel, loadSimModel } = useData()
   const { teams, matches, venues, standings } = useAppData()
   const [searchParams, setSearchParams] = useSearchParams()
@@ -88,6 +104,7 @@ export default function PickEms() {
     for (const m of ko) byN.set(m.n, m)
     const stageOf = (s: Stage) => ko.filter((m) => m.stage === s).sort((a, b) => a.n - b.n)
     const final = stageOf('final')[0] ?? null
+    const third = stageOf('third')[0] ?? null
 
     const feeder = (m: Match | null, ph: 'phA' | 'phB'): Match | null => {
       const p = m ? m[ph] : null
@@ -118,7 +135,11 @@ export default function PickEms() {
 
     const main = ko.filter((m) => MAIN_STAGES.includes(m.stage))
     const ordered = MAIN_STAGES.flatMap((s) => main.filter((m) => m.stage === s).sort((a, b) => a.n - b.n))
-    return { left, right, final, byN, main, ordered }
+    // third place resolves after the SFs (its RU feeders need their winners set),
+    // so append it to the resolve/score order; geometry (left/right) ignores it
+    const scored = third ? [...main, third] : main
+    const orderedAll = third ? [...ordered, third] : ordered
+    return { left, right, final, third, byN, main, ordered, scored, orderedAll }
   }, [matches])
 
   const proj = useMemo(
@@ -141,9 +162,19 @@ export default function PickEms() {
         const ph = side === 'A' ? m.phA : m.phB
         const w = ph && /^W(\d+)$/.exec(ph)
         if (w) return winner.get(Number(w[1]))
+        // RU{n} = the loser of match n (the third-place play-off's two feeders).
+        // resolved here because 103 is processed after the SFs in orderedAll.
+        const ru = ph && /^RU(\d+)$/.exec(ph)
+        if (ru) {
+          const n = Number(ru[1])
+          const s = sides.get(n)
+          const wn = winner.get(n)
+          if (!s || !wn) return undefined
+          return s.home === wn ? s.away : s.home
+        }
         return side === 'A' ? proj[m.id]?.home : proj[m.id]?.away
       }
-      for (const m of bk.ordered) {
+      for (const m of bk.orderedAll) {
         const home = teamOn(m, 'A')
         const away = teamOn(m, 'B')
         let w: string | undefined = p[m.n]
@@ -159,15 +190,15 @@ export default function PickEms() {
       }
       return { sides, winner, cleaned }
     }
-  }, [bk.ordered, proj, simModel, vc])
+  }, [bk.orderedAll, proj, simModel, vc])
 
   const view = useMemo(() => resolveBracket(picks), [resolveBracket, picks])
 
   const isTeam = useMemo(() => (c: string) => Object.hasOwn(teams, c), [teams])
   const isMatch = useMemo(() => {
-    const ns = new Set(bk.main.map((m) => m.n))
+    const ns = new Set(bk.scored.map((m) => m.n))
     return (n: number) => ns.has(n)
-  }, [bk.main])
+  }, [bk.scored])
 
   // restore from the share link first, then localStorage (once), normalizing both
   // biome-ignore lint/correctness/useExhaustiveDependencies: restore once on mount only
@@ -226,7 +257,7 @@ export default function PickEms() {
   }
   const useProjection = () => {
     const next: Picks = {}
-    for (const m of bk.main) {
+    for (const m of bk.scored) {
       const w = proj[m.id]?.winner
       if (w) next[m.n] = w
     }
@@ -248,10 +279,10 @@ export default function PickEms() {
   // winner matches the real winner. `available` = points already decidable.
   const score = useMemo(() => {
     const per: Record<string, { earned: number; available: number }> = {}
-    for (const s of MAIN_STAGES) per[s] = { earned: 0, available: 0 }
+    for (const s of SCORED_STAGES) per[s] = { earned: 0, available: 0 }
     let earned = 0
     let available = 0
-    for (const m of bk.main) {
+    for (const m of bk.scored) {
       const real = realWinnerOf(m)
       if (!real) continue
       const w = WEIGHT[m.stage]
@@ -263,9 +294,20 @@ export default function PickEms() {
       }
     }
     return { earned, available, per }
-  }, [bk.main, view])
+  }, [bk.scored, view])
 
   const championCode = bk.final ? view.winner.get(bk.final.n) : undefined
+
+  // the champion's actual route to the final: every main match they win (the
+  // cascade guarantees exactly one per round). Drives the path highlight.
+  const championPath = useMemo(() => {
+    const set = new Set<number>()
+    if (!championCode) return set
+    for (const m of bk.ordered) {
+      if (view.winner.get(m.n) === championCode) set.add(m.n)
+    }
+    return set
+  }, [championCode, bk.ordered, view])
 
   const PickNode = ({ m, big = false }: { m: Match; big?: boolean }) => {
     const s = view.sides.get(m.n)
@@ -274,16 +316,23 @@ export default function PickEms() {
     const real = finished ? realWinnerOf(m) : undefined
     const correct = finished && win && real ? win === real : null
     const stateCls = correct === true ? ' pk-correct' : correct === false ? ' pk-wrong' : ''
+    const onPath = championPath.has(m.n)
+    const late = m.stage === 'qf' || m.stage === 'sf' || m.stage === 'final'
+    const pathCls = onPath ? ` pk-path${late ? ' pk-path-late' : ''}` : ''
     const row = (code: string | undefined, label: string) => {
       const sel = !!code && win === code
       const isReal = !!real && code === real
+      // mute the unpicked side once a pick exists, so the advancing team pops
+      const muted = !!win && !!code && !sel
+      const rank = code ? teams[code]?.ranking : null
       return (
         <button
           type="button"
-          className={`bk-row pk-row${sel ? ' pk-sel' : ''}${isReal ? ' pk-real' : ''}`}
+          className={`bk-row pk-row${code ? ' pk-slot' : ''}${sel ? ' pk-sel' : ''}${muted ? ' pk-mute' : ''}${isReal ? ' pk-real' : ''}`}
           disabled={!code}
           onClick={() => code && choose(m, code)}
         >
+          {rank != null && <span className="pk-seed tnum">{rank}</span>}
           <Flag team={code ? teams[code] : undefined} size={big ? 20 : 16} />
           <span className={`bk-nm${code ? '' : ' bk-tbd'}`}>
             {code ? pick(teams[code]?.name, code) : label}
@@ -298,7 +347,7 @@ export default function PickEms() {
       )
     }
     return (
-      <div className={`bk-node pk-node${big ? ' bk-big' : ''}${stateCls}`}>
+      <div className={`bk-node pk-node${big ? ' bk-big' : ''}${stateCls}${pathCls}`}>
         {big && (
           <div className="bk-final-head">
             <span className="bk-cup" aria-hidden="true">
@@ -330,10 +379,11 @@ export default function PickEms() {
       round.forEach((m, i) => {
         const feed = round.length === 1 ? 'bk-mid' : i % 2 === 0 ? 'bk-top' : 'bk-bot'
         const join = ri < 3 ? ' bk-join' : ''
+        const path = m && championPath.has(m.n) ? ' pk-path' : ''
         cells.push(
           <div
             key={`${side}${ri}-${i}`}
-            className={`bk-cell bk-${side} ${roundCls[ri]} ${feed}${join}`}
+            className={`bk-cell bk-${side} ${roundCls[ri]} ${feed}${join}${path}`}
             style={{ gridColumn: cols[ri], gridRow: `${2 + i * span} / span ${span}` }}
           >
             {m ? <PickNode m={m} /> : <div className="bk-ghost" />}
@@ -344,16 +394,28 @@ export default function PickEms() {
     return cells
   }
 
+  // real photographic trophy crowns the center column (design-system §7); one
+  // element rendered in both the desktop and mobile centers.
+  const trophyImg = (
+    <img
+      className="pk-trophy"
+      src={`${import.meta.env.BASE_URL}icons/worldcuptrophy.png`}
+      alt=""
+      loading="lazy"
+    />
+  )
+
+  const champAcc = championCode ? teamAccent(teams[championCode]?.colors, isDarkTheme(settings.theme)) : null
   const championCard = championCode && (
-    <div className="bk-champion pk-champion">
-      <span className="bk-champ-cup" aria-hidden="true">
-        <Trophy size={26} />
-      </span>
-      <span className="bk-champ-label">{t('pickemChampion')}</span>
+    <div
+      className="bk-champion pk-champion"
+      style={{ '--champ-ink': champAcc?.accentText ?? 'var(--accent-text)' } as CSSProperties}
+    >
       <span className="pk-champ-name">
-        <Flag team={teams[championCode]} size={22} />
+        <Flag team={teams[championCode]} size={34} />
         {pick(teams[championCode]?.name, championCode)}
       </span>
+      <span className="bk-champ-label">{t('pickemChampion')}</span>
     </div>
   )
 
@@ -371,27 +433,30 @@ export default function PickEms() {
         </div>
       ) : (
         <>
-          <section className="card card-pad pk-score">
-            <div className="pk-score-main">
-              <span className="pk-score-head">{t('pickemScoreHead')}</span>
-              <span className="pk-score-pts tnum">
+          <section className="card card-pad pk-scorecard">
+            <div className="pk-sc-head">
+              <span className="pk-sc-label">{t('pickemScoreHead')}</span>
+              <span className="pk-sc-total tnum">
                 {t('pickemScore', { earned: score.earned, available: score.available })}
               </span>
             </div>
-            <div className="pk-score-rounds">
-              {MAIN_STAGES.map((s) => (
-                <div key={s} className={`pk-round-pill${score.per[s].available ? ' on' : ''}`}>
-                  <span className="pk-round-name">{t(STAGE_LABEL_KEY[s])}</span>
-                  <span className="pk-round-pts tnum">
-                    {t('pickemRoundScore', {
-                      earned: score.per[s].earned,
-                      available: score.per[s].available,
-                    })}
-                    <span className="pk-round-w"> ×{WEIGHT[s]}</span>
-                  </span>
-                </div>
-              ))}
-            </div>
+            <ul className="pk-rail">
+              {SCORED_STAGES.map((s) => {
+                const { earned, available } = score.per[s]
+                const filled = available ? Math.round((earned / available) * 4) : 0
+                return (
+                  <li key={s} className={`pk-rail-row${available ? ' on' : ''}`}>
+                    <span className="pk-rail-name">{t(ROUND_LABEL_KEY[s])}</span>
+                    <span className="pk-rail-pips" aria-hidden="true">
+                      {[0, 1, 2, 3].map((i) => (
+                        <span key={i} className={`pk-pip${i < filled ? ' fill' : ''}`} />
+                      ))}
+                    </span>
+                    <span className="pk-rail-pts tnum">{t('pickemRoundScore', { earned, available })}</span>
+                  </li>
+                )
+              })}
+            </ul>
           </section>
 
           <p className="muted small pk-instructions">{t('pickemInstructions')}</p>
@@ -429,17 +494,34 @@ export default function PickEms() {
               {halfCells(bk.right, 'r')}
 
               <div className="bk-cell bk-center" style={{ gridColumn: 5, gridRow: '2 / span 8' }}>
-                <div className="bk-center-top">{championCard}</div>
+                <div className="bk-center-top">
+                  {trophyImg}
+                  {championCard}
+                </div>
                 <div className="bk-center-mid">
                   {bk.final ? <PickNode m={bk.final} big /> : <div className="bk-ghost" />}
                 </div>
-                <div className="bk-center-bottom" />
+                <div className="bk-center-bottom">
+                  {bk.third && (
+                    <div className="bk-third">
+                      <div className="bk-third-label">{t(STAGE_LABEL_KEY.third)}</div>
+                      <PickNode m={bk.third} />
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
 
             <div className="bk-mobile-center">
+              {trophyImg}
               {championCard}
               {bk.final && <PickNode m={bk.final} big />}
+              {bk.third && (
+                <div className="bk-third">
+                  <div className="bk-third-label">{t(STAGE_LABEL_KEY.third)}</div>
+                  <PickNode m={bk.third} />
+                </div>
+              )}
             </div>
           </div>
         </>

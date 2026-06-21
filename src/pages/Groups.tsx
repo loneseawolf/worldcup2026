@@ -1,57 +1,15 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import type { Match, StandingRow } from '../types'
+import type { Match } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData } from '../data/DataContext'
-import { qualState, sortMatches } from '../utils/helpers'
+import { sortMatches } from '../utils/helpers'
+import GroupStandings, { NumCells, NumHeads } from '../components/GroupStandings'
 import MatchCard from '../components/MatchCard'
 import TeamName from '../components/TeamName'
 import Icon from '../components/Icon'
 import './groups.css'
-
-function fmtGd(n: number): string {
-  return n > 0 ? `+${n}` : String(n)
-}
-
-function rowQualClass(state: ReturnType<typeof qualState>): string {
-  if (state === 'through') return ' gp-tr-through'
-  if (state === 'third') return ' gp-tr-third'
-  if (state === 'out') return ' gp-tr-out'
-  return ''
-}
-
-/** P W D L GF GA GD Pts header cells (shared by group + thirds tables) */
-function NumHeads() {
-  const { t } = useI18n()
-  return (
-    <>
-      <th className="tnum">{t('colP')}</th>
-      <th className="tnum gp-hxxs">{t('colW')}</th>
-      <th className="tnum gp-hxxs">{t('colD')}</th>
-      <th className="tnum gp-hxxs">{t('colL')}</th>
-      <th className="tnum gp-hxs">{t('colGF')}</th>
-      <th className="tnum gp-hxs">{t('colGA')}</th>
-      <th className="tnum">{t('colGD')}</th>
-      <th className="tnum">{t('colPts')}</th>
-    </>
-  )
-}
-
-function NumCells({ r }: { r: StandingRow }) {
-  return (
-    <>
-      <td className="tnum">{r.p}</td>
-      <td className="tnum gp-hxxs">{r.w}</td>
-      <td className="tnum gp-hxxs">{r.d}</td>
-      <td className="tnum gp-hxxs">{r.l}</td>
-      <td className="tnum gp-hxs">{r.gf}</td>
-      <td className="tnum gp-hxs">{r.ga}</td>
-      <td className="tnum">{fmtGd(r.gd)}</td>
-      <td className="tnum gp-pts">{r.pts}</td>
-    </>
-  )
-}
 
 /** render a tie-break string whose link span is delimited by [[...]] as text with
  * that span turned into a link to `to` (a Stats section); plain text if unmarked */
@@ -176,7 +134,6 @@ export default function Groups() {
 
       <div className="gp-grid">
         {letters.map((g) => {
-          const rows = standings.groups[g] ?? []
           const fixtures = fixturesByGroup[g] ?? []
           const isOpen = !!open[g]
           return (
@@ -188,29 +145,7 @@ export default function Groups() {
                 <h2>{t('groupX', { x: g })}</h2>
               </header>
 
-              <table className="gp-table" aria-label={t('groupX', { x: g })}>
-                <thead>
-                  <tr>
-                    <th className="gp-rank" />
-                    <th className="gp-team">{t('filterTeams')}</th>
-                    <NumHeads />
-                  </tr>
-                </thead>
-                <tbody>
-                  {rows.map((r) => (
-                    <tr
-                      key={r.code}
-                      className={`gp-tr${rowQualClass(qualState(standings, g, r.rank, r.code))}`}
-                    >
-                      <td className="gp-rank tnum">{r.rank}</td>
-                      <td className="gp-team">
-                        <TeamName code={r.code} flagSize={20} />
-                      </td>
-                      <NumCells r={r} />
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <GroupStandings group={g} />
 
               {fixtures.length > 0 && (
                 <>

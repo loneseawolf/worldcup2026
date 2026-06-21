@@ -35,7 +35,7 @@ export default function TeamName({
         {name}
       </span>
       {rank > 0 && (
-        <span className="tn-rank" title={`#${rank}`}>
+        <span className={`rank-medal rank-${rank}`} title={`#${rank}`}>
           {rank}
         </span>
       )}

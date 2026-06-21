@@ -22,6 +22,26 @@
   color: var(--accent-2);
   background: color-mix(in srgb, var(--accent-2) 14%, var(--chip-bg));
 }
+/* Live page only: prominent link from the live view to the canonical match page */
+.md-fullmatch-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-inline-start: auto;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: #fff;
+  background: var(--accent);
+  white-space: nowrap;
+}
+.md-fullmatch-link:hover {
+  filter: brightness(1.06);
+}
+.md-fullmatch-link svg {
+  color: inherit;
+}
 .md-hero-main {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -152,6 +172,19 @@ a.md-side {
 }
 .md-cardlink svg {
   color: inherit;
+}
+
+/* third-party (unofficial) free live-stream card — FMHY */
+.md-streams-tag {
+  margin-inline-start: auto;
+}
+.md-streams-body {
+  margin: 0 0 12px;
+}
+.md-streams-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 /* label / value rows */

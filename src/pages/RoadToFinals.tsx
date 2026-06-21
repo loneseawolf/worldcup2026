@@ -176,7 +176,7 @@ export default function RoadToFinals() {
                 onClick={() => onPickChampion(code)}
                 title={pick(teams[code]?.name, code)}
               >
-                <span className="road-top4-rank">{i + 1}</span>
+                <span className={`rank-medal rank-${i + 1}`}>{i + 1}</span>
                 <Flag iso2={teams[code]?.iso2} team={teams[code]} size={22} />
                 <span className="road-top4-name">{pick(teams[code]?.name, code)}</span>
               </button>

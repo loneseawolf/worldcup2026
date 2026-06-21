@@ -341,4 +341,5 @@ export interface Settings {
   champion: string | null // picked champion (team code) — recolors the site accent; null = hunter-green default
   top4: string[] // ordered team codes (≤4) from onboarding; [0] is the champion pick
   onboarded: boolean // has the user seen the first-run "choose your top 4" gate
+  favoritesSeeded: boolean // one-time migration flag: top4 picks already merged into favorites
 }

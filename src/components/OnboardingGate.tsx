@@ -21,7 +21,7 @@ export default function OnboardingGate() {
 function Gate() {
   const { t, pick } = useI18n()
   const { teams } = useAppData()
-  const { settings, setTop4, setOnboarded } = useSettings()
+  const { settings, setTop4, setFavorites, setOnboarded } = useSettings()
 
   // ordered selection, pre-seeded from any previous top-4 (remounts on re-open)
   const [selection, setSelection] = useState<string[]>(() => settings.top4.slice(0, 4))
@@ -36,6 +36,10 @@ function Gate() {
 
   const save = () => {
     setTop4(selection)
+    // carry the picks into "My Teams" (union — never drop an existing favorite)
+    const fav = new Set(settings.favorites)
+    for (const c of selection) fav.add(c)
+    setFavorites([...fav])
     setOnboarded(true)
   }
   const skip = () => setOnboarded(true)
@@ -87,7 +91,7 @@ function Gate() {
                 className={`ob-card${rank > 0 ? ' on' : ''}`}
                 onClick={() => toggle(code)}
               >
-                {rank > 0 && <span className="ob-rank">{rank}</span>}
+                {rank > 0 && <span className={`rank-medal rank-${rank}`}>{rank}</span>}
                 <Flag team={team} size={34} />
                 <span className="ob-name">{name}</span>
               </button>

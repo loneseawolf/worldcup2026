@@ -275,7 +275,7 @@ const en: Dict = {
     'Pick a champion and the app projects the knockout path they would take to the final, filling each round with the model’s most-likely opponent from the other side of the bracket. Each round shows a difficulty band (from the opponent’s Elo) and the chance of getting past them, including extra time and penalties. Use “Change opponent” to swap in any team that could actually reach that slot, and watch the title odds update.',
   faqQPickems: 'How do Pick’ems and scoring work?',
   faqAPickems:
-    'Pick’ems lets you predict every knockout winner from the round of 32 to the final, cascading like a real bracket pool — your winners advance to the next round. It starts pre-filled with the model’s projected qualifiers so you can fill it instantly, then change any pick you like.\n\nScoring is round-weighted, so the later rounds matter most: a correct round-of-32 pick is worth 1 point, round of 16 is 2, a quarter-final 4, a semi-final 8, and the final 16. Picks are scored against the real results as matches finish, and your bracket is saved and shareable by link.',
+    'Pick’ems lets you predict every knockout winner from the round of 32 to the final, including the third-place play-off, cascading like a real bracket pool — your winners advance to the next round. It starts pre-filled with the model’s projected qualifiers so you can fill it instantly, then change any pick you like.\n\nEach round is worth a flat number of points, rising toward the final: R32 5 · R16 10 · QF 15 · SF 20 · 3rd 15 · Final 25. Picks are scored against the real results as matches finish, and your bracket is saved and shareable by link.',
   faqQDisclaimer: 'How accurate is all this?',
   faqADisclaimer:
     'These are model estimates for entertainment, not betting advice. Football is gloriously unpredictable — that is the fun of it. Enjoy the forecasts, make your picks, and see how they hold up.',
@@ -283,7 +283,7 @@ const en: Dict = {
   pickemTitle: 'Pick’ems',
   pickemSub: 'Predict every knockout winner and see how your bracket scores against the real results.',
   pickemInstructions:
-    'Tap a team to send it through to the next round. Your bracket starts on the model’s projection — change any pick you like. Correct picks score more in later rounds: R32 ×1 · R16 ×2 · QF ×4 · SF ×8 · Final ×16.',
+    'Tap a team to send it through to the next round. Your bracket starts on the model’s projection — change any pick you like. Each round scores a flat amount, rising toward the final: R32 5 · R16 10 · QF 15 · SF 20 · 3rd 15 · Final 25. The third-place play-off sits just before the final.',
   pickemUseProjection: 'Use model projection',
   pickemReset: 'Reset',
   pickemShareLink: 'Copy share link',
@@ -295,6 +295,13 @@ const en: Dict = {
   pickemWrong: 'Wrong',
   pickemTbd: 'TBD',
   pickemChampion: 'Your champion',
+  // short round labels for the score rail (English fills untranslated locales)
+  pkR32: 'R32',
+  pkR16: 'R16',
+  pkQf: 'QF',
+  pkSf: 'SF',
+  pkThird: '3rd',
+  pkFinal: 'Final',
   weatherTitle: 'Weather at kick-off',
   weatherForecast: 'Forecast',
   weatherTypical: 'Typical conditions',
@@ -347,6 +354,7 @@ const en: Dict = {
   englishWikipedia: 'English Wikipedia',
   officialWebsite: 'Official website',
   officialPage: 'Official webpage',
+  viewFullMatch: 'View full match page',
   teamMatches: 'Matches',
   addFavorite: 'Add to my teams',
   removeFavorite: 'Remove from my teams',
@@ -364,11 +372,12 @@ const en: Dict = {
   hostMX: 'Mexico',
   // live
   liveTitle: 'Live',
-  liveSub: 'Minute-by-minute goals, cards and substitutions — plus where to watch.',
+  liveSub: 'The current match in full — score, commentary, lineups and more.',
   liveNoMatch: 'No match data available yet.',
   liveKickoffIn: 'Kick-off in',
   liveNext: 'Up next',
   liveMostRecent: 'Most recent result',
+  liveGroupStandings: 'Group {x} standings',
   liveWhereToWatch: 'Where to watch',
   liveNoEvents: 'No events yet.',
   liveGoal: 'Goal',

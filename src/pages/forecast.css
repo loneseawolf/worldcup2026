@@ -470,8 +470,7 @@ input.sim-matchno {
   border-inline-start: 1px solid var(--border);
 }
 .fc-table tbody tr:hover {
-  outline: 1px solid var(--border-strong);
-  outline-offset: -1px;
+  background: var(--bg-sunken);
 }
 .fc-champ-col {
   border-inline-start: 1px solid var(--border-strong);

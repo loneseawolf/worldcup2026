@@ -68,6 +68,7 @@ function defaults(): Settings {
     champion: null,
     top4: [],
     onboarded: false,
+    favoritesSeeded: false,
   }
 }
 
@@ -93,7 +94,7 @@ function load(): Settings {
     // merge field-by-field, validating each value: a stale/corrupted entry
     // (unknown lang, bad tz, non-array favorites…) must never crash the app
     const p = parsed as Record<string, unknown>
-    return {
+    const merged: Settings = {
       lang: typeof p.lang === 'string' && p.lang in LANG_LABEL ? (p.lang as Lang) : d.lang,
       tzMode: p.tzMode === 'local' || p.tzMode === 'venue' || p.tzMode === 'fixed' ? p.tzMode : d.tzMode,
       fixedTz: isValidTz(p.fixedTz) ? p.fixedTz : d.fixedTz,
@@ -108,7 +109,20 @@ function load(): Settings {
         ? p.top4.filter((c): c is string => typeof c === 'string').slice(0, 4)
         : d.top4,
       onboarded: typeof p.onboarded === 'boolean' ? p.onboarded : d.onboarded,
+      favoritesSeeded: typeof p.favoritesSeeded === 'boolean' ? p.favoritesSeeded : d.favoritesSeeded,
     }
+    // one-time migration: already-onboarded users picked a top-4 before those
+    // picks carried into "My Teams" — seed them into favorites exactly once.
+    // The flag then latches so teams the user later un-stars are never re-added.
+    if (!merged.favoritesSeeded) {
+      if (merged.top4.length) {
+        const fav = new Set(merged.favorites)
+        for (const c of merged.top4) fav.add(c)
+        merged.favorites = [...fav]
+      }
+      merged.favoritesSeeded = true
+    }
+    return merged
   } catch {
     // corrupted storage must not become a persistent crash loop: drop the bad
     // key entirely and boot with defaults
@@ -177,8 +191,16 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setUnits: (units) => setSettings((s) => ({ ...s, units })),
       setChampion: (champion) => setSettings((s) => ({ ...s, champion })),
       // the #1 pick also drives the app accent (champion stays the accent source
-      // of truth; the Road page select can still override it afterwards)
-      setTop4: (codes) => setSettings((s) => ({ ...s, top4: codes.slice(0, 4), champion: codes[0] ?? null })),
+      // of truth; the Road page select can still override it afterwards).
+      // Mark favorites as seeded so the one-time load() migration never re-adds
+      // a pick the user later un-stars from My Teams.
+      setTop4: (codes) =>
+        setSettings((s) => ({
+          ...s,
+          top4: codes.slice(0, 4),
+          champion: codes[0] ?? null,
+          favoritesSeeded: true,
+        })),
       setOnboarded: (onboarded) => setSettings((s) => ({ ...s, onboarded })),
       reset: () => setSettings(defaults()),
     }),

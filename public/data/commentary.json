@@ -16531,12 +16531,6 @@
    "type": null
   },
   {
-   "minNum": 21,
-   "minute": "21'",
-   "text": "Attempt blocked. Romelu Lukaku (Belgium) header from the centre of the box is blocked. Assisted by Kevin De Bruyne with a cross.",
-   "type": null
-  },
-  {
    "minNum": 22,
    "minute": "22'",
    "text": "Attempt saved. Youri Tielemans (Belgium) right footed shot from the right side of the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Kevin De Bruyne.",
@@ -16665,7 +16659,61 @@
   {
    "minNum": 44,
    "minute": "44'",
-   "text": "Attempt saved. Maxim De Cuyper (Belgium) left footed shot from the left side of the box is saved.",
+   "text": "Attempt saved. Maxim De Cuyper (Belgium) left footed shot from the left side of the box is saved in the bottom left corner by Alireza Beiranvand (IR Iran). Assisted by Youri Tielemans with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt blocked. Alexis Saelemaekers (Belgium) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 8 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from the left side of the box is blocked. Assisted by Leandro Trossard.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Foul by Saeid Ezatolahi (IR Iran).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Youri Tielemans (Belgium) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Offside, Belgium. Alexis Saelemaekers is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Mohammad Mohebbi (IR Iran) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Foul by Thomas Meunier (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+9'",
+   "text": "First Half ends, Belgium 0, IR Iran 0.",
    "type": null
   }
  ],

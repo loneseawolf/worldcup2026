@@ -1,8 +1,8 @@
-# [2026 World Cup Open Source Companion ⚽](https://26worldcup.github.io)
+# [FIFA World Cup 2026 🏆](https://loneseawolf.github.io/worldcup2026/)
 
 Clean and complete 2026 FIFA World Cup companion: schedule, groups, bracket, squads, venues, weather, where to watch, match win **probabilities** and tournament **forecast**, in 23 languages.
 
-👉 **[Click me to use 2026 World Cup Open Source Companion now!](https://26worldcup.github.io)** ⚽ ([26worldcup.github.io](https://26worldcup.github.io))
+👉 **[Use FIFA World Cup 2026 now!](https://loneseawolf.github.io/worldcup2026/)** 🏆 ([loneseawolf.github.io/worldcup2026](https://loneseawolf.github.io/worldcup2026/))
 
 Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikipedia: every fact about the tournament is one or two taps away, in your language and your time zone, with nothing you don't need (no ads, no news feeds, no videos, no cookie banners, no sign-in).
 
@@ -14,11 +14,15 @@ README in [français](README.fr.md) · [中文](README.zh.md)
 
 This is a personal fork of the excellent **[26worldcup/26worldcup.github.io](https://github.com/26worldcup/26worldcup.github.io)** by [Tom Chen](https://github.com/tomchen), used under its MIT license (see [LICENSE](LICENSE.md) / [COPYRIGHT](COPYRIGHT.md)). All credit for the original app — schedule, groups, bracket, squads, venues, weather, probabilities, the Monte-Carlo forecast, and 23 languages — goes to the upstream project.
 
-Personal additions in this fork:
+How this fork differs from upstream:
 
-- 🌙 **Dark theme by default** and 🇵🇭 **Philippine Time (Asia/Manila)** as the default time zone (both still changeable in Settings).
-- 🏆 **Road to Finals** — pick a champion and see their projected knockout path (most-likely opponent, per-round win probability, difficulty, and cumulative title odds), override any matchup, and save/share the bracket via a link.
-- 📺 **Live TV** — a community live-stream index plus Philippine broadcasters.
+- 🏆 **Rebranded** to "FIFA World Cup 2026" with a gold FIFA-trophy logo and matching link preview — favicon, regenerated PWA icons, a 1200×630 social/OG image, and an updated web-app manifest.
+- 🌙🇵🇭 **Dark theme and Philippine Time (Asia/Manila) by default** (both still changeable in Settings).
+- 🧭 **Road to Finals** (`/road`) — pick a champion and see their projected knockout path (most-likely opponent, per-round win probability, Elo difficulty, and cumulative title odds), override any matchup, and share the bracket via a link. Reuses the upstream Elo/simulation engine.
+- 📺 **Live page** (`/live`) — a consolidated live-match feed (minute-by-minute events, win probability, team stats, derived player ratings) alongside group standings and where-to-watch.
+- 🗳️ **Pick'ems & onboarding** — pick your top teams on first run (they carry into "My Teams" favorites) and fill out a Pick'ems bracket with team-colored slots and FIFA-seed badges.
+- 🎨 **UI re-skin** — a champion-driven accent theme, glass navigation, a home "predictions zone" with floating title odds, a collapsible schedule, and a FAQ page.
+- ⚙️ **Hardened live-update CI** — a self-bridging relay keeps the data pipeline warm across overnight match gaps so live updates survive dropped scheduled runs.
 
 Live: **[loneseawolf.github.io/worldcup2026](https://loneseawolf.github.io/worldcup2026/)**
 
@@ -104,6 +108,8 @@ bun install
 bun run update   # fetch the latest data
 bun run dev      # http://localhost:5173
 ```
+
+(`npm` works too — `npm install` / `npm run dev` — if you don't have `bun`; CI uses `bun`.)
 
 Production build (fully static output in `dist/`):
 
@@ -201,7 +207,7 @@ docker compose -f docker-compose.yml -f docker-compose.self.yml up -d --build
 
 ### ⚙️ Tech
 
-React 19 · TypeScript · Vite · no backend, no runtime dependencies beyond React + Router. SVG throughout: the pitch with line-ups, the projected North America map, the bracket, the logo.
+React 19 · TypeScript · Vite · no backend, no runtime dependencies beyond React + Router. SVG throughout: the pitch with line-ups, the projected North America map, and the bracket.
 
 ```
 scripts/update.mjs    data pipeline (bun run update)

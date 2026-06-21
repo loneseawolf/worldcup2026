@@ -15,18 +15,24 @@ const daily = d.getUTCHours() === 4 && d.getUTCMinutes() < 15
 const { matches } = JSON.parse(fs.readFileSync('public/data/matches.json', 'utf8'))
 const inWindow = matches.some((m) => {
   const ko = Date.parse(m.date)
-  return now >= ko - PRE && now <= ko + POST
+  return now >= ko - PRE && now <= ko + POST && m.status !== 'finished'
 })
 
 const run = daily || inWindow
 
-// bridge: if a window opens within 4h, report how long to sleep so a stray
-// cron hit (GitHub fires our grid at lottery-like times) can wait for it
-const BRIDGE_MAX = 4 * 3600 * 1000
+// bridge: keep the chain warm across overnight gaps. If the next unfinished
+// match opens within MAX_GAP (12h), report how long to sleep — capped at HOP
+// (4h) so a single Actions job never approaches the 6h job limit; the
+// re-dispatched bridge chains the remaining distance in further ≤4h hops.
+const MAX_GAP = 12 * 3600 * 1000
+const HOP = 4 * 3600 * 1000
 let wait = ''
 if (!run) {
-  const starts = matches.map((m) => Date.parse(m.date) - PRE).filter((t) => t > now && t - now <= BRIDGE_MAX)
-  if (starts.length) wait = String(Math.ceil((Math.min(...starts) - now) / 1000) + 15)
+  const starts = matches
+    .filter((m) => m.status !== 'finished')
+    .map((m) => Date.parse(m.date) - PRE)
+    .filter((t) => t > now && t - now <= MAX_GAP)
+  if (starts.length) wait = String(Math.ceil(Math.min(Math.min(...starts) - now, HOP) / 1000) + 15)
 }
 
 console.log(

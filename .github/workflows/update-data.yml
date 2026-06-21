@@ -45,10 +45,11 @@ jobs:
             node scripts/cron-guard.mjs
           fi
 
-  # a stray cron landing up to 4h before a window sleeps until it opens and
-  # ignites the relay chain — converts GitHub's lottery-timed schedule hits
-  # into on-time ignition. The workflow-level concurrency group makes
-  # simultaneous bridges collapse into at most one queued run.
+  # a cron/relay landing within MAX_GAP (hopping in ≤4h sleeps) before a window
+  # sleeps until it opens and ignites the relay chain — converts GitHub's
+  # lottery-timed schedule hits into on-time ignition. The workflow-level
+  # concurrency group makes simultaneous bridges collapse into at most one
+  # queued run.
   bridge:
     needs: gate
     if: needs.gate.outputs.run != 'true' && needs.gate.outputs.wait != ''
@@ -157,27 +158,36 @@ jobs:
       actions: write
     steps:
       - uses: actions/checkout@v4
-      - name: Sleep one cadence step, then re-dispatch if still in a match window
+      - name: Re-dispatch to sustain cadence or bridge to the next match
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           sleep 780
           # fresh statuses (this run's update job just committed them): a match
-          # that is already finished stops demanding cadence — the chain dies
-          # one step after full time instead of riding out the 3h45 hard cap
+          # that is already finished stops demanding cadence. Re-dispatch when a
+          # match is live now (sustain cadence) OR the next unfinished match
+          # opens within MAX_GAP=12h (bridge the gap). The re-dispatch (relay=true)
+          # re-enters the gate; cron-guard + bridge then sleep until the window,
+          # so the cadence re-ignites on its own without a scheduled cron.
           curl -sf "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/public/data/matches.json" -o /tmp/matches.json \
             || cp public/data/matches.json /tmp/matches.json
           RUN=$(node -e "
             const {matches}=require('/tmp/matches.json');
             const now=Date.now();
-            const ok=matches.some(m=>{
+            const MAX_GAP=12*3600*1000;
+            const live=matches.some(m=>{
               const ko=Date.parse(m.date);
               if(now<ko-25*60000||now>ko+225*60000) return false;
               return m.status!=='finished';
             });
-            console.log(ok?'true':'false');
+            const upcoming=matches.some(m=>{
+              if(m.status==='finished') return false;
+              const open=Date.parse(m.date)-25*60000;
+              return open>now && open-now<=MAX_GAP;
+            });
+            console.log(live||upcoming?'true':'false');
           ")
-          echo "relay: in-window=$RUN"
+          echo "relay: re-dispatch=$RUN"
           if [ "$RUN" = "true" ]; then
             gh workflow run update-data.yml -f relay=true --repo "$GITHUB_REPOSITORY"
           fi

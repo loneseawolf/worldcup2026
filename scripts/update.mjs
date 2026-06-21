@@ -107,8 +107,32 @@ async function writeJson(file, data) {
   await fs.mkdir(path.dirname(file), { recursive: true })
   const tmp = `${file}.tmp`
   await fs.writeFile(tmp, `${JSON.stringify(data, null, 1)}\n`)
-  await fs.rename(tmp, file) // atomic: never leave a half-written file
-  log('wrote', path.relative(ROOT, file))
+  try {
+    await renameWithRetry(tmp, file) // atomic: never leave a half-written file
+    log('wrote', path.relative(ROOT, file))
+  } catch (err) {
+    // A file held open elsewhere (editor tab, watcher) on Windows can lock the
+    // rename past the retry window. Don't abort the whole run — leave the .tmp
+    // next to its target so it can be moved into place once the lock clears.
+    if (err.code !== 'EPERM' && err.code !== 'EBUSY') throw err
+    warn(`write ${path.relative(ROOT, file)}: ${err.code} — left ${path.basename(tmp)} for recovery`)
+  }
+}
+
+// On Windows, a file watcher (a running Vite dev/preview server) or a
+// real-time scanner briefly locks freshly written files, making the rename
+// fail with EPERM/EBUSY. CI on Linux never hits this; retry over a few-second
+// window so local Windows runs complete the whole dataset.
+async function renameWithRetry(tmp, file, tries = 30) {
+  for (let i = 0; ; i++) {
+    try {
+      await fs.rename(tmp, file)
+      return
+    } catch (err) {
+      if ((err.code !== 'EPERM' && err.code !== 'EBUSY') || i >= tries - 1) throw err
+      await new Promise((r) => setTimeout(r, 250))
+    }
+  }
 }
 
 const txt = (arr) => (Array.isArray(arr) && arr[0]?.Description) || null
@@ -1865,7 +1889,7 @@ async function main() {
       tmp,
       `${JSON.stringify({ coach: s.coach, wiki: s.wiki, players: s.players }, null, 1)}\n`,
     )
-    await fs.rename(tmp, file)
+    await renameWithRetry(tmp, file)
     squadFiles++
   }
   log(`wrote ${squadFiles} per-team squad files (public/data/squads/)`)

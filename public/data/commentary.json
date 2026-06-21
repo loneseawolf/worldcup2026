@@ -16531,6 +16531,12 @@
    "type": null
   },
   {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Attempt blocked. Romelu Lukaku (Belgium) header from the centre of the box is blocked. Assisted by Kevin De Bruyne with a cross.",
+   "type": null
+  },
+  {
    "minNum": 22,
    "minute": "22'",
    "text": "Attempt saved. Youri Tielemans (Belgium) right footed shot from the right side of the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Kevin De Bruyne.",
@@ -16576,6 +16582,90 @@
    "minNum": 30,
    "minute": "30'",
    "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Saeid Ezatolahi (IR Iran).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Youri Tielemans (Belgium) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Saeid Ezatolahi (IR Iran) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Delay in match (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Offside, Belgium. Youri Tielemans is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Mehdi Taremi (IR Iran).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Kevin De Bruyne (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Ehsan Hajisafi (IR Iran).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Kevin De Bruyne (Belgium) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt saved. Kevin De Bruyne (Belgium) right footed shot from the centre of the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Leandro Trossard with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Handball by Mehdi Taremi (IR Iran).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt saved. Maxim De Cuyper (Belgium) left footed shot from the left side of the box is saved.",
    "type": null
   }
  ],

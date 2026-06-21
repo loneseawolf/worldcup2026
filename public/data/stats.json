@@ -137,6 +137,14 @@
    "ownGoals": 0
   },
   {
+   "id": "419100",
+   "name": "Maxi ARAUJO",
+   "code": "URU",
+   "no": 20,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "389867",
    "name": "MBAPPÉ",
    "code": "FRA",
@@ -173,6 +181,14 @@
    "name": "Abbosbek FAYZULLAEV",
    "code": "UZB",
    "no": 22,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "402876",
+   "name": "Agustin CANOBBIO",
+   "code": "URU",
+   "no": 14,
    "goals": 1,
    "ownGoals": 0
   },
@@ -301,22 +317,6 @@
    "name": "Ermin MAHMIC",
    "code": "BIH",
    "no": 26,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "371609",
-   "name": "Franck KESSIE",
-   "code": "CIV",
-   "no": 8,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "448586",
-   "name": "H G OH",
-   "code": "KOR",
-   "no": 18,
    "goals": 1,
    "ownGoals": 0
   }

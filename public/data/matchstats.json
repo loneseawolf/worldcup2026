@@ -13258,15 +13258,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 67.7,
-    "away": 32.3,
+    "home": 66,
+    "away": 34,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 12,
-    "away": 6,
+    "home": 13,
+    "away": 7,
     "pct": false
    },
    {
@@ -13279,8 +13279,8 @@
    {
     "key": "corners",
     "label": "Corners",
-    "home": 6,
-    "away": 1,
+    "home": 8,
+    "away": 3,
     "pct": false
    },
    {
@@ -13293,8 +13293,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 351,
-    "away": 150,
+    "home": 399,
+    "away": 183,
     "pct": false
    },
    {

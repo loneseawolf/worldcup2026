@@ -11124,21 +11124,21 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 80.3,
-    "away": 19.7,
+    "home": 77.8,
+    "away": 22.2,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 14,
-    "away": 4,
+    "home": 17,
+    "away": 5,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 4,
+    "home": 6,
     "away": 2,
     "pct": false
    },
@@ -11146,21 +11146,21 @@
     "key": "corners",
     "label": "Corners",
     "home": 4,
-    "away": 1,
+    "away": 2,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 6,
-    "away": 6,
+    "home": 7,
+    "away": 7,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 388,
-    "away": 64,
+    "home": 440,
+    "away": 92,
     "pct": false
    },
    {
@@ -11265,11 +11265,11 @@
     "fouls": 1
    },
    "380007": {
-    "rating": 6.6,
+    "rating": 6.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 4,
+    "saves": 6,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -11383,7 +11383,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "416989": {
     "rating": 6,
@@ -11476,20 +11476,20 @@
     "fouls": 0
    },
    "448373": {
-    "rating": 6.2,
+    "rating": 6.3,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 2,
+    "shotsOnTarget": 3,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
     "fouls": 0
    },
    "448377": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -11639,14 +11639,14 @@
     "fouls": 0
    },
    "514166": {
-    "rating": 6,
+    "rating": 4.4,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
     "yellow": 0,
-    "red": 0,
-    "fouls": 1
+    "red": 1,
+    "fouls": 2
    },
    "519837": {
     "rating": 6,

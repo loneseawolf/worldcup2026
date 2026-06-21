@@ -2297,7 +2297,7 @@
    "date": "2026-06-21T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "URU",
     "score": null,
@@ -2344,39 +2344,6 @@
       "ko": "주심",
       "id": "Wasit",
       "ru": "Главный судья"
-     }
-    },
-    {
-     "id": "428431",
-     "country": "USA",
-     "role": "fourth",
-     "name": {
-      "en": "Tori PENSO",
-      "fr": "Tori PENSO",
-      "zh": "Tori PENSO",
-      "ar": "Tori PENSO",
-      "es": "Tori PENSO",
-      "de": "Tori PENSO",
-      "pt": "Tori PENSO",
-      "it": "Tori PENSO",
-      "ja": "Tori PENSO",
-      "ko": "Tori PENSO",
-      "id": "Tori PENSO",
-      "ru": "Tori PENSO"
-     },
-     "typeName": {
-      "en": "Fourth official",
-      "fr": "Quatrième arbitre",
-      "zh": "第四官员",
-      "ar": "الحَكَم الرابع",
-      "es": "Cuarto/a árbitro/a",
-      "de": "Vierter Offizieller",
-      "pt": "Quarto árbitro",
-      "it": "Quarto arbitro",
-      "ja": "第 4 審判員",
-      "ko": "대기심",
-      "id": "Ofisial keempat",
-      "ru": "Четвертый судья"
      }
     }
    ]
@@ -2448,7 +2415,7 @@
    "date": "2026-06-21T19:00:00Z",
    "venueId": "400017978",
    "status": "live",
-   "time": "60'",
+   "time": "73'",
    "home": {
     "code": "BEL",
     "score": 0,
@@ -2462,7 +2429,7 @@
    "phA": "G1",
    "phB": "G3",
    "winner": null,
-   "attendance": null,
+   "attendance": 70317,
    "officials": [
     {
      "id": "383174",

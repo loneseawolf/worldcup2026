@@ -323,7 +323,7 @@
  ],
  "cards": {
   "yellow": 92,
-  "red": 7,
+  "red": 8,
   "players": [
    {
     "id": "369761",
@@ -354,6 +354,14 @@
     "name": "HOMAM AHMED",
     "code": "QAT",
     "no": 14,
+    "y": 0,
+    "r": 1
+   },
+   {
+    "id": "514166",
+    "name": "Nathan NGOY",
+    "code": "BEL",
+    "no": 25,
     "y": 0,
     "r": 1
    },
@@ -473,14 +481,6 @@
     "name": "Antonee ROBINSON",
     "code": "USA",
     "no": 5,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "395205",
-    "name": "BERNARDO",
-    "code": "POR",
-    "no": 10,
     "y": 1,
     "r": 0
    }
@@ -675,6 +675,21 @@
        "400021460"
       ],
       "banned": "400021461"
+     }
+    ]
+   }
+  ],
+  "BEL": [
+   {
+    "id": "514166",
+    "name": "Nathan NGOY",
+    "bans": [
+     {
+      "type": "red",
+      "due": [
+       "400021477"
+      ],
+      "banned": "400021481"
      }
     ]
    }

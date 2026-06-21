@@ -18109,13 +18109,13 @@
   {
    "minNum": 60,
    "minute": "60'",
-   "text": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Abdulelah Al Amri.",
+   "text": "Substitution, Saudi Arabia. Mohammed Abu Al Shamat replaces Feras Al Brikan.",
    "type": null
   },
   {
-   "minNum": 61,
-   "minute": "61'",
-   "text": "Substitution, Saudi Arabia. Mohammed Abu Al Shamat replaces Feras Al Brikan.",
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Abdulelah Al Amri.",
    "type": null
   },
   {
@@ -18140,6 +18140,60 @@
    "minNum": 62,
    "minute": "62'",
    "text": "Moteb Al Harbi (Saudi Arabia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Yéremy Pino (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Ali Lajami (Saudi Arabia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Ferran Torres (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt missed. Ferran Torres (Spain) right footed shot from the left side of the box is close, but misses to the right. Assisted by Mikel Merino with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Corner, Spain. Conceded by Ali Lajami.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Offside, Spain. Rodri is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Substitution, Spain. Fabián Ruiz replaces Pedri.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
    "type": null
   }
  ],

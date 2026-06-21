@@ -2296,16 +2296,16 @@
    "group": "H",
    "date": "2026-06-21T22:00:00Z",
    "venueId": "400257525",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "2'",
    "home": {
     "code": "URU",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CPV",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "H4",

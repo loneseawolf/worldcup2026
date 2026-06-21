@@ -17246,7 +17246,7 @@
  },
  "400021477": {
   "home": {
-   "tactics": null,
+   "tactics": "4-2-3-1",
    "xi": [
     {
      "id": "358106",
@@ -17520,7 +17520,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": null,
+   "tactics": "4-3-3",
    "xi": [
     {
      "id": "380007",
@@ -19861,7 +19861,7 @@
     }
    ]
   },
-  "matchTime": "76'",
+  "matchTime": "87'",
   "period": 5,
   "final": false
  },

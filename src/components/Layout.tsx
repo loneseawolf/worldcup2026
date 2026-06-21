@@ -109,11 +109,11 @@ function LangMenu() {
 }
 
 function Logo() {
-  // same artwork as the favicon — single source of truth in public/favicon.svg
+  // same artwork as the favicon — single source of truth in public/favicon.png
   return (
     <img
       className="brand-logo"
-      src={`${import.meta.env.BASE_URL}favicon.svg`}
+      src={`${import.meta.env.BASE_URL}favicon.png`}
       width={30}
       height={30}
       alt=""

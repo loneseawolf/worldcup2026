@@ -8,13 +8,13 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],
+      includeAssets: ['favicon.png', 'icons/apple-touch-icon.png'],
       manifest: {
         id: './',
-        name: '2026 World Cup Open Source Companion',
-        short_name: '2026 WC',
+        name: 'FIFA World Cup 2026',
+        short_name: 'WC 2026',
         description:
-          '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and tournament forecast, in 23 languages. Unofficial open-source PWA',
+          'Your unofficial FIFA World Cup 2026 companion: full match schedule, groups, knockout bracket, squads, venues, weather, and where to watch — plus live win probabilities and tournament forecasts, in 23 languages. Free, no ads, no sign-in.',
         start_url: './',
         scope: './',
         display: 'standalone',

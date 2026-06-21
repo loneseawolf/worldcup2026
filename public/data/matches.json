@@ -2237,22 +2237,22 @@
    "group": "F",
    "date": "2026-06-21T04:00:00Z",
    "venueId": "400238450",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "TUN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "JPN",
-    "score": null,
+    "score": 4,
     "pen": null
    },
    "phA": "F4",
    "phB": "F2",
-   "winner": null,
-   "attendance": null,
+   "winner": "JPN",
+   "attendance": 51243,
    "officials": [
     {
      "id": "314605",
@@ -3553,7 +3553,11 @@
    "venueId": "400248623",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "1E",
    "phB": "3ABCDF",

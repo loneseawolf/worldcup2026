@@ -564,6 +564,18 @@
     "rank": 1
    },
    {
+    "code": "JPN",
+    "p": 2,
+    "w": 1,
+    "d": 1,
+    "l": 0,
+    "gf": 6,
+    "ga": 2,
+    "gd": 4,
+    "pts": 4,
+    "rank": 2
+   },
+   {
     "code": "SWE",
     "p": 2,
     "w": 1,
@@ -573,35 +585,38 @@
     "ga": 6,
     "gd": 0,
     "pts": 3,
-    "rank": 2
-   },
-   {
-    "code": "JPN",
-    "p": 1,
-    "w": 0,
-    "d": 1,
-    "l": 0,
-    "gf": 2,
-    "ga": 2,
-    "gd": 0,
-    "pts": 1,
     "rank": 3
    },
    {
     "code": "TUN",
-    "p": 1,
+    "p": 2,
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "gf": 1,
-    "ga": 5,
-    "gd": -4,
+    "ga": 9,
+    "gd": -8,
     "pts": 0,
     "rank": 4
    }
   ]
  },
  "thirds": [
+  {
+   "group": "F",
+   "code": "SWE",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 6,
+   "ga": 6,
+   "gd": 0,
+   "pts": 3,
+   "rank": 3,
+   "thirdRank": 1,
+   "qualifies": null
+  },
   {
    "group": "C",
    "code": "SCO",
@@ -614,7 +629,7 @@
    "gd": 0,
    "pts": 3,
    "rank": 3,
-   "thirdRank": 1,
+   "thirdRank": 2,
    "qualifies": null
   },
   {
@@ -628,21 +643,6 @@
    "ga": 4,
    "gd": -2,
    "pts": 3,
-   "rank": 3,
-   "thirdRank": 2,
-   "qualifies": null
-  },
-  {
-   "group": "F",
-   "code": "JPN",
-   "p": 1,
-   "w": 0,
-   "d": 1,
-   "l": 0,
-   "gf": 2,
-   "ga": 2,
-   "gd": 0,
-   "pts": 1,
    "rank": 3,
    "thirdRank": 3,
    "qualifies": null

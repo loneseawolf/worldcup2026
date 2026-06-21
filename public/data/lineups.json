@@ -12032,8 +12032,34 @@
     }
    ],
    "goals": [],
-   "bookings": [],
-   "substitutions": []
+   "bookings": [
+    {
+     "player": "419005",
+     "minute": "38'",
+     "card": 1,
+     "period": 3
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "419005",
+     "on": "448310",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "389782",
+     "on": "448312",
+     "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "389784",
+     "on": "402974",
+     "minute": "83'",
+     "period": 5
+    }
+   ]
   },
   "away": {
    "tactics": "5-3-2",
@@ -12328,11 +12354,67 @@
     }
    ],
    "goals": [],
-   "bookings": [],
-   "substitutions": []
+   "bookings": [
+    {
+     "player": "466340",
+     "minute": "39'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "466317",
+     "minute": "53'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "494989",
+     "minute": "56'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "431698",
+     "minute": "75'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "506471",
+     "on": "466361",
+     "minute": "75'",
+     "period": 5
+    },
+    {
+     "off": "485347",
+     "on": "466363",
+     "minute": "75'",
+     "period": 5
+    },
+    {
+     "off": "466317",
+     "on": "466352",
+     "minute": "75'",
+     "period": 5
+    },
+    {
+     "off": "494989",
+     "on": "466359",
+     "minute": "83'",
+     "period": 5
+    },
+    {
+     "off": "407680",
+     "on": "466372",
+     "minute": "83'",
+     "period": 5
+    }
+   ]
   },
-  "matchTime": "0'",
-  "period": 0,
+  "matchTime": "85'",
+  "period": 5,
   "final": false
  },
  "400021467": {
@@ -15812,6 +15894,27 @@
   "matchTime": "97'",
   "period": 10,
   "final": true
+ },
+ "400021475": {
+  "home": {
+   "tactics": null,
+   "xi": [],
+   "subs": [],
+   "goals": [],
+   "bookings": [],
+   "substitutions": []
+  },
+  "away": {
+   "tactics": null,
+   "xi": [],
+   "subs": [],
+   "goals": [],
+   "bookings": [],
+   "substitutions": []
+  },
+  "matchTime": "0'",
+  "period": 0,
+  "final": false
  },
  "400021476": {
   "home": {

@@ -7742,7 +7742,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Juri%C3%ABn_Gaari",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -7758,7 +7758,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Roshon_van_Eijma",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -7866,7 +7866,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Godfried_Roemeratoe",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -7886,7 +7886,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Juninho_Bacuna",
     "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -7904,7 +7904,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Livano_Comenencia",
     "wcApps": 2,
     "wcGoals": 1,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -7922,7 +7922,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Leandro_Bacuna",
     "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -8064,7 +8064,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Kenji_Gorr%C3%A9",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -8082,7 +8082,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/SK_Beveren",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jearl_Margaritha",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -8118,7 +8118,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Terengganu_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Gervane_Kastaneer",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -8290,7 +8290,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/%C3%81ngelo_Preciado",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -8346,7 +8346,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Jordy_Alc%C3%ADvar",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -8506,7 +8506,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Kevin_Rodr%C3%ADguez_(footballer%2C_born_2000)",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -8578,7 +8578,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Nilson_Angulo",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0

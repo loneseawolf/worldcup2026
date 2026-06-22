@@ -90,7 +90,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Tagliafico",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -182,7 +182,7 @@
    "wiki": "https://en.wikipedia.org/wiki/Facundo_Medina",
    "wcApps": 2,
    "wcGoals": 0,
-   "wcYellow": 0,
+   "wcYellow": 1,
    "wcRed": 0
   },
   {
@@ -216,7 +216,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Boca_Juniors",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Leandro_Paredes",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0

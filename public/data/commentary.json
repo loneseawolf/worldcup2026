@@ -22215,7 +22215,7 @@
   {
    "minNum": 14,
    "minute": "14'",
-   "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the top left corner. Assisted by Michael Olise.",
+   "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the bottom left corner. Assisted by Michael Olise.",
    "type": null
   },
   {
@@ -22318,6 +22318,30 @@
    "minNum": 42,
    "minute": "42'",
    "text": "Foul by Adrien Rabiot (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Ali Al Hamadi (Iraq) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Manu Koné (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "First Half ends, France 1, Iraq 0.",
    "type": null
   }
  ],

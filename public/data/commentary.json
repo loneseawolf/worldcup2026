@@ -18145,19 +18145,91 @@
   {
    "minNum": 49,
    "minute": "49'",
-   "text": "Attempt blocked. Mostafa Zico (Egypt) right footed shot from outside the box is blocked. Assisted by Ahmed Fatouh.",
+   "text": "Attempt blocked. Mostafa Zico (Egypt) right footed shot from outside the box is blocked. Assisted by Mohamed Salah.",
    "type": null
   },
   {
    "minNum": 50,
    "minute": "50'",
-   "text": "Attempt missed. Emam Ashour (Egypt) left footed shot from outside the box is close, but misses to the right. Assisted by Marwan Attia.",
+   "text": "Attempt missed. Emam Ashour (Egypt) left footed shot from outside the box misses to the right. Assisted by Marwan Attia.",
    "type": null
   },
   {
    "minNum": 50,
    "minute": "50'",
    "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from outside the box is blocked. Assisted by Mohamed Salah.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Attempt saved. Callum McCowatt (New Zealand) header from the centre of the box is saved in the top centre of the goal by Mostafa Shobeir (Egypt). Assisted by Marko Stamenic.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Corner, New Zealand. Conceded by Mostafa Shobeir.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Finn Surman (New Zealand).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt blocked. Mostafa Zico (Egypt) left footed shot from the centre of the box is blocked. Assisted by Ahmed Fatouh with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt missed. Emam Ashour (Egypt) right footed shot from the centre of the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Corner, Egypt. Conceded by Liberato Cacace.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Goal! New Zealand 1, Egypt 1. Mostafa Zico (Egypt) header from the centre of the box to the high centre of the goal. Assisted by Mohamed Hany with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Foul by Liberato Cacace (New Zealand).",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Emam Ashour (Egypt) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Liberato Cacace (New Zealand) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Ramy Rabia (Egypt).",
    "type": null
   }
  ],

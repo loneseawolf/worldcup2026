@@ -23364,6 +23364,27 @@
   "period": 10,
   "final": true
  },
+ "400021491": {
+  "home": {
+   "tactics": null,
+   "xi": [],
+   "subs": [],
+   "goals": [],
+   "bookings": [],
+   "substitutions": []
+  },
+  "away": {
+   "tactics": null,
+   "xi": [],
+   "subs": [],
+   "goals": [],
+   "bookings": [],
+   "substitutions": []
+  },
+  "matchTime": "0'",
+  "period": 0,
+  "final": false
+ },
  "400021492": {
   "home": {
    "tactics": "4-2-3-1",
@@ -23957,8 +23978,8 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "0'",
-  "period": 0,
+  "matchTime": "3'",
+  "period": 3,
   "final": false
  },
  "400021494": {

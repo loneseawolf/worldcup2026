@@ -22139,6 +22139,26 @@
    "type": null
   }
  ],
+ "400021492": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt missed. Manu Koné (France) left footed shot from outside the box misses to the right.",
+   "type": null
+  }
+ ],
  "400021494": [
   {
    "minNum": 0,

@@ -5,7 +5,7 @@
    "name": "Lionel MESSI",
    "code": "ARG",
    "no": 10,
-   "goals": 4,
+   "goals": 5,
    "ownGoals": 0
   },
   {
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 102,
+  "yellow": 103,
   "red": 8,
   "players": [
    {
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 64075,
+ "attAvg": 64235,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -540,9 +540,9 @@
    "SEN": 0,
    "IRQ": -1,
    "NOR": 0,
-   "ARG": 0,
+   "ARG": -2,
    "ALG": 0,
-   "AUT": -1,
+   "AUT": -3,
    "JOR": 0,
    "GHA": -1,
    "PAN": -2,
@@ -590,9 +590,9 @@
    "SEN": 0,
    "IRQ": -1,
    "NOR": 0,
-   "ARG": 0,
+   "ARG": -2,
    "ALG": 0,
-   "AUT": -1,
+   "AUT": -3,
    "JOR": 0,
    "GHA": -1,
    "PAN": -2,

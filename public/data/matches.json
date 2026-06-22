@@ -2683,11 +2683,11 @@
    "group": "J",
    "date": "2026-06-22T17:00:00Z",
    "venueId": "400257526",
-   "status": "live",
-   "time": "90'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "ARG",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -2697,7 +2697,7 @@
    },
    "phA": "J1",
    "phB": "J3",
-   "winner": null,
+   "winner": "ARG",
    "attendance": 70649,
    "officials": [
     {

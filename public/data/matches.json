@@ -2473,16 +2473,16 @@
    "group": "G",
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "3'",
    "home": {
     "code": "NZL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "EGY",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "G4",

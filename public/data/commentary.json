@@ -17781,6 +17781,44 @@
    "type": null
   }
  ],
+ "400021480": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Omar Marmoush (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by Finn Surman (New Zealand).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Joe Bell (New Zealand).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Emam Ashour (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  }
+ ],
  "400021482": [
   {
    "minNum": 0,

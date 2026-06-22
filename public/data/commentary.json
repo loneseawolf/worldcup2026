@@ -18099,6 +18099,66 @@
    "minute": "50'",
    "text": "First Half ends, New Zealand 1, Egypt 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins New Zealand 1, Egypt 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Attempt saved. Mohamed Salah (Egypt) right footed shot from the centre of the box is saved in the bottom right corner by Max Crocombe (New Zealand). Assisted by Mohamed Hany with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Callum McCowatt (New Zealand).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Omar Marmoush (Egypt) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Attempt missed. Omar Marmoush (Egypt) right footed shot from outside the box is close, but misses to the left. Assisted by Mohamed Salah following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Liberato Cacace (New Zealand) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Mostafa Zico (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Attempt blocked. Mostafa Zico (Egypt) right footed shot from outside the box is blocked. Assisted by Ahmed Fatouh.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Attempt missed. Emam Ashour (Egypt) left footed shot from outside the box is close, but misses to the right. Assisted by Marwan Attia.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from outside the box is blocked. Assisted by Mohamed Salah.",
+   "type": null
   }
  ],
  "400021482": [

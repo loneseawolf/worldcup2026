@@ -2474,10 +2474,10 @@
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "3'",
+   "time": "17'",
    "home": {
     "code": "NZL",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

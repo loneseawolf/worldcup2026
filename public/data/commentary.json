@@ -18407,8 +18407,8 @@
    "type": null
   },
   {
-   "minNum": 91,
-   "minute": "91'+1'",
+   "minNum": 90,
+   "minute": "90'",
    "text": "Fourth official has announced 7 minutes of added time.",
    "type": null
   },
@@ -18422,6 +18422,72 @@
    "minNum": 90,
    "minute": "90'+2'",
    "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt saved. Zizo (Egypt) right footed shot from the left side of the six yard box is saved in the centre of the goal by Max Crocombe (New Zealand).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, New Zealand. Conceded by Ramy Rabia.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt blocked. Michael Boxall (New Zealand) header from very close range is blocked. Assisted by Ryan Thomas with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Delay in match because of an injury Hossam Abdelmaguid (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt missed. Marko Stamenic (New Zealand) right footed shot from outside the box misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt saved. Tyler Bindon (New Zealand) left footed shot from very close range is saved in the centre of the goal by Mostafa Shobeir (Egypt). Assisted by Marko Stamenic.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Substitution, Egypt. Mohamed Abdelmonem replaces Hossam Abdelmaguid because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+10'",
+   "text": "Corner, Egypt. Conceded by Michael Boxall.",
+   "type": null
+  },
+  {
+   "minNum": 101,
+   "minute": "101'",
+   "text": "Second Half ends, New Zealand 1, Egypt 3.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, New Zealand 1, Egypt 3.",
    "type": null
   }
  ],

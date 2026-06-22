@@ -2684,10 +2684,10 @@
    "date": "2026-06-22T17:00:00Z",
    "venueId": "400257526",
    "status": "live",
-   "time": "31'",
+   "time": "44'",
    "home": {
     "code": "ARG",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

@@ -22139,6 +22139,26 @@
    "type": null
   }
  ],
+ "400021494": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Offside, Argentina. Lionel Messi is caught offside.",
+   "type": null
+  }
+ ],
  "400021496": [
   {
    "minNum": 0,

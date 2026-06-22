@@ -2625,10 +2625,10 @@
    "date": "2026-06-22T21:00:00Z",
    "venueId": "400248622",
    "status": "live",
-   "time": "3'",
+   "time": "16'",
    "home": {
     "code": "FRA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

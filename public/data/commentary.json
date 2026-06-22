@@ -20131,13 +20131,145 @@
   {
    "minNum": 86,
    "minute": "86'",
-   "text": "Corner, Uruguay. Conceded by Ryan Mendes.",
+   "text": "Corner, Uruguay. Conceded by Steven Moreira.",
    "type": null
   },
   {
    "minNum": 86,
    "minute": "86'",
    "text": "Corner, Uruguay. Conceded by Laros Duarte.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Corner, Uruguay. Conceded by Steven Moreira.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Foul by Yannick Semedo (Cabo Verde).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Nicolás de la Cruz (Uruguay) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Attempt missed. Federico Valverde (Uruguay) right footed shot from outside the box is just a bit too high from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 8 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt blocked. Sidny Cabral (Cabo Verde) left footed shot from outside the box is blocked. Assisted by Laros Duarte.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt blocked. Ryan Mendes (Cabo Verde) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt missed. Agustín Canobbio (Uruguay) right footed shot from the right side of the box is close, but misses to the right. Assisted by Darwin Núñez following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Diney Borges (Cabo Verde) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "VAR Decision: Other Decision Cancelled.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Yannick Semedo (Cabo Verde) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Agustín Canobbio (Uruguay).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Laros Duarte (Cabo Verde) left footed shot from outside the box is saved in the centre of the goal by Fernando Muslera (Uruguay). Assisted by Ryan Mendes.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Corner, Cabo Verde. Conceded by Rodrigo Bentancur.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt blocked. Ryan Mendes (Cabo Verde) right footed shot from the right side of the box is blocked. Assisted by Laros Duarte.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Laros Duarte (Cabo Verde) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Foul by Rodrigo Bentancur (Uruguay).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt saved. Laros Duarte (Cabo Verde) right footed shot from outside the box is saved in the centre of the goal by Fernando Muslera (Uruguay).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Nuno da Costa (Cabo Verde) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Foul by Sebastián Cáceres (Uruguay).",
+   "type": null
+  },
+  {
+   "minNum": 99,
+   "minute": "99'",
+   "text": "Second Half ends, Uruguay 2, Cabo Verde 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Uruguay 2, Cabo Verde 2.",
    "type": null
   }
  ],

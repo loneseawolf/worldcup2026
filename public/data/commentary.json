@@ -22155,7 +22155,85 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Offside, Argentina. Lionel Messi is caught offside.",
+   "text": "Offside, Argentina. Thiago Almada is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Penalty conceded by Stefan Posch (Austria) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Penalty Argentina. Lautaro Martínez draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Delay in match because of an injury Lautaro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "VAR Decision: Penalty Argentina.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Penalty missed. Lionel Messi (Argentina) left footed shot is close, but misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Romano Schmid (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Facundo Medina (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Michael Gregoritsch (Austria) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Lisandro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Foul by Alexis Mac Allister (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Paul Wanner (Austria) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Handball by Romano Schmid (Austria).",
    "type": null
   }
  ],

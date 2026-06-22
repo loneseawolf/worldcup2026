@@ -22207,12 +22207,6 @@
    "type": null
   },
   {
-   "minNum": 13,
-   "minute": "13'",
-   "text": "Attempt blocked. Michael Olise (France) left footed shot from the right side of the six yard box is blocked.",
-   "type": null
-  },
-  {
    "minNum": 14,
    "minute": "14'",
    "text": "Attempt blocked. Michael Olise (France) left footed shot from outside the box is blocked. Assisted by Kylian Mbappé.",
@@ -22222,6 +22216,54 @@
    "minNum": 14,
    "minute": "14'",
    "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the top left corner. Assisted by Michael Olise.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Merchas Doski (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Foul by Adrien Rabiot (France).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Substitution, Iraq. Ali Al Hamadi replaces Aymen Hussein because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Attempt blocked. Ali Al Hamadi (Iraq) left footed shot from outside the box is blocked. Assisted by Ahmed Qasem.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Attempt missed. Ali Al Hamadi (Iraq) header from the right side of the six yard box misses to the right. Assisted by Merchas Doski with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "VAR Decision: Other Decision Cancelled.",
    "type": null
   }
  ],

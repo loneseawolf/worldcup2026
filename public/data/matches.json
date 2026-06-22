@@ -2474,7 +2474,7 @@
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "65'",
+   "time": "78'",
    "home": {
     "code": "NZL",
     "score": 1,
@@ -2482,7 +2482,7 @@
    },
    "away": {
     "code": "EGY",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "G4",

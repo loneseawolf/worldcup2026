@@ -18896,6 +18896,12 @@
      "minute": "20'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "390196",
+     "minute": "34'",
+     "card": 1,
+     "period": 3
     }
    ],
    "substitutions": []
@@ -19201,9 +19207,16 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "429095",
+     "on": "344661",
+     "minute": "41'",
+     "period": 3
+    }
+   ]
   },
-  "matchTime": "30'",
+  "matchTime": "44'",
   "period": 3,
   "final": false
  },

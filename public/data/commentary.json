@@ -25217,6 +25217,32 @@
    "type": null
   }
  ],
+ "400021503": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt blocked. Bruno Fernandes (Portugal) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Corner, Portugal. Conceded by Abdulla Abdullaev.",
+   "type": null
+  }
+ ],
  "400021504": [
   {
    "minNum": 0,

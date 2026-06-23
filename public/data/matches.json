@@ -2743,7 +2743,7 @@
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
    "status": "live",
-   "time": "50'",
+   "time": "64'",
    "home": {
     "code": "JOR",
     "score": 1,
@@ -2757,7 +2757,7 @@
    "phA": "J4",
    "phB": "J2",
    "winner": null,
-   "attendance": null,
+   "attendance": 68371,
    "officials": [
     {
      "id": "315008",

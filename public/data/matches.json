@@ -2742,8 +2742,8 @@
    "group": "J",
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
-   "status": "live",
-   "time": "90'+1'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "JOR",
     "score": 1,
@@ -2756,7 +2756,7 @@
    },
    "phA": "J4",
    "phB": "J2",
-   "winner": null,
+   "winner": "ALG",
    "attendance": 68371,
    "officials": [
     {
@@ -4208,7 +4208,11 @@
    "venueId": "400257525",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "1J",
    "phB": "2H",

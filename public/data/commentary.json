@@ -22359,7 +22359,37 @@
   {
    "minNum": 43,
    "minute": "43'",
-   "text": "Goal! Norway 1, Senegal 0. Marcus Pedersen (Norway) right footed shot from the centre of the box to the high centre of the goal.",
+   "text": "Goal! Norway 1, Senegal 0. Marcus Pedersen (Norway) right footed shot from the right side of the box to the high centre of the goal.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt saved. Ismaïla Sarr (Senegal) right footed shot from the centre of the box is saved in the bottom right corner by Ørjan Nyland (Norway). Assisted by Krépin Diatta with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Erling Haaland (Norway) hits the right post with a left footed shot from a difficult angle on the right.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Attempt saved. Erling Haaland (Norway) header from the centre of the box is saved in the bottom right corner by Édouard Mendy (Senegal). Assisted by Fredrik Aursnes with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, Norway 1, Senegal 0.",
    "type": null
   }
  ],
@@ -22787,7 +22817,37 @@
   {
    "minNum": 88,
    "minute": "88'",
-   "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the centre of the box is saved.",
+   "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the centre of the box is saved in the centre of the goal by Ahmed Basil (Iraq). Assisted by Dayot Upamecano with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Attempt missed. Kylian Mbappé (France) left footed shot from the left side of the box is high and wide to the left.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 2 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Substitution, France. Marcus Thuram replaces Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Second Half ends, France 3, Iraq 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, France 3, Iraq 0.",
    "type": null
   }
  ],

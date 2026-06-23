@@ -28494,6 +28494,12 @@
      "minute": "39'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "464924",
+     "minute": "60'",
+     "type": 3,
+     "period": 5
     }
    ],
    "bookings": [],
@@ -28509,6 +28515,12 @@
      "on": "485081",
      "minute": "",
      "period": 4
+    },
+    {
+     "off": "418535",
+     "on": "418561",
+     "minute": "63'",
+     "period": 5
     }
    ]
   },
@@ -28828,7 +28840,7 @@
     }
    ]
   },
-  "matchTime": "50'",
+  "matchTime": "65'",
   "period": 5,
   "final": false
  },

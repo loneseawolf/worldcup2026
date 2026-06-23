@@ -3052,10 +3052,10 @@
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
    "status": "live",
-   "time": "78'",
+   "time": "90'+2'",
    "home": {
     "code": "POR",
-    "score": 4,
+    "score": 5,
     "pen": null
    },
    "away": {

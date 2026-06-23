@@ -22139,6 +22139,32 @@
    "type": null
   }
  ],
+ "400021491": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Corner, Norway. Conceded by Moussa Niakhaté.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Corner, Norway. Conceded by Kalidou Koulibaly.",
+   "type": null
+  }
+ ],
  "400021492": [
   {
    "minNum": 0,
@@ -22342,6 +22368,12 @@
    "minNum": 49,
    "minute": "49'",
    "text": "First Half ends, France 1, Iraq 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins France 1, Iraq 0.",
    "type": null
   }
  ],

@@ -22307,6 +22307,60 @@
    "minute": "27'",
    "text": "Attempt missed. Nicolas Jackson (Senegal) right footed shot from the left side of the box is high and wide to the right. Assisted by Sadio Mané.",
    "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Attempt saved. Martin Ødegaard (Norway) left footed shot from the centre of the box is saved in the centre of the goal by Édouard Mendy (Senegal). Assisted by Erling Haaland.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Lamine Camara (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Fredrik Aursnes (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Attempt missed. Idrissa Gueye (Senegal) right footed shot from outside the box is too high. Assisted by Lamine Camara.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Moussa Niakhaté (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Foul by Alexander Sørloth (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Attempt missed. Lamine Camara (Senegal) right footed shot from outside the box misses to the left. Assisted by Sadio Mané.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt blocked. Martin Ødegaard (Norway) left footed shot from outside the box is blocked. Assisted by Antonio Nusa.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Goal! Norway 1, Senegal 0. Marcus Pedersen (Norway) right footed shot from the centre of the box to the high centre of the goal.",
+   "type": null
   }
  ],
  "400021492": [
@@ -22625,7 +22679,7 @@
   {
    "minNum": 66,
    "minute": "66'",
-   "text": "Attempt blocked. William Saliba (France) header from the centre of the box is blocked. Assisted by Lucas Digne with a cross.",
+   "text": "Attempt missed. William Saliba (France) header from the centre of the box is close, but misses to the right. Assisted by Lucas Digne with a cross following a corner.",
    "type": null
   },
   {
@@ -22679,7 +22733,61 @@
   {
    "minNum": 74,
    "minute": "74'",
-   "text": "Attempt missed. Rebin Sulaka (Iraq) right footed shot from the left side of the box following a corner.",
+   "text": "Attempt missed. Rebin Sulaka (Iraq) right footed shot from the left side of the box is too high. Assisted by Zidane Iqbal with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Attempt missed. Ali Al Hamadi (Iraq) right footed shot from very close range is close, but misses to the right. Assisted by Marko Farji with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Attempt missed. Kylian Mbappé (France) right footed shot from the left side of the box misses to the left. Assisted by Rayan Cherki with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Corner, France. Conceded by Akam Hashim.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Offside, France. Kylian Mbappé is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, France. Maghnes Akliouche replaces Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, France. Malo Gusto replaces Jules Koundé.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Marko Farji (Iraq) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Foul by Malo Gusto (France).",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the centre of the box is saved.",
    "type": null
   }
  ],

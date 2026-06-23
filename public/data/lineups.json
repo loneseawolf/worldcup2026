@@ -29912,6 +29912,12 @@
      "on": "473113",
      "minute": "74'",
      "period": 5
+    },
+    {
+     "off": "489732",
+     "on": "401470",
+     "minute": "83'",
+     "period": 5
     }
    ]
   },
@@ -30228,10 +30234,16 @@
      "on": "514401",
      "minute": "66'",
      "period": 5
+    },
+    {
+     "off": "520039",
+     "on": "511022",
+     "minute": "87'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "76'",
+  "matchTime": "90'",
   "period": 5,
   "final": false
  },
@@ -31592,7 +31604,7 @@
  },
  "400021511": {
   "home": {
-   "tactics": null,
+   "tactics": "3-4-3",
    "xi": [
     {
      "id": "441241",
@@ -31888,7 +31900,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": null,
+   "tactics": "4-2-3-1",
    "xi": [
     {
      "id": "369029",

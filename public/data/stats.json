@@ -9,6 +9,14 @@
    "ownGoals": 0
   },
   {
+   "id": "389867",
+   "name": "MBAPPÉ",
+   "code": "FRA",
+   "no": 10,
+   "goals": 4,
+   "ownGoals": 0
+  },
+  {
    "id": "484851",
    "name": "Deniz UNDAV",
    "code": "GER",
@@ -20,14 +28,6 @@
    "id": "441257",
    "name": "Jonathan DAVID",
    "code": "CAN",
-   "no": 10,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "389867",
-   "name": "MBAPPÉ",
-   "code": "FRA",
    "no": 10,
    "goals": 3,
    "ownGoals": 0

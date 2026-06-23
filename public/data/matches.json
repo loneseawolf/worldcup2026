@@ -2566,7 +2566,7 @@
    "date": "2026-06-23T00:00:00Z",
    "venueId": "400257536",
    "status": "live",
-   "time": "16'",
+   "time": "30'",
    "home": {
     "code": "NOR",
     "score": 0,
@@ -2625,10 +2625,10 @@
    "date": "2026-06-22T21:00:00Z",
    "venueId": "400248622",
    "status": "live",
-   "time": "61'",
+   "time": "75'",
    "home": {
     "code": "FRA",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {

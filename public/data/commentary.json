@@ -22241,6 +22241,72 @@
    "minute": "14'",
    "text": "Attempt missed. Martin Ødegaard (Norway) left footed shot from the centre of the box is too high. Assisted by Marcus Pedersen.",
    "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Corner, Senegal. Conceded by Torbjørn Heggem.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt blocked. Nicolas Jackson (Senegal) left footed shot from the left side of the box is blocked. Assisted by Idrissa Gueye with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Foul by Fredrik Aursnes (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Lamine Camara (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Foul by Fredrik Aursnes (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Moussa Niakhaté (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Foul by Marcus Pedersen (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Attempt missed. Nicolas Jackson (Senegal) right footed shot from the left side of the box is high and wide to the right. Assisted by Sadio Mané.",
+   "type": null
   }
  ],
  "400021492": [
@@ -22493,7 +22559,127 @@
   {
    "minNum": 59,
    "minute": "59'",
-   "text": "Attempt missed. Adrien Rabiot (France) header from the left side of the six yard box misses to the left.",
+   "text": "Attempt missed. Adrien Rabiot (France) header from the left side of the six yard box is close, but misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Iraq. Rebin Sulaka replaces Zaid Tahseen.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Iraq. Youssef Amyn replaces Zaid Ismael.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Zidane Iqbal (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Kylian Mbappé (France).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Merchas Doski (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Michael Olise (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Ali Al Hamadi (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Dayot Upamecano (France).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt blocked. Ousmane Dembélé (France) left footed shot from outside the box is blocked. Assisted by Jules Koundé.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Corner, France. Conceded by Amir Al Ammari.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Attempt blocked. William Saliba (France) header from the centre of the box is blocked. Assisted by Lucas Digne with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Corner, France. Conceded by Ibrahim Bayesh.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Attempt missed. Ousmane Dembélé (France) right footed shot from the right side of the box is close, but misses to the right following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Goal! France 3, Iraq 0. Ousmane Dembélé (France) right footed shot from the centre of the box to the bottom left corner. Assisted by Michael Olise with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, France. Rayan Cherki replaces Michael Olise.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, Iraq. Aimar Sher replaces Amir Al Ammari.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Substitution, Iraq. Marko Farji replaces Ibrahim Bayesh.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Corner, Iraq. Conceded by Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt missed. Rebin Sulaka (Iraq) right footed shot from the left side of the box following a corner.",
    "type": null
   }
  ],

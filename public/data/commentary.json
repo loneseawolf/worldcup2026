@@ -28705,7 +28705,73 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Attempt missed. Luka Modric (Croatia) header from the centre of the box.",
+   "text": "Attempt missed. Luka Modric (Croatia) header from the centre of the box is high and wide to the right. Assisted by Marco Pasalic with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Cristian Martínez (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Josko Gvardiol (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Attempt blocked. Amir Murillo (Panama) right footed shot from the left side of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Foul by Jiovany Ramos (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Carlos Harvey (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Carlos Harvey (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Mateo Kovacic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "José Luis Rodríguez (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Foul by Luka Modric (Croatia).",
    "type": null
   }
  ]

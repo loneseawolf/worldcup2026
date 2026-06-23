@@ -26919,6 +26919,24 @@
    "minute": "45'+7'",
    "text": "First Half ends, England 0, Ghana 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins England 0, Ghana 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Marvin Senaya (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Anthony Gordon (England) wins a free kick on the left wing.",
+   "type": null
   }
  ],
  "400021507": [

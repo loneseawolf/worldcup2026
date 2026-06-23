@@ -28875,6 +28875,42 @@
    "minute": "44'",
    "text": "Foul by Josip Sutalo (Croatia).",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Cristian Martínez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt missed. Martin Baturina (Croatia) right footed shot from outside the box is close, but misses to the left. Assisted by Ivan Perisic.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Corner, Croatia. Conceded by Orlando Mosquera.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "First Half ends, Panama 0, Croatia 0.",
+   "type": null
   }
  ]
 }

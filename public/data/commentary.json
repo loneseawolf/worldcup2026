@@ -25363,8 +25363,8 @@
    "type": null
   },
   {
-   "minNum": 26,
-   "minute": "26'",
+   "minNum": 25,
+   "minute": "25'",
    "text": "Delay over. They are ready to continue.",
    "type": null
   },
@@ -25395,6 +25395,18 @@
   {
    "minNum": 29,
    "minute": "29'",
+   "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "João Cancelo (Portugal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
    "text": "GOAL OVERTURNED BY VAR: Aziz G'aniev (Uzbekistan) scores but the goal is ruled out after a VAR review.",
    "type": null
   },
@@ -25405,9 +25417,63 @@
    "type": null
   },
   {
-   "minNum": 29,
-   "minute": "29'",
-   "text": "João Cancelo (Portugal) wins a free kick in the defensive half.",
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Handball by Pedro Neto (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Abdulla Abdullaev (Uzbekistan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by João Félix (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Foul by Otabek Shukurov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Goal! Portugal 3, Uzbekistan 0. Cristiano Ronaldo (Portugal) right footed shot from the right side of the box to the bottom left corner. Assisted by Bruno Fernandes with a through ball following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt missed. João Félix (Portugal) left footed shot from the left side of the box is high and wide to the right. Assisted by Vitinha with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Abbosbek Fayzullaev (Uzbekistan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by João Cancelo (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Attempt missed. Otabek Shukurov (Uzbekistan) right footed shot from outside the box is too high. Assisted by Eldor Shomurodov.",
    "type": null
   }
  ],

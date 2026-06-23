@@ -25527,13 +25527,49 @@
   {
    "minNum": 45,
    "minute": "45'+6'",
-   "text": "Attempt blocked. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is blocked.",
+   "text": "Attempt blocked. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is blocked. Assisted by João Cancelo with a cross.",
    "type": null
   },
   {
    "minNum": 45,
    "minute": "45'+7'",
    "text": "First Half ends, Portugal 3, Uzbekistan 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Uzbekistan. Khojiakbar Alijonov replaces Sherzod Nasrullaev.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Uzbekistan. Akmal Mozgovoy replaces Odiljon Khamrobekov.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Portugal 3, Uzbekistan 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Portugal. Nélson Semedo replaces João Cancelo.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Attempt missed. João Félix (Portugal) right footed shot from outside the box is just a bit too high.",
    "type": null
   }
  ],

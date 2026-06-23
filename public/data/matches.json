@@ -2743,7 +2743,7 @@
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
    "status": "live",
-   "time": null,
+   "time": "50'",
    "home": {
     "code": "JOR",
     "score": 1,

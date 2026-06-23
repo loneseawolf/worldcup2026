@@ -25641,7 +25641,7 @@
   {
    "minNum": 60,
    "minute": "60'",
-   "text": "Attempt missed. João Félix (Portugal) right footed shot from the right side of the six yard box misses to the left. Assisted by Bruno Fernandes with a cross following a corner.",
+   "text": "Attempt saved. João Félix (Portugal) right footed shot from the right side of the six yard box is saved in the centre of the goal by Abduvokhid Nematov (Uzbekistan).",
    "type": null
   },
   {
@@ -25678,6 +25678,108 @@
    "minNum": 64,
    "minute": "64'",
    "text": "Substitution, Portugal. Trincão replaces João Félix.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Foul by Bekhruz Karimov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Aziz G'aniev (Uzbekistan) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Foul by Renato Veiga (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Renato Veiga (Portugal) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Offside, Uzbekistan. Eldor Shomurodov is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Attempt blocked. Cristiano Ronaldo (Portugal) left footed shot from the centre of the box is blocked. Assisted by Nuno Mendes.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Substitution, Uzbekistan. Igor Sergeev replaces Abbosbek Fayzullaev.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt saved. Cristiano Ronaldo (Portugal) left footed shot from the centre of the box is saved in the centre of the goal by Abduvokhid Nematov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Eldor Shomurodov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Rúben Dias (Portugal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Rustam Ashurmatov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "João Neves (Portugal) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Substitution, Portugal. Bernardo Silva replaces João Neves.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt missed. Eldor Shomurodov (Uzbekistan) right footed shot from the right side of the box is high and wide to the left. Assisted by Bekhruz Karimov.",
    "type": null
   }
  ],

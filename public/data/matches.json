@@ -2742,16 +2742,16 @@
    "group": "J",
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "4'",
    "home": {
     "code": "JOR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ALG",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "J4",

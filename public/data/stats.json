@@ -241,6 +241,14 @@
    "ownGoals": 0
   },
   {
+   "id": "405877",
+   "name": "Amine GOUIRI",
+   "code": "ALG",
+   "no": 9,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "441137",
    "name": "Anthony ELANGA",
    "code": "SWE",
@@ -309,14 +317,6 @@
    "name": "E.ASHOUR",
    "code": "EGY",
    "no": 8,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "393480",
-   "name": "EMBOLO",
-   "code": "SUI",
-   "no": 7,
    "goals": 1,
    "ownGoals": 0
   }

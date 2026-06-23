@@ -2743,7 +2743,7 @@
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
    "status": "live",
-   "time": "74'",
+   "time": "90'+1'",
    "home": {
     "code": "JOR",
     "score": 1,
@@ -2751,7 +2751,7 @@
    },
    "away": {
     "code": "ALG",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "J4",

@@ -28773,6 +28773,54 @@
    "minute": "13'",
    "text": "Foul by Luka Modric (Croatia).",
    "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Cristian Martínez (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Foul by Josko Gvardiol (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Cristian Martínez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Josko Gvardiol (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Foul by Yoel Bárcenas (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Martin Baturina (Croatia) wins a free kick on the right wing.",
+   "type": null
   }
  ]
 }

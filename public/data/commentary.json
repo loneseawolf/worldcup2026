@@ -26601,6 +26601,96 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Offside, Ghana. Iñaki Williams is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Kwasi Sibo (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Noni Madueke (England) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Jerome Opoku (Ghana) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Jude Bellingham (England).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Marvin Senaya (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Anthony Gordon (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Declan Rice (England) right footed shot from outside the box is just a bit too high. Assisted by Reece James from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Foul by Jonas Adjetey (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Harry Kane (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt blocked. Elliot Anderson (England) right footed shot from the centre of the box is blocked. Assisted by Anthony Gordon.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Attempt blocked. Declan Rice (England) left footed shot from a difficult angle on the left is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Corner, England. Conceded by Jonas Adjetey.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Jordan Ayew (Ghana) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Foul by Ezri Konsa (England).",
+   "type": null
   }
  ],
  "400021507": [

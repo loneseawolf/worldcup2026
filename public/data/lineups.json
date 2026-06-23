@@ -29884,7 +29884,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": "5-4-1",
+   "tactics": "4-4-2",
    "xi": [
     {
      "id": "494349",
@@ -30179,7 +30179,7 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "4'",
+  "matchTime": "18'",
   "period": 3,
   "final": false
  },

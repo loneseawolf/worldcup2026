@@ -25,6 +25,14 @@
    "ownGoals": 0
   },
   {
+   "id": "419652",
+   "name": "HAALAND",
+   "code": "NOR",
+   "no": 9,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "441257",
    "name": "Jonathan DAVID",
    "code": "CAN",
@@ -77,14 +85,6 @@
    "name": "Folarin BALOGUN",
    "code": "USA",
    "no": 20,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "419652",
-   "name": "HAALAND",
-   "code": "NOR",
-   "no": 9,
    "goals": 2,
    "ownGoals": 0
   },

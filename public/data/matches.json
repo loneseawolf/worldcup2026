@@ -2566,10 +2566,10 @@
    "date": "2026-06-23T00:00:00Z",
    "venueId": "400257536",
    "status": "live",
-   "time": null,
+   "time": "52'",
    "home": {
     "code": "NOR",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {

@@ -33,6 +33,14 @@
    "ownGoals": 0
   },
   {
+   "id": "502727",
+   "name": "Johan MANZAMBI",
+   "code": "SUI",
+   "no": 9,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "441257",
    "name": "Jonathan DAVID",
    "code": "CAN",
@@ -125,14 +133,6 @@
    "name": "Ismaila SARR",
    "code": "SEN",
    "no": 18,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "502727",
-   "name": "Johan MANZAMBI",
-   "code": "SUI",
-   "no": 9,
    "goals": 2,
    "ownGoals": 0
   },

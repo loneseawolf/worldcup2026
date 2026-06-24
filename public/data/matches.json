@@ -3387,10 +3387,10 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "53'",
+   "time": "67'",
    "home": {
     "code": "SUI",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -3401,7 +3401,7 @@
    "phA": "B4",
    "phB": "B1",
    "winner": null,
-   "attendance": null,
+   "attendance": 52497,
    "officials": [
     {
      "id": "446932",
@@ -3446,7 +3446,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "50'",
+   "time": "64'",
    "home": {
     "code": "BIH",
     "score": 2,
@@ -3460,7 +3460,7 @@
    "phA": "B2",
    "phB": "B3",
    "winner": null,
-   "attendance": null,
+   "attendance": 66925,
    "officials": [
     {
      "id": "360305",

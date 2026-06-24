@@ -4235,6 +4235,72 @@
    "minute": "47'",
    "text": "Foul by Kerim Alajbegovic (Bosnia and Herzegovina).",
    "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Foul by Abdulaziz Hatem (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Benjamin Tahirovic (Bosnia and Herzegovina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Delay in match because of an injury Hassan Al Haydos (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Substitution, Qatar. Ahmed Al Ganehi replaces Hassan Al Haydos because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Foul by Ahmed Al Ganehi (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Sead Kolasinac (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Attempt missed. Akram Afif (Qatar) left footed shot from the left side of the box is close, but misses to the left. Assisted by Edmílson Junior following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Attempt missed. Akram Afif (Qatar) left footed shot from outside the box is too high. Assisted by Abdulaziz Hatem.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Delay in match because of an injury Nikola Vasilj (Bosnia and Herzegovina).",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Substitution, Bosnia and Herzegovina. Dennis Hadzikadunic replaces Nikola Katic because of an injury.",
+   "type": null
   }
  ],
  "400021449": [
@@ -6178,6 +6244,114 @@
    "minNum": 51,
    "minute": "51'",
    "text": "Foul by Rubén Vargas (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Derek Cornelius (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Foul by Johan Manzambi (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Goal! Switzerland 2, Canada 0. Johan Manzambi (Switzerland) right footed shot from the right side of the box to the centre of the goal. Assisted by Breel Embolo.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Canada. Stephen Eustaquio replaces Mathieu Choinière.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Canada. Tani Oluwaseyi replaces Cyle Larin.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Canada. Liam Millar replaces Ali Ahmed.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Tajon Buchanan (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Foul by Breel Embolo (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt blocked. Liam Millar (Canada) header from the centre of the box is blocked. Assisted by Nathan Saliba with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Corner, Canada. Conceded by Remo Freuler.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt blocked. Derek Cornelius (Canada) left footed shot from the right side of the box is blocked. Assisted by Liam Millar with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Corner, Canada. Conceded by Ricardo Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Nathan Saliba (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Granit Xhaka (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Richie Laryea (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Remo Freuler (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Luc De Fougerolles (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Breel Embolo (Switzerland) wins a free kick in the defensive half.",
    "type": null
   }
  ],

@@ -4392,9 +4392,22 @@
      "minute": "34'",
      "type": 3,
      "period": 3
+    },
+    {
+     "player": "522846",
+     "minute": "80'",
+     "type": 2,
+     "period": 5
     }
    ],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "522846",
+     "minute": "82'",
+     "card": 1,
+     "period": 5
+    }
+   ],
    "substitutions": [
     {
      "off": "494639",
@@ -4418,6 +4431,12 @@
      "off": "300409",
      "on": "522846",
      "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "504990",
+     "on": "389886",
+     "minute": "82'",
      "period": 5
     }
    ]
@@ -4726,10 +4745,22 @@
      "on": "386366",
      "minute": "72'",
      "period": 5
+    },
+    {
+     "off": "433394",
+     "on": "498458",
+     "minute": "79'",
+     "period": 5
+    },
+    {
+     "off": "429063",
+     "on": "353251",
+     "minute": "79'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "78'",
+  "matchTime": "90'+2'",
   "period": 5,
   "final": false
  },
@@ -6471,6 +6502,18 @@
      "on": "448114",
      "minute": "80'",
      "period": 5
+    },
+    {
+     "off": "393480",
+     "on": "448104",
+     "minute": "85'",
+     "period": 5
+    },
+    {
+     "off": "502727",
+     "on": "448124",
+     "minute": "85'",
+     "period": 5
     }
    ]
   },
@@ -6758,6 +6801,12 @@
      "minute": "32'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "441259",
+     "minute": "87'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": [
@@ -6784,10 +6833,16 @@
      "on": "493970",
      "minute": "74'",
      "period": 5
+    },
+    {
+     "off": "431696",
+     "on": "448411",
+     "minute": "83'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "81'",
+  "matchTime": "90'+5'",
   "period": 5,
   "final": false
  },
@@ -8744,7 +8799,7 @@
  },
  "400021455": {
   "home": {
-   "tactics": null,
+   "tactics": "4-2-3-1",
    "xi": [
     {
      "id": "411301",
@@ -9040,7 +9095,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": null,
+   "tactics": "4-3-3",
    "xi": [
     {
      "id": "308370",

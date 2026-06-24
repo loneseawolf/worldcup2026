@@ -7168,14 +7168,14 @@
   },
   {
    "minNum": 45,
-   "minute": "45'+1'",
-   "text": "Goal! Morocco 2, Haiti 2. Ismael Saibari (Morocco) right footed shot from the centre of the box to the bottom left corner. Assisted by Achraf Hakimi.",
+   "minute": "45'",
+   "text": "Fourth official has announced 5 minutes of added time.",
    "type": null
   },
   {
-   "minNum": 46,
-   "minute": "46'+1'",
-   "text": "Fourth official has announced 5 minutes of added time.",
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Goal! Morocco 2, Haiti 2. Ismael Saibari (Morocco) right footed shot from the centre of the box to the bottom left corner. Assisted by Achraf Hakimi.",
    "type": null
   },
   {
@@ -7193,7 +7193,7 @@
   {
    "minNum": 45,
    "minute": "45'+3'",
-   "text": "Attempt missed. Brahim Díaz (Morocco) left footed shot from the centre of the box is high and wide to the right. Assisted by Anass Salah-Eddine.",
+   "text": "Attempt missed. Brahim Díaz (Morocco) left footed shot from the centre of the box is close, but misses the top right corner. Assisted by Anass Salah-Eddine.",
    "type": null
   },
   {
@@ -7224,6 +7224,24 @@
    "minNum": 50,
    "minute": "50'",
    "text": "First Half ends, Morocco 2, Haiti 2.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Morocco 2, Haiti 2.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Danley Jean Jacques (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Neil El Aynaoui (Morocco) wins a free kick on the right wing.",
    "type": null
   }
  ],
@@ -8928,6 +8946,18 @@
    "minNum": 52,
    "minute": "52'",
    "text": "First Half ends, Scotland 0, Brazil 2.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Scotland. Kieran Tierney replaces Andy Robertson.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Scotland 0, Brazil 2.",
    "type": null
   }
  ],

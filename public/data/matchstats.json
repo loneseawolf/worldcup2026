@@ -4540,43 +4540,43 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 67.9,
-    "away": 32.1,
+    "home": 70.4,
+    "away": 29.6,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 13,
+    "home": 14,
     "away": 4,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 7,
+    "home": 8,
     "away": 1,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
-    "home": 3,
+    "home": 5,
     "away": 0,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 3,
-    "away": 10,
+    "home": 4,
+    "away": 12,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 278,
-    "away": 125,
+    "home": 382,
+    "away": 149,
     "pct": false
    },
    {
@@ -4599,11 +4599,11 @@
     "fouls": 0
    },
    "295922": {
-    "rating": 6.3,
+    "rating": 6.5,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 6,
+    "saves": 7,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
@@ -4690,7 +4690,7 @@
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "403083": {
     "rating": 6,
@@ -4753,14 +4753,14 @@
     "fouls": 0
    },
    "430697": {
-    "rating": 6,
+    "rating": 5.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 1
+    "fouls": 2
    },
    "430740": {
     "rating": 6,
@@ -4843,10 +4843,10 @@
     "fouls": 0
    },
    "448612": {
-    "rating": 6.1,
+    "rating": 6.2,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 1,
+    "shotsOnTarget": 2,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
@@ -4935,14 +4935,14 @@
     "fouls": 1
    },
    "485676": {
-    "rating": 5.9,
+    "rating": 5.8,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 3
+    "fouls": 4
    },
    "485740": {
     "rating": 6.1,
@@ -6200,22 +6200,22 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 48.3,
-    "away": 51.7,
+    "home": 48.8,
+    "away": 51.2,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 4,
-    "away": 11,
+    "home": 5,
+    "away": 15,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 0,
-    "away": 4,
+    "home": 1,
+    "away": 6,
     "pct": false
    },
    {
@@ -6228,15 +6228,15 @@
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 3,
+    "home": 7,
     "away": 2,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 241,
-    "away": 274,
+    "home": 340,
+    "away": 368,
     "pct": false
    },
    {
@@ -6398,24 +6398,24 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "405742": {
-    "rating": 8.1,
+    "rating": 8.4,
     "goals": 2,
     "assists": 0,
-    "shotsOnTarget": 2,
+    "shotsOnTarget": 4,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
     "fouls": 1
    },
    "411301": {
-    "rating": 5.6,
+    "rating": 5.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 1,
+    "saves": 3,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
@@ -6552,14 +6552,14 @@
     "fouls": 1
    },
    "433787": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "442428": {
     "rating": 6,
@@ -6660,7 +6660,7 @@
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "484051": {
     "rating": 6,
@@ -6690,7 +6690,7 @@
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "495431": {
     "rating": 6,

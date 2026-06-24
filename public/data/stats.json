@@ -65,6 +65,14 @@
    "ownGoals": 0
   },
   {
+   "id": "430609",
+   "name": "MATHEUS CUNHA",
+   "code": "BRA",
+   "no": 9,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "430413",
    "name": "Ayase UEDA",
    "code": "JPN",
@@ -172,14 +180,6 @@
    "id": "369419",
    "name": "KANE",
    "code": "ENG",
-   "no": 9,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "430609",
-   "name": "MATHEUS CUNHA",
-   "code": "BRA",
    "no": 9,
    "goals": 2,
    "ownGoals": 0

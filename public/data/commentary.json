@@ -7243,6 +7243,96 @@
    "minute": "47'",
    "text": "Neil El Aynaoui (Morocco) wins a free kick on the right wing.",
    "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Corner, Morocco. Conceded by Jean-Kévin Duverne.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Lenny Joseph (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Neil El Aynaoui (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Delay in match because of an injury Josué Casimir (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Offside, Morocco. Ayoub El Kaabi is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "VAR Decision: Other Decision Cancelled.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Corner, Morocco. Conceded by Ricardo Adé.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Attempt saved. Bilal El Khannouss (Morocco) right footed shot from outside the box is saved in the bottom right corner by Johny Placide (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Martin Expérience (Haiti) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Foul by Achraf Hakimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Jean-Ricner Bellegarde (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Redouane Halhal (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Ruben Providence (Haiti) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Ayoub El Kaabi (Morocco).",
+   "type": null
   }
  ],
  "400021453": [
@@ -8958,6 +9048,84 @@
    "minNum": 45,
    "minute": "45'",
    "text": "Second Half begins Scotland 0, Brazil 2.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Attempt saved. Scott McTominay (Scotland) header from the centre of the box is saved in the top centre of the goal by Alisson Becker (Brazil). Assisted by Kieran Tierney with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Foul by Kieran Tierney (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Rayan (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from the centre of the box is saved in the bottom right corner by Angus Gunn (Scotland). Assisted by Lucas Paquetá with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from outside the box is saved in the top centre of the goal by Angus Gunn (Scotland). Assisted by Lucas Paquetá.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Foul by Scott McTominay (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Foul by Ben Gannon-Doak (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Attempt blocked. Matheus Cunha (Brazil) right footed shot from the right side of the box is blocked. Assisted by Rayan.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Attempt missed. Lucas Paquetá (Brazil) right footed shot from outside the box is high and wide to the right.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Foul by Lawrence Shankland (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Casemiro (Brazil) wins a free kick in the defensive half.",
    "type": null
   }
  ],

@@ -3203,7 +3203,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
    "status": "live",
-   "time": "47'",
+   "time": "60'",
    "home": {
     "code": "SCO",
     "score": 0,
@@ -3211,13 +3211,13 @@
    },
    "away": {
     "code": "BRA",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "phA": "C4",
    "phB": "C1",
    "winner": null,
-   "attendance": null,
+   "attendance": 64478,
    "officials": [
     {
      "id": "374810",
@@ -3262,7 +3262,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
    "status": "live",
-   "time": "49'",
+   "time": "63'",
    "home": {
     "code": "MAR",
     "score": 2,
@@ -3276,7 +3276,7 @@
    "phA": "C2",
    "phB": "C3",
    "winner": null,
-   "attendance": null,
+   "attendance": 68239,
    "officials": [
     {
      "id": "327159",

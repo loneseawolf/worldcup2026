@@ -3903,7 +3903,79 @@
   {
    "minNum": 3,
    "minute": "3'",
+   "text": "Attempt saved. Ivan Sunjic (Bosnia and Herzegovina) left footed shot from outside the box is saved in the bottom right corner by Mahmoud Abunada (Qatar). Assisted by Kerim Alajbegovic.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
    "text": "Corner, Bosnia and Herzegovina. Conceded by Mahmoud Abunada.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Akram Afif (Qatar) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Ivan Sunjic (Bosnia and Herzegovina).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Corner, Qatar. Conceded by Nikola Katic.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Hassan Al Haydos (Qatar) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Arjan Malic (Bosnia and Herzegovina).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Issa Laye (Qatar) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Offside, Qatar. Edmílson Junior is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Sultan Al Brake (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Arjan Malic (Bosnia and Herzegovina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Kerim Alajbegovic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
    "type": null
   }
  ],
@@ -5523,6 +5595,108 @@
   {
    "minNum": 3,
    "minute": "3'",
+   "text": "Foul by Luca Jaquez (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Richie Laryea (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Luca Jaquez (Switzerland) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Corner, Switzerland. Conceded by Alistair Johnston.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Derek Cornelius (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Breel Embolo (Switzerland) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Luc De Fougerolles (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Johan Manzambi (Switzerland) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt saved. Breel Embolo (Switzerland) right footed shot from the centre of the box is saved in the centre of the goal by Maxime Crépeau (Canada). Assisted by Ricardo Rodríguez with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt blocked. Johan Manzambi (Switzerland) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Richie Laryea (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Luca Jaquez (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Offside, Canada. Cyle Larin is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Offside, Canada. Cyle Larin is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Tajon Buchanan (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Foul by Ricardo Rodríguez (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Richie Laryea (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
    "text": "Foul by Luca Jaquez (Switzerland).",
    "type": null
   }

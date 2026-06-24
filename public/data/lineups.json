@@ -7187,6 +7187,12 @@
      "minute": "39'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "448598",
+     "minute": "45'+1'",
+     "type": 2,
+     "period": 3
     }
    ],
    "bookings": [],
@@ -7501,8 +7507,8 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "44'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021453": {
@@ -9443,13 +9449,19 @@
      "minute": "7'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "405742",
+     "minute": "45'+3'",
+     "type": 2,
+     "period": 3
     }
    ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "44'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021456": {

@@ -7151,7 +7151,79 @@
   {
    "minNum": 43,
    "minute": "43'",
-   "text": "Goal! Morocco 1, Haiti 2. Wilson Isidor (Haiti) right footed shot from outside the box.",
+   "text": "Goal! Morocco 1, Haiti 2. Wilson Isidor (Haiti) right footed shot from outside the box to the top left corner. Assisted by Jean-Kévin Duverne.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Jean-Ricner Bellegarde (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Brahim Díaz (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Goal! Morocco 2, Haiti 2. Ismael Saibari (Morocco) right footed shot from the centre of the box to the bottom left corner. Assisted by Achraf Hakimi.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Josué Casimir (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Bilal El Khannouss (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Brahim Díaz (Morocco) left footed shot from the centre of the box is high and wide to the right. Assisted by Anass Salah-Eddine.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Attempt saved. Bilal El Khannouss (Morocco) right footed shot from outside the box is saved in the centre of the goal by Johny Placide (Haiti). Assisted by Ismael Saibari.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Foul by Ruben Providence (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Attempt saved. Neil El Aynaoui (Morocco) header from the centre of the box is saved in the centre of the goal by Johny Placide (Haiti). Assisted by Achraf Hakimi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "First Half ends, Morocco 2, Haiti 2.",
    "type": null
   }
  ],
@@ -8766,6 +8838,96 @@
    "minNum": 42,
    "minute": "42'",
    "text": "Attempt missed. Matheus Cunha (Brazil) right footed shot from outside the box misses to the right. Assisted by Lucas Paquetá.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt blocked. Matheus Cunha (Brazil) right footed shot from the right side of the six yard box is blocked. Assisted by Vinícius Júnior.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Corner, Brazil. Conceded by Angus Gunn.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt missed. Ben Gannon-Doak (Scotland) right footed shot from the left side of the box misses to the left. Assisted by Lawrence Shankland.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Nathan Patterson (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Vinícius Júnior (Brazil) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Goal! Scotland 0, Brazil 2. Vinícius Júnior (Brazil) header from very close range to the top left corner. Assisted by Bruno Guimarães with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "John McGinn (Scotland) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Foul by Casemiro (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Attempt blocked. Ben Gannon-Doak (Scotland) right footed shot from outside the box is blocked. Assisted by Jack Hendry with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Attempt saved. Rayan (Brazil) right footed shot from the centre of the box is saved in the bottom right corner by Angus Gunn (Scotland). Assisted by Lucas Paquetá with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Corner, Brazil. Conceded by Angus Gunn.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "Attempt missed. Douglas Santos (Brazil) left footed shot from the left side of the box misses to the right following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "Corner, Brazil. Conceded by Lewis Ferguson.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "First Half ends, Scotland 0, Brazil 2.",
    "type": null
   }
  ],

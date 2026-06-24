@@ -3110,16 +3110,16 @@
    "group": "K",
    "date": "2026-06-24T02:00:00Z",
    "venueId": "400252150",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "3'",
    "home": {
     "code": "COL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "COD",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "K4",

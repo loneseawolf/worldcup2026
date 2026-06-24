@@ -3387,7 +3387,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "17'",
+   "time": "30'",
    "home": {
     "code": "SUI",
     "score": 0,
@@ -3446,10 +3446,10 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "17'",
+   "time": "30'",
    "home": {
     "code": "BIH",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

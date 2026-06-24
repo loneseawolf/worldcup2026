@@ -89,6 +89,14 @@
    "ownGoals": 0
   },
   {
+   "id": "431200",
+   "name": "Daniel MUNOZ",
+   "code": "COL",
+   "no": 2,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "466624",
    "name": "Folarin BALOGUN",
    "code": "USA",
@@ -309,14 +317,6 @@
    "name": "Caleb YIRENKYI",
    "code": "GHA",
    "no": 3,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "430452",
-   "name": "Connor METCALFE",
-   "code": "AUS",
-   "no": 8,
    "goals": 1,
    "ownGoals": 0
   }

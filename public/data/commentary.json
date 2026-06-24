@@ -4199,6 +4199,42 @@
    "minute": "45'+6'",
    "text": "First Half ends, Bosnia and Herzegovina 2, Qatar 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Qatar. Abdulaziz Hatem replaces Jassem Gaber.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Bosnia and Herzegovina 2, Qatar 1.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Bosnia and Herzegovina. Amar Memic replaces Arjan Malic.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Pedro Miguel (Qatar) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Kerim Alajbegovic (Bosnia and Herzegovina).",
+   "type": null
   }
  ],
  "400021449": [
@@ -6118,6 +6154,30 @@
    "minNum": 45,
    "minute": "45'+4'",
    "text": "First Half ends, Switzerland 0, Canada 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Switzerland 0, Canada 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Goal! Switzerland 1, Canada 0. Rubén Vargas (Switzerland) right footed shot from the centre of the box to the bottom left corner. Assisted by Johan Manzambi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Alistair Johnston (Canada) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Foul by Rubén Vargas (Switzerland).",
    "type": null
   }
  ],

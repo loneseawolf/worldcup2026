@@ -49,6 +49,14 @@
    "ownGoals": 0
   },
   {
+   "id": "405742",
+   "name": "VINICIUS JUNIOR",
+   "code": "BRA",
+   "no": 7,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "430413",
    "name": "Ayase UEDA",
    "code": "JPN",
@@ -197,14 +205,6 @@
    "name": "VARGAS",
    "code": "SUI",
    "no": 17,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "405742",
-   "name": "VINI JR.",
-   "code": "BRA",
-   "no": 7,
    "goals": 2,
    "ownGoals": 0
   },

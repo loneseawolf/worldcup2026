@@ -6901,6 +6901,60 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Lenny Joseph (Haiti) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Sofyan Amrabat (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt missed. Jean-Ricner Bellegarde (Haiti) right footed shot from outside the box is just a bit too high from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Goal! Morocco 0, Haiti 1. Lenny Joseph (Haiti) right footed shot from very close range to the centre of the goal. Assisted by Jean-Kévin Duverne.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Attempt saved. Ayoub El Kaabi (Morocco) right footed shot from a difficult angle on the right is saved in the top right corner by Johny Placide (Haiti). Assisted by Achraf Hakimi.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Corner, Morocco. Conceded by Johny Placide.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Attempt missed. Ismael Saibari (Morocco) right footed shot from the centre of the box is too high. Assisted by Bilal El Khannouss.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt blocked. Ismael Saibari (Morocco) left footed shot from the left side of the box is blocked. Assisted by Bilal El Khannouss.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Corner, Morocco. Conceded by Jean-Kévin Duverne.",
+   "type": null
   }
  ],
  "400021453": [
@@ -8364,6 +8418,42 @@
    "minNum": 0,
    "minute": null,
    "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Delay in match because of an injury Lewis Ferguson (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Attempt blocked. Casemiro (Brazil) right footed shot from outside the box is blocked. Assisted by Vinícius Júnior.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Goal! Scotland 0, Brazil 1. Vinícius Júnior (Brazil) right footed shot from the centre of the box to the centre of the goal. Assisted by Rayan.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt blocked. Bruno Guimarães (Brazil) right footed shot from outside the box is blocked. Assisted by Matheus Cunha.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Attempt missed. Matheus Cunha (Brazil) right footed shot from outside the box is high and wide to the left. Assisted by Rayan.",
    "type": null
   }
  ],

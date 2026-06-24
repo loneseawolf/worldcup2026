@@ -7477,11 +7477,18 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "485676",
+     "minute": "10'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "2'",
+  "matchTime": "16'",
   "period": 3,
   "final": false
  },
@@ -9417,11 +9424,18 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "405742",
+     "minute": "7'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "2'",
+  "matchTime": "16'",
   "period": 3,
   "final": false
  },

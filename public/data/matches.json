@@ -3386,16 +3386,16 @@
    "group": "B",
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "3'",
    "home": {
     "code": "SUI",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CAN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "B4",
@@ -3445,16 +3445,16 @@
    "group": "B",
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "2'",
    "home": {
     "code": "BIH",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "QAT",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "B2",

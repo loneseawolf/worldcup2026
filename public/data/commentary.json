@@ -3881,6 +3881,32 @@
    "type": null
   }
  ],
+ "400021448": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt saved. Ermedin Demirovic (Bosnia and Herzegovina) left footed shot from outside the box is saved in the bottom right corner by Mahmoud Abunada (Qatar). Assisted by Ivan Sunjic.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Corner, Bosnia and Herzegovina. Conceded by Mahmoud Abunada.",
+   "type": null
+  }
+ ],
  "400021449": [
   {
    "minNum": 0,
@@ -5460,6 +5486,44 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, Canada 6, Qatar 0.",
+   "type": null
+  }
+ ],
+ "400021451": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Richie Laryea (Canada) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by Djibril Sow (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Ali Ahmed (Canada) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Luca Jaquez (Switzerland).",
    "type": null
   }
  ],

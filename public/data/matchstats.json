@@ -17584,43 +17584,43 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 64.1,
-    "away": 35.9,
+    "home": 63.6,
+    "away": 36.4,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 19,
-    "away": 5,
+    "home": 20,
+    "away": 8,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
     "home": 9,
-    "away": 0,
+    "away": 1,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
     "home": 5,
-    "away": 2,
+    "away": 4,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 11,
-    "away": 14,
+    "home": 12,
+    "away": 16,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 471,
-    "away": 221,
+    "home": 473,
+    "away": 224,
     "pct": false
    },
    {
@@ -17694,11 +17694,11 @@
     "fouls": 0
    },
    "360642": {
-    "rating": 6,
+    "rating": 6.2,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 0,
+    "saves": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -17756,14 +17756,14 @@
     "fouls": 0
    },
    "395550": {
-    "rating": 6,
+    "rating": 5.7,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "395552": {
     "rating": 6,
@@ -17806,14 +17806,14 @@
     "fouls": 0
    },
    "424119": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "425580": {
     "rating": 6,
@@ -17947,14 +17947,14 @@
     "fouls": 1
    },
    "448128": {
-    "rating": 6,
+    "rating": 5.6,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 1,
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "fouls": 1
+    "fouls": 2
    },
    "463902": {
     "rating": 6.2,
@@ -18150,7 +18150,7 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  },
  "400021502": {
   "espnId": "760435",

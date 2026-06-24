@@ -2982,6 +2982,39 @@
       "id": "Wasit",
       "ru": "Главный судья"
      }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth",
+     "name": {
+      "en": "MA Ning",
+      "fr": "MA Ning",
+      "zh": "MA Ning",
+      "ar": "MA Ning",
+      "es": "MA Ning",
+      "de": "MA Ning",
+      "pt": "MA Ning",
+      "it": "MA Ning",
+      "ja": "MA Ning",
+      "ko": "MA Ning",
+      "id": "MA Ning",
+      "ru": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
     }
    ]
   },
@@ -3132,18 +3165,18 @@
      "country": "ITA",
      "role": "referee",
      "name": {
-      "en": "M. Mariani",
-      "fr": "M. Mariani",
-      "zh": "马里亚尼",
-      "ar": "M. Mariani",
-      "es": "M. Mariani",
-      "de": "M. Mariani",
-      "pt": "M. Mariani",
-      "it": "M. Mariani",
-      "ja": "M. Mariani",
-      "ko": "M. Mariani",
-      "id": "M. Mariani",
-      "ru": "M. Mariani"
+      "en": "Maurizio MARIANI",
+      "fr": "Maurizio MARIANI",
+      "zh": "Maurizio MARIANI",
+      "ar": "Maurizio MARIANI",
+      "es": "Maurizio MARIANI",
+      "de": "Maurizio MARIANI",
+      "pt": "Maurizio MARIANI",
+      "it": "Maurizio MARIANI",
+      "ja": "Maurizio MARIANI",
+      "ko": "Maurizio MARIANI",
+      "id": "Maurizio MARIANI",
+      "ru": "Maurizio MARIANI"
      },
      "typeName": {
       "en": "Referee",
@@ -3354,7 +3387,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
@@ -3413,7 +3446,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BIH",
     "score": null,
@@ -4091,7 +4124,74 @@
    "phB": "I1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "347710",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Michael OLIVER",
+      "fr": "Michael OLIVER",
+      "zh": "Michael OLIVER",
+      "ar": "Michael OLIVER",
+      "es": "Michael OLIVER",
+      "de": "Michael OLIVER",
+      "pt": "Michael OLIVER",
+      "it": "Michael OLIVER",
+      "ja": "Michael OLIVER",
+      "ko": "Michael OLIVER",
+      "id": "Michael OLIVER",
+      "ru": "Michael OLIVER"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth",
+     "name": {
+      "en": "MA Ning",
+      "fr": "MA Ning",
+      "zh": "MA Ning",
+      "ar": "MA Ning",
+      "es": "MA Ning",
+      "de": "MA Ning",
+      "pt": "MA Ning",
+      "it": "MA Ning",
+      "ja": "MA Ning",
+      "ko": "MA Ning",
+      "id": "MA Ning",
+      "ru": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021493",
@@ -4116,7 +4216,41 @@
    "phB": "I3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "360460",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Anthony TAYLOR",
+      "fr": "Anthony TAYLOR",
+      "zh": "Anthony TAYLOR",
+      "ar": "Anthony TAYLOR",
+      "es": "Anthony TAYLOR",
+      "de": "Anthony TAYLOR",
+      "pt": "Anthony TAYLOR",
+      "it": "Anthony TAYLOR",
+      "ja": "Anthony TAYLOR",
+      "ko": "Anthony TAYLOR",
+      "id": "Anthony TAYLOR",
+      "ru": "Anthony TAYLOR"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021479",
@@ -4141,7 +4275,41 @@
    "phB": "G3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "327975",
+     "country": "POL",
+     "role": "referee",
+     "name": {
+      "en": "Szymon MARCINIAK",
+      "fr": "Szymon MARCINIAK",
+      "zh": "Szymon MARCINIAK",
+      "ar": "Szymon MARCINIAK",
+      "es": "Szymon MARCINIAK",
+      "de": "Szymon MARCINIAK",
+      "pt": "Szymon MARCINIAK",
+      "it": "Szymon MARCINIAK",
+      "ja": "Szymon MARCINIAK",
+      "ko": "Szymon MARCINIAK",
+      "id": "Szymon MARCINIAK",
+      "ru": "Szymon MARCINIAK"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021481",
@@ -4166,7 +4334,41 @@
    "phB": "G1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "referee",
+     "name": {
+      "en": "Adham MAKHADMEH",
+      "fr": "Adham MAKHADMEH",
+      "zh": "Adham MAKHADMEH",
+      "ar": "Adham MAKHADMEH",
+      "es": "Adham MAKHADMEH",
+      "de": "Adham MAKHADMEH",
+      "pt": "Adham MAKHADMEH",
+      "it": "Adham MAKHADMEH",
+      "ja": "Adham MAKHADMEH",
+      "ko": "Adham MAKHADMEH",
+      "id": "Adham MAKHADMEH",
+      "ru": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021485",
@@ -4191,7 +4393,41 @@
    "phB": "H3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "399029",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Francois LETEXIER",
+      "fr": "Francois LETEXIER",
+      "zh": "Francois LETEXIER",
+      "ar": "Francois LETEXIER",
+      "es": "Francois LETEXIER",
+      "de": "Francois LETEXIER",
+      "pt": "Francois LETEXIER",
+      "it": "Francois LETEXIER",
+      "ja": "Francois LETEXIER",
+      "ko": "Francois LETEXIER",
+      "id": "Francois LETEXIER",
+      "ru": "Francois LETEXIER"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021484",
@@ -4216,7 +4452,41 @@
    "phB": "H1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392406",
+     "country": "USA",
+     "role": "referee",
+     "name": {
+      "en": "Ismail ELFATH",
+      "fr": "Ismail ELFATH",
+      "zh": "Ismail ELFATH",
+      "ar": "Ismail ELFATH",
+      "es": "Ismail ELFATH",
+      "de": "Ismail ELFATH",
+      "pt": "Ismail ELFATH",
+      "it": "Ismail ELFATH",
+      "ja": "Ismail ELFATH",
+      "ko": "Ismail ELFATH",
+      "id": "Ismail ELFATH",
+      "ru": "Ismail ELFATH"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021508",

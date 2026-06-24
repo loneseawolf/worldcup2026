@@ -29325,6 +29325,30 @@
    "minute": "90'+3'",
    "text": "Attempt missed. Amir Murillo (Panama) right footed shot from outside the box is high and wide to the right from a direct free kick.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Andrés Andrade (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Ante Budimir (Croatia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 96,
+   "minute": "96'",
+   "text": "Second Half ends, Panama 0, Croatia 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Panama 0, Croatia 1.",
+   "type": null
   }
  ]
 }

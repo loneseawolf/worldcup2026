@@ -7333,6 +7333,138 @@
    "minute": "64'",
    "text": "Foul by Ayoub El Kaabi (Morocco).",
    "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt blocked. Jean-Ricner Bellegarde (Haiti) right footed shot from a difficult angle and long range on the left is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Corner, Morocco. Conceded by Ricardo Adé.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Wilson Isidor (Haiti) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Foul by Ismael Saibari (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Haiti. Duckens Nazon replaces Ruben Providence.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Haiti. Louicius Deedson replaces Wilson Isidor.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Foul by Hannes Delcroix (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Ayoub El Kaabi (Morocco) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Substitution, Morocco. Azzedine Ounahi replaces Brahim Díaz.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Substitution, Morocco. Gessime Yassine replaces Ayoub El Kaabi.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Offside, Morocco. Redouane Halhal is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Louicius Deedson (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Anass Salah-Eddine (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Jean-Ricner Bellegarde (Haiti) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Foul by Gessime Yassine (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Ricardo Adé (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Soufiane Rahimi (Morocco) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Attempt blocked. Achraf Hakimi (Morocco) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Attempt blocked. Achraf Hakimi (Morocco) right footed shot from outside the box is blocked.",
+   "type": null
   }
  ],
  "400021453": [
@@ -9041,7 +9173,7 @@
   {
    "minNum": 45,
    "minute": "45'",
-   "text": "Substitution, Scotland. Kieran Tierney replaces Andy Robertson.",
+   "text": "Substitution, Scotland. Kieran Tierney replaces Andy Robertson because of an injury.",
    "type": null
   },
   {
@@ -9126,6 +9258,102 @@
    "minNum": 60,
    "minute": "60'",
    "text": "Casemiro (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Goal! Scotland 0, Brazil 3. Matheus Cunha (Brazil) right footed shot from the centre of the box to the bottom right corner. Assisted by Bruno Guimarães.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Kieran Tierney (Scotland) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Danilo (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Danilo (Brazil) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt saved. Lewis Ferguson (Scotland) right footed shot from a difficult angle and long range on the left is saved in the top centre of the goal by Alisson Becker (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Corner, Scotland. Conceded by Alisson Becker.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt saved. Scott McTominay (Scotland) header from the centre of the box is saved in the bottom left corner by Alisson Becker (Brazil). Assisted by Kieran Tierney with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Offside, Brazil. Vinícius Júnior is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Substitution, Brazil. Fabinho replaces Casemiro.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Brazil. Gabriel Martinelli replaces Lucas Paquetá.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "John McGinn (Scotland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Danilo (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Attempt missed. Lawrence Shankland (Scotland) left footed shot from the left side of the box misses to the right. Assisted by Kieran Tierney with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Attempt missed. Scott McTominay (Scotland) left footed shot from the centre of the box is too high. Assisted by Lawrence Shankland.",
    "type": null
   }
  ],

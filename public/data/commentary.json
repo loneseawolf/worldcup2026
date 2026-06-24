@@ -4479,7 +4479,7 @@
   {
    "minNum": 86,
    "minute": "86'",
-   "text": "Attempt missed. Ahmed Al Ganehi (Qatar) right footed shot from outside the box is too high. Assisted by Akram Afif following a set piece situation.",
+   "text": "Attempt missed. Ahmed Al Ganehi (Qatar) right footed shot from outside the box is high and wide to the right. Assisted by Akram Afif following a set piece situation.",
    "type": null
   },
   {
@@ -4516,6 +4516,66 @@
    "minNum": 90,
    "minute": "90'+1'",
    "text": "Corner, Qatar. Conceded by Amar Memic.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Offside, Qatar. Akram Afif is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Pedro Miguel (Qatar) right footed shot from outside the box is saved in the top centre of the goal by Nikola Vasilj (Bosnia and Herzegovina). Assisted by Issa Laye.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Corner, Qatar. Conceded by Nikola Vasilj.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Almoez Ali (Qatar) header from the centre of the box is saved in the top centre of the goal by Nikola Vasilj (Bosnia and Herzegovina). Assisted by Ahmed Al Ganehi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Mohammad Al Manai (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Esmir Bajraktarevic (Bosnia and Herzegovina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Issa Laye (Qatar) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Bosnia and Herzegovina 3, Qatar 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Bosnia and Herzegovina 3, Qatar 1.",
    "type": null
   }
  ],
@@ -6789,7 +6849,43 @@
   {
    "minNum": 90,
    "minute": "90'+3'",
-   "text": "Attempt saved. Promise David (Canada) header from very close range is saved in the centre of the goal by Gregor Kobel (Switzerland). Assisted by Alistair Johnston.",
+   "text": "Attempt saved. Promise David (Canada) header from very close range is saved in the bottom right corner by Gregor Kobel (Switzerland). Assisted by Alistair Johnston.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt saved. Alistair Johnston (Canada) header from the centre of the box is saved in the top centre of the goal by Gregor Kobel (Switzerland). Assisted by Jacob Shaffelburg with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt saved. Promise David (Canada) right footed shot from the centre of the box is saved in the bottom left corner by Gregor Kobel (Switzerland). Assisted by Jacob Shaffelburg.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Derek Cornelius (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Gregor Kobel (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Switzerland 2, Canada 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Switzerland 2, Canada 1.",
    "type": null
   }
  ],

@@ -7465,6 +7465,138 @@
    "minute": "75'",
    "text": "Attempt blocked. Achraf Hakimi (Morocco) right footed shot from outside the box is blocked.",
    "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Corner, Morocco. Conceded by Ricardo Adé.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Corner, Morocco. Conceded by Martin Expérience.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt blocked. Soufiane Rahimi (Morocco) header from the centre of the box is blocked. Assisted by Achraf Hakimi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt missed. Chadi Riad (Morocco) header from the centre of the box misses to the left. Assisted by Achraf Hakimi with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Goal! Morocco 3, Haiti 2. Soufiane Rahimi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Chadi Riad following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Johny Placide (Haiti) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Duckens Nazon (Haiti) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Substitution, Haiti. Carlens Arcus replaces Jean-Kévin Duverne.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Substitution, Haiti. Dominique Simon replaces Danley Jean Jacques.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, Morocco. Noussair Mazraoui replaces Anass Salah-Eddine.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, Morocco. Samir El Mourabet replaces Neil El Aynaoui.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, Haiti. Frantzdy Pierrot replaces Lenny Joseph.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Foul by Jean-Ricner Bellegarde (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Sofyan Amrabat (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Jean-Ricner Bellegarde (Haiti) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Foul by Soufiane Rahimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Foul by Ricardo Adé (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Soufiane Rahimi (Morocco) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt saved. Achraf Hakimi (Morocco) right footed shot from a difficult angle and long range on the left is saved in the top centre of the goal by Johny Placide (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Corner, Morocco. Conceded by Johny Placide.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Attempt blocked. Azzedine Ounahi (Morocco) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Goal! Morocco 4, Haiti 2. Gessime Yassine (Morocco) left footed shot from the centre of the box to the centre of the goal. Assisted by Soufiane Rahimi.",
+   "type": null
   }
  ],
  "400021453": [
@@ -9215,13 +9347,13 @@
   {
    "minNum": 56,
    "minute": "56'",
-   "text": "Foul by Scott McTominay (Scotland).",
+   "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 56,
    "minute": "56'",
-   "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half.",
+   "text": "Foul by Scott McTominay (Scotland).",
    "type": null
   },
   {
@@ -9354,6 +9486,150 @@
    "minNum": 72,
    "minute": "72'",
    "text": "Attempt missed. Scott McTominay (Scotland) left footed shot from the centre of the box is too high. Assisted by Lawrence Shankland.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Corner, Scotland. Conceded by Rayan.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Corner, Scotland. Conceded by Fabinho.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt missed. Lawrence Shankland (Scotland) header from the centre of the box is too high. Assisted by Lewis Ferguson with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Substitution, Brazil. Neymar replaces Matheus Cunha.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "John McGinn (Scotland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Foul by Danilo (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from the left side of the box is saved in the bottom left corner by Angus Gunn (Scotland). Assisted by Neymar.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Corner, Brazil. Conceded by Angus Gunn.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "John McGinn (Scotland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Rayan (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Handball by Bruno Guimarães (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Attempt missed. Vinícius Júnior (Brazil) right footed shot from the centre of the box is close, but misses to the left. Assisted by Danilo following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Scotland. Anthony Ralston replaces Nathan Patterson.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Brazil. Endrick replaces Rayan.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Brazil. Alex Sandro replaces Douglas Santos.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Scotland. Ryan Christie replaces Ben Gannon-Doak.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Kenny McLean (Scotland) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Foul by Fabinho (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Fabinho (Brazil) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Attempt missed. Ryan Christie (Scotland) right footed shot from the centre of the box misses to the left following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Attempt blocked. Kieran Tierney (Scotland) left footed shot from the left side of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Corner, Brazil. Conceded by Ryan Christie.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Corner, Brazil. Conceded by Lawrence Shankland.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Attempt blocked. Gabriel Magalhães (Brazil) left footed shot from the right side of the box is blocked. Assisted by Neymar with a cross.",
    "type": null
   }
  ],

@@ -17584,28 +17584,28 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 56,
-    "away": 44,
+    "home": 67.4,
+    "away": 32.6,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 0,
+    "home": 6,
     "away": 1,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 0,
+    "home": 4,
     "away": 0,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
-    "home": 0,
+    "home": 2,
     "away": 0,
     "pct": false
    },
@@ -17613,20 +17613,20 @@
     "key": "fouls",
     "label": "Fouls",
     "home": 0,
-    "away": 0,
+    "away": 1,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 10,
-    "away": 8,
+    "home": 85,
+    "away": 32,
     "pct": false
    },
    {
     "key": "passPct",
     "label": "Pass accuracy",
-    "home": 70,
+    "home": 90,
     "away": 70,
     "pct": true
    }
@@ -17644,10 +17644,10 @@
     "fouls": 0
    },
    "269058": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -17671,7 +17671,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "336439": {
     "rating": 6,
@@ -17746,10 +17746,10 @@
     "fouls": 0
    },
    "394500": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -17846,10 +17846,10 @@
     "fouls": 0
    },
    "428886": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -17906,11 +17906,11 @@
     "fouls": 0
    },
    "441313": {
-    "rating": 6,
+    "rating": 6.6,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 0,
+    "saves": 4,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -17977,10 +17977,10 @@
     "fouls": 0
    },
    "470760": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,

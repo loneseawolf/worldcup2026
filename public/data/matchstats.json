@@ -17584,8 +17584,8 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 66.1,
-    "away": 33.9,
+    "home": 68.6,
+    "away": 31.4,
     "pct": true
    },
    {
@@ -17605,7 +17605,7 @@
    {
     "key": "corners",
     "label": "Corners",
-    "home": 2,
+    "home": 3,
     "away": 2,
     "pct": false
    },
@@ -17619,8 +17619,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 272,
-    "away": 111,
+    "home": 330,
+    "away": 118,
     "pct": false
    },
    {

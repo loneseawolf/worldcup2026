@@ -3203,7 +3203,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
    "status": "live",
-   "time": "30'",
+   "time": "43'",
    "home": {
     "code": "SCO",
     "score": 0,
@@ -3262,15 +3262,15 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
    "status": "live",
-   "time": "30'",
+   "time": "44'",
    "home": {
     "code": "MAR",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "HAI",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "C2",

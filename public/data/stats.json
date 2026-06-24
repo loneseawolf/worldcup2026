@@ -225,6 +225,14 @@
    "ownGoals": 0
   },
   {
+   "id": "400721",
+   "name": "Achraf HAKIMI",
+   "code": "MAR",
+   "no": 2,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "402876",
    "name": "Agustin CANOBBIO",
    "code": "URU",
@@ -309,14 +317,6 @@
    "name": "BARCOLA",
    "code": "FRA",
    "no": 12,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "448202",
-   "name": "BELLINGHAM",
-   "code": "ENG",
-   "no": 10,
    "goals": 1,
    "ownGoals": 0
   }

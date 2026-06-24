@@ -6923,7 +6923,13 @@
   {
    "minNum": 10,
    "minute": "10'",
-   "text": "Goal! Morocco 0, Haiti 1. Lenny Joseph (Haiti) right footed shot from very close range to the centre of the goal. Assisted by Jean-Kévin Duverne.",
+   "text": "Attempt missed. Lenny Joseph (Haiti) right footed shot from very close range is close, but misses to the right. Assisted by Jean-Kévin Duverne.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Own Goal by Yassine Bounou, Morocco. Morocco 0, Haiti 1.",
    "type": null
   },
   {
@@ -6933,8 +6939,8 @@
    "type": null
   },
   {
-   "minNum": 13,
-   "minute": "13'",
+   "minNum": 12,
+   "minute": "12'",
    "text": "Corner, Morocco. Conceded by Johny Placide.",
    "type": null
   },
@@ -6954,6 +6960,102 @@
    "minNum": 14,
    "minute": "14'",
    "text": "Corner, Morocco. Conceded by Jean-Kévin Duverne.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Foul by Lenny Joseph (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Neil El Aynaoui (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Offside, Morocco. Ismael Saibari is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Josué Casimir (Haiti) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Foul by Bilal El Khannouss (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Foul by Martin Expérience (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Offside, Morocco. Ayoub El Kaabi is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Attempt missed. Ismael Saibari (Morocco) right footed shot from outside the box is close, but misses to the right. Assisted by Achraf Hakimi.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Lenny Joseph (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Redouane Halhal (Morocco) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Attempt missed. Ayoub El Kaabi (Morocco) header from the centre of the box misses to the right. Assisted by Achraf Hakimi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Josué Casimir (Haiti) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Foul by Anass Salah-Eddine (Morocco).",
    "type": null
   }
  ],
@@ -8454,6 +8556,60 @@
    "minNum": 12,
    "minute": "12'",
    "text": "Attempt missed. Matheus Cunha (Brazil) right footed shot from outside the box is high and wide to the left. Assisted by Rayan.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Corner, Brazil. Conceded by Nathan Patterson.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Attempt missed. Vinícius Júnior (Brazil) right footed shot from the right side of the box misses to the left. Assisted by Rayan following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Jack Hendry (Scotland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Foul by Vinícius Júnior (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "GOAL OVERTURNED BY VAR: Vinícius Júnior (Brazil) scores but the goal is ruled out after a VAR review.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "VAR Decision: No Goal Scotland 0-1 Brazil.",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Corner, Scotland. Conceded by Rayan.",
    "type": null
   }
  ],

@@ -6889,6 +6889,20 @@
    "type": null
   }
  ],
+ "400021452": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  }
+ ],
  "400021453": [
   {
    "minNum": 0,
@@ -8336,6 +8350,20 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, Scotland 0, Morocco 1.",
+   "type": null
+  }
+ ],
+ "400021455": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
    "type": null
   }
  ],

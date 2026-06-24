@@ -29101,7 +29101,7 @@
   {
    "minNum": 68,
    "minute": "68'",
-   "text": "Attempt saved. Carlos Harvey (Panama) header from the centre of the box is saved in the top centre of the goal by Dominik Livakovic (Croatia). Assisted by Yoel Bárcenas with a cross.",
+   "text": "Attempt missed. Carlos Harvey (Panama) header from the centre of the box is just a bit too high. Assisted by Yoel Bárcenas with a cross following a corner.",
    "type": null
   },
   {
@@ -29171,9 +29171,159 @@
    "type": null
   },
   {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Attempt missed. Carlos Harvey (Panama) right footed shot from the right side of the box is close, but misses to the right. Assisted by José Luis Rodríguez with a cross following a corner.",
+   "type": null
+  },
+  {
    "minNum": 80,
    "minute": "80'",
-   "text": "Attempt missed. Carlos Harvey (Panama) right footed shot from the right side of the box is close, but misses to the right. Assisted by José Luis Rodríguez with a cross following a corner.",
+   "text": "Foul by José Fajardo (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Substitution, Croatia. Mario Pasalic replaces Luka Modric.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Attempt blocked. Luka Sucic (Croatia) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Corner, Croatia. Conceded by Carlos Harvey.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Cecilio Waterman (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Foul by Marin Pongracic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, Panama. Azarías Londoño replaces José Fajardo.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Attempt blocked. Cecilio Waterman (Panama) right footed shot from the right side of the box is blocked. Assisted by Yoel Bárcenas.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "César Blackman (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Foul by Mario Pasalic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Foul by Cecilio Waterman (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Yoel Bárcenas (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Ante Budimir (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Panama. Éric Davis replaces César Blackman.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Panama. Tomás Rodríguez replaces Yoel Bárcenas.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Corner, Panama. Conceded by Marin Pongracic.",
+   "type": null
+  },
+  {
+   "minNum": 91,
+   "minute": "91'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Cristian Martínez (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Foul by Ante Budimir (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Tomás Rodríguez (Panama) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Foul by Petar Sucic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Petar Sucic (Croatia) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt missed. Amir Murillo (Panama) right footed shot from outside the box is high and wide to the right from a direct free kick.",
    "type": null
   }
  ]

@@ -28911,6 +28911,60 @@
    "minute": "49'",
    "text": "First Half ends, Panama 0, Croatia 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Croatia. Ante Budimir replaces Petar Musa.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Croatia. Andrej Kramaric replaces Josko Gvardiol.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Panama 0, Croatia 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by José Fajardo (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Luka Modric (Croatia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by José Luis Rodríguez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Offside, Croatia. Andrej Kramaric is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Corner, Panama. Conceded by Marco Pasalic.",
+   "type": null
   }
  ]
 }

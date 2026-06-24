@@ -4157,6 +4157,48 @@
    "minute": "44'",
    "text": "Corner, Bosnia and Herzegovina. Conceded by Pedro Miguel.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt missed. Boualem Khoukhi (Qatar) right footed shot from outside the box misses to the left. Assisted by Karim Boudiaf.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Karim Boudiaf (Qatar) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Pedro Miguel (Qatar) hits the left post with a right footed shot from the right side of the box. Assisted by Akram Afif.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Pedro Miguel (Qatar) right footed shot from the right side of the box is high and wide to the right. Assisted by Hassan Al Haydos.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "First Half ends, Bosnia and Herzegovina 2, Qatar 1.",
+   "type": null
   }
  ],
  "400021449": [
@@ -6040,6 +6082,42 @@
    "minNum": 43,
    "minute": "43'",
    "text": "Foul by Rubén Vargas (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt missed. Jonathan David (Canada) left footed shot from the left side of the box misses to the left. Assisted by Tajon Buchanan.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Corner, Switzerland. Conceded by Mathieu Choinière.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Jonathan David (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Foul by Breel Embolo (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Switzerland 0, Canada 0.",
    "type": null
   }
  ],

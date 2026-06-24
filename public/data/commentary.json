@@ -4107,7 +4107,7 @@
   {
    "minNum": 34,
    "minute": "34'",
-   "text": "Own Goal by Sultan Al Brake, Qatar. Bosnia and Herzegovina 2, Qatar 0.",
+   "text": "Own Goal by Mahmoud Abunada, Qatar. Bosnia and Herzegovina 2, Qatar 0.",
    "type": null
   },
   {
@@ -4299,7 +4299,85 @@
   {
    "minNum": 63,
    "minute": "63'",
-   "text": "Substitution, Bosnia and Herzegovina. Dennis Hadzikadunic replaces Nikola Katic because of an injury.",
+   "text": "Substitution, Bosnia and Herzegovina. Dennis Hadzikadunic replaces Nikola Katic.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Foul by Sultan Al Brake (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Ermin Mahmic (Bosnia and Herzegovina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Corner, Qatar. Conceded by Dennis Hadzikadunic.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Corner, Qatar. Conceded by Ermedin Demirovic.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Substitution, Qatar. Almoez Ali replaces Karim Boudiaf.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt missed. Esmir Bajraktarevic (Bosnia and Herzegovina) left footed shot from outside the box is high and wide to the left. Assisted by Ermin Mahmic.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Foul by Edmílson Junior (Qatar).",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Amar Memic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Offside, Bosnia and Herzegovina. Ermedin Demirovic is caught offside.",
    "type": null
   }
  ],
@@ -6352,6 +6430,108 @@
    "minNum": 64,
    "minute": "64'",
    "text": "Breel Embolo (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Attempt blocked. Jonathan David (Canada) left footed shot from the centre of the box is blocked. Assisted by Liam Millar with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Corner, Canada. Conceded by Nico Elvedi.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Corner, Canada. Conceded by Rubén Vargas.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Foul by Alistair Johnston (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Ricardo Rodríguez (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Substitution, Switzerland. Michel Aebischer replaces Djibril Sow.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Substitution, Switzerland. Silvan Widmer replaces Luca Jaquez.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Substitution, Canada. Promise David replaces Tajon Buchanan.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Goal! Switzerland 2, Canada 1. Promise David (Canada) right footed shot from the centre of the box to the bottom left corner. Assisted by Nathan Saliba.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Corner, Canada. Conceded by Silvan Widmer.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Jonathan David (Canada) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Foul by Michel Aebischer (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Alistair Johnston (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Remo Freuler (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Substitution, Switzerland. Dan Ndoye replaces Rubén Vargas.",
    "type": null
   }
  ],

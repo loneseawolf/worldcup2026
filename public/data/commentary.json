@@ -15539,6 +15539,96 @@
    "minute": "50'",
    "text": "Alan Franco (Ecuador) is shown the yellow card.",
    "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Corner, Ecuador. Conceded by Antonio Rüdiger.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Attempt missed. Moisés Caicedo (Ecuador) header from a difficult angle on the left is close, but misses to the left. Assisted by John Yeboah with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Nilson Angulo (Ecuador) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Foul by Jonathan Tah (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Foul by Moisés Caicedo (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Jamal Musiala (Germany) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Willian Pacho (Ecuador) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Foul by Leroy Sané (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Germany. Deniz Undav replaces Kai Havertz.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Germany. Malick Thiaw replaces Joshua Kimmich.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Attempt saved. Enner Valencia (Ecuador) right footed shot from outside the box is saved in the bottom left corner by Manuel Neuer (Germany). Assisted by John Yeboah.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked. Assisted by Deniz Undav.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Substitution, Ecuador. Ángelo Preciado replaces Alan Franco.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Substitution, Germany. Maximilian Beier replaces Felix Nmecha.",
+   "type": null
   }
  ],
  "400021467": [
@@ -16459,6 +16549,12 @@
   {
    "minNum": 45,
    "minute": "45'+3'",
+   "text": "Attempt blocked. Juriën Gaari (Curaçao) header from the left side of the six yard box is blocked. Assisted by Juninho Bacuna with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
    "text": "Corner, Curaçao. Conceded by Ange-Yoan Bonny.",
    "type": null
   },
@@ -16508,6 +16604,48 @@
    "minNum": 49,
    "minute": "49'",
    "text": "Ibrahim Sangaré (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Attempt blocked. Franck Kessie (Côte d'Ivoire) left footed shot from the centre of the box is blocked. Assisted by Yan Diomande.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Livano Comenencia.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt missed. Sherel Floranus (Curaçao) left footed shot from outside the box is too high. Assisted by Juninho Bacuna.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Foul by Juriën Gaari (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Christ Inao Oulaï (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Substitution, Curaçao. Jeremy Antonisse replaces Livano Comenencia.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Goal! Curaçao 0, Côte d'Ivoire 2. Nicolas Pépé (Côte d'Ivoire) left footed shot from the right side of the box to the top left corner. Assisted by Ibrahim Sangaré.",
    "type": null
   }
  ],

@@ -20254,7 +20254,14 @@
    ],
    "goals": [],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "400511",
+     "on": "390541",
+     "minute": "39'",
+     "period": 3
+    }
+   ]
   },
   "away": {
    "tactics": "3-4-3",
@@ -20549,10 +20556,24 @@
     }
    ],
    "goals": [],
-   "bookings": [],
-   "substitutions": []
+   "bookings": [
+    {
+     "player": "483312",
+     "minute": "32'",
+     "card": 1,
+     "period": 3
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "483312",
+     "on": "489689",
+     "minute": "37'",
+     "period": 3
+    }
+   ]
   },
-  "matchTime": "31'",
+  "matchTime": "44'",
   "period": 3,
   "final": false
  },
@@ -21845,7 +21866,7 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "31'",
+  "matchTime": "45'",
   "period": 3,
   "final": false
  },

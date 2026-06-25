@@ -281,6 +281,14 @@
    "ownGoals": 0
   },
   {
+   "id": "416576",
+   "name": "Alvaro FIDALGO",
+   "code": "MEX",
+   "no": 8,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430822",
    "name": "Amad DIALLO",
    "code": "CIV",
@@ -309,14 +317,6 @@
    "name": "Anthony ELANGA",
    "code": "SWE",
    "no": 11,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "299200",
-   "name": "ARNAUTOVIC",
-   "code": "AUT",
-   "no": 7,
    "goals": 1,
    "ownGoals": 0
   }
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 63929,
+ "attAvg": 64007,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -504,9 +504,9 @@
  },
  "fairPlay": {
   "group": {
-   "MEX": -5,
-   "RSA": -12,
-   "KOR": -3,
+   "MEX": -6,
+   "RSA": -13,
+   "KOR": -4,
    "CZE": -1,
    "CAN": -5,
    "BIH": -10,
@@ -554,9 +554,9 @@
    "COL": -3
   },
   "all": {
-   "MEX": -5,
-   "RSA": -12,
-   "KOR": -3,
+   "MEX": -6,
+   "RSA": -13,
+   "KOR": -4,
    "CZE": -1,
    "CAN": -5,
    "BIH": -10,
@@ -605,22 +605,6 @@
   }
  },
  "suspensions": {
-  "RSA": [
-   {
-    "id": "403616",
-    "name": "MOKOENA",
-    "bans": [
-     {
-      "type": "yellows",
-      "due": [
-       "400021443",
-       "400021440"
-      ],
-      "banned": "400021445"
-     }
-    ]
-   }
-  ],
   "PAR": [
    {
     "id": "369761",

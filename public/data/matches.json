@@ -3438,8 +3438,8 @@
    "group": "A",
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400222084",
-   "status": "live",
-   "time": "90'+3'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "CZE",
     "score": 0,
@@ -3447,12 +3447,12 @@
    },
    "away": {
     "code": "MEX",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "phA": "A4",
    "phB": "A1",
-   "winner": null,
+   "winner": "MEX",
    "attendance": 80824,
    "officials": [
     {
@@ -3497,8 +3497,8 @@
    "group": "A",
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400238450",
-   "status": "live",
-   "time": "90'+2'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "RSA",
     "score": 1,
@@ -3511,7 +3511,7 @@
    },
    "phA": "A2",
    "phB": "A3",
-   "winner": null,
+   "winner": "RSA",
    "attendance": 51243,
    "officials": [
     {
@@ -4548,7 +4548,11 @@
    "venueId": "400017978",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "RSA",
+    "score": null,
+    "pen": null
+   },
    "away": {
     "code": "CAN",
     "score": null,

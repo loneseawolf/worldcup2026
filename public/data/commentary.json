@@ -15221,6 +15221,26 @@
    "type": null
   }
  ],
+ "400021466": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Goal! Ecuador 0, Germany 1. Leroy Sané (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Florian Wirtz.",
+   "type": null
+  }
+ ],
  "400021467": [
   {
    "minNum": 0,
@@ -15880,6 +15900,26 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, Côte d'Ivoire 1, Ecuador 0.",
+   "type": null
+  }
+ ],
+ "400021468": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt saved. Tahith Chong (Curaçao) left footed shot from outside the box is saved.",
    "type": null
   }
  ],

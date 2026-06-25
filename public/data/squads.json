@@ -534,7 +534,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/AEL_Limassol",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Guillermo_Ochoa",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -660,7 +660,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Toluca_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Gallardo",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -714,7 +714,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/%C3%81lvaro_Fidalgo",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1068,7 +1068,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Aubrey_Modiba",
     "wcApps": 3,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -1390,7 +1390,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Mamelodi_Sundowns_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Iqraam_Rayners",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1616,7 +1616,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Zhejiang_Professional_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Park_Jin-seob_(footballer%2C_born_1995)",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1886,7 +1886,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/FC_Midtjylland",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Cho_Gue-sung",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0

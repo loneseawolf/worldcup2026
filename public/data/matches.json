@@ -3498,7 +3498,7 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400238450",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "RSA",
     "score": null,
@@ -4591,7 +4591,11 @@
    "status": "scheduled",
    "time": null,
    "home": null,
-   "away": null,
+   "away": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
    "phA": "1F",
    "phB": "2C",
    "winner": null,
@@ -4607,7 +4611,11 @@
    "venueId": "400249385",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "1C",
    "phB": "2F",

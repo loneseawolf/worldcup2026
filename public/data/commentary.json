@@ -18117,6 +18117,32 @@
    "type": null
   }
  ],
+ "400021471": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Corner, Sweden. Conceded by Ao Tanaka.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Corner, Sweden. Conceded by Ritsu Doan.",
+   "type": null
+  }
+ ],
  "400021472": [
   {
    "minNum": 0,
@@ -18758,6 +18784,32 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, Netherlands 5, Sweden 1.",
+   "type": null
+  }
+ ],
+ "400021473": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt missed. Ismaël Gharbi (Tunisia) right footed shot from the centre of the box is too high. Assisted by Hazem Mastouri with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Own Goal by Ellyes Skhiri, Tunisia. Tunisia 0, Netherlands 1.",
    "type": null
   }
  ],

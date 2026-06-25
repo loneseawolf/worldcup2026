@@ -18141,6 +18141,84 @@
    "minute": "2'",
    "text": "Corner, Sweden. Conceded by Ritsu Doan.",
    "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Ritsu Doan (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Yasin Ayari (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Attempt saved. Alexander Bernhardsson (Sweden) left footed shot from outside the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Alexander Isak.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Offside, Japan. Ayase Ueda is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Gabriel Gudmundsson (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Ayase Ueda (Japan) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Anthony Elanga (Sweden) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Ao Tanaka (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt blocked. Ritsu Doan (Japan) left footed shot from outside the box is blocked. Assisted by Keito Nakamura.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Anthony Elanga (Sweden) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Foul by Hiroki Ito (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Yasin Ayari (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Foul by Ao Tanaka (Japan).",
+   "type": null
   }
  ],
  "400021472": [
@@ -18810,6 +18888,72 @@
    "minNum": 3,
    "minute": "3'",
    "text": "Own Goal by Ellyes Skhiri, Tunisia. Tunisia 0, Netherlands 1.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Rani Khedira (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Donyell Malen (Netherlands) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Goal! Tunisia 0, Netherlands 2. Brian Brobbey (Netherlands) right footed shot from the centre of the box to the top right corner. Assisted by Virgil van Dijk with a headed pass following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Attempt missed. Ali Abdi (Tunisia) right footed shot from outside the box misses to the left. Assisted by Anis Ben Slimane with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Foul by Hannibal Mejbri (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Denzel Dumfries (Netherlands) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt blocked. Frenkie de Jong (Netherlands) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Corner, Tunisia. Conceded by Nathan Aké.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Attempt saved. Anis Ben Slimane (Tunisia) header from the centre of the box is saved in the centre of the goal by Bart Verbruggen (Netherlands). Assisted by Yan Valery with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Foul by Mohamed Amine Ben Hmida (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Tijjani Reijnders (Netherlands) wins a free kick on the right wing.",
    "type": null
   }
  ],

@@ -3,7 +3,8 @@ import { useSearchParams } from 'react-router-dom'
 import type { Match, Stage } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData, useData } from '../data/DataContext'
-import { STAGE_LABEL_KEY } from '../utils/helpers'
+import { clinchState, STAGE_LABEL_KEY } from '../utils/helpers'
+import type { QualState } from '../utils/helpers'
 import { advanceProb, projectedBracket } from '../utils/roadPath'
 import { isDarkTheme, teamAccent } from '../utils/teamAccent'
 import { useSettings } from '../settings/SettingsContext'
@@ -146,6 +147,15 @@ export default function PickEms() {
     () => projectedBracket(simModel, matches, standings, teams, venues),
     [simModel, matches, standings, teams, venues],
   )
+
+  // mathematical clinch/elimination per team, surfaced on each resolved slot
+  const clinchMap = useMemo(() => {
+    const m = new Map<string, QualState>()
+    for (const team of Object.values(teams)) {
+      m.set(team.code, clinchState(standings, matches, team.group, team.code))
+    }
+    return m
+  }, [teams, standings, matches])
 
   const vc = useMemo(() => (m: Match) => (m.venueId ? venues[m.venueId]?.country : undefined), [venues])
 
@@ -325,14 +335,24 @@ export default function PickEms() {
       // mute the unpicked side once a pick exists, so the advancing team pops
       const muted = !!win && !!code && !sel
       const rank = code ? teams[code]?.ranking : null
+      // clinch state owns the flag/seed area only — never the opacity (pick) channel
+      const status = code ? (clinchMap.get(code) ?? null) : null
+      const qualCls = status === 'out' ? ' pk-elim' : status === 'through' ? ' pk-adv' : ''
+      const qualTitle = status === 'through' ? t('qualAdvanced') : t('qualEliminated')
       return (
         <button
           type="button"
-          className={`bk-row pk-row${code ? ' pk-slot' : ''}${sel ? ' pk-sel' : ''}${muted ? ' pk-mute' : ''}${isReal ? ' pk-real' : ''}`}
+          className={`bk-row pk-row${code ? ' pk-slot' : ''}${sel ? ' pk-sel' : ''}${muted ? ' pk-mute' : ''}${isReal ? ' pk-real' : ''}${qualCls}`}
           disabled={!code}
           onClick={() => code && choose(m, code)}
         >
-          {rank != null && <span className="pk-seed tnum">{rank}</span>}
+          {status === 'through' || status === 'out' ? (
+            <span className={`pk-qual pk-qual-${status}`} role="img" title={qualTitle} aria-label={qualTitle}>
+              {status === 'through' ? '✓' : '✕'}
+            </span>
+          ) : (
+            rank != null && <span className="pk-seed tnum">{rank}</span>
+          )}
           <Flag team={code ? teams[code] : undefined} size={big ? 20 : 16} />
           <span className={`bk-nm${code ? '' : ' bk-tbd'}`}>
             {code ? pick(teams[code]?.name, code) : label}

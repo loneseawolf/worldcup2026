@@ -6,10 +6,10 @@ import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData, useData } from '../data/DataContext'
 import {
+  clinchState,
   CONF_REGION_KEY,
   fifaSquadUrl,
   fifaToIso2,
-  qualState,
   sortMatches,
   TEAM_CONFEDERATION,
 } from '../utils/helpers'
@@ -372,7 +372,7 @@ export default function TeamDetail() {
             </thead>
             <tbody>
               {rows.map((r) => {
-                const qs = qualState(standings, team.group, r.rank, r.code)
+                const qs = clinchState(standings, matches, team.group, r.code)
                 const cls = [r.code === code ? 'td-row-me' : '', qs ? `td-q-${qs}` : '']
                   .filter(Boolean)
                   .join(' ')

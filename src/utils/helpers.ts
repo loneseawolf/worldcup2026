@@ -1,4 +1,4 @@
-import type { Lang, LocalizedName, Match, Stage, Standings, Team } from '../types'
+import type { Lang, LocalizedName, Match, StandingRow, Stage, Standings, Team } from '../types'
 import fifaIso from '../data/fifa-iso.json'
 
 /** resolve a data note that may be a plain string (legacy) or a {en,zh,fr} object */
@@ -478,6 +478,63 @@ export function qualState(standings: Standings, group: string, rank: number, cod
   if (third?.qualifies === true) return 'through'
   if (third?.qualifies === false) return 'out'
   return 'third'
+}
+
+/** most points a row can still finish with (each team plays 3 group games) */
+export function maxPts(row: StandingRow): number {
+  return row.pts + 3 * (3 - row.p)
+}
+
+/**
+ * Mid-stage qualification state for group-table coloring — a strict superset of
+ * {@link qualState}. Points-only and conservative: it never falsely qualifies or
+ * eliminates a team that is still live (false negatives are acceptable, false
+ * positives are not).
+ *  - 'through': has mathematically clinched a top-2 group place (≤1 other team
+ *    can still finish at or above it).
+ *  - 'out': mathematically eliminated — can't reach the group top 2 AND can't be
+ *    one of the eight best third-placed teams (even its best-case points are
+ *    beaten by ≥8 groups' guaranteed thirds).
+ *  - otherwise null while the group is live, or delegates to qualState once the
+ *    group completes (which also resolves best-8-third qualification exactly).
+ *
+ * `matches` is reserved for a future GD/GF tiebreaker-lock layer; v1 is points-only.
+ */
+export function clinchState(standings: Standings, _matches: Match[], group: string, code: string): QualState {
+  const rows = standings.groups[group] ?? []
+  const t = rows.find((r) => r.code === code)
+  if (!t) return null
+  const remT = 3 - t.p
+  const maxT = maxPts(t)
+  const opps = rows.filter((r) => r.code !== code)
+
+  // THROUGH — at most one other team can finish at or above t's current points.
+  // Worst case for t is it wins nothing more, so compare opponents' best case to
+  // t's *current* points; a reachable tie is counted conservatively as "above".
+  let atOrAbove = 0
+  for (const o of opps) {
+    const mo = maxPts(o)
+    if (mo > t.pts) atOrAbove++
+    else if (mo === t.pts && 3 - o.p + remT > 0) atOrAbove++
+  }
+  if (atOrAbove <= 1) return 'through'
+
+  // OUT — both must hold: can't make the group top 2, AND can't crack the best-8
+  // thirds. thirdFloor(H) = the 3rd-largest *current* points in group H, a true
+  // floor (points never fall) on what H's eventual third-placed team will have.
+  const lockedAbove = opps.filter((o) => o.pts > maxT).length
+  if (lockedAbove >= 2) {
+    let groupsBeatingMax = 0
+    for (const g of Object.keys(standings.groups)) {
+      const ptsDesc = standings.groups[g].map((r) => r.pts).sort((a, b) => b - a)
+      const thirdFloor = ptsDesc[2] ?? 0
+      if (thirdFloor > maxT) groupsBeatingMax++
+    }
+    if (groupsBeatingMax >= 8) return 'out'
+  }
+
+  if (standings.complete[group]) return qualState(standings, group, t.rank, code)
+  return null
 }
 
 export function pad2(n: number): string {

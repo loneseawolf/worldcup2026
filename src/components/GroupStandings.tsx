@@ -1,7 +1,7 @@
 import type { StandingRow } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData } from '../data/DataContext'
-import { qualState } from '../utils/helpers'
+import { clinchState, qualState } from '../utils/helpers'
 import TeamName from './TeamName'
 import '../pages/groups.css'
 
@@ -52,7 +52,7 @@ export function NumCells({ r }: { r: StandingRow }) {
  * Live page's standings card). Renders nothing when the group has no rows. */
 export default function GroupStandings({ group }: { group: string }) {
   const { t } = useI18n()
-  const { standings } = useAppData()
+  const { standings, matches } = useAppData()
   const rows = standings.groups[group] ?? []
   if (!rows.length) return null
   return (
@@ -66,7 +66,7 @@ export default function GroupStandings({ group }: { group: string }) {
       </thead>
       <tbody>
         {rows.map((r) => (
-          <tr key={r.code} className={`gp-tr${rowQualClass(qualState(standings, group, r.rank, r.code))}`}>
+          <tr key={r.code} className={`gp-tr${rowQualClass(clinchState(standings, matches, group, r.code))}`}>
             <td className="gp-rank tnum">{r.rank}</td>
             <td className="gp-team">
               <TeamName code={r.code} flagSize={20} />

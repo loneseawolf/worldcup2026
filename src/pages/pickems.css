@@ -476,3 +476,38 @@
     height: clamp(96px, 28vw, 150px);
   }
 }
+
+/* ---- mid-stage clinch / elimination markers (flag + seed area only) ----
+   Pick state owns the opacity channel, so these never touch it: no rings, bars,
+   or new box-shadow. The chip sits in the .pk-seed footprint; the white pill is
+   theme-independent (always white with dark ink) so fixed colors read on both
+   light and dark pages. Scoped to .pk-page, after the import of bracket.css. */
+.pk-page .pk-qual {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.3em;
+  height: 1.35em;
+  padding: 0 0.34em;
+  border-radius: 5px;
+  font-size: 0.56rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.pk-page .pk-qual-through {
+  background: rgba(22, 122, 60, 0.16);
+  color: #16753c;
+}
+.pk-page .pk-qual-out {
+  background: rgba(0, 0, 0, 0.12);
+  color: #b3261e;
+}
+/* eliminated: grayscale the flag and strike the name — no opacity change */
+.pk-page .pk-elim .flag {
+  filter: grayscale(1);
+}
+.pk-page .pk-elim .bk-nm {
+  text-decoration: line-through;
+  text-decoration-color: rgba(0, 0, 0, 0.45);
+}

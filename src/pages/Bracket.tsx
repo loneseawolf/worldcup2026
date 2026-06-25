@@ -6,7 +6,8 @@ import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData } from '../data/DataContext'
 import { displayTz, fmtDate, fmtTime } from '../utils/time'
-import { placeholderLabel, STAGE_LABEL_KEY } from '../utils/helpers'
+import { clinchState, placeholderLabel, STAGE_LABEL_KEY } from '../utils/helpers'
+import type { QualState } from '../utils/helpers'
 import { resolvedSlots } from '../utils/bracketResolve'
 import Flag from '../components/Flag'
 import Trophy from '../components/Trophy'
@@ -65,6 +66,7 @@ function BkRow({
   ph,
   flagSize,
   resolved,
+  clinch,
 }: {
   m: Match
   side: MatchSide | null
@@ -72,6 +74,7 @@ function BkRow({
   ph: string | null
   flagSize: number
   resolved?: string
+  clinch: Map<string, QualState>
 }) {
   const { t, pick } = useI18n()
   const { teams } = useAppData()
@@ -83,11 +86,20 @@ function BkRow({
   const title = team && code ? label : ph ? placeholderLabel(ph, t) : t('tbd')
   const out = outcome(m, side, other)
   const cls = out === 'w' ? ' bk-win' : out === 'l' ? ' bk-lose' : ''
+  // through/out is computed mid-stage; almost every bracket occupant is 'through'
+  const status = team && code ? (clinch.get(code) ?? null) : null
+  const qualCls = status === 'through' ? ' bk-through' : status === 'out' ? ' bk-out' : ''
+  const qualTitle = status === 'through' ? t('qualAdvanced') : t('qualEliminated')
   return (
-    <div className={`bk-row${cls}`} title={title}>
+    <div className={`bk-row${cls}${qualCls}`} title={title}>
       <Flag team={team} size={flagSize} />
       <span className={`bk-nm${team ? '' : ' bk-tbd'}`}>{label}</span>
       {team && <span className="bk-code tnum">{code}</span>}
+      {(status === 'through' || status === 'out') && (
+        <span className={`bk-qual bk-qual-${status}`} role="img" title={qualTitle} aria-label={qualTitle}>
+          {status === 'through' ? '✓' : '✕'}
+        </span>
+      )}
       {(m.status === 'finished' || m.status === 'live') && side && (
         <span className="bk-score tnum">
           {side.score ?? '–'}
@@ -104,10 +116,12 @@ function BkNode({
   m,
   big = false,
   overlay,
+  clinch,
 }: {
   m: Match
   big?: boolean
   overlay?: { home?: string; away?: string }
+  clinch: Map<string, QualState>
 }) {
   const { t, locale } = useI18n()
   const { settings } = useSettings()
@@ -150,6 +164,7 @@ function BkNode({
         ph={m.phA}
         flagSize={big ? 22 : 18}
         resolved={overlay?.home}
+        clinch={clinch}
       />
       <BkRow
         m={m}
@@ -158,6 +173,7 @@ function BkNode({
         ph={m.phB}
         flagSize={big ? 22 : 18}
         resolved={overlay?.away}
+        clinch={clinch}
       />
     </Link>
   )
@@ -166,9 +182,16 @@ function BkNode({
 export default function Bracket() {
   const { t, locale } = useI18n()
   const { settings } = useSettings()
-  const { matches, venues } = useAppData()
-  const { standings } = useAppData()
+  const { matches, venues, teams, standings } = useAppData()
   const overlay = useMemo(() => resolvedSlots(matches, standings), [matches, standings])
+  // mathematical clinch/elimination per team, surfaced on each occupied slot
+  const clinchMap = useMemo(() => {
+    const m = new Map<string, QualState>()
+    for (const team of Object.values(teams)) {
+      m.set(team.code, clinchState(standings, matches, team.group, team.code))
+    }
+    return m
+  }, [teams, standings, matches])
   // remembered across visits (narrow-screen half-tree view)
   const [half, setHalfState] = useState<'l' | 'r'>(() => {
     try {
@@ -269,7 +292,7 @@ export default function Bracket() {
             className={`bk-cell bk-${side} ${roundCls[ri]} ${feed}${join}`}
             style={{ gridColumn: cols[ri], gridRow: `${2 + i * span} / span ${span}` }}
           >
-            {m ? <BkNode m={m} overlay={overlay[m.id]} /> : <div className="bk-ghost" />}
+            {m ? <BkNode m={m} overlay={overlay[m.id]} clinch={clinchMap} /> : <div className="bk-ghost" />}
           </div>,
         )
       })
@@ -326,7 +349,7 @@ export default function Bracket() {
             </div>
             <div className="bk-center-mid">
               {bk.final ? (
-                <BkNode m={bk.final} big overlay={overlay[bk.final.id]} />
+                <BkNode m={bk.final} big overlay={overlay[bk.final.id]} clinch={clinchMap} />
               ) : (
                 <div className="bk-ghost" />
               )}
@@ -335,7 +358,7 @@ export default function Bracket() {
               {bk.third && (
                 <div className="bk-third">
                   <div className="bk-third-label">{t(STAGE_LABEL_KEY.third)}</div>
-                  <BkNode m={bk.third} overlay={overlay[bk.third.id]} />
+                  <BkNode m={bk.third} overlay={overlay[bk.third.id]} clinch={clinchMap} />
                 </div>
               )}
             </div>
@@ -352,11 +375,11 @@ export default function Bracket() {
               <TeamName code={championCode} bold flagSize={26} />
             </div>
           )}
-          {bk.final && <BkNode m={bk.final} big overlay={overlay[bk.final.id]} />}
+          {bk.final && <BkNode m={bk.final} big overlay={overlay[bk.final.id]} clinch={clinchMap} />}
           {bk.third && (
             <div className="bk-third">
               <div className="bk-third-label">{t(STAGE_LABEL_KEY.third)}</div>
-              <BkNode m={bk.third} overlay={overlay[bk.third.id]} />
+              <BkNode m={bk.third} overlay={overlay[bk.third.id]} clinch={clinchMap} />
             </div>
           )}
         </div>

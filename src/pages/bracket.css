@@ -267,6 +267,38 @@
   font-weight: 500;
 }
 
+/* ---- mid-stage clinch / elimination on bracket slots ----
+   occupants are almost always 'through'; bk-out is kept for symmetry. */
+.bk-qual {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.05em;
+  height: 1.05em;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.bk-qual-through {
+  color: var(--win);
+  background: color-mix(in srgb, var(--win) 16%, transparent);
+}
+.bk-qual-out {
+  color: var(--loss);
+  background: color-mix(in srgb, var(--loss) 16%, transparent);
+}
+.bk-row.bk-out .bk-nm {
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--loss) 60%, transparent);
+  color: var(--text-3);
+}
+.bk-row.bk-out .flag {
+  filter: grayscale(1);
+  opacity: 0.78;
+}
+
 .bk-ghost {
   width: 100%;
   height: var(--bk-node-min);

@@ -161,6 +161,10 @@ const en: Dict = {
   bracketWinnerOf: 'Winner M{n}',
   bracketLoserOf: 'Loser M{n}',
   bracketThird: '3rd {x}',
+  // mid-stage clinch / elimination markers (group tables, bracket, pick'ems)
+  qualAdvanced: 'Advanced',
+  qualEliminated: 'Eliminated',
+  qualClinched: 'Clinched a top-2 group place',
   // match detail
   matchNotFound: 'Match not found.',
   lineups: 'Line-ups',

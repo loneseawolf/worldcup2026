@@ -1,26 +1,26 @@
 {
- "updatedAt": "2026-06-25T21:59:01.678Z",
+ "updatedAt": "2026-06-25T22:12:46.193Z",
  "season": "285023",
  "titleOdds": [
   {
    "c": "ARG",
-   "p": 21.4
+   "p": 21.7
   },
   {
    "c": "ESP",
-   "p": 18.3
+   "p": 18.1
   },
   {
    "c": "FRA",
-   "p": 14.2
+   "p": 13.9
   },
   {
    "c": "ENG",
-   "p": 7.8
+   "p": 8.1
   },
   {
    "c": "BRA",
-   "p": 5.6
+   "p": 5.4
   }
  ],
  "counts": {
@@ -32,10 +32,7 @@
   "flags": 179
  },
  "errors": [
-  "geocode New Tecumseth: no usable result — not cached, will retry next run",
-  "weather SoFi Stadium: The operation was aborted.",
-  "weather Mercedes-Benz Stadium: The operation was aborted.",
-  "weather Lumen Field: The operation was aborted."
+  "geocode New Tecumseth: no usable result — not cached, will retry next run"
  ],
  "sources": [
   "api.fifa.com",

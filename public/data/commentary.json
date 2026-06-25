@@ -15797,6 +15797,36 @@
    "minute": "90'+3'",
    "text": "Attempt missed. Deniz Undav (Germany) left footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Pascal Groß.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt missed. Pascal Groß (Germany) left footed shot from outside the box is too high.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Gonzalo Plata (Ecuador) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Pascal Groß (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Second Half ends, Ecuador 2, Germany 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Ecuador 2, Germany 1.",
+   "type": null
   }
  ],
  "400021467": [
@@ -16955,12 +16985,6 @@
    "type": null
   },
   {
-   "minNum": 89,
-   "minute": "89'",
-   "text": "Attempt saved. Tyrese Noslin (Curaçao) right footed shot from long range on the right is saved in the top centre of the goal by Yahia Fofana (Côte d'Ivoire). Assisted by Juninho Bacuna.",
-   "type": null
-  },
-  {
    "minNum": 90,
    "minute": "90'",
    "text": "Corner, Curaçao. Conceded by Yahia Fofana.",
@@ -16987,7 +17011,37 @@
   {
    "minNum": 90,
    "minute": "90'+2'",
-   "text": "Attempt missed. Gervane Kastaneer (Curaçao) left footed shot from outside the box.",
+   "text": "Attempt missed. Gervane Kastaneer (Curaçao) left footed shot from outside the box misses to the left. Assisted by Juninho Bacuna.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt blocked. Jeremy Antonisse (Curaçao) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Offside, Curaçao. Sherel Floranus is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Shurandy Sambo.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Curaçao 0, Côte d'Ivoire 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Curaçao 0, Côte d'Ivoire 2.",
    "type": null
   }
  ],

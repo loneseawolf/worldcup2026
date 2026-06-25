@@ -18219,6 +18219,48 @@
    "minute": "17'",
    "text": "Foul by Ao Tanaka (Japan).",
    "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Attempt missed. Daizen Maeda (Japan) header from the centre of the box is too high. Assisted by Hiroki Ito with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Isak Hien (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Ayase Ueda (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Foul by Elliot Stroud (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Yukinari Sugawara (Japan) wins a free kick on the right wing.",
+   "type": null
   }
  ],
  "400021472": [
@@ -18954,6 +18996,102 @@
    "minNum": 16,
    "minute": "16'",
    "text": "Tijjani Reijnders (Netherlands) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt missed. Jan Paul van Hecke (Netherlands) header from the centre of the box is high and wide to the left. Assisted by Tijjani Reijnders with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Attempt saved. Tijjani Reijnders (Netherlands) right footed shot from the right side of the six yard box is saved in the top centre of the goal by Aymen Dahmen (Tunisia). Assisted by Donyell Malen.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Corner, Netherlands. Conceded by Aymen Dahmen.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Handball by Nathan Aké (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Ellyes Skhiri (Tunisia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Foul by Brian Brobbey (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Attempt blocked. Ryan Gravenberch (Netherlands) right footed shot from the right side of the box is blocked. Assisted by Cody Gakpo.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Corner, Netherlands. Conceded by Mohamed Amine Ben Hmida.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Attempt missed. Donyell Malen (Netherlands) right footed shot from outside the box is high and wide to the right. Assisted by Tijjani Reijnders following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Attempt missed. Cody Gakpo (Netherlands) header from the centre of the box misses to the right. Assisted by Donyell Malen with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Foul by Hazem Mastouri (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Virgil van Dijk (Netherlands) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Corner, Netherlands. Conceded by Mohamed Amine Ben Hmida.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Attempt blocked. Denzel Dumfries (Netherlands) right footed shot from the centre of the box is blocked. Assisted by Brian Brobbey.",
    "type": null
   }
  ],

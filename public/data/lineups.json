@@ -3281,8 +3281,8 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "51'",
+  "period": 5,
   "final": false
  },
  "400021445": {
@@ -3854,10 +3854,29 @@
    ],
    "goals": [],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "395083",
+     "on": "307849",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "402817",
+     "on": "430385",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "423880",
+     "on": "511828",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "51'",
+  "period": 5,
   "final": false
  },
  "400021446": {

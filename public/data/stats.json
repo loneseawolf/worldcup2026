@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 132,
+  "yellow": 133,
   "red": 8,
   "players": [
    {
@@ -445,6 +445,14 @@
     "r": 0
    },
    {
+    "id": "389784",
+    "name": "Alan FRANCO",
+    "code": "ECU",
+    "no": 21,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "484849",
     "name": "Aleksandar PAVLOVIC",
     "code": "GER",
@@ -473,14 +481,6 @@
     "name": "Alistair JOHNSTON",
     "code": "CAN",
     "no": 2,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "482976",
-    "name": "Amar DEDIC",
-    "code": "BIH",
-    "no": 7,
     "y": 1,
     "r": 0
    }

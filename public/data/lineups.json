@@ -16791,6 +16791,12 @@
      "minute": "43'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "389784",
+     "minute": "50'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": []
@@ -17081,10 +17087,17 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "484849",
+     "on": "429640",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "51'",
+  "period": 5,
   "final": false
  },
  "400021467": {
@@ -18378,10 +18391,17 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "430822",
+     "on": "514208",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "51'",
+  "period": 5,
   "final": false
  },
  "400021469": {

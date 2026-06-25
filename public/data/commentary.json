@@ -15491,6 +15491,54 @@
    "minute": "45'+5'",
    "text": "First Half ends, Ecuador 1, Germany 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Germany. Angelo Stiller replaces Aleksandar Pavlovic.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Ecuador 1, Germany 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Pedro Vite (Ecuador) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Leroy Sané (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "VAR Decision: No Penalty Germany.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Joel Ordóñez (Ecuador) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by David Raum (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Alan Franco (Ecuador) is shown the yellow card.",
+   "type": null
   }
  ],
  "400021467": [
@@ -16422,8 +16470,44 @@
   },
   {
    "minNum": 45,
-   "minute": "45'+5'",
-   "text": "First Half ends, Curaçao 0, Côte d'Ivoire 1.",
+   "minute": "45'",
+   "text": "Substitution, Côte d'Ivoire. Christ Inao Oulaï replaces Amad Diallo.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Curaçao 0, Côte d'Ivoire 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Offside, Côte d'Ivoire. Nicolas Pépé is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Tahith Chong (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Ibrahim Sangaré (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Jürgen Locadia (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Ibrahim Sangaré (Côte d'Ivoire) wins a free kick in the defensive half.",
    "type": null
   }
  ],

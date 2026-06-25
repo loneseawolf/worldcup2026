@@ -15239,6 +15239,102 @@
    "minute": "2'",
    "text": "Goal! Ecuador 0, Germany 1. Leroy Sané (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Florian Wirtz.",
    "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Foul by Joel Ordóñez (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Jamal Musiala (Germany) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "John Yeboah (Ecuador) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by David Raum (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Nilson Angulo (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Joshua Kimmich (Germany) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Enner Valencia (Ecuador) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Jamal Musiala (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Goal! Ecuador 1, Germany 1. Nilson Angulo (Ecuador) right footed shot from outside the box to the bottom right corner. Assisted by Pedro Vite.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Alan Franco (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Felix Nmecha (Germany) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Gonzalo Plata (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Joshua Kimmich (Germany) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Felix Nmecha (Germany) right footed shot from outside the box misses to the left. Assisted by Jamal Musiala.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Aleksandar Pavlovic (Germany) wins a free kick on the right wing.",
+   "type": null
   }
  ],
  "400021467": [
@@ -15919,7 +16015,61 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Attempt saved. Tahith Chong (Curaçao) left footed shot from outside the box is saved.",
+   "text": "Attempt saved. Tahith Chong (Curaçao) left footed shot from outside the box is saved in the centre of the goal by Yahia Fofana (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Armando Obispo (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Ange-Yoan Bonny (Côte d'Ivoire) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Goal! Curaçao 0, Côte d'Ivoire 1. Nicolas Pépé (Côte d'Ivoire) left footed shot from very close range to the centre of the goal. Assisted by Yan Diomande.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Juninho Bacuna (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Guéla Doué (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Attempt missed. Amad Diallo (Côte d'Ivoire) left footed shot from outside the box is close, but misses to the left. Assisted by Nicolas Pépé.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Juriën Gaari (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Yan Diomande (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Juriën Gaari (Curaçao) right footed shot from outside the box misses to the left. Assisted by Leandro Bacuna.",
    "type": null
   }
  ],

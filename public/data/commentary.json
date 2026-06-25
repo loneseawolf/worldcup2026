@@ -7597,6 +7597,114 @@
    "minute": "89'",
    "text": "Goal! Morocco 4, Haiti 2. Gessime Yassine (Morocco) left footed shot from the centre of the box to the centre of the goal. Assisted by Soufiane Rahimi.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Dominique Simon (Haiti) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Soufiane Rahimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Josué Casimir (Haiti).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Gessime Yassine (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Josué Casimir (Haiti) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Duckens Nazon (Haiti) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Redouane Halhal (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt saved. Duckens Nazon (Haiti) right footed shot from outside the box is saved in the top right corner by Yassine Bounou (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Corner, Haiti. Conceded by Yassine Bounou.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt blocked. Jean-Ricner Bellegarde (Haiti) header from the centre of the box is blocked. Assisted by Dominique Simon with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Delay in match because of an injury Sofyan Amrabat (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Sofyan Amrabat went off injured after Morocco had used all subs.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt blocked. Louicius Deedson (Haiti) left footed shot from the right side of the box is blocked. Assisted by Frantzdy Pierrot with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt missed. Ricardo Adé (Haiti) right footed shot from outside the box misses to the left. Assisted by Frantzdy Pierrot.",
+   "type": null
+  },
+  {
+   "minNum": 99,
+   "minute": "99'",
+   "text": "Second Half ends, Morocco 4, Haiti 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Morocco 4, Haiti 2.",
+   "type": null
   }
  ],
  "400021453": [
@@ -9629,7 +9737,145 @@
   {
    "minNum": 86,
    "minute": "86'",
-   "text": "Attempt blocked. Gabriel Magalhães (Brazil) left footed shot from the right side of the box is blocked. Assisted by Neymar with a cross.",
+   "text": "Attempt blocked. Gabriel Magalhães (Brazil) left footed shot from the centre of the box is blocked. Assisted by Neymar with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Foul by Lewis Ferguson (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Bruno Guimarães (Brazil) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Attempt saved. Anthony Ralston (Scotland) left footed shot from the centre of the box is saved in the top centre of the goal by Alisson Becker (Brazil). Assisted by John McGinn with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Foul by Ryan Christie (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Neymar (Brazil) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Ryan Christie (Scotland) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Attempt saved. Neymar (Brazil) right footed shot from the left side of the box is saved in the top left corner by Angus Gunn (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Lawrence Shankland (Scotland) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Foul by Gabriel Martinelli (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Substitution, Scotland. Findlay Curtis replaces John McGinn.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Substitution, Scotland. Ché Adams replaces Lawrence Shankland.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Foul by Anthony Ralston (Scotland).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Vinícius Júnior (Brazil) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Lewis Ferguson (Scotland) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Gabriel Martinelli (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Corner, Scotland. Conceded by Gabriel Magalhães.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt saved. Scott McTominay (Scotland) left footed shot from very close range is saved in the centre of the goal by Alisson Becker (Brazil). Assisted by Anthony Ralston with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt blocked. Vinícius Júnior (Brazil) left footed shot from the centre of the box is blocked. Assisted by Neymar.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Ryan Christie (Scotland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Foul by Alex Sandro (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Scotland 0, Brazil 3.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Scotland 0, Brazil 3.",
    "type": null
   }
  ],

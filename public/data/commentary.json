@@ -15395,6 +15395,84 @@
    "minute": "27'",
    "text": "Delay in match for a drinks break.",
    "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Attempt blocked. Enner Valencia (Ecuador) right footed shot from the right side of the box is blocked. Assisted by Nilson Angulo.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt blocked. Jamal Musiala (Germany) left footed shot from the left side of the box is blocked. Assisted by Florian Wirtz.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Corner, Germany. Conceded by Joel Ordóñez.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt blocked. Felix Nmecha (Germany) right footed shot from outside the box is blocked. Assisted by Leroy Sané.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Delay in match (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Piero Hincapié (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Leroy Sané (Germany) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Piero Hincapié (Ecuador) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Enner Valencia (Ecuador) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Foul by Aleksandar Pavlovic (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Aleksandar Pavlovic (Germany) is shown the yellow card for a bad foul.",
+   "type": null
   }
  ],
  "400021467": [
@@ -16202,6 +16280,84 @@
    "minNum": 30,
    "minute": "30'",
    "text": "Corner, Curaçao. Conceded by Guéla Doué.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Foul by Livano Comenencia (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Yahia Fofana (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Deveron Fonville (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Amad Diallo (Côte d'Ivoire) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Tahith Chong (Curaçao) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Nicolas Pépé (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Nicolas Pépé (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Foul by Sherel Floranus (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Amad Diallo (Côte d'Ivoire) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Attempt missed. Tahith Chong (Curaçao) left footed shot from outside the box misses to the left. Assisted by Jürgen Locadia.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Joshua Brenet.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Tahith Chong (Curaçao) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Franck Kessie (Côte d'Ivoire).",
    "type": null
   }
  ],

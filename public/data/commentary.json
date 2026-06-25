@@ -15629,6 +15629,90 @@
    "minute": "64'",
    "text": "Substitution, Germany. Maximilian Beier replaces Felix Nmecha.",
    "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Nilson Angulo (Ecuador) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Foul by Malick Thiaw (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Ecuador. Pervis Estupiñán replaces Piero Hincapié because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Attempt missed. Gonzalo Plata (Ecuador) left footed shot from very close range is high and wide to the right. Assisted by Moisés Caicedo.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Substitution, Germany. Pascal Groß replaces Florian Wirtz.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Gonzalo Plata (Ecuador).",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Jamal Musiala (Germany) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt saved. Leroy Sané (Germany) left footed shot from the centre of the box is saved in the centre of the goal by Hernán Galíndez (Ecuador). Assisted by Deniz Undav.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Attempt blocked. Kevin Rodríguez (Ecuador) left footed shot from the centre of the box is blocked. Assisted by John Yeboah with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Corner, Ecuador. Conceded by Angelo Stiller.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Attempt blocked. Kevin Rodríguez (Ecuador) header from the centre of the box is blocked. Assisted by Pedro Vite with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Goal! Ecuador 2, Germany 1. Gonzalo Plata (Ecuador) left footed shot from very close range to the top right corner. Assisted by Kevin Rodríguez following a corner.",
+   "type": null
   }
  ],
  "400021467": [
@@ -16646,6 +16730,84 @@
    "minNum": 64,
    "minute": "64'",
    "text": "Goal! Curaçao 0, Côte d'Ivoire 2. Nicolas Pépé (Côte d'Ivoire) left footed shot from the right side of the box to the top left corner. Assisted by Ibrahim Sangaré.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Côte d'Ivoire. Oumar Diakité replaces Ange-Yoan Bonny.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Côte d'Ivoire. Elye Wahi replaces Nicolas Pépé.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Yan Diomande.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Offside, Curaçao. Joshua Brenet is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt saved. Tahith Chong (Curaçao) left footed shot from the right side of the box is saved in the bottom right corner by Yahia Fofana (Côte d'Ivoire). Assisted by Jürgen Locadia.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Juninho Bacuna (Curaçao).",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Christ Inao Oulaï (Côte d'Ivoire) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Juninho Bacuna (Curaçao) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Substitution, Curaçao. Gervane Kastaneer replaces Juriën Gaari.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Substitution, Curaçao. Tyrese Noslin replaces Deveron Fonville.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Substitution, Côte d'Ivoire. Jean Michaël Seri replaces Franck Kessie.",
    "type": null
   }
  ],

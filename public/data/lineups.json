@@ -17083,8 +17083,8 @@
    ],
    "substitutions": []
   },
-  "matchTime": "44'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021467": {
@@ -18380,8 +18380,8 @@
    ],
    "substitutions": []
   },
-  "matchTime": "44'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021469": {

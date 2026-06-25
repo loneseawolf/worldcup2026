@@ -15473,6 +15473,24 @@
    "minute": "44'",
    "text": "Aleksandar Pavlovic (Germany) is shown the yellow card for a bad foul.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from the centre of the box is blocked. Assisted by David Raum with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, Ecuador 1, Germany 1.",
+   "type": null
   }
  ],
  "400021467": [
@@ -16358,6 +16376,54 @@
    "minNum": 43,
    "minute": "43'",
    "text": "Foul by Franck Kessie (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt missed. Leandro Bacuna (Curaçao) right footed shot from the left side of the box is close, but misses to the left. Assisted by Sherel Floranus.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Leandro Bacuna (Curaçao) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Ibrahim Sangaré (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Corner, Curaçao. Conceded by Franck Kessie.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Corner, Curaçao. Conceded by Ange-Yoan Bonny.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, Curaçao 0, Côte d'Ivoire 1.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, Curaçao 0, Côte d'Ivoire 1.",
    "type": null
   }
  ],

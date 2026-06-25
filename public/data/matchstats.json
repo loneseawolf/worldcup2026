@@ -12508,43 +12508,43 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 55.3,
-    "away": 44.7,
+    "home": 55.1,
+    "away": 44.9,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 3,
-    "away": 1,
+    "home": 4,
+    "away": 2,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 1,
+    "home": 2,
     "away": 1,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
-    "home": 0,
-    "away": 2,
+    "home": 1,
+    "away": 3,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 9,
+    "home": 11,
     "away": 6,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 202,
-    "away": 139,
+    "home": 222,
+    "away": 154,
     "pct": false
    },
    {
@@ -12595,7 +12595,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 2
+    "fouls": 3
    },
    "395283": {
     "rating": 6,
@@ -12689,10 +12689,10 @@
     "fouls": 0
    },
    "405522": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -12716,7 +12716,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "405530": {
     "rating": 6.2,
@@ -12921,11 +12921,11 @@
     "fouls": 0
    },
    "489685": {
-    "rating": 6.2,
+    "rating": 6.3,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 1,
+    "saves": 2,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -13654,8 +13654,8 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 29.2,
-    "away": 70.8,
+    "home": 30.1,
+    "away": 69.9,
     "pct": true
    },
    {
@@ -13689,8 +13689,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 90,
-    "away": 267,
+    "home": 111,
+    "away": 306,
     "pct": false
    },
    {

@@ -161,6 +161,14 @@
    "ownGoals": 0
   },
   {
+   "id": "429157",
+   "name": "Julian QUINONES",
+   "code": "MEX",
+   "no": 16,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "405454",
    "name": "JUST",
    "code": "NZL",
@@ -311,18 +319,10 @@
    "no": 7,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "484860",
-   "name": "BARCOLA",
-   "code": "FRA",
-   "no": 12,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 126,
+  "yellow": 127,
   "red": 8,
   "players": [
    {

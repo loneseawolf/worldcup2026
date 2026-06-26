@@ -12217,7 +12217,7 @@
   {
    "minNum": 13,
    "minute": "13'",
-   "text": "Attempt saved. Brenden Aaronson (USA) right footed shot from the centre of the box is saved in the bottom left corner by Ugurcan Çakir (Türkiye).",
+   "text": "Attempt saved. Brenden Aaronson (USA) right footed shot from the centre of the box is saved in the centre of the goal by Ugurcan Çakir (Türkiye).",
    "type": null
   },
   {
@@ -12242,6 +12242,78 @@
    "minNum": 16,
    "minute": "16'",
    "text": "Ricardo Pepi (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Salih Özcan (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Foul by Sebastian Berhalter (USA).",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Sebastian Berhalter (USA) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Delay in match because of an injury Salih Özcan (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Arda Güler (Türkiye) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Foul by Sebastian Berhalter (USA).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Foul by Baris Alper Yilmaz (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Mark McKenzie (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Corner, USA. Conceded by Abdülkerim Bardakci.",
    "type": null
   }
  ],
@@ -13260,6 +13332,48 @@
    "minNum": 15,
    "minute": "15'",
    "text": "Nestory Irankunda (Australia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Diego Gómez (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Foul by Lucas Herrington (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Foul by Juan José Cáceres (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Aiden O'Neill (Australia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Corner, Australia. Conceded by Alexandro Maidana.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Attempt blocked. Connor Metcalfe (Australia) left footed shot from outside the box is blocked. Assisted by Cristian Volpato.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
    "type": null
   }
  ],

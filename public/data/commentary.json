@@ -28935,13 +28935,13 @@
   {
    "minNum": 83,
    "minute": "83'",
-   "text": "Substitution, Norway. Jens Petter Hauge replaces Oscar Bobb.",
+   "text": "Substitution, Norway. Antonio Nusa replaces Oscar Bobb.",
    "type": null
   },
   {
    "minNum": 83,
    "minute": "83'",
-   "text": "Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup.",
+   "text": "Substitution, Norway. Jens Petter Hauge replaces Andreas Schjelderup.",
    "type": null
   },
   {
@@ -28966,6 +28966,54 @@
    "minNum": 88,
    "minute": "88'",
    "text": "Offside, Norway. Jørgen Strand Larsen is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Handball by Fredrik Aursnes (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Attempt missed. Théo Hernández (France) left footed shot from outside the box is too high. Assisted by Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Goal! Norway 1, France 4. Désiré Doué (France) header from the centre of the box to the bottom right corner. Assisted by Bradley Barcola with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Thelo Aasgaard (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Rayan Cherki (France).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Norway 1, France 4.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Norway 1, France 4.",
    "type": null
   }
  ],
@@ -30810,6 +30858,114 @@
    "minNum": 85,
    "minute": "85'",
    "text": "Corner, Senegal. Conceded by Akam Hashim.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Attempt blocked. Sadio Mané (Senegal) left footed shot from the centre of the box is blocked. Assisted by Iliman Ndiaye.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "VAR Decision: Other Decision Cancelled.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Foul by Frans Putros (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Pape Gueye (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt blocked. Pape Gueye (Senegal) left footed shot from outside the box is blocked. Assisted by Idrissa Gueye.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Merchas Doski (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Krépin Diatta (Senegal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Merchas Doski (Iraq) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt saved. Nicolas Jackson (Senegal) header from the centre of the box is saved in the centre of the goal by Jalal Hassan (Iraq). Assisted by Krépin Diatta with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Merchas Doski (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Foul by Krépin Diatta (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Attempt saved. Pape Gueye (Senegal) left footed shot from outside the box is saved in the centre of the goal by Jalal Hassan (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Ali Yousif (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Moussa Niakhaté (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt saved. Iliman Ndiaye (Senegal) right footed shot from the left side of the box is saved in the bottom right corner by Jalal Hassan (Iraq). Assisted by Pape Gueye.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Senegal 5, Iraq 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Senegal 5, Iraq 0.",
    "type": null
   }
  ],

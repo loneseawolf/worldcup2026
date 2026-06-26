@@ -12315,6 +12315,114 @@
    "minute": "29'",
    "text": "Corner, USA. Conceded by Abdülkerim Bardakci.",
    "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Attempt missed. Miles Robinson (USA) header from the centre of the box misses to the left. Assisted by Sebastian Berhalter with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Offside, USA. Ricardo Pepi is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Goal! Türkiye 2, USA 1. Orkun Kökçü (Türkiye) right footed shot from very close range to the bottom right corner. Assisted by Eren Elmali.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Kenan Yildiz (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Joe Scally (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Salih Özcan (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Sebastian Berhalter (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Arda Güler (Türkiye) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by Auston Trusty (USA).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Eren Elmali (Türkiye) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Foul by Brenden Aaronson (USA).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Attempt blocked. Abdülkerim Bardakci (Türkiye) left footed shot from the right side of the six yard box is blocked. Assisted by Baris Alper Yilmaz with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Corner, Türkiye. Conceded by Miles Robinson.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Corner, USA. Conceded by Eren Elmali.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Attempt blocked. Kenan Yildiz (Türkiye) left footed shot from the left side of the box is blocked. Assisted by Ozan Kabak.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Corner, Türkiye. Conceded by Miles Robinson.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Foul by Baris Alper Yilmaz (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Sebastian Berhalter (USA) wins a free kick in the defensive half.",
+   "type": null
   }
  ],
  "400021460": [
@@ -13374,6 +13482,72 @@
    "minNum": 24,
    "minute": "24'",
    "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Delay in match because of an injury Connor Metcalfe (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Juan José Cáceres (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Aziz Behich (Australia) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Julio Enciso (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Alessandro Circati (Australia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Attempt saved. Jordan Bos (Australia) left footed shot from outside the box is saved in the centre of the goal by Orlando Gill (Paraguay). Assisted by Cristian Volpato.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt missed. Gabriel Ávalos (Paraguay) right footed shot from the centre of the box misses to the left. Assisted by Diego Gómez.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Foul by Diego Gómez (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Aziz Behich (Australia) wins a free kick in the defensive half.",
    "type": null
   }
  ],

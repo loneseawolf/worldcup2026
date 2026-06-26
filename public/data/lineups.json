@@ -13315,7 +13315,7 @@
      "period": 3
     },
     {
-     "player": "433118",
+     "player": "484139",
      "minute": "31'",
      "type": 2,
      "period": 3
@@ -13636,7 +13636,7 @@
     }
    ]
   },
-  "matchTime": "63'",
+  "matchTime": "76'",
   "period": 5,
   "final": false
  },
@@ -14628,6 +14628,12 @@
      "on": "495046",
      "minute": "",
      "period": 4
+    },
+    {
+     "off": "463127",
+     "on": "485802",
+     "minute": "67'",
+     "period": 5
     }
    ]
   },
@@ -14919,7 +14925,7 @@
     }
    ]
   },
-  "matchTime": "63'",
+  "matchTime": "77'",
   "period": 5,
   "final": false
  },

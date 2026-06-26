@@ -12331,7 +12331,13 @@
   {
    "minNum": 31,
    "minute": "31'",
-   "text": "Goal! Türkiye 2, USA 1. Orkun Kökçü (Türkiye) right footed shot from very close range to the bottom right corner. Assisted by Eren Elmali.",
+   "text": "Attempt missed. Orkun Kökçü (Türkiye) right footed shot from very close range is close, but misses to the right. Assisted by Eren Elmali.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Goal! Türkiye 2, USA 1. Baris Alper Yilmaz (Türkiye) right footed shot from very close range to the bottom right corner. Assisted by Orkun Kökçü.",
    "type": null
   },
   {
@@ -12578,6 +12584,120 @@
    "minNum": 60,
    "minute": "60'",
    "text": "Corner, USA. Conceded by Zeki Çelik.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Attempt saved. Christian Pulisic (USA) left footed shot from a difficult angle on the left is saved in the centre of the goal by Ugurcan Çakir (Türkiye). Assisted by Sebastian Berhalter.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Attempt missed. Brenden Aaronson (USA) right footed shot from the centre of the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Attempt missed. Ricardo Pepi (USA) right footed shot from the centre of the box misses to the left. Assisted by Joe Scally with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Attempt saved. Christian Pulisic (USA) left footed shot from the centre of the box is saved in the top right corner by Ugurcan Çakir (Türkiye). Assisted by Ricardo Pepi.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Attempt blocked. Weston McKennie (USA) left footed shot from the centre of the box is blocked. Assisted by Brenden Aaronson.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Corner, USA. Conceded by Zeki Çelik.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Delay in match because of an injury Ugurcan Çakir (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Attempt missed. Weston McKennie (USA) header from the centre of the box misses to the left. Assisted by Sebastian Berhalter with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Foul by Arda Güler (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Christian Pulisic (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Orkun Kökçü (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Foul by Sebastian Berhalter (USA).",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Foul by Ozan Kabak (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Ricardo Pepi (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Attempt missed. Kenan Yildiz (Türkiye) right footed shot from the left side of the box is close, but misses to the right. Assisted by Orkun Kökçü.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Corner, USA. Conceded by Abdülkerim Bardakci.",
    "type": null
   }
  ],
@@ -13833,18 +13953,6 @@
    "type": null
   },
   {
-   "minNum": 62,
-   "minute": "62'",
-   "text": "Delay in match because of an injury Omar Alderete (Paraguay).",
-   "type": null
-  },
-  {
-   "minNum": 62,
-   "minute": "62'",
-   "text": "Delay over. They are ready to continue.",
-   "type": null
-  },
-  {
    "minNum": 63,
    "minute": "63'",
    "text": "Foul by Mauricio (Paraguay).",
@@ -13854,6 +13962,36 @@
    "minNum": 63,
    "minute": "63'",
    "text": "Jackson Irvine (Australia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Paraguay. Álex Arce replaces Gabriel Ávalos.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Matías Galarza (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Aiden O'Neill (Australia) wins a free kick in the attacking half.",
    "type": null
   }
  ],

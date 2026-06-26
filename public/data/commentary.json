@@ -28379,6 +28379,20 @@
    "type": null
   }
  ],
+ "400021489": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  }
+ ],
  "400021490": [
   {
    "minNum": 0,
@@ -29582,6 +29596,20 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, France 3, Iraq 0.",
+   "type": null
+  }
+ ],
+ "400021493": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
    "type": null
   }
  ],

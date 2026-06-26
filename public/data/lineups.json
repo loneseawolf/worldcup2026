@@ -31380,8 +31380,8 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "0'",
-  "period": 0,
+  "matchTime": "1'",
+  "period": 3,
   "final": false
  },
  "400021490": {
@@ -34010,7 +34010,7 @@
    "substitutions": []
   },
   "matchTime": "0'",
-  "period": 2,
+  "period": 3,
   "final": false
  },
  "400021494": {

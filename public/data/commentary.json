@@ -28515,7 +28515,7 @@
   {
    "minNum": 13,
    "minute": "13'",
-   "text": "Attempt blocked. Michael Olise (France) left footed shot from the left side of the box is blocked. Assisted by Kylian Mbappé.",
+   "text": "Attempt blocked. Michael Olise (France) left footed shot from the centre of the box is blocked. Assisted by Kylian Mbappé.",
    "type": null
   },
   {
@@ -28533,7 +28533,91 @@
   {
    "minNum": 14,
    "minute": "14'",
-   "text": "Attempt missed. Jørgen Strand Larsen (Norway) right footed shot from the centre of the box.",
+   "text": "Attempt missed. Jørgen Strand Larsen (Norway) right footed shot from the centre of the box is too high. Assisted by Fredrik Aursnes with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Offside, France. Ousmane Dembélé is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the left side of the box is saved in the bottom left corner by Egil Selvik (Norway). Assisted by Désiré Doué with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Attempt blocked. Thelo Aasgaard (Norway) right footed shot from outside the box is blocked. Assisted by Fredrik Bjørkan.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Goal! Norway 0, France 2. Ousmane Dembélé (France) left footed shot from outside the box to the bottom left corner. Assisted by Kylian Mbappé following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Goal! Norway 1, France 2. Thelo Aasgaard (Norway) right footed shot from the centre of the box to the bottom left corner. Assisted by Andreas Schjelderup.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Corner, France. Conceded by Fredrik Bjørkan.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Corner, France. Conceded by Fredrik Aursnes.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Attempt blocked. Michael Olise (France) right footed shot from the centre of the box is blocked. Assisted by Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Attempt missed. Désiré Doué (France) right footed shot from outside the box misses to the left. Assisted by Jules Koundé following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Attempt missed. Théo Hernández (France) left footed shot from outside the box is too high. Assisted by Aurélien Tchouaméni.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Kristian Thorstvedt (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Théo Hernández (France) wins a free kick in the defensive half.",
    "type": null
   }
  ],
@@ -29783,7 +29867,7 @@
   {
    "minNum": 4,
    "minute": "4'",
-   "text": "Goal! Senegal 1, Iraq 0. Habib Diarra (Senegal) right footed shot from very close range to the top right corner. Assisted by Abdoulaye Seck following a corner.",
+   "text": "Goal! Senegal 1, Iraq 0. Habib Diarra (Senegal) left footed shot from very close range to the top right corner. Assisted by Abdoulaye Seck following a corner.",
    "type": null
   },
   {
@@ -29826,6 +29910,96 @@
    "minNum": 13,
    "minute": "13'",
    "text": "Rebin Sulaka (Iraq) is shown the red card.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt saved. Sadio Mané (Senegal) right footed shot from outside the box is saved in the top left corner by Ahmed Basil (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Abdoulaye Seck (Senegal) right footed shot from outside the box is close, but misses to the left. Assisted by Lamine Camara following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Delay in match because of an injury Ahmed Basil (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Substitution, Iraq. Munaf Younus replaces Ahmed Qasem.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt missed. Ismaïla Sarr (Senegal) right footed shot from the right side of the box is close, but misses the top right corner.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Foul by Abdoulaye Seck (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Ali Al Hamadi (Iraq) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Abdoulaye Seck (Senegal) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Attempt blocked. Ali Jasim (Iraq) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Attempt blocked. Ali Jasim (Iraq) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Corner, Iraq. Conceded by Abdoulaye Seck.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Foul by Ismail Jakobs (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Ibrahim Bayesh (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
    "type": null
   }
  ],

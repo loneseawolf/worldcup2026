@@ -12795,6 +12795,78 @@
    "minute": "89'",
    "text": "Christian Pulisic (USA) wins a free kick in the attacking half.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Delay in match because of an injury Auston Trusty (USA).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, Türkiye. Mert Müldür replaces Oguz Aydin.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, Türkiye. Irfan Can Kahveci replaces Baris Alper Yilmaz.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt blocked. Álex Zendejas (USA) left footed shot from the right side of the box is blocked. Assisted by Alex Freeman.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt blocked. Ricardo Pepi (USA) left footed shot from the left side of the box is blocked. Assisted by Christian Pulisic.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Handball by Ricardo Pepi (USA).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt blocked. Can Uzun (Türkiye) right footed shot from the left side of the six yard box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Goal! Türkiye 3, USA 2. Kaan Ayhan (Türkiye) right footed shot from very close range to the centre of the goal.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Second Half ends, Türkiye 3, USA 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Türkiye 3, USA 2.",
+   "type": null
   }
  ],
  "400021460": [
@@ -14067,8 +14139,8 @@
    "type": null
   },
   {
-   "minNum": 69,
-   "minute": "69'",
+   "minNum": 68,
+   "minute": "68'",
    "text": "Delay in match for a drinks break.",
    "type": null
   },
@@ -14159,7 +14231,61 @@
   {
    "minNum": 90,
    "minute": "90'",
-   "text": "Attempt missed. Jordan Bos (Australia) left footed shot from the right side of the box.",
+   "text": "Attempt missed. Jordan Bos (Australia) left footed shot from the right side of the box is close, but misses to the left. Assisted by Aiden O'Neill.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, Paraguay. Damián Bobadilla replaces Diego Gómez.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, Paraguay. Júnior Alonso replaces Matías Galarza.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt saved. Mauricio (Paraguay) left footed shot from the centre of the box is saved in the centre of the goal by Patrick Beach (Australia). Assisted by Álex Arce.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt saved. Tete Yengi (Australia) right footed shot from the right side of the box is saved in the centre of the goal by Orlando Gill (Paraguay). Assisted by Ajdin Hrustic.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Mauricio (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Jordan Bos (Australia) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Paraguay 0, Australia 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Paraguay 0, Australia 0.",
    "type": null
   }
  ],

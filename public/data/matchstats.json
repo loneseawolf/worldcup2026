@@ -20389,8 +20389,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 133,
-    "away": 271,
+    "home": 134,
+    "away": 270,
     "pct": false
    },
    {
@@ -22291,7 +22291,7 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 180,
+    "home": 179,
     "away": 120,
     "pct": false
    },

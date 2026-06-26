@@ -28697,6 +28697,30 @@
    "minute": "45'+6'",
    "text": "First Half ends, Norway 1, France 3.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Norway. Morten Thorsby replaces Kristian Thorstvedt.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Norway. Marcus Pedersen replaces Fredrik Bjørkan.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Norway 1, France 3.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Penalty Norway. Oscar Bobb draws a foul in the penalty area.",
+   "type": null
   }
  ],
  "400021490": [
@@ -30023,7 +30047,7 @@
   {
    "minNum": 17,
    "minute": "17'",
-   "text": "Attempt missed. Ismaïla Sarr (Senegal) right footed shot from the right side of the box is close, but misses the top right corner.",
+   "text": "Attempt missed. Ismaïla Sarr (Senegal) right footed shot from the right side of the box is too high.",
    "type": null
   },
   {

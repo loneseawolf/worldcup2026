@@ -234,7 +234,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Justin_Kluivert",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -306,7 +306,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Teun_Koopmeiners",
-   "wcApps": 2,
+   "wcApps": 3,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -378,7 +378,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Memphis_Depay",
-   "wcApps": 2,
+   "wcApps": 3,
    "wcGoals": 0,
    "wcYellow": 1,
    "wcRed": 0
@@ -468,7 +468,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Crysencio_Summerville",
-   "wcApps": 2,
+   "wcApps": 3,
    "wcGoals": 2,
    "wcYellow": 1,
    "wcRed": 0

@@ -18579,6 +18579,144 @@
    "minute": "65'",
    "text": "Corner, Sweden. Conceded by Zion Suzuki.",
    "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Foul by Viktor Gyökeres (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Ao Tanaka (Japan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Japan. Koki Ogawa replaces Ayase Ueda.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Japan. Junya Ito replaces Ritsu Doan.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Handball by Daizen Maeda (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Offside, Sweden. Anthony Elanga is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Elliot Stroud (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Junya Ito (Japan) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Alexander Bernhardsson (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Daichi Kamada (Japan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Substitution, Sweden. Daniel Svensson replaces Alexander Bernhardsson.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Substitution, Sweden. Ken Sema replaces Elliot Stroud.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Substitution, Japan. Yuto Nagatomo replaces Keito Nakamura.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Substitution, Japan. Tsuyoshi Watanabe replaces Ayumu Seko.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Gabriel Gudmundsson (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Yukinari Sugawara (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Viktor Gyökeres (Sweden) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Foul by Shogo Taniguchi (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Shogo Taniguchi (Japan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt blocked. Daniel Svensson (Sweden) left footed shot from outside the box is blocked. Assisted by Lucas Bergvall.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Corner, Sweden. Conceded by Tsuyoshi Watanabe.",
+   "type": null
   }
  ],
  "400021472": [
@@ -19619,13 +19757,169 @@
   {
    "minNum": 66,
    "minute": "66'",
-   "text": "Tijjani Reijnders (Netherlands) hits the woodwork with a right footed shot from the left side of the box.",
+   "text": "Tijjani Reijnders (Netherlands) hits the bar with a right footed shot from the left side of the box.",
    "type": null
   },
   {
    "minNum": 66,
    "minute": "66'",
-   "text": "Attempt missed. Denzel Dumfries (Netherlands) header from the right side of the box.",
+   "text": "Attempt missed. Denzel Dumfries (Netherlands) header from the right side of the box misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Tunisia. Hadj Mahmoud replaces Rani Khedira.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, Tunisia. Elias Achouri replaces Anis Ben Slimane.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, Tunisia. Mortadha Ben Ouanes replaces Mohamed Amine Ben Hmida.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Attempt saved. Tijjani Reijnders (Netherlands) right footed shot from outside the box is saved in the bottom left corner by Aymen Dahmen (Tunisia). Assisted by Brian Brobbey.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Substitution, Netherlands. Teun Koopmeiners replaces Frenkie de Jong.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Substitution, Netherlands. Justin Kluivert replaces Tijjani Reijnders.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Substitution, Netherlands. Crysencio Summerville replaces Donyell Malen.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Mortadha Ben Ouanes (Tunisia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Ryan Gravenberch (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Hannibal Mejbri (Tunisia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Teun Koopmeiners (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Substitution, Tunisia. Firas Chaouat replaces Ismaël Gharbi.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt saved. Hannibal Mejbri (Tunisia) left footed shot from outside the box is saved in the top right corner by Bart Verbruggen (Netherlands). Assisted by Hazem Mastouri.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Corner, Tunisia. Conceded by Bart Verbruggen.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Attempt missed. Elias Achouri (Tunisia) right footed shot from outside the box is high and wide to the right following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Substitution, Netherlands. Memphis Depay replaces Brian Brobbey.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Foul by Hazem Mastouri (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Justin Kluivert (Netherlands) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt saved. Virgil van Dijk (Netherlands) header from the centre of the box is saved in the top centre of the goal by Aymen Dahmen (Tunisia). Assisted by Teun Koopmeiners.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Hadj Mahmoud (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Nathan Aké (Netherlands) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Hadj Mahmoud (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Justin Kluivert (Netherlands) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Attempt missed. Nathan Aké (Netherlands) header from the centre of the box is just a bit too high. Assisted by Jan Paul van Hecke with a headed pass following a set piece situation.",
    "type": null
   }
  ],

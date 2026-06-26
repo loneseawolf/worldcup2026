@@ -12423,6 +12423,66 @@
    "minute": "44'",
    "text": "Sebastian Berhalter (USA) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt saved. Weston McKennie (USA) right footed shot from outside the box is saved in the bottom left corner by Ugurcan Çakir (Türkiye). Assisted by Miles Robinson with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Arda Güler (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Sebastian Berhalter (USA) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Abdülkerim Bardakci (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Weston McKennie (USA).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Corner, USA. Conceded by Abdülkerim Bardakci.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Auston Trusty (USA) header from the centre of the box is too high. Assisted by Sebastian Berhalter with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Offside, USA. Timothy Weah is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "First Half ends, Türkiye 2, USA 1.",
+   "type": null
   }
  ],
  "400021460": [
@@ -13548,6 +13608,42 @@
    "minNum": 44,
    "minute": "44'",
    "text": "Aziz Behich (Australia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt saved. Cristian Volpato (Australia) left footed shot from the right side of the box is saved in the top centre of the goal by Orlando Gill (Paraguay). Assisted by Jordan Bos.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Jackson Irvine (Australia) header from the centre of the box is too high. Assisted by Jordan Bos with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Andrés Cubas (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Foul by Cristian Volpato (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "First Half ends, Paraguay 0, Australia 0.",
    "type": null
   }
  ],

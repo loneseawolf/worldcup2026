@@ -18450,7 +18450,7 @@
   },
   {
    "minNum": 45,
-   "minute": "45'+4'",
+   "minute": "45'+3'",
    "text": "Corner, Sweden. Conceded by Hiroki Ito.",
    "type": null
   },
@@ -18458,6 +18458,48 @@
    "minNum": 45,
    "minute": "45'+5'",
    "text": "First Half ends, Japan 0, Sweden 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Japan 0, Sweden 0.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Attempt missed. Ao Tanaka (Japan) right footed shot from outside the box is too high. Assisted by Daichi Kamada.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Corner, Sweden. Conceded by Ayumu Seko.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Corner, Sweden. Conceded by Hiroki Ito.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Attempt missed. Gustaf Lagerbielke (Sweden) header from the right side of the six yard box misses to the right. Assisted by Elliot Stroud with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Foul by Elliot Stroud (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Ritsu Doan (Japan) wins a free kick on the right wing.",
    "type": null
   }
  ],
@@ -19374,6 +19416,54 @@
    "minNum": 45,
    "minute": "45'+4'",
    "text": "First Half ends, Tunisia 0, Netherlands 2.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Tunisia 0, Netherlands 2.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Offside, Netherlands. Cody Gakpo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Hazem Mastouri (Tunisia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Virgil van Dijk (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt blocked. Denzel Dumfries (Netherlands) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Hazem Mastouri (Tunisia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Foul by Jan Paul van Hecke (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Corner, Tunisia. Conceded by Jan Paul van Hecke.",
    "type": null
   }
  ],

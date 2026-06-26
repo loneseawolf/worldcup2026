@@ -12508,15 +12508,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 55.1,
-    "away": 44.9,
+    "home": 56.9,
+    "away": 43.1,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 4,
-    "away": 2,
+    "home": 5,
+    "away": 3,
     "pct": false
    },
    {
@@ -12530,21 +12530,21 @@
     "key": "corners",
     "label": "Corners",
     "home": 1,
-    "away": 3,
+    "away": 5,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
     "home": 11,
-    "away": 6,
+    "away": 7,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 222,
-    "away": 154,
+    "home": 260,
+    "away": 164,
     "pct": false
    },
    {
@@ -13053,14 +13053,14 @@
     "fouls": 0
    },
    "519958": {
-    "rating": 6,
+    "rating": 5.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 1
+    "fouls": 2
    },
    "520218": {
     "rating": 6,
@@ -13654,15 +13654,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 30.1,
-    "away": 69.9,
+    "home": 29.5,
+    "away": 70.5,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
     "home": 4,
-    "away": 12,
+    "away": 13,
     "pct": false
    },
    {
@@ -13675,7 +13675,7 @@
    {
     "key": "corners",
     "label": "Corners",
-    "home": 1,
+    "home": 2,
     "away": 3,
     "pct": false
    },
@@ -13683,14 +13683,14 @@
     "key": "fouls",
     "label": "Fouls",
     "home": 5,
-    "away": 4,
+    "away": 6,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 111,
-    "away": 306,
+    "home": 130,
+    "away": 372,
     "pct": false
    },
    {
@@ -13751,7 +13751,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "402044": {
     "rating": 6,
@@ -14104,7 +14104,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "489518": {
     "rating": 6,

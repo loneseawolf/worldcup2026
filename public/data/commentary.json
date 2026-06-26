@@ -18717,6 +18717,114 @@
    "minute": "78'",
    "text": "Corner, Sweden. Conceded by Tsuyoshi Watanabe.",
    "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Attempt blocked. Ken Sema (Sweden) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Anthony Elanga (Sweden) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Foul by Hiroki Ito (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Attempt missed. Gustaf Lagerbielke (Sweden) header from the centre of the box misses to the left. Assisted by Yasin Ayari with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Corner, Japan. Conceded by Gabriel Gudmundsson.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Attempt missed. Koki Ogawa (Japan) left footed shot from the centre of the box is too high. Assisted by Daichi Kamada with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Foul by Viktor Gyökeres (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Daichi Kamada (Japan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Viktor Gyökeres (Sweden) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Gustaf Lagerbielke (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Foul by Koki Ogawa (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Delay in match because of an injury Victor Lindelöf (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Substitution, Sweden. Carl Starfelt replaces Victor Lindelöf because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Substitution, Sweden. Benjamin Nygren replaces Gabriel Gudmundsson.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Ken Sema (Sweden) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Foul by Yukinari Sugawara (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
   }
  ],
  "400021472": [
@@ -19920,6 +20028,78 @@
    "minNum": 80,
    "minute": "80'",
    "text": "Attempt missed. Nathan Aké (Netherlands) header from the centre of the box is just a bit too high. Assisted by Jan Paul van Hecke with a headed pass following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Offside, Tunisia. Firas Chaouat is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Hannibal Mejbri (Tunisia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Foul by Nathan Aké (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Substitution, Netherlands. Noa Lang replaces Cody Gakpo.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Foul by Firas Chaouat (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Nathan Aké (Netherlands) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Corner, Netherlands. Conceded by Ellyes Skhiri.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Attempt missed. Hazem Mastouri (Tunisia) right footed shot from more than 35 yards misses to the right following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Tunisia. Sebastian Tounekti replaces Hazem Mastouri.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Tunisia. Conceded by Nathan Aké.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt blocked. Elias Achouri (Tunisia) right footed shot from the centre of the box is blocked.",
    "type": null
   }
  ],

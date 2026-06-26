@@ -28721,6 +28721,72 @@
    "minute": "48'",
    "text": "Penalty Norway. Oscar Bobb draws a foul in the penalty area.",
    "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Penalty conceded by Théo Hernández (France) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Penalty saved. Jørgen Strand Larsen (Norway) right footed shot saved in the bottom right corner by Mike Maignan (France).",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Corner, Norway. Conceded by Dayot Upamecano.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt missed. Leo Østigård (Norway) header from the left side of the six yard box misses to the right. Assisted by Patrick Berg with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Attempt missed. Kylian Mbappé (France) right footed shot from outside the box is just a bit too high. Assisted by Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Delay in match because of an injury Egil Selvik (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Foul by Leo Østigård (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Désiré Doué (France) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Offside, France. Maxence Lacroix is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Oscar Bobb (Norway).",
+   "type": null
   }
  ],
  "400021490": [
@@ -30258,6 +30324,90 @@
    "minNum": 45,
    "minute": "45'+10'",
    "text": "First Half ends, Senegal 1, Iraq 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Iraq. Jalal Hassan replaces Ahmed Basil because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Senegal 1, Iraq 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Attempt missed. Habib Diarra (Senegal) left footed shot from outside the box misses to the left. Assisted by Idrissa Gueye.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt missed. Sadio Mané (Senegal) right footed shot from the centre of the box is high and wide to the right. Assisted by Ibrahim Mbaye with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Foul by Ibrahim Bayesh (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Lamine Camara (Senegal) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Attempt saved. Ali Jasim (Iraq) right footed shot from long range on the left is saved in the bottom right corner by Mory Diaw (Senegal). Assisted by Ali Al Hamadi.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Ali Al Hamadi (Iraq) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Foul by Moussa Niakhaté (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Attempt saved. Ismaïla Sarr (Senegal) right footed shot from the centre of the box is saved in the centre of the goal by Jalal Hassan (Iraq). Assisted by Habib Diarra.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Goal! Senegal 2, Iraq 0. Ismaïla Sarr (Senegal) right footed shot from very close range to the high centre of the goal. Assisted by Lamine Camara.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Substitution, Senegal. Iliman Ndiaye replaces Ibrahim Mbaye.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Substitution, Senegal. Nicolas Jackson replaces Lamine Camara.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Substitution, Senegal. Pape Gueye replaces Habib Diarra.",
    "type": null
   }
  ],

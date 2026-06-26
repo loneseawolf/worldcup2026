@@ -12508,29 +12508,29 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 50.8,
-    "away": 49.2,
+    "home": 52.3,
+    "away": 47.7,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
     "home": 8,
-    "away": 8,
+    "away": 10,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
     "home": 3,
-    "away": 3,
+    "away": 5,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
     "home": 2,
-    "away": 7,
+    "away": 8,
     "pct": false
    },
    {
@@ -12543,14 +12543,14 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 344,
-    "away": 305,
+    "home": 379,
+    "away": 312,
     "pct": false
    },
    {
     "key": "passPct",
     "label": "Pass accuracy",
-    "home": 80,
+    "home": 90,
     "away": 80,
     "pct": true
    }
@@ -12719,21 +12719,21 @@
     "fouls": 3
    },
    "405530": {
-    "rating": 6,
+    "rating": 6.3,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 2,
+    "saves": 4,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
    },
    "430150": {
-    "rating": 6.1,
+    "rating": 6.2,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 1,
+    "shotsOnTarget": 2,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
@@ -12800,10 +12800,10 @@
     "fouls": 0
    },
    "441137": {
-    "rating": 7.1,
+    "rating": 7.2,
     "goals": 1,
     "assists": 0,
-    "shotsOnTarget": 1,
+    "shotsOnTarget": 2,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
@@ -13074,7 +13074,7 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  },
  "400021472": {
   "espnId": "760447",
@@ -13654,8 +13654,8 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 28.3,
-    "away": 71.7,
+    "home": 28.4,
+    "away": 71.6,
     "pct": true
    },
    {
@@ -13689,8 +13689,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 196,
-    "away": 592,
+    "home": 200,
+    "away": 601,
     "pct": false
    },
    {
@@ -14200,7 +14200,7 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  },
  "400021474": {
   "espnId": "760424",

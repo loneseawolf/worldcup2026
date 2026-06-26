@@ -18793,6 +18793,12 @@
   {
    "minNum": 87,
    "minute": "87'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
    "text": "Substitution, Sweden. Carl Starfelt replaces Victor Lindelöf because of an injury.",
    "type": null
   },
@@ -18800,12 +18806,6 @@
    "minNum": 88,
    "minute": "88'",
    "text": "Substitution, Sweden. Benjamin Nygren replaces Gabriel Gudmundsson.",
-   "type": null
-  },
-  {
-   "minNum": 88,
-   "minute": "88'",
-   "text": "Delay over. They are ready to continue.",
    "type": null
   },
   {
@@ -18824,6 +18824,36 @@
    "minNum": 90,
    "minute": "90'",
    "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt saved. Anthony Elanga (Sweden) right footed shot from the right side of the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Benjamin Nygren.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Sweden. Conceded by Yukinari Sugawara.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Alexander Isak (Sweden) header from the left side of the six yard box is saved in the top centre of the goal by Zion Suzuki (Japan). Assisted by Yasin Ayari with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Japan 1, Sweden 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Japan 1, Sweden 1.",
    "type": null
   }
  ],
@@ -20100,6 +20130,18 @@
    "minNum": 90,
    "minute": "90'+4'",
    "text": "Attempt blocked. Elias Achouri (Tunisia) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Tunisia 1, Netherlands 3.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Tunisia 1, Netherlands 3.",
    "type": null
   }
  ],

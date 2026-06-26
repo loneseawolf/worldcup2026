@@ -28787,6 +28787,120 @@
    "minute": "62'",
    "text": "Foul by Oscar Bobb (Norway).",
    "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Théo Hernández (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Jørgen Strand Larsen (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Maxence Lacroix (France).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt blocked. Oscar Bobb (Norway) left footed shot from the right side of the box is blocked. Assisted by Jørgen Strand Larsen.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt blocked. Kylian Mbappé (France) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Corner, France. Conceded by Thelo Aasgaard.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Substitution, France. Rayan Cherki replaces Michael Olise.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Substitution, France. Bradley Barcola replaces Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Norway. Sondre Langås replaces Henrik Falchener.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Foul by Morten Thorsby (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Manu Koné (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Attempt saved. Oscar Bobb (Norway) left footed shot from the centre of the box is saved in the centre of the goal by Mike Maignan (France). Assisted by Thelo Aasgaard.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Corner, Norway. Conceded by Jules Koundé.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Thelo Aasgaard (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Aurélien Tchouaméni (France).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Aurélien Tchouaméni (France) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Substitution, France. Ibrahima Konaté replaces Dayot Upamecano.",
+   "type": null
   }
  ],
  "400021490": [
@@ -30408,6 +30522,114 @@
    "minNum": 57,
    "minute": "57'",
    "text": "Substitution, Senegal. Pape Gueye replaces Habib Diarra.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Iraq. Ahmed Maknzi replaces Ali Jasim.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Iraq. Ali Yousif replaces Ali Al Hamadi.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Senegal. Pathé Ciss replaces Abdoulaye Seck.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Goal! Senegal 3, Iraq 0. Pape Gueye (Senegal) left footed shot from outside the box to the top left corner. Assisted by Ismaïla Sarr.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Ibrahim Bayesh (Iraq) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Foul by Idrissa Gueye (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt missed. Pape Gueye (Senegal) left footed shot from the left side of the box misses to the right. Assisted by Sadio Mané.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Corner, Senegal. Conceded by Akam Hashim.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Corner, Senegal. Conceded by Ali Yousif.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Corner, Senegal. Conceded by Ahmed Maknzi.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Merchas Doski (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Foul by Iliman Ndiaye (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Substitution, Iraq. Kevin Yakob replaces Zidane Iqbal.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Foul by Kevin Yakob (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Ismaïla Sarr (Senegal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Goal! Senegal 4, Iraq 0. Pape Gueye (Senegal) left footed shot from the centre of the box to the bottom left corner. Assisted by Iliman Ndiaye with a headed pass.",
    "type": null
   }
  ],

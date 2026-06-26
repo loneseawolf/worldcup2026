@@ -12497,15 +12497,87 @@
    "type": null
   },
   {
-   "minNum": 48,
-   "minute": "48'",
-   "text": "Attempt missed. Giovanni Reyna (USA) right footed shot from outside the box misses to the left following a corner.",
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Goal! Türkiye 2, USA 2. Sebastian Berhalter (USA) right footed shot from outside the box to the bottom left corner.",
    "type": null
   },
   {
-   "minNum": 49,
-   "minute": "49'",
-   "text": "Goal! Türkiye 2, USA 2. Sebastian Berhalter (USA) right footed shot from outside the box.",
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Orkun Kökçü (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Brenden Aaronson (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Offside, USA. Timothy Weah is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Kenan Yildiz (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Miles Robinson (USA).",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Foul by Arda Güler (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Sebastian Berhalter (USA) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Offside, Türkiye. Arda Güler is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Offside, USA. Joe Scally is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Baris Alper Yilmaz (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Foul by Mark McKenzie (USA).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, USA. Christian Pulisic replaces Timothy Weah.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Corner, USA. Conceded by Zeki Çelik.",
    "type": null
   }
  ],
@@ -13685,6 +13757,12 @@
   {
    "minNum": 46,
    "minute": "46'",
+   "text": "Attempt missed. Juan José Cáceres (Paraguay) right footed shot from more than 40 yards on the right wing is high and wide to the right.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
    "text": "Julio Enciso (Paraguay) wins a free kick in the defensive half.",
    "type": null
   },
@@ -13703,7 +13781,79 @@
   {
    "minNum": 48,
    "minute": "48'",
-   "text": "Attempt missed. Andrés Cubas (Paraguay) right footed shot from outside the box.",
+   "text": "Attempt missed. Andrés Cubas (Paraguay) right footed shot from outside the box is high and wide to the right.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Attempt saved. Mauricio (Paraguay) right footed shot from outside the box is saved in the top right corner by Patrick Beach (Australia). Assisted by Andrés Cubas.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Corner, Paraguay. Conceded by Patrick Beach.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Australia. Ajdin Hrustic replaces Cristian Volpato.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Attempt missed. Nestory Irankunda (Australia) right footed shot from the right side of the box misses to the left. Assisted by Jordan Bos with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Attempt blocked. Nestory Irankunda (Australia) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt blocked. Ajdin Hrustic (Australia) left footed shot from outside the box is blocked. Assisted by Aiden O'Neill.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Omar Alderete (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Foul by Nestory Irankunda (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Delay in match because of an injury Omar Alderete (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Mauricio (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Jackson Irvine (Australia) wins a free kick in the defensive half.",
    "type": null
   }
  ],

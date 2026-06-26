@@ -12483,6 +12483,30 @@
    "minute": "45'+7'",
    "text": "First Half ends, Türkiye 2, USA 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Türkiye 2, USA 1.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Corner, USA. Conceded by Zeki Çelik.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Attempt missed. Giovanni Reyna (USA) right footed shot from outside the box misses to the left following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Goal! Türkiye 2, USA 2. Sebastian Berhalter (USA) right footed shot from outside the box.",
+   "type": null
   }
  ],
  "400021460": [
@@ -13644,6 +13668,42 @@
    "minNum": 45,
    "minute": "45'+7'",
    "text": "First Half ends, Paraguay 0, Australia 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Paraguay. Mauricio replaces Alexandro Maidana.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Paraguay 0, Australia 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Julio Enciso (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Jackson Irvine (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Jackson Irvine (Australia) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Attempt missed. Andrés Cubas (Paraguay) right footed shot from outside the box.",
    "type": null
   }
  ],

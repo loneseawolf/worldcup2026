@@ -18501,6 +18501,84 @@
    "minute": "51'",
    "text": "Ritsu Doan (Japan) wins a free kick on the right wing.",
    "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Offside, Japan. Daizen Maeda is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Attempt blocked. Ayase Ueda (Japan) right footed shot from outside the box is blocked. Assisted by Keito Nakamura.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Offside, Japan. Daichi Kamada is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Goal! Japan 1, Sweden 0. Daizen Maeda (Japan) right footed shot from the centre of the box to the bottom left corner. Assisted by Ritsu Doan with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Viktor Gyökeres (Sweden) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Foul by Hiroki Ito (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Goal! Japan 1, Sweden 1. Anthony Elanga (Sweden) left footed shot from outside the box to the bottom left corner. Assisted by Viktor Gyökeres.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Anthony Elanga (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Daichi Kamada (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Alexander Bernhardsson (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Daizen Maeda (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt saved. Alexander Isak (Sweden) right footed shot from outside the box is saved in the bottom right corner by Zion Suzuki (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Corner, Sweden. Conceded by Zion Suzuki.",
+   "type": null
   }
  ],
  "400021472": [
@@ -19464,6 +19542,90 @@
    "minNum": 53,
    "minute": "53'",
    "text": "Corner, Tunisia. Conceded by Jan Paul van Hecke.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Goal! Tunisia 1, Netherlands 2. Hazem Mastouri (Tunisia) header from the centre of the box to the bottom left corner. Assisted by Hannibal Mejbri with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Corner, Netherlands. Conceded by Ali Abdi.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Hannibal Mejbri (Tunisia) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Foul by Jan Paul van Hecke (Netherlands).",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Foul by Rani Khedira (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Donyell Malen (Netherlands) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt blocked. Cody Gakpo (Netherlands) right footed shot from the centre of the box is blocked. Assisted by Nathan Aké.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Corner, Netherlands. Conceded by Yan Valery.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Goal! Tunisia 1, Netherlands 3. Jan Paul van Hecke (Netherlands) header from the left side of the six yard box to the top right corner. Assisted by Tijjani Reijnders with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Foul by Mohamed Amine Ben Hmida (Tunisia).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Frenkie de Jong (Netherlands) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt saved. Hazem Mastouri (Tunisia) right footed shot from outside the box is saved in the centre of the goal by Bart Verbruggen (Netherlands). Assisted by Yan Valery.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Tijjani Reijnders (Netherlands) hits the woodwork with a right footed shot from the left side of the box.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Attempt missed. Denzel Dumfries (Netherlands) header from the right side of the box.",
    "type": null
   }
  ],

@@ -28619,6 +28619,42 @@
    "minute": "28'",
    "text": "Théo Hernández (France) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Goal! Norway 1, France 3. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Aurélien Tchouaméni.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt missed. Aurélien Tchouaméni (France) right footed shot from outside the box is too high. Assisted by Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Andreas Schjelderup (Norway) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Foul by Dayot Upamecano (France).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Handball by Jules Koundé (France).",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Corner, Norway. Conceded by Jules Koundé.",
+   "type": null
   }
  ],
  "400021490": [
@@ -29867,7 +29903,7 @@
   {
    "minNum": 4,
    "minute": "4'",
-   "text": "Goal! Senegal 1, Iraq 0. Habib Diarra (Senegal) left footed shot from very close range to the top right corner. Assisted by Abdoulaye Seck following a corner.",
+   "text": "Goal! Senegal 1, Iraq 0. Habib Diarra (Senegal) right footed shot from very close range to the top right corner. Assisted by Abdoulaye Seck following a corner.",
    "type": null
   },
   {
@@ -30000,6 +30036,66 @@
    "minNum": 23,
    "minute": "23'",
    "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Ibrahim Bayesh (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Foul by Moussa Niakhaté (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Attempt missed. Ismail Jakobs (Senegal) left footed shot from the centre of the box is close, but misses to the right. Assisted by Sadio Mané.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Zidane Iqbal (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by Lamine Camara (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Corner, Senegal. Conceded by Merchas Doski.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Corner, Iraq. Conceded by Krépin Diatta.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Attempt blocked. Merchas Doski (Iraq) left footed shot from outside the box is blocked. Assisted by Amir Al Ammari.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Attempt blocked. Ali Jasim (Iraq) right footed shot from outside the box is blocked.",
    "type": null
   }
  ],

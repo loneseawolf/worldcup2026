@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 141,
+  "yellow": 142,
   "red": 8,
   "players": [
    {
@@ -405,6 +405,14 @@
     "r": 0
    },
    {
+    "id": "463128",
+    "name": "Diego GOMEZ",
+    "code": "PAR",
+    "no": 8,
+    "y": 2,
+    "r": 0
+   },
+   {
     "id": "466372",
     "name": "Gervane KASTANEER",
     "code": "CUW",
@@ -473,14 +481,6 @@
     "name": "Aleksandar PAVLOVIC",
     "code": "GER",
     "no": 5,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "448014",
-    "name": "Alessandro CIRCATI",
-    "code": "AUS",
-    "no": 3,
     "y": 1,
     "r": 0
    }

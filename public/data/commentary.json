@@ -12699,6 +12699,102 @@
    "minute": "76'",
    "text": "Corner, USA. Conceded by Abdülkerim Bardakci.",
    "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Substitution, USA. Sergiño Dest replaces Giovanni Reyna.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Substitution, USA. Álex Zendejas replaces Brenden Aaronson.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Substitution, USA. Alex Freeman replaces Joe Scally.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Attempt missed. Christian Pulisic (USA) left footed shot from outside the box is close, but misses to the left. Assisted by Sergiño Dest following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Attempt missed. Orkun Kökçü (Türkiye) right footed shot from outside the box is high and wide to the right. Assisted by Oguz Aydin.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Foul by Salih Özcan (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Christian Pulisic (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Substitution, Türkiye. Çaglar Söyüncü replaces Zeki Çelik.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Substitution, Türkiye. Can Uzun replaces Kenan Yildiz.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Oguz Aydin (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Foul by Álex Zendejas (USA).",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Substitution, USA. Malik Tillman replaces Weston McKennie.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Offside, USA. Christian Pulisic is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Substitution, Türkiye. Kaan Ayhan replaces Orkun Kökçü.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Foul by Ozan Kabak (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Christian Pulisic (USA) wins a free kick in the attacking half.",
+   "type": null
   }
  ],
  "400021460": [
@@ -13991,7 +14087,79 @@
   {
    "minNum": 76,
    "minute": "76'",
-   "text": "Aiden O'Neill (Australia) wins a free kick in the attacking half.",
+   "text": "Jordan Bos (Australia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Foul by Diego Gómez (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Jordan Bos (Australia) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Diego Gómez (Paraguay) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Attempt blocked. Julio Enciso (Paraguay) right footed shot from outside the box is blocked. Assisted by Matías Galarza.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Attempt missed. Julio Enciso (Paraguay) right footed shot from the left side of the box misses to the left. Assisted by Diego Gómez.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Attempt saved. Jordan Bos (Australia) left footed shot from the centre of the box is saved in the bottom right corner by Orlando Gill (Paraguay). Assisted by Ajdin Hrustic.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Delay in match because of an injury Orlando Gill (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Substitution, Paraguay. José Canale replaces Omar Alderete because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Substitution, Australia. Paul Okon-Engstler replaces Jackson Irvine.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Substitution, Australia. Tete Yengi replaces Nestory Irankunda.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Attempt missed. Jordan Bos (Australia) left footed shot from the right side of the box.",
    "type": null
   }
  ],

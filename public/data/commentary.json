@@ -28391,6 +28391,150 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the right side of the box is saved in the top centre of the goal by Egil Selvik (Norway). Assisted by Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Delay in match (France).",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Attempt saved. Manu Koné (France) right footed shot from the centre of the box is saved in the top right corner by Egil Selvik (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Corner, France. Conceded by Henrik Falchener.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Attempt saved. Désiré Doué (France) right footed shot from outside the box is saved in the centre of the goal by Egil Selvik (Norway). Assisted by Théo Hernández.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Andreas Schjelderup (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Jules Koundé (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Goal! Norway 0, France 1. Ousmane Dembélé (France) right footed shot from the right side of the box to the bottom left corner. Assisted by Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Kristian Thorstvedt (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Théo Hernández (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt saved. Désiré Doué (France) right footed shot from outside the box is saved in the bottom right corner by Egil Selvik (Norway). Assisted by Manu Koné.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Oscar Bobb (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Foul by Théo Hernández (France).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Patrick Berg (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Michael Olise (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Patrick Berg (Norway) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt saved. Kristian Thorstvedt (Norway) left footed shot from outside the box is saved in the bottom right corner by Mike Maignan (France).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Jørgen Strand Larsen (Norway) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Maxence Lacroix (France).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Attempt blocked. Michael Olise (France) left footed shot from the left side of the box is blocked. Assisted by Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Kristian Thorstvedt (Norway) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Foul by Aurélien Tchouaméni (France).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Jørgen Strand Larsen (Norway) right footed shot from the centre of the box.",
+   "type": null
   }
  ],
  "400021490": [
@@ -29610,6 +29754,78 @@
    "minNum": 0,
    "minute": null,
    "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Corner, Senegal. Conceded by Amir Al Ammari.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Attempt missed. Idrissa Gueye (Senegal) right footed shot from outside the box misses to the left. Assisted by Ismaïla Sarr following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Corner, Senegal. Conceded by Rebin Sulaka.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Attempt blocked. Abdoulaye Seck (Senegal) header from the centre of the box is blocked. Assisted by Lamine Camara with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Goal! Senegal 1, Iraq 0. Habib Diarra (Senegal) right footed shot from very close range to the top right corner. Assisted by Abdoulaye Seck following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Abdoulaye Seck (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Ibrahim Bayesh (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Handball by Ali Jasim (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Sadio Mané (Senegal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Foul by Rebin Sulaka (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "VAR Decision: Card upgraded Rebin Sulaka (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Rebin Sulaka (Iraq) is shown the red card.",
    "type": null
   }
  ],

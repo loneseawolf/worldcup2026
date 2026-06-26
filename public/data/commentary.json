@@ -12151,13 +12151,97 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Attempt saved. Auston Trusty (USA) right footed shot from the centre of the box is saved in the centre of the goal by Ugurcan Çakir (Türkiye).",
+   "text": "Attempt saved. Auston Trusty (USA) right footed shot from the centre of the box is saved in the bottom left corner by Ugurcan Çakir (Türkiye).",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
    "text": "Corner, USA. Conceded by Eren Elmali.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Goal! Türkiye 0, USA 1. Auston Trusty (USA) left footed shot from a difficult angle on the right to the bottom right corner. Assisted by Sebastian Berhalter with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Handball by Brenden Aaronson (USA).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Offside, Türkiye. Baris Alper Yilmaz is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Orkun Kökçü (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Giovanni Reyna (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Kenan Yildiz (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Miles Robinson (USA).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Goal! Türkiye 1, USA 1. Arda Güler (Türkiye) left footed shot from the centre of the box to the centre of the goal. Assisted by Baris Alper Yilmaz.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Attempt blocked. Brenden Aaronson (USA) left footed shot from the centre of the box is blocked. Assisted by Weston McKennie.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Attempt saved. Brenden Aaronson (USA) right footed shot from the centre of the box is saved in the bottom left corner by Ugurcan Çakir (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Oguz Aydin (Türkiye) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Foul by Auston Trusty (USA).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Foul by Ozan Kabak (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Ricardo Pepi (USA) wins a free kick in the defensive half.",
    "type": null
   }
  ],
@@ -13116,6 +13200,66 @@
    "minNum": 0,
    "minute": null,
    "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Attempt saved. Jackson Irvine (Australia) right footed shot from the right side of the box is saved in the top centre of the goal by Orlando Gill (Paraguay). Assisted by Cristian Volpato with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Corner, Australia. Conceded by Orlando Gill.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Julio Enciso (Paraguay) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Jordan Bos (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Corner, Australia. Conceded by Matías Galarza.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Attempt missed. Aiden O'Neill (Australia) right footed shot from outside the box is high and wide to the right. Assisted by Connor Metcalfe.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Gabriel Ávalos (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Alessandro Circati (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Foul by Andrés Cubas (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Nestory Irankunda (Australia) wins a free kick in the attacking half.",
    "type": null
   }
  ],

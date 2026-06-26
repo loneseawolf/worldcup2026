@@ -31413,8 +31413,8 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "43'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021490": {
@@ -34070,8 +34070,8 @@
     }
    ]
   },
-  "matchTime": "42'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021494": {

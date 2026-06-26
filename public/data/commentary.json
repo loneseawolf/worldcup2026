@@ -28655,6 +28655,48 @@
    "minute": "43'",
    "text": "Corner, Norway. Conceded by Jules Koundé.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Thelo Aasgaard (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Aurélien Tchouaméni (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt missed. Michael Olise (France) right footed shot from the centre of the box is too high. Assisted by Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Andreas Schjelderup (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Michael Olise (France) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "First Half ends, Norway 1, France 3.",
+   "type": null
   }
  ],
  "400021490": [
@@ -30096,6 +30138,102 @@
    "minNum": 41,
    "minute": "41'",
    "text": "Attempt blocked. Ali Jasim (Iraq) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Corner, Senegal. Conceded by Munaf Younus.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Ahmed Basil (Iraq) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Moussa Niakhaté (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Delay in match because of an injury Ahmed Basil (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 9 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Merchas Doski (Iraq).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Idrissa Gueye (Senegal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt missed. Sadio Mané (Senegal) right footed shot from the left side of the box is just a bit too high. Assisted by Ismail Jakobs.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Corner, Senegal. Conceded by Merchas Doski.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt missed. Moussa Niakhaté (Senegal) header from the centre of the box misses to the left. Assisted by Lamine Camara with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Offside, Senegal. Ismaïla Sarr is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Corner, Iraq. Conceded by Abdoulaye Seck.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Corner, Senegal. Conceded by Munaf Younus.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Attempt missed. Lamine Camara (Senegal) right footed shot from outside the box is high and wide to the right following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+10'",
+   "text": "First Half ends, Senegal 1, Iraq 0.",
    "type": null
   }
  ],

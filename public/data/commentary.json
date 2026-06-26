@@ -12123,6 +12123,44 @@
    "type": null
   }
  ],
+ "400021459": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt blocked. Giovanni Reyna (USA) right footed shot from the right side of the box is blocked. Assisted by Brenden Aaronson.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Corner, USA. Conceded by Ozan Kabak.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt saved. Auston Trusty (USA) right footed shot from the centre of the box is saved in the centre of the goal by Ugurcan Çakir (Türkiye).",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Corner, USA. Conceded by Eren Elmali.",
+   "type": null
+  }
+ ],
  "400021460": [
   {
    "minNum": 0,
@@ -13064,6 +13102,20 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, Türkiye 0, Paraguay 1.",
+   "type": null
+  }
+ ],
+ "400021461": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
    "type": null
   }
  ],

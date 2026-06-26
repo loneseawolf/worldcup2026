@@ -3891,16 +3891,16 @@
    "group": "D",
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "3'",
    "home": {
     "code": "TUR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "USA",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "D4",
@@ -3950,16 +3950,16 @@
    "group": "D",
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400257521",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "3'",
    "home": {
     "code": "PAR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "AUS",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "D2",

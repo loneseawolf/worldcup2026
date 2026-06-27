@@ -37349,8 +37349,8 @@
    "type": null
   },
   {
-   "minNum": 55,
-   "minute": "55'",
+   "minNum": 54,
+   "minute": "54'",
    "text": "Delay in match because of an injury Jarell Quansah (England).",
    "type": null
   },
@@ -37409,8 +37409,8 @@
    "type": null
   },
   {
-   "minNum": 61,
-   "minute": "61'",
+   "minNum": 60,
+   "minute": "60'",
    "text": "Delay in match because of an injury Jarell Quansah (England).",
    "type": null
   },
@@ -37460,6 +37460,138 @@
    "minNum": 66,
    "minute": "66'",
    "text": "Attempt blocked. Harry Kane (England) left footed shot from the centre of the box is blocked. Assisted by Marcus Rashford.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Goal! Panama 0, England 2. Harry Kane (England) header from the centre of the box to the top left corner. Assisted by Jude Bellingham with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Panama. Ismael Díaz replaces Yoel Bárcenas.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, England. Eberechi Eze replaces Jude Bellingham.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Panama. Azarías Londoño replaces José Luis Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Amir Murillo (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Nico O'Reilly (England).",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Carlos Harvey (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Foul by Harry Kane (England).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt blocked. Azarías Londoño (Panama) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt missed. Ismael Díaz (Panama) header from the centre of the box is too high. Assisted by Fidel Escobar with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Jorge Gutiérrez (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Morgan Rogers (England).",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Attempt blocked. Ismael Díaz (Panama) right footed shot from the right side of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Corner, Panama. Conceded by Ezri Konsa.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt blocked. Amir Murillo (Panama) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt missed. Carlos Harvey (Panama) header from the centre of the box is high and wide to the right following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt missed. Ismael Díaz (Panama) right footed shot from the centre of the box is too high. Assisted by Cristian Martínez following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Offside, Panama. Ismael Díaz is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "José Fajardo (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Ezri Konsa (England).",
    "type": null
   }
  ],
@@ -37732,6 +37864,90 @@
    "minNum": 59,
    "minute": "59'",
    "text": "Foul by Jordan Ayew (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Corner, Ghana. Conceded by Josip Stanisic.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Abdul Fatawu (Ghana) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Foul by Ivan Perisic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Ivan Perisic (Croatia) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Ghana. Brandon Thomas-Asante replaces Jordan Ayew.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Ghana. Ernest Nuamah replaces Kamaldeen Sulemana.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Thomas Partey (Ghana) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Marin Pongracic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Goal! Croatia 1, Ghana 1. Derrick Luckassen (Ghana) left footed shot from very close range to the bottom right corner. Assisted by Ernest Nuamah with a cross following a set piece situation.Goal awarded following VAR Review.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "VAR Decision: Goal Croatia 1-1 Ghana (Derrick Luckassen).",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Substitution, Croatia. Mario Pasalic replaces Mateo Kovacic.",
    "type": null
   }
  ],

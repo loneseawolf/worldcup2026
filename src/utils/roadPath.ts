@@ -75,19 +75,47 @@ interface Projection {
   thirdGroups: string[]
 }
 
-function projectGroups(model: SimModel, teams: Record<string, Team>): Projection {
+// Results-aware group projection: once a group has kicked off, the live standings
+// (real points + the data feed's official tiebreakers) drive the order and the
+// best-thirds race; before kickoff — and only as a tiebreaker between teams level
+// on the pitch — Elo fills in. So early on this is the old pure-Elo guess, and it
+// converges to reality as the group stage plays out.
+function projectGroups(model: SimModel, teams: Record<string, Team>, standings: Standings): Projection {
   const byGroup: Record<string, string[]> = {}
   for (const tm of Object.values(teams)) {
     if (!byGroup[tm.group]) byGroup[tm.group] = []
     byGroup[tm.group].push(tm.code)
   }
+  const rowOf = (g: string, code: string) => standings.groups[g]?.find((r) => r.code === code)
+  const played = (g: string) => (standings.groups[g] ?? []).some((r) => r.p > 0)
+
   const groupPos: Record<string, string[]> = {}
   for (const [g, codes] of Object.entries(byGroup)) {
-    groupPos[g] = codes.slice().sort((a, b) => eloOf(model, b) - eloOf(model, a))
+    const live = played(g)
+    groupPos[g] = codes.slice().sort((a, b) => {
+      if (live) {
+        const ra = rowOf(g, a)
+        const rb = rowOf(g, b)
+        if (ra && rb) return ra.rank - rb.rank
+      }
+      return eloOf(model, b) - eloOf(model, a)
+    })
   }
+  // rank the twelve third-placed teams to pick the best eight: by real record
+  // (points, then goal difference, then goals for) where games have been played,
+  // Elo as the final tiebreaker
   const thirds = Object.entries(groupPos)
-    .map(([g, arr]) => ({ g, elo: eloOf(model, arr[2]) }))
-    .sort((x, y) => y.elo - x.elo)
+    .map(([g, arr]) => ({ g, code: arr[2], row: rowOf(g, arr[2]) }))
+    .sort((x, y) => {
+      const rx = x.row
+      const ry = y.row
+      if (rx && ry) {
+        if (ry.pts !== rx.pts) return ry.pts - rx.pts
+        if (ry.gd !== rx.gd) return ry.gd - rx.gd
+        if (ry.gf !== rx.gf) return ry.gf - rx.gf
+      }
+      return eloOf(model, y.code) - eloOf(model, x.code)
+    })
   return { groupPos, thirdGroups: thirds.slice(0, 8).map((t) => t.g) }
 }
 
@@ -112,7 +140,7 @@ function buildResolver(
 ): Resolver {
   const ko = matches.filter((m) => m.stage !== 'group').sort((a, b) => a.n - b.n)
   const realOverlay = resolvedSlots(matches, standings)
-  const { groupPos, thirdGroups } = projectGroups(model, teams)
+  const { groupPos, thirdGroups } = projectGroups(model, teams, standings)
 
   const byN = new Map<number, Match>()
   for (const m of ko) byN.set(m.n, m)
@@ -122,18 +150,41 @@ function buildResolver(
     teamsByGroup[tm.group].push(tm.code)
   }
 
-  // assign projected qualifying thirds to the bracket's third-place slots
-  const thirdSlots = ko
-    .flatMap((m) => [m.phA, m.phB])
-    .filter((ph): ph is string => !!ph && /^3[A-L]{2,}$/.test(ph))
-  const assigned = assignThirds(
-    thirdSlots.map((ph) => ph.slice(1).split('')),
-    thirdGroups,
+  // assign projected qualifying thirds to the bracket's third-place slots. A slot
+  // already holding a real team (the data feed places thirds as groups finish, or
+  // resolvedSlots once all twelve are complete) pins that team's group, so the
+  // projection only fills the slots still open and only draws from the qualifying
+  // thirds not already placed — that's what stops a team being shown twice (once
+  // on its real slot, once as a stale Elo-projected third).
+  const thirdSlotRefs = ko.flatMap((m) =>
+    (
+      [
+        ['A', m.phA],
+        ['B', m.phB],
+      ] as const
+    )
+      .filter(([, ph]) => !!ph && /^3[A-L]{2,}$/.test(ph))
+      .map(([side, ph]) => ({ m, side, ph: ph as string })),
   )
   const thirdBySlot = new Map<string, string>()
-  thirdSlots.forEach((ph, i) => {
+  const taken = new Set<string>()
+  const openRefs: typeof thirdSlotRefs = []
+  for (const ref of thirdSlotRefs) {
+    const actual = ref.side === 'A' ? ref.m.home?.code : ref.m.away?.code
+    const ov = realOverlay[ref.m.id]
+    const real = actual ?? (ref.side === 'A' ? ov?.home : ov?.away)
+    const g = real ? teams[real]?.group : undefined
+    if (g)
+      taken.add(g) // sideOf prefers the real team; no projection needed here
+    else openRefs.push(ref)
+  }
+  const assigned = assignThirds(
+    openRefs.map((ref) => ref.ph.slice(1).split('')),
+    thirdGroups.filter((g) => !taken.has(g)),
+  )
+  openRefs.forEach((ref, i) => {
     const g = assigned[i]
-    if (g) thirdBySlot.set(ph, g)
+    if (g) thirdBySlot.set(ref.ph, g)
   })
 
   const projWinner = new Map<number, string>()

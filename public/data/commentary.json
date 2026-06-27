@@ -37281,6 +37281,48 @@
    "minute": "45'+4'",
    "text": "First Half ends, Panama 0, England 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Panama. José Fajardo replaces Tomás Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Panama 0, England 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by José Luis Rodríguez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Ezri Konsa (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Delay in match because of an injury Cristian Martínez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Corner, England. Conceded by Andrés Andrade.",
+   "type": null
   }
  ],
  "400021509": [
@@ -37462,6 +37504,42 @@
    "minNum": 45,
    "minute": "45'+4'",
    "text": "First Half ends, Croatia 1, Ghana 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Ghana. Kojo Peprah Oppong replaces Jonas Adjetey.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Ghana. Abdul Fatawu replaces Elisha Owusu.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Croatia 1, Ghana 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Attempt missed. Abdul Fatawu (Ghana) left footed shot from outside the box is too high. Assisted by Derrick Luckassen.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Foul by Ante Budimir (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Marvin Senaya (Ghana) wins a free kick on the right wing.",
    "type": null
   }
  ],

@@ -29097,6 +29097,12 @@
      "on": "402898",
      "minute": "45'",
      "period": 3
+    },
+    {
+     "off": "229498",
+     "on": "368664",
+     "minute": "",
+     "period": 4
     }
    ]
   },
@@ -29400,11 +29406,18 @@
      "period": 3
     }
    ],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "447860",
+     "minute": "46'",
+     "card": 1,
+     "period": 5
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "47'",
+  "period": 5,
   "final": false
  },
  "400021485": {
@@ -29996,11 +30009,17 @@
      "on": "433439",
      "minute": "33'",
      "period": 3
+    },
+    {
+     "off": "411624",
+     "on": "436537",
+     "minute": "",
+     "period": 4
     }
    ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "48'",
+  "period": 5,
   "final": false
  },
  "400021486": {

@@ -37233,6 +37233,54 @@
    "minute": "43'",
    "text": "Corner, England. Conceded by Andrés Andrade.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Offside, England. Harry Kane is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Yoel Bárcenas (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Elliot Anderson (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Carlos Harvey (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Harry Kane (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Marcus Rashford (England) right footed shot from outside the box is close, but misses to the right from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Panama 0, England 0.",
+   "type": null
   }
  ],
  "400021509": [
@@ -37293,7 +37341,7 @@
   {
    "minNum": 20,
    "minute": "20'",
-   "text": "Petar Sucic (Croatia) wins a free kick in the attacking half.",
+   "text": "Petar Sucic (Croatia) wins a free kick on the right wing.",
    "type": null
   },
   {
@@ -37378,6 +37426,42 @@
    "minNum": 40,
    "minute": "40'",
    "text": "Attempt missed. Antoine Semenyo (Ghana) right footed shot from the right side of the box is close, but misses to the left. Assisted by Jonas Adjetey.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Gideon Mensah (Ghana) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Nikola Vlasic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Thomas Partey (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Petar Sucic (Croatia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Croatia 1, Ghana 0.",
    "type": null
   }
  ],

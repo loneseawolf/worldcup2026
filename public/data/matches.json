@@ -4194,7 +4194,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "75'",
+   "time": "88'",
    "home": {
     "code": "EGY",
     "score": 1,
@@ -4253,15 +4253,15 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "76'",
+   "time": "90'",
    "home": {
     "code": "NZL",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "BEL",
-    "score": 3,
+    "score": 4,
     "pen": null
    },
    "phA": "G4",

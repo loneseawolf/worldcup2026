@@ -89,6 +89,14 @@
    "ownGoals": 0
   },
   {
+   "id": "405454",
+   "name": "JUST",
+   "code": "NZL",
+   "no": 11,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "430609",
    "name": "MATHEUS CUNHA",
    "code": "BRA",
@@ -181,14 +189,6 @@
    "name": "Julian QUINONES",
    "code": "MEX",
    "no": 16,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "405454",
-   "name": "JUST",
-   "code": "NZL",
-   "no": 11,
    "goals": 2,
    "ownGoals": 0
   },
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 162,
+  "yellow": 163,
   "red": 10,
   "players": [
    {
@@ -461,6 +461,14 @@
     "r": 0
    },
    {
+    "id": "371736",
+    "name": "Saeid EZATOLAHI",
+    "code": "IRN",
+    "no": 6,
+    "y": 2,
+    "r": 0
+   },
+   {
     "id": "477832",
     "name": "SIDNY LOPES CABRAL",
     "code": "CPV",
@@ -473,14 +481,6 @@
     "name": "Aaron HICKEY",
     "code": "SCO",
     "no": 2,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "370171",
-    "name": "Abdoulaye SECK",
-    "code": "SEN",
-    "no": 4,
     "y": 1,
     "r": 0
    }

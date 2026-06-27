@@ -4194,7 +4194,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "47'",
+   "time": "61'",
    "home": {
     "code": "EGY",
     "score": 1,
@@ -4208,7 +4208,7 @@
    "phA": "G2",
    "phB": "G3",
    "winner": null,
-   "attendance": null,
+   "attendance": 66925,
    "officials": [
     {
      "id": "327975",
@@ -4253,7 +4253,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "49'",
+   "time": "62'",
    "home": {
     "code": "NZL",
     "score": 0,
@@ -4261,13 +4261,13 @@
    },
    "away": {
     "code": "BEL",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "G4",
    "phB": "G1",
    "winner": null,
-   "attendance": null,
+   "attendance": 52497,
    "officials": [
     {
      "id": "361034",

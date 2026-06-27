@@ -36957,6 +36957,52 @@
    "type": null
   }
  ],
+ "400021508": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt saved. Tomás Rodríguez (Panama) right footed shot from outside the box is saved in the centre of the goal by Jordan Pickford (England).",
+   "type": null
+  }
+ ],
+ "400021509": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Foul by Marvin Senaya (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  }
+ ],
  "400021510": [
   {
    "minNum": 0,

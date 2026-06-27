@@ -32803,19 +32803,13 @@
   {
    "minNum": 1,
    "minute": "1'",
-   "text": "Attempt saved. Dostonbek Khamdamov (Uzbekistan) left footed shot from the centre of the box is saved in the centre of the goal by Lionel Mpasi (Congo DR). Assisted by Eldor Shomurodov with a headed pass.",
-   "type": null
-  },
-  {
-   "minNum": 1,
-   "minute": "1'",
-   "text": "Offside, Uzbekistan. Eldor Shomurodov is caught offside.",
+   "text": "Offside, Uzbekistan. Dostonbek Khamdamov is caught offside.",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Attempt missed. Yoane Wissa (Congo DR) right footed shot from outside the box is high and wide to the right.",
+   "text": "Attempt missed. Yoane Wissa (Congo DR) right footed shot from outside the box misses to the right.",
    "type": null
   },
   {
@@ -32828,6 +32822,54 @@
    "minNum": 3,
    "minute": "3'",
    "text": "Foul by Khojiakbar Alijonov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Nathanaël Mbuku (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Sherzod Nasrullaev (Uzbekistan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Abbosbek Fayzullaev.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Corner, Uzbekistan. Conceded by Axel Tuanzebe.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Noah Sadiki (Congo DR) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Foul by Otabek Shukurov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Arthur Masuaku (Congo DR) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
    "type": null
   }
  ],
@@ -35550,6 +35592,30 @@
    "minNum": 4,
    "minute": "4'",
    "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Attempt missed. Rúben Neves (Portugal) right footed shot from outside the box misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Attempt missed. Luis Díaz (Colombia) right footed shot from the centre of the box misses to the right. Assisted by Jhon Arias with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Attempt missed. Bruno Fernandes (Portugal) right footed shot from outside the box misses to the left. Assisted by Pedro Neto.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Gustavo Puerta (Colombia) left footed shot from outside the box is high and wide to the left. Assisted by Santiago Arias.",
    "type": null
   }
  ],

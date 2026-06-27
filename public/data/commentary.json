@@ -37561,7 +37561,7 @@
   {
    "minNum": 76,
    "minute": "76'",
-   "text": "Attempt blocked. Carlos Harvey (Panama) header from the centre of the box is blocked.",
+   "text": "Attempt blocked. Carlos Harvey (Panama) header from the centre of the box is blocked. Assisted by Amir Murillo.",
    "type": null
   },
   {
@@ -37699,7 +37699,7 @@
   {
    "minNum": 90,
    "minute": "90'+1'",
-   "text": "Attempt saved. Noni Madueke (England) right footed shot from the centre of the box is saved in the centre of the goal by Orlando Mosquera (Panama). Assisted by Morgan Rogers with a through ball.",
+   "text": "Attempt saved. Noni Madueke (England) right footed shot from the centre of the box is saved in the centre of the goal by Orlando Mosquera (Panama).",
    "type": null
   },
   {
@@ -37711,13 +37711,13 @@
   {
    "minNum": 90,
    "minute": "90'+3'",
-   "text": "Attempt missed. José Fajardo (Panama) header from the centre of the box misses to the right. Assisted by Éric Davis.",
+   "text": "Corner, Panama. Conceded by Jordan Pickford.",
    "type": null
   },
   {
    "minNum": 90,
-   "minute": "90'+3'",
-   "text": "Corner, Panama. Conceded by Jordan Pickford.",
+   "minute": "90'+4'",
+   "text": "Attempt missed. Éric Davis (Panama) left footed shot from a difficult angle and long range on the right is close, but misses to the right following a corner.",
    "type": null
   },
   {
@@ -37730,6 +37730,60 @@
    "minNum": 90,
    "minute": "90'+4'",
    "text": "Jordan Henderson (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt blocked. Eberechi Eze (England) left footed shot from outside the box is blocked. Assisted by Noni Madueke.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Corner, England. Conceded by Fidel Escobar.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Éric Davis (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Ezri Konsa (England).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Offside, Panama. Ismael Díaz is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Cristian Martínez (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Morgan Rogers (England).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Panama 0, England 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Panama 0, England 2.",
    "type": null
   }
  ],
@@ -38229,7 +38283,61 @@
   {
    "minNum": 90,
    "minute": "90'+2'",
-   "text": "Thomas Partey (Ghana) wins a free kick in the attacking half.",
+   "text": "Attempt blocked. Mario Pasalic (Croatia) left footed shot from outside the box is blocked. Assisted by Luka Modric.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Corner, Croatia. Conceded by Gideon Mensah.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt blocked. Marvin Senaya (Ghana) right footed shot from outside the box is blocked. Assisted by Ernest Nuamah.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Kojo Peprah Oppong (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Igor Matanovic (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Kojo Peprah Oppong (Ghana) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Corner, Croatia. Conceded by Marvin Senaya.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt missed. Abdul Fatawu (Ghana) left footed shot from the left side of the box is high and wide to the left. Assisted by Gideon Mensah.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Second Half ends, Croatia 2, Ghana 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Croatia 2, Ghana 1.",
    "type": null
   }
  ],

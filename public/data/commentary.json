@@ -37321,7 +37321,145 @@
   {
    "minNum": 52,
    "minute": "52'",
-   "text": "Corner, England. Conceded by Andrés Andrade.",
+   "text": "Handball by Harry Kane (England).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by José Fajardo (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Ezri Konsa (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "José Fajardo (Panama) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Delay in match because of an injury José Luis Rodríguez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Delay in match because of an injury Jarell Quansah (England).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt missed. Marcus Rashford (England) left footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Nico O'Reilly following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Attempt missed. José Luis Rodríguez (Panama) right footed shot from outside the box is close, but misses the top right corner. Assisted by Jorge Gutiérrez.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Attempt saved. Harry Kane (England) right footed shot from the right side of the box is saved in the top centre of the goal by Orlando Mosquera (Panama). Assisted by Jude Bellingham with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Amir Murillo (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Foul by Marcus Rashford (England).",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Corner, England. Conceded by José Córdoba.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Jarell Quansah (England) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Delay in match because of an injury José Luis Rodríguez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Delay in match because of an injury Jarell Quansah (England).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Goal! Panama 0, England 1. Jude Bellingham (England) left footed shot from the centre of the box to the bottom left corner. Assisted by Bukayo Saka with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Substitution, England. Djed Spence replaces Jarell Quansah.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Substitution, England. Noni Madueke replaces Bukayo Saka.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "José Luis Rodríguez (Panama) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Djed Spence (England).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt missed. Amir Murillo (Panama) right footed shot from the centre of the box misses to the left. Assisted by Carlos Harvey.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Attempt blocked. Harry Kane (England) left footed shot from the centre of the box is blocked. Assisted by Marcus Rashford.",
    "type": null
   }
  ],
@@ -37540,6 +37678,60 @@
    "minNum": 51,
    "minute": "51'",
    "text": "Marvin Senaya (Ghana) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Offside, Ghana. Antoine Semenyo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Marvin Senaya (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Derrick Luckassen (Ghana) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Foul by Ante Budimir (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Corner, Ghana. Conceded by Luka Modric.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Attempt blocked. Kamaldeen Sulemana (Ghana) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Dominik Livakovic (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Foul by Jordan Ayew (Ghana).",
    "type": null
   }
  ],

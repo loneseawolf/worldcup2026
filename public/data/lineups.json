@@ -26950,12 +26950,26 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "483183",
+     "minute": "5'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "416902",
+     "on": "369267",
+     "minute": "14'",
+     "period": 3
+    }
+   ]
   },
   "away": {
-   "tactics": "5-3-2",
+   "tactics": "5-4-1",
    "xi": [
     {
      "id": "380007",
@@ -27246,11 +27260,18 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "384797",
+     "minute": "14'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "2'",
+  "matchTime": "16'",
   "period": 3,
   "final": false
  },
@@ -28536,7 +28557,7 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "1'",
+  "matchTime": "16'",
   "period": 3,
   "final": false
  },

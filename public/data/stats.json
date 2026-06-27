@@ -241,6 +241,14 @@
    "ownGoals": 0
   },
   {
+   "id": "384797",
+   "name": "RAMIN",
+   "code": "IRN",
+   "no": 23,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "448131",
    "name": "VARGAS",
    "code": "SUI",
@@ -308,14 +316,6 @@
    "id": "430150",
    "name": "Alexander ISAK",
    "code": "SWE",
-   "no": 9,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "431212",
-   "name": "ALI OLWAN",
-   "code": "JOR",
    "no": 9,
    "goals": 1,
    "ownGoals": 0

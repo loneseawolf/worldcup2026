@@ -45339,6 +45339,12 @@
      "minute": "53'",
      "card": 1,
      "period": 5
+    },
+    {
+     "player": "441240",
+     "minute": "83'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": [
@@ -45358,6 +45364,18 @@
      "off": "411176",
      "on": "466669",
      "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "418729",
+     "on": "271116",
+     "minute": "88'",
+     "period": 5
+    },
+    {
+     "off": "441239",
+     "on": "337232",
+     "minute": "88'",
      "period": 5
     }
    ]
@@ -45683,10 +45701,22 @@
      "on": "473113",
      "minute": "71'",
      "period": 5
+    },
+    {
+     "off": "481610",
+     "on": "356189",
+     "minute": "84'",
+     "period": 5
+    },
+    {
+     "off": "369419",
+     "on": "448203",
+     "minute": "84'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "81'",
+  "matchTime": "90'+5'",
   "period": 5,
   "final": false
  },
@@ -45989,6 +46019,12 @@
      "minute": "31'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "409191",
+     "minute": "83'",
+     "type": 2,
+     "period": 5
     }
    ],
    "bookings": [
@@ -46010,6 +46046,18 @@
      "off": "339987",
      "on": "380005",
      "minute": "78'",
+     "period": 5
+    },
+    {
+     "off": "482774",
+     "on": "482931",
+     "minute": "88'",
+     "period": 5
+    },
+    {
+     "off": "409191",
+     "on": "448180",
+     "minute": "88'",
      "period": 5
     }
    ]
@@ -46339,10 +46387,16 @@
      "on": "448525",
      "minute": "71'",
      "period": 5
+    },
+    {
+     "off": "507253",
+     "on": "506279",
+     "minute": "85'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "78'",
+  "matchTime": "90'+2'",
   "period": 5,
   "final": false
  },

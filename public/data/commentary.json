@@ -37179,6 +37179,60 @@
    "minute": "28'",
    "text": "Attempt missed. Carlos Harvey (Panama) right footed shot from a difficult angle on the right is close, but misses to the right. Assisted by Amir Murillo.",
    "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Attempt missed. Nico O'Reilly (England) header from the centre of the box is close, but misses to the left. Assisted by Marc Guéhi with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Offside, Panama. Amir Murillo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt saved. Elliot Anderson (England) right footed shot from outside the box is saved in the centre of the goal by Orlando Mosquera (Panama). Assisted by Nico O'Reilly.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt missed. Marcus Rashford (England) header from the left side of the six yard box is just a bit too high.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Offside, England. Morgan Rogers is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Offside, England. Bukayo Saka is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by José Luis Rodríguez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Elliot Anderson (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Corner, England. Conceded by Andrés Andrade.",
+   "type": null
   }
  ],
  "400021509": [
@@ -37288,6 +37342,42 @@
    "minNum": 30,
    "minute": "30'",
    "text": "Foul by Elisha Owusu (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Attempt saved. Ivan Perisic (Croatia) header from the centre of the box is saved in the bottom left corner by Benjamin Asare (Ghana). Assisted by Luka Modric with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Goal! Croatia 1, Ghana 0. Petar Sucic (Croatia) right footed shot from outside the box to the bottom left corner. Assisted by Mateo Kovacic.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Kwasi Sibo (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt blocked. Mateo Kovacic (Croatia) right footed shot from outside the box is blocked. Assisted by Petar Sucic.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Attempt missed. Antoine Semenyo (Ghana) right footed shot from the right side of the box is close, but misses to the left. Assisted by Jonas Adjetey.",
    "type": null
   }
  ],

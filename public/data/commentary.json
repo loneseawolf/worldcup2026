@@ -36975,6 +36975,102 @@
    "minute": "1'",
    "text": "Attempt saved. Tomás Rodríguez (Panama) right footed shot from outside the box is saved in the centre of the goal by Jordan Pickford (England).",
    "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Jorge Gutiérrez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Bukayo Saka (England) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Corner, England. Conceded by José Córdoba.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Tomás Rodríguez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Jude Bellingham (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt saved. Marcus Rashford (England) right footed shot from outside the box is saved in the bottom left corner by Orlando Mosquera (Panama). Assisted by Jude Bellingham.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Corner, England. Conceded by Orlando Mosquera.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt missed. Bukayo Saka (England) right footed shot from the centre of the box is high and wide to the right following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Corner, England. Conceded by Jorge Gutiérrez.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Yoel Bárcenas (Panama) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Ezri Konsa (England).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Cristian Martínez (Panama).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Jude Bellingham (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Jorge Gutiérrez (Panama) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Foul by Bukayo Saka (England).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt saved. Bukayo Saka (England) left footed shot from the right side of the box is saved.",
+   "type": null
   }
  ],
  "400021509": [
@@ -37000,6 +37096,30 @@
    "minNum": 1,
    "minute": "1'",
    "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Kamaldeen Sulemana (Ghana).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Petar Sucic (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Elisha Owusu (Ghana).",
    "type": null
   }
  ],

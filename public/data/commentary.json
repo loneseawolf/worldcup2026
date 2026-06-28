@@ -33151,7 +33151,109 @@
   {
    "minNum": 50,
    "minute": "50'",
-   "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from the centre of the box.",
+   "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from the centre of the box misses to the left. Assisted by Samuel Moutoussamy.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt missed. Eldor Shomurodov (Uzbekistan) right footed shot from the centre of the box is just a bit too high. Assisted by Khojiakbar Alijonov.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Substitution, Congo DR. Fiston Mayele replaces Cédric Bakambu.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Attempt missed. Brian Cipenga (Congo DR) right footed shot from the left side of the box is high and wide to the right. Assisted by Samuel Moutoussamy.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Delay in match because of an injury Akmal Mozgovoy (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Attempt saved. Nathanaël Mbuku (Congo DR) left footed shot from outside the box is saved in the top centre of the goal by Abduvokhid Nematov (Uzbekistan). Assisted by Aaron Wan-Bissaka.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Offside, Congo DR. Fiston Mayele is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Substitution, Uzbekistan. Odiljon Khamrobekov replaces Otabek Shukurov.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Substitution, Uzbekistan. Aziz G'aniev replaces Dostonbek Khamdamov.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Attempt missed. Fiston Mayele (Congo DR) right footed shot from the left side of the box is high and wide to the right. Assisted by Nathanaël Mbuku.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt missed. Yoane Wissa (Congo DR) header from the centre of the box misses to the right. Assisted by Arthur Masuaku with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Akmal Mozgovoy (Uzbekistan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Samuel Moutoussamy (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Samuel Moutoussamy (Congo DR) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Eldor Shomurodov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Arthur Masuaku (Congo DR) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Arthur Masuaku (Congo DR) wins a free kick in the defensive half.",
    "type": null
   }
  ],
@@ -36155,7 +36257,61 @@
   {
    "minNum": 51,
    "minute": "51'",
-   "text": "Attempt missed. João Félix (Portugal) with an attempt from the centre of the box.",
+   "text": "Attempt missed. João Félix (Portugal) header from the centre of the box is high and wide to the left. Assisted by Diogo Dalot with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt saved. Jefferson Lerma (Colombia) right footed shot from outside the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Deiver Machado.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Attempt saved. Jhon Arias (Colombia) right footed shot from outside the box is saved in the top right corner by Diogo Costa (Portugal). Assisted by Gustavo Puerta.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Attempt blocked. João Félix (Portugal) right footed shot from outside the box is blocked. Assisted by Nuno Mendes.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Offside, Portugal. Cristiano Ronaldo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Colombia. Richard Ríos replaces Jefferson Lerma.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Colombia. Luis Suárez replaces Jhon Córdoba.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Attempt missed. Richard Ríos (Colombia) left footed shot from the centre of the box is close, but misses to the right. Assisted by Santiago Arias.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Vitinha (Portugal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Richard Ríos (Colombia).",
    "type": null
   }
  ],

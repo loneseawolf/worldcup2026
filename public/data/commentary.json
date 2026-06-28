@@ -31889,6 +31889,60 @@
    "minute": "45'+6'",
    "text": "First Half ends, Jordan 0, Argentina 2.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Jordan. Mahmoud Al Mardi replaces Odeh Fakhoury.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Jordan. Mousa Al Tamari replaces Ali Azaizeh.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Jordan 0, Argentina 2.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Offside, Argentina. Lautaro Martínez is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Mousa Al Tamari (Jordan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Ali Olwan (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Nicolás Tagliafico (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt missed. Mousa Al Tamari (Jordan) left footed shot from outside the box is too high. Assisted by Ali Olwan.",
+   "type": null
   }
  ],
  "400021496": [
@@ -32672,6 +32726,36 @@
    "minNum": 45,
    "minute": "45'+5'",
    "text": "First Half ends, Algeria 1, Austria 1.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Austria. Michael Gregoritsch replaces Marko Arnautovic.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Austria. Florian Grillitsch replaces Xaver Schlager.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Austria. Paul Wanner replaces Romano Schmid.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Algeria 1, Austria 1.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Attempt missed. Ramy Bensebaini (Algeria) left footed shot from more than 35 yards is too high.",
    "type": null
   }
  ],

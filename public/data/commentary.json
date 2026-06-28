@@ -32839,7 +32839,7 @@
   {
    "minNum": 10,
    "minute": "10'",
-   "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Abbosbek Fayzullaev.",
+   "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Akmal Mozgovoy.",
    "type": null
   },
   {
@@ -32870,6 +32870,90 @@
    "minNum": 15,
    "minute": "15'",
    "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Foul by Nathanaël Mbuku (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Sherzod Nasrullaev (Uzbekistan) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "GOAL OVERTURNED BY VAR: Nathanaël Mbuku (Congo DR) scores but the goal is ruled out after a VAR review.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "VAR Decision: No Goal Congo DR 0-1 Uzbekistan.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Foul by Noah Sadiki (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Otabek Shukurov (Uzbekistan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Akmal Mozgovoy (Uzbekistan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Foul by Yoane Wissa (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Corner, Uzbekistan. Conceded by Axel Tuanzebe.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from the centre of the box is too high. Assisted by Noah Sadiki.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Offside, Congo DR. Cédric Bakambu is caught offside.",
    "type": null
   }
  ],
@@ -35616,6 +35700,72 @@
    "minNum": 14,
    "minute": "14'",
    "text": "Attempt missed. Gustavo Puerta (Colombia) left footed shot from outside the box is high and wide to the left. Assisted by Santiago Arias.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt saved. Jhon Córdoba (Colombia) right footed shot from the right side of the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Jhon Arias.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt blocked. Luis Díaz (Colombia) right footed shot from the centre of the box is blocked. Assisted by James Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Corner, Colombia. Conceded by João Cancelo.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Offside, Colombia. Luis Díaz is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Attempt missed. Jhon Arias (Colombia) right footed shot from the right side of the box misses to the left. Assisted by James Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Foul by Jhon Arias (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Cristiano Ronaldo (Portugal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Attempt saved. Cristiano Ronaldo (Portugal) right footed shot from outside the box is saved in the centre of the goal by Camilo Vargas (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Corner, Colombia. Conceded by Renato Veiga.",
    "type": null
   }
  ],

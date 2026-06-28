@@ -31625,6 +31625,32 @@
    "type": null
   }
  ],
+ "400021495": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Foul by Giuliano Simeone (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Ali Olwan (Jordan) wins a free kick on the left wing.",
+   "type": null
+  }
+ ],
  "400021496": [
   {
    "minNum": 0,
@@ -32176,6 +32202,44 @@
    "minNum": 0,
    "minute": null,
    "text": "Match ends, Argentina 3, Algeria 0.",
+   "type": null
+  }
+ ],
+ "400021497": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Delay in match (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Phillipp Mwene (Austria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Riyad Mahrez (Algeria).",
    "type": null
   }
  ],

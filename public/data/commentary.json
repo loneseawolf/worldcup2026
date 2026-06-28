@@ -31853,6 +31853,42 @@
    "minute": "45'+2'",
    "text": "Marcos Senesi (Argentina) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Foul by Yazan Al Arab (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Nico Paz (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Offside, Argentina. Nicolás Otamendi is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Attempt saved. Julián Alvarez (Argentina) left footed shot from the left side of the box is saved in the bottom left corner by Yazeed Abulaila (Jordan). Assisted by Lautaro Martínez.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Offside, Jordan. Odeh Fakhoury is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "First Half ends, Jordan 0, Argentina 2.",
+   "type": null
   }
  ],
  "400021496": [
@@ -32612,6 +32648,30 @@
    "minNum": 45,
    "minute": "45'+1'",
    "text": "Corner, Austria. Conceded by Riyad Mahrez.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt blocked. Nicolas Seiwald (Austria) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Xaver Schlager (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Oussama Benbot (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, Algeria 1, Austria 1.",
    "type": null
   }
  ],

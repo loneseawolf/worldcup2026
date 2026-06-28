@@ -33105,6 +33105,54 @@
    "minute": "45'+7'",
    "text": "First Half ends, Congo DR 0, Uzbekistan 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Congo DR 0, Uzbekistan 1.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Axel Tuanzebe (Congo DR) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Sherzod Nasrullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Nathanaël Mbuku (Congo DR) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Sherzod Nasrullaev (Uzbekistan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Attempt missed. Brian Cipenga (Congo DR) right footed shot from outside the box is high and wide to the right. Assisted by Arthur Masuaku following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from the centre of the box.",
+   "type": null
   }
  ],
  "400021501": [
@@ -36052,8 +36100,62 @@
   },
   {
    "minNum": 45,
-   "minute": "45'+4'",
-   "text": "First Half ends, Colombia 0, Portugal 0.",
+   "minute": "45'",
+   "text": "Substitution, Portugal. Diogo Dalot replaces João Cancelo.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Portugal. João Neves replaces Rúben Neves.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Colombia 0, Portugal 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Vitinha (Portugal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Jhon Arias (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Cristiano Ronaldo (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Jhon Arias (Colombia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Gustavo Puerta (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt missed. João Félix (Portugal) with an attempt from the centre of the box.",
    "type": null
   }
  ],

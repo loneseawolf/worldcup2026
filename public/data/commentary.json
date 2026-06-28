@@ -33393,6 +33393,48 @@
    "minute": "90'+1'",
    "text": "Goal! Congo DR 3, Uzbekistan 1. Yoane Wissa (Congo DR) right footed shot from outside the box to the bottom right corner. Assisted by Meschack Elia.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Uzbekistan. Conceded by Aaron Wan-Bissaka.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt missed. Ngal'ayel Mukau (Congo DR) left footed shot from outside the box is too high. Assisted by Meschack Elia.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt missed. Théo Bongonda (Congo DR) left footed shot from the right side of the box is high and wide to the left. Assisted by Joris Kayembe with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Foul by Abdukodir Khusanov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Fiston Mayele (Congo DR) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Second Half ends, Congo DR 3, Uzbekistan 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Congo DR 3, Uzbekistan 1.",
+   "type": null
   }
  ],
  "400021501": [
@@ -36690,6 +36732,42 @@
    "minNum": 90,
    "minute": "90'+3'",
    "text": "Substitution, Portugal. Matheus Nunes replaces Nuno Mendes.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt missed. Rafael Leão (Portugal) right footed shot from the left side of the box misses to the right. Assisted by Renato Veiga.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt blocked. Gustavo Puerta (Colombia) right footed shot from the centre of the box is blocked. Assisted by Luis Díaz.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Diogo Costa (Portugal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Daniel Muñoz (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Colombia 0, Portugal 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Colombia 0, Portugal 0.",
    "type": null
   }
  ],

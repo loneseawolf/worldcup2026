@@ -41965,6 +41965,78 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Aubrey Modiba (South Africa) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Tajon Buchanan (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Attempt saved. Teboho Mokoena (South Africa) right footed shot from outside the box is saved in the bottom left corner by Maxime Crépeau (Canada). Assisted by Relebohile Mofokeng.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Attempt missed. Stephen Eustaquio (Canada) right footed shot from outside the box is too high.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Corner, Canada. Conceded by Thapelo Maseko.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Nathan Saliba (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Relebohile Mofokeng (South Africa) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Foul by Richie Laryea (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Thapelo Maseko (South Africa) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "VAR Decision: Other Decision Cancelled.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Corner, Canada. Conceded by Yaya Sithole.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Attempt missed. Jonathan David (Canada) right footed shot from the centre of the box.",
+   "type": null
   }
  ]
 }

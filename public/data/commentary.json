@@ -31699,8 +31699,8 @@
    "type": null
   },
   {
-   "minNum": 26,
-   "minute": "26'",
+   "minNum": 25,
+   "minute": "25'",
    "text": "Delay over. They are ready to continue.",
    "type": null
   },
@@ -31774,6 +31774,84 @@
    "minNum": 33,
    "minute": "33'",
    "text": "Foul by Exequiel Palacios (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Nizar Al Rashdan (Jordan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by Nico Paz (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt blocked. Odeh Fakhoury (Jordan) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Corner, Jordan. Conceded by Nicolás Tagliafico.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt blocked. Mohannad Abu Taha (Jordan) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt missed. Ali Azaizeh (Jordan) header from the centre of the box misses to the right. Assisted by Ali Olwan with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Foul by Yazan Al Arab (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Exequiel Palacios (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Ali Azaizeh (Jordan) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by Lautaro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Odeh Fakhoury (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Marcos Senesi (Argentina) wins a free kick in the defensive half.",
    "type": null
   }
  ],
@@ -32443,7 +32521,7 @@
   {
    "minNum": 28,
    "minute": "28'",
-   "text": "Goal! Algeria 0, Austria 1. Marko Arnautovic (Austria) right footed shot from very close range to the bottom right corner. Assisted by David Alaba with a through ball.",
+   "text": "Goal! Algeria 0, Austria 1. Marko Arnautovic (Austria) right footed shot from the centre of the box to the bottom right corner. Assisted by David Alaba with a through ball.",
    "type": null
   },
   {
@@ -32459,9 +32537,81 @@
    "type": null
   },
   {
-   "minNum": 33,
-   "minute": "33'",
-   "text": "Attempt saved. Konrad Laimer (Austria) left footed shot from the right side of the six yard box is saved in the centre of the goal by Oussama Benbot (Algeria).",
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Attempt missed. Ibrahim Maza (Algeria) left footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Nabil Bentaleb.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Corner, Austria. Conceded by Jaouen Hadjam.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt missed. Romano Schmid (Austria) right footed shot from outside the box is just a bit too high following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Offside, Austria. Marko Arnautovic is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Farès Chaïbi (Algeria) hits the right post with a left footed shot from outside the box. Assisted by Riyad Mahrez.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Attempt missed. Phillipp Mwene (Austria) right footed shot from the left side of the box misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt blocked. Riyad Mahrez (Algeria) left footed shot from outside the box is blocked. Assisted by Nabil Bentaleb.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by Romano Schmid (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Riyad Mahrez (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt saved. Ibrahim Maza (Algeria) left footed shot from the centre of the box is saved in the centre of the goal by Alexander Schlager (Austria). Assisted by Rafik Belghali with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Goal! Algeria 1, Austria 1. Rafik Belghali (Algeria) left footed shot from the centre of the box to the top right corner.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Corner, Austria. Conceded by Riyad Mahrez.",
    "type": null
   }
  ],

@@ -281,6 +281,14 @@
    "ownGoals": 0
   },
   {
+   "id": "379942",
+   "name": "Riyad MAHREZ",
+   "code": "ALG",
+   "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "448131",
    "name": "VARGAS",
    "code": "SUI",
@@ -311,18 +319,10 @@
    "no": 2,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "402876",
-   "name": "Agustin CANOBBIO",
-   "code": "URU",
-   "no": 14,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 179,
+  "yellow": 180,
   "red": 10,
   "players": [
    {

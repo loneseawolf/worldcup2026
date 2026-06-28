@@ -32075,6 +32075,126 @@
    "minute": "80'",
    "text": "Goal! Jordan 1, Argentina 3. Lionel Messi (Argentina) from a free kick with a left footed shot to the centre of the goal.",
    "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Attempt missed. Thiago Almada (Argentina) right footed shot from outside the box is close, but misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Argentina. José Manuel López replaces Julián Alvarez.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Foul by Ehsan Haddad (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Nicolás Tagliafico (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Attempt blocked. José Manuel López (Argentina) right footed shot from the left side of the box is blocked. Assisted by Lionel Messi.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Corner, Argentina. Conceded by Ehsan Haddad.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Corner, Argentina. Conceded by Abdallah Nasib.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Corner, Argentina. Conceded by Mohannad Abu Taha.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Foul by Husam Abu Dahab (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Valentín Barco (Argentina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Delay in match because of an injury Husam Abu Dahab (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Jordan. Mohammad Abu Zraiq replaces Ali Olwan.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Jordan. Saleem Obaid replaces Husam Abu Dahab because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt missed. Marcos Senesi (Argentina) right footed shot from very close range is too high. Assisted by Lionel Messi with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Corner, Jordan. Conceded by Valentín Barco.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Handball by Mahmoud Al Mardi (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Mohammad Abu Zraiq (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Alexis Mac Allister (Argentina) wins a free kick in the defensive half.",
+   "type": null
   }
  ],
  "400021496": [
@@ -33008,6 +33128,36 @@
    "minNum": 78,
    "minute": "78'",
    "text": "Foul by Rayan Aït-Nouri (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Foul by Florian Grillitsch (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Riyad Mahrez (Algeria) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Offside, Algeria. Zineddine Belaïd is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Goal! Algeria 3, Austria 2. Riyad Mahrez (Algeria) right footed shot from the centre of the box to the bottom left corner. Assisted by Houssem Aouar with a through ball.",
    "type": null
   }
  ],

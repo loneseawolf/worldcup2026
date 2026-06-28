@@ -32195,6 +32195,24 @@
    "minute": "90'+4'",
    "text": "Alexis Mac Allister (Argentina) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Mohammad Abu Zraiq (Jordan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Jordan 1, Argentina 3.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Jordan 1, Argentina 3.",
+   "type": null
   }
  ],
  "400021496": [
@@ -33158,6 +33176,42 @@
    "minNum": 90,
    "minute": "90'+3'",
    "text": "Goal! Algeria 3, Austria 2. Riyad Mahrez (Algeria) right footed shot from the centre of the box to the bottom left corner. Assisted by Houssem Aouar with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Substitution, Algeria. Farès Ghedjemis replaces Houssem Aouar.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Substitution, Austria. Sasa Kalajdzic replaces Phillipp Mwene.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt missed. Philipp Lienhart (Austria) left footed shot from the centre of the box is high and wide to the left. Assisted by Michael Gregoritsch.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Goal! Algeria 3, Austria 3. Sasa Kalajdzic (Austria) header from the centre of the box to the bottom right corner. Assisted by Michael Gregoritsch with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Algeria 3, Austria 3.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Algeria 3, Austria 3.",
    "type": null
   }
  ],

@@ -32955,6 +32955,96 @@
    "minute": "31'",
    "text": "Offside, Congo DR. Cédric Bakambu is caught offside.",
    "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Axel Tuanzebe (Congo DR) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Delay in match because of an injury Abbosbek Fayzullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Corner, Uzbekistan. Conceded by Aaron Wan-Bissaka.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Handball by Eldor Shomurodov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Foul by Sherzod Nasrullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Nathanaël Mbuku (Congo DR) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Foul by Dostonbek Khamdamov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Noah Sadiki (Congo DR) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Corner, Congo DR. Conceded by Abbosbek Fayzullaev.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Abdukodir Khusanov (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Yoane Wissa (Congo DR) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Abdukodir Khusanov (Uzbekistan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt blocked. Brian Cipenga (Congo DR) right footed shot from a difficult angle and long range on the left is blocked.",
+   "type": null
   }
  ],
  "400021501": [
@@ -35765,7 +35855,103 @@
   {
    "minNum": 31,
    "minute": "31'",
-   "text": "Corner, Colombia. Conceded by Renato Veiga.",
+   "text": "VAR Decision: Other Decision Cancelled.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Offside, Portugal. Cristiano Ronaldo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "James Rodríguez (Colombia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Rúben Dias (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Foul by Renato Veiga (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Jhon Córdoba (Colombia) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt blocked. Vitinha (Portugal) right footed shot from outside the box is blocked. Assisted by João Félix.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Attempt saved. Bruno Fernandes (Portugal) right footed shot from the centre of the box is saved in the top centre of the goal by Camilo Vargas (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Attempt blocked. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Attempt missed. Rúben Neves (Portugal) right footed shot from outside the box is close, but misses to the left. Assisted by Vitinha.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt missed. João Félix (Portugal) right footed shot from the left side of the box is just a bit too high. Assisted by Nuno Mendes.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt blocked. James Rodríguez (Colombia) right footed shot from the centre of the box is blocked. Assisted by Santiago Arias.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt blocked. Jefferson Lerma (Colombia) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Foul by Pedro Neto (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Deiver Machado (Colombia) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Cristiano Ronaldo (Portugal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Jhon Lucumí (Colombia).",
    "type": null
   }
  ],

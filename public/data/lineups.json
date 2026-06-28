@@ -40368,10 +40368,17 @@
      "period": 3
     }
    ],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "464924",
+     "minute": "43'",
+     "card": 1,
+     "period": 3
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": "31'",
+  "matchTime": "45'",
   "period": 3,
   "final": false
  },
@@ -43738,7 +43745,7 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "32'",
+  "matchTime": "45'",
   "period": 3,
   "final": false
  },

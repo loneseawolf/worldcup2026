@@ -33331,7 +33331,67 @@
   {
    "minNum": 78,
    "minute": "78'",
-   "text": "Goal! Congo DR 2, Uzbekistan 1. Fiston Mayele (Congo DR) right footed shot from very close range following a fast break.",
+   "text": "Attempt missed. Meschack Elia (Congo DR) right footed shot from outside the box misses to the left. Assisted by Noah Sadiki following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Goal! Congo DR 2, Uzbekistan 1. Fiston Mayele (Congo DR) right footed shot from very close range to the top left corner following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Uzbekistan. Jamshid Iskanderov replaces Akmal Mozgovoy.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Substitution, Uzbekistan. Igor Sergeev replaces Jakhongir Urozov.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt missed. Fiston Mayele (Congo DR) right footed shot from outside the box is close, but misses to the right. Assisted by Meschack Elia.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Aziz G'aniev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Yoane Wissa (Congo DR) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 8 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt missed. Fiston Mayele (Congo DR) right footed shot from the right side of the box misses to the left. Assisted by Aaron Wan-Bissaka.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Goal! Congo DR 3, Uzbekistan 1. Yoane Wissa (Congo DR) right footed shot from outside the box to the bottom right corner. Assisted by Meschack Elia.",
    "type": null
   }
  ],
@@ -36527,7 +36587,7 @@
   {
    "minNum": 78,
    "minute": "78'",
-   "text": "Attempt missed. Diogo Dalot (Portugal) right footed shot from outside the box misses to the right. Assisted by Bruno Fernandes following a corner.",
+   "text": "Attempt missed. Diogo Dalot (Portugal) right footed shot from outside the box is close, but misses to the right. Assisted by Bruno Fernandes following a corner.",
    "type": null
   },
   {
@@ -36540,6 +36600,96 @@
    "minNum": 79,
    "minute": "79'",
    "text": "Foul by Gustavo Puerta (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Corner, Portugal. Conceded by Davinson Sánchez.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Rafael Leão (Portugal) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Foul by Santiago Arias (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Foul by Richard Ríos (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Foul by Rúben Dias (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Richard Ríos (Colombia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Gustavo Puerta (Colombia) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Substitution, Colombia. Daniel Muñoz replaces Santiago Arias.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt missed. Luis Suárez (Colombia) right footed shot from the centre of the box is high and wide to the left.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt missed. Luis Suárez (Colombia) header from the centre of the box misses to the left. Assisted by Daniel Muñoz with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Corner, Colombia. Conceded by Pedro Neto.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Offside, Colombia. Davinson Sánchez is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Substitution, Portugal. Matheus Nunes replaces Nuno Mendes.",
    "type": null
   }
  ],

@@ -33045,6 +33045,66 @@
    "minute": "44'",
    "text": "Attempt blocked. Brian Cipenga (Congo DR) right footed shot from a difficult angle and long range on the left is blocked.",
    "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Offside, Congo DR. Cédric Bakambu is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Chancel Mbemba (Congo DR) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Chancel Mbemba (Congo DR) right footed shot from the left side of the box is close, but misses to the left following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Abbosbek Fayzullaev (Uzbekistan) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Foul by Nathanaël Mbuku (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Nathanaël Mbuku (Congo DR) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Attempt missed. Abbosbek Fayzullaev (Uzbekistan) right footed shot from outside the box is too high from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "First Half ends, Congo DR 0, Uzbekistan 1.",
+   "type": null
   }
  ],
  "400021501": [
@@ -35891,7 +35951,7 @@
   {
    "minNum": 38,
    "minute": "38'",
-   "text": "Attempt blocked. Vitinha (Portugal) right footed shot from outside the box is blocked. Assisted by João Félix.",
+   "text": "Attempt blocked. Vitinha (Portugal) right footed shot from outside the box is blocked.",
    "type": null
   },
   {
@@ -35952,6 +36012,48 @@
    "minNum": 45,
    "minute": "45'",
    "text": "Foul by Jhon Lucumí (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt saved. Gustavo Puerta (Colombia) right footed shot from outside the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Jhon Arias.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt missed. Luis Díaz (Colombia) right footed shot from outside the box is close, but misses to the left. Assisted by James Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt blocked. Cristiano Ronaldo (Portugal) left footed shot from outside the box is blocked. Assisted by Nuno Mendes.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt saved. James Rodríguez (Colombia) left footed shot from outside the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Jhon Arias.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Colombia 0, Portugal 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Colombia 0, Portugal 0.",
    "type": null
   }
  ],

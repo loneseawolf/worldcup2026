@@ -31943,6 +31943,84 @@
    "minute": "51'",
    "text": "Attempt missed. Mousa Al Tamari (Jordan) left footed shot from outside the box is too high. Assisted by Ali Olwan.",
    "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Lautaro Martínez (Argentina) hits the bar with a right footed shot from outside the box. Assisted by Giovani Lo Celso.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Goal! Jordan 1, Argentina 2. Mousa Al Tamari (Jordan) left footed shot from the centre of the box to the top left corner. Assisted by Ehsan Haddad with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Attempt missed. Nico Paz (Argentina) right footed shot from outside the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Argentina. Thiago Almada replaces Giovani Lo Celso.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Substitution, Argentina. Lionel Messi replaces Lautaro Martínez.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Substitution, Argentina. Alexis Mac Allister replaces Nico Paz.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Corner, Argentina. Conceded by Mohannad Abu Taha.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Yazan Al Arab (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Alexis Mac Allister (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Yazan Al Arab (Jordan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt missed. Lionel Messi (Argentina) left footed shot from outside the box is high and wide to the left from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Foul by Mahmoud Al Mardi (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Alexis Mac Allister (Argentina) wins a free kick in the attacking half.",
+   "type": null
   }
  ],
  "400021496": [
@@ -32756,6 +32834,72 @@
    "minNum": 49,
    "minute": "49'",
    "text": "Attempt missed. Ramy Bensebaini (Algeria) left footed shot from more than 35 yards is too high.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Attempt saved. Farès Chaïbi (Algeria) right footed shot from outside the box is saved in the centre of the goal by Alexander Schlager (Austria). Assisted by Riyad Mahrez.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Goal! Algeria 1, Austria 2. Marcel Sabitzer (Austria) right footed shot from outside the box to the top right corner. Assisted by Konrad Laimer.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Foul by Florian Grillitsch (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Farès Chaïbi (Algeria) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Attempt blocked. Farès Chaïbi (Algeria) right footed shot from outside the box is blocked. Assisted by Aïssa Mandi.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Handball by Michael Gregoritsch (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Goal! Algeria 2, Austria 2. Riyad Mahrez (Algeria) left footed shot from the centre of the box to the bottom right corner. Assisted by Houssem Aouar.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Substitution, Austria. Kevin Danso replaces David Alaba.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Stefan Posch (Austria) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Houssem Aouar (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt missed. Nicolas Seiwald (Austria) right footed shot from outside the box is close, but misses to the right. Assisted by Phillipp Mwene.",
    "type": null
   }
  ],

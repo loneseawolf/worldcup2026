@@ -42220,8 +42220,38 @@
   },
   {
    "minNum": 45,
-   "minute": "45'+4'",
-   "text": "First Half ends, South Africa 0, Canada 0.",
+   "minute": "45'",
+   "text": "Second Half begins South Africa 0, Canada 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, South Africa. Thalente Mbatha replaces Relebohile Mofokeng.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Jonathan David (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Mbekezeli Mbokazi (South Africa) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Liam Millar (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Khuliso Mudau (South Africa) wins a free kick on the right wing.",
    "type": null
   }
  ]

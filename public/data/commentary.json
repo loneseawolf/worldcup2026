@@ -32021,6 +32021,60 @@
    "minute": "67'",
    "text": "Alexis Mac Allister (Argentina) wins a free kick in the attacking half.",
    "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Argentina. Valentín Barco replaces Giuliano Simeone.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Mahmoud Al Mardi (Jordan) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Nicolás Otamendi (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Substitution, Jordan. Amer Jamous replaces Nizar Al Rashdan.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Amer Jamous (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Goal! Jordan 1, Argentina 3. Lionel Messi (Argentina) from a free kick with a left footed shot to the centre of the goal.",
+   "type": null
   }
  ],
  "400021496": [
@@ -32875,7 +32929,7 @@
   {
    "minNum": 60,
    "minute": "60'",
-   "text": "Goal! Algeria 2, Austria 2. Riyad Mahrez (Algeria) left footed shot from the centre of the box to the bottom right corner. Assisted by Houssem Aouar.",
+   "text": "Goal! Algeria 2, Austria 2. Riyad Mahrez (Algeria) left footed shot from the centre of the box to the top right corner. Assisted by Houssem Aouar.",
    "type": null
   },
   {
@@ -32900,6 +32954,60 @@
    "minNum": 65,
    "minute": "65'",
    "text": "Attempt missed. Nicolas Seiwald (Austria) right footed shot from outside the box is close, but misses to the right. Assisted by Phillipp Mwene.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Corner, Austria. Conceded by Rafik Belghali.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Attempt missed. Kevin Danso (Austria) header from the centre of the box misses to the right. Assisted by Marcel Sabitzer with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Algeria. Rayan Aït-Nouri replaces Jaouen Hadjam.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Algeria. Zineddine Belaïd replaces Amine Gouiri.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Algeria. Samir Chergui replaces Rafik Belghali.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Paul Wanner (Austria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Foul by Rayan Aït-Nouri (Algeria).",
    "type": null
   }
  ],

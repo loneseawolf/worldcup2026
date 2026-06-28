@@ -37672,7 +37672,7 @@
  },
  "400021495": {
   "home": {
-   "tactics": null,
+   "tactics": "3-4-3",
    "xi": [
     {
      "id": "397894",
@@ -37968,7 +37968,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": null,
+   "tactics": "4-4-2",
    "xi": [
     {
      "id": "308300",
@@ -41198,7 +41198,20 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "441316",
+     "minute": "68'",
+     "type": 1,
+     "period": 5
+    },
+    {
+     "player": "477859",
+     "minute": "78'",
+     "type": 2,
+     "period": 5
+    }
+   ],
    "bookings": [
     {
      "player": "486147",
@@ -41224,6 +41237,24 @@
      "off": "336425",
      "on": "477859",
      "minute": "51'",
+     "period": 5
+    },
+    {
+     "off": "433076",
+     "on": "494458",
+     "minute": "72'",
+     "period": 5
+    },
+    {
+     "off": "424119",
+     "on": "426506",
+     "minute": "72'",
+     "period": 5
+    },
+    {
+     "off": "510989",
+     "on": "441317",
+     "minute": "72'",
      "period": 5
     }
    ]
@@ -41554,10 +41585,16 @@
      "on": "479086",
      "minute": "58'",
      "period": 5
+    },
+    {
+     "off": "464933",
+     "on": "479080",
+     "minute": "73'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "64'",
+  "matchTime": "78'",
   "period": 5,
   "final": false
  },
@@ -44638,6 +44675,18 @@
      "on": "428905",
      "minute": "60'",
      "period": 5
+    },
+    {
+     "off": "470760",
+     "on": "470759",
+     "minute": "76'",
+     "period": 5
+    },
+    {
+     "off": "269058",
+     "on": "356704",
+     "minute": "76'",
+     "period": 5
     }
    ]
   },
@@ -44947,10 +44996,22 @@
      "on": "403002",
      "minute": "",
      "period": 4
+    },
+    {
+     "off": "418535",
+     "on": "418550",
+     "minute": "70'",
+     "period": 5
+    },
+    {
+     "off": "441149",
+     "on": "491216",
+     "minute": "70'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "66'",
+  "matchTime": "80'",
   "period": 5,
   "final": false
  },

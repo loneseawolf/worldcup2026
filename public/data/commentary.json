@@ -31649,6 +31649,48 @@
    "minute": "1'",
    "text": "Ali Olwan (Jordan) wins a free kick on the left wing.",
    "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Offside, Argentina. Giovani Lo Celso is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Corner, Argentina. Conceded by Husam Abu Dahab.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Attempt missed. Nicolás Otamendi (Argentina) header from the right side of the six yard box is too high. Assisted by Giovani Lo Celso with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Foul by Mohannad Abu Taha (Jordan).",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Giovani Lo Celso (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Mohannad Abu Taha (Jordan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Goal! Jordan 0, Argentina 1. Giovani Lo Celso (Argentina) from a free kick with a left footed shot to the top left corner.",
+   "type": null
   }
  ],
  "400021496": [
@@ -32240,6 +32282,66 @@
    "minNum": 3,
    "minute": "3'",
    "text": "Foul by Riyad Mahrez (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Marcel Sabitzer (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Ibrahim Maza (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt missed. Xaver Schlager (Austria) left footed shot from outside the box is too high.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Attempt missed. Ibrahim Maza (Algeria) right footed shot from outside the box is too high. Assisted by Houssem Aouar.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Marko Arnautovic (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Aïssa Mandi (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Marko Arnautovic (Austria) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Delay in match because of an injury Aïssa Mandi (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Offside, Austria. Konrad Laimer is caught offside.",
    "type": null
   }
  ],

@@ -38272,12 +38272,18 @@
      "minute": "19'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "402920",
+     "minute": "31'",
+     "type": 1,
+     "period": 3
     }
    ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "19'",
+  "matchTime": "34'",
   "period": 3,
   "final": false
  },
@@ -39537,7 +39543,14 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "299200",
+     "minute": "28'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [
     {
      "player": "299200",
@@ -39548,7 +39561,7 @@
    ],
    "substitutions": []
   },
-  "matchTime": "19'",
+  "matchTime": "33'",
   "period": 3,
   "final": false
  },

@@ -31691,6 +31691,90 @@
    "minute": "19'",
    "text": "Goal! Jordan 0, Argentina 1. Giovani Lo Celso (Argentina) from a free kick with a left footed shot to the top left corner.",
    "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Corner, Argentina. Conceded by Husam Abu Dahab.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Lautaro Martínez (Argentina) hits the bar with a left footed shot from very close range. Assisted by Nicolás Tagliafico following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Penalty conceded by Nizar Al Rashdan (Jordan) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Penalty Argentina. Marcos Senesi draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Delay in match because of an injury Marcos Senesi (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "VAR Decision: Penalty Argentina.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Goal! Jordan 0, Argentina 2. Lautaro Martínez (Argentina) converts the penalty with a right footed shot to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Ali Olwan (Jordan) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Foul by Giovani Lo Celso (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Odeh Fakhoury (Jordan) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Exequiel Palacios (Argentina).",
+   "type": null
   }
  ],
  "400021496": [
@@ -32342,6 +32426,42 @@
    "minNum": 19,
    "minute": "19'",
    "text": "Offside, Austria. Konrad Laimer is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Goal! Algeria 0, Austria 1. Marko Arnautovic (Austria) right footed shot from very close range to the bottom right corner. Assisted by David Alaba with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Offside, Austria. Marko Arnautovic is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Attempt missed. Rafik Belghali (Algeria) right footed shot from the right side of the box misses to the left. Assisted by Ibrahim Maza.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Attempt saved. Konrad Laimer (Austria) left footed shot from the right side of the six yard box is saved in the centre of the goal by Oussama Benbot (Algeria).",
    "type": null
   }
  ],

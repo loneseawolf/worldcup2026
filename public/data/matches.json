@@ -4673,7 +4673,7 @@
    "date": "2026-06-28T02:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "JOR",
     "score": null,

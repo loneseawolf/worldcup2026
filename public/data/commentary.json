@@ -42447,9 +42447,75 @@
    "type": null
   },
   {
-   "minNum": 73,
-   "minute": "73'",
-   "text": "Delay over. They are ready to continue.",
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Offside, Paraguay. Gustavo Caballero is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt saved. Kai Havertz (Germany) header from the centre of the box is saved in the top centre of the goal by Orlando Gill (Paraguay). Assisted by Florian Wirtz with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Foul by Damián Bobadilla (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Nathaniel Brown (Germany) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Substitution, Germany. Waldemar Anton replaces Aleksandar Pavlovic.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Corner, Germany. Conceded by Júnior Alonso.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Attempt missed. Leon Goretzka (Germany) header from the centre of the box is close, but misses to the left. Assisted by Florian Wirtz with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Offside, Germany. Waldemar Anton is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Substitution, Germany. Nick Woltemade replaces Leroy Sané.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Gustavo Caballero (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Foul by Waldemar Anton (Germany).",
    "type": null
   }
  ],

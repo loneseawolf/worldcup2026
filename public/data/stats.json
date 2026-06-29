@@ -57,6 +57,14 @@
    "ownGoals": 0
   },
   {
+   "id": "411367",
+   "name": "HAVERTZ",
+   "code": "GER",
+   "no": 7,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "448598",
    "name": "Ismael SAIBARI",
    "code": "MAR",
@@ -197,14 +205,6 @@
    "name": "Folarin BALOGUN",
    "code": "USA",
    "no": 20,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "411367",
-   "name": "HAVERTZ",
-   "code": "GER",
-   "no": 7,
    "goals": 2,
    "ownGoals": 0
   },

@@ -41953,6 +41953,44 @@
    "type": null
   }
  ],
+ "400021516": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Foul by Takehiro Tomiyasu (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt blocked. Bruno Guimarães (Brazil) left footed shot from the right side of the box is blocked. Assisted by Rayan.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Corner, Brazil. Conceded by Shogo Taniguchi.",
+   "type": null
+  }
+ ],
  "400021518": [
   {
    "minNum": 0,

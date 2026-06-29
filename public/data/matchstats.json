@@ -31440,28 +31440,28 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 78.5,
-    "away": 21.5,
+    "home": 78.7,
+    "away": 21.3,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 3,
+    "home": 5,
     "away": 3,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 0,
+    "home": 1,
     "away": 2,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
-    "home": 3,
+    "home": 6,
     "away": 2,
     "pct": false
    },
@@ -31475,8 +31475,8 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 267,
-    "away": 50,
+    "home": 308,
+    "away": 55,
     "pct": false
    },
    {

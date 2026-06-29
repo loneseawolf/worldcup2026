@@ -42029,7 +42029,7 @@
   {
    "minNum": 14,
    "minute": "14'",
-   "text": "Attempt saved. Matheus Cunha (Brazil) left footed shot from outside the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Bruno Guimarães.",
+   "text": "Attempt missed. Matheus Cunha (Brazil) left footed shot from outside the box is close, but misses to the left. Assisted by Bruno Guimarães following a fast break.",
    "type": null
   },
   {
@@ -42060,6 +42060,54 @@
    "minNum": 14,
    "minute": "14'",
    "text": "Casemiro (Brazil) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Attempt blocked. Daichi Kamada (Japan) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Corner, Japan. Conceded by Casemiro.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Handball by Ayase Ueda (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Corner, Japan. Conceded by Gabriel Magalhães.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Attempt missed. Ayase Ueda (Japan) header from the centre of the box is high and wide to the left. Assisted by Junya Ito with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Goal! Brazil 0, Japan 1. Kaishu Sano (Japan) right footed shot from outside the box to the bottom left corner following a fast break.",
    "type": null
   }
  ],

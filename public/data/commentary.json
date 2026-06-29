@@ -42611,13 +42611,79 @@
   {
    "minNum": 94,
    "minute": "94'",
-   "text": "Florian Wirtz (Germany) wins a free kick on the left wing.",
+   "text": "Foul by Juan José Cáceres (Paraguay).",
    "type": null
   },
   {
    "minNum": 94,
    "minute": "94'",
-   "text": "Foul by Juan José Cáceres (Paraguay).",
+   "text": "Florian Wirtz (Germany) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 95,
+   "minute": "95'",
+   "text": "Corner, Germany. Conceded by Juan José Cáceres.",
+   "type": null
+  },
+  {
+   "minNum": 97,
+   "minute": "97'",
+   "text": "Attempt missed. Nick Woltemade (Germany) left footed shot from the centre of the box misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 97,
+   "minute": "97'",
+   "text": "Corner, Germany. Conceded by José Canale.",
+   "type": null
+  },
+  {
+   "minNum": 99,
+   "minute": "99'",
+   "text": "Substitution, Paraguay. Braian Ojeda replaces Juan José Cáceres.",
+   "type": null
+  },
+  {
+   "minNum": 99,
+   "minute": "99'",
+   "text": "Substitution, Paraguay. Antonio Sanabria replaces Damián Bobadilla.",
+   "type": null
+  },
+  {
+   "minNum": 102,
+   "minute": "102'",
+   "text": "Corner, Germany. Conceded by José Canale.",
+   "type": null
+  },
+  {
+   "minNum": 102,
+   "minute": "102'",
+   "text": "Orlando Gill (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 102,
+   "minute": "102'",
+   "text": "GOAL OVERTURNED BY VAR: Jonathan Tah (Germany) scores but the goal is ruled out after a VAR review.",
+   "type": null
+  },
+  {
+   "minNum": 102,
+   "minute": "102'",
+   "text": "Foul by Waldemar Anton (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 104,
+   "minute": "104'",
+   "text": "VAR Decision: No Goal Germany 1-1 Paraguay.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+2'",
+   "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
    "type": null
   }
  ],

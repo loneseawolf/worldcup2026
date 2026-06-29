@@ -42269,7 +42269,7 @@
   {
    "minNum": 50,
    "minute": "50'",
-   "text": "Attempt saved. Julio Enciso (Paraguay) right footed shot from a difficult angle on the left is saved in the centre of the goal by Manuel Neuer (Germany).",
+   "text": "Attempt missed. Julio Enciso (Paraguay) right footed shot from a difficult angle on the left misses to the right.",
    "type": null
   },
   {
@@ -42516,6 +42516,108 @@
    "minNum": 89,
    "minute": "89'",
    "text": "Foul by Waldemar Anton (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt blocked. Joshua Kimmich (Germany) right footed shot from outside the box is blocked. Assisted by Waldemar Anton.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Corner, Germany. Conceded by Andrés Cubas.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Attempt saved. Jonathan Tah (Germany) header from the left side of the box is saved in the bottom left corner by Orlando Gill (Paraguay). Assisted by Nathaniel Brown with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt blocked. Miguel Almirón (Paraguay) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Paraguay. Conceded by Waldemar Anton.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Júnior Alonso (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Florian Wirtz (Germany) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Matías Galarza (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Waldemar Anton (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Germany 1, Paraguay 1.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Paraguay. Gustavo Velázquez replaces Miguel Almirón.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "First Half Extra Time begins Germany 1, Paraguay 1.",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Attempt blocked. Nick Woltemade (Germany) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Attempt blocked. Joshua Kimmich (Germany) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 94,
+   "minute": "94'",
+   "text": "Florian Wirtz (Germany) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 94,
+   "minute": "94'",
+   "text": "Foul by Juan José Cáceres (Paraguay).",
    "type": null
   }
  ],

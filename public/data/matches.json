@@ -5073,21 +5073,21 @@
    "group": null,
    "date": "2026-06-29T20:30:00Z",
    "venueId": "400248623",
-   "status": "live",
-   "time": null,
+   "status": "finished",
+   "time": "132'",
    "home": {
     "code": "GER",
     "score": 1,
-    "pen": null
+    "pen": 3
    },
    "away": {
     "code": "PAR",
     "score": 1,
-    "pen": null
+    "pen": 4
    },
    "phA": "1E",
    "phB": "3ABCDF",
-   "winner": null,
+   "winner": "PAR",
    "attendance": 63945,
    "officials": [
     {

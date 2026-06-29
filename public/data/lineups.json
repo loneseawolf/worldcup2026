@@ -49618,6 +49618,24 @@
      "minute": "54'",
      "type": 2,
      "period": 5
+    },
+    {
+     "player": "386413",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "429642",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "395471",
+     "minute": "",
+     "type": 1,
+     "period": 11
     }
    ],
    "bookings": [
@@ -49972,6 +49990,30 @@
      "minute": "42'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "495046",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "369744",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "424422",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "520066",
+     "minute": "",
+     "type": 1,
+     "period": 11
     }
    ],
    "bookings": [
@@ -50039,9 +50081,9 @@
     }
    ]
   },
-  "matchTime": null,
-  "period": 11,
-  "final": false
+  "matchTime": "132'",
+  "period": 10,
+  "final": true
  },
  "400021516": {
   "home": {

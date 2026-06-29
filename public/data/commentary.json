@@ -42917,7 +42917,85 @@
   {
    "minNum": 120,
    "minute": "120'",
-   "text": "Penalty saved. Kai Havertz (Germany) left footed shot saved.",
+   "text": "Penalty saved. Kai Havertz (Germany) left footed shot saved in the top right corner by Orlando Gill (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1, Paraguay 1(1). Mauricio (Paraguay) converts the penalty with a left footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1(1), Paraguay 1(1). Joshua Kimmich (Germany) converts the penalty with a right footed shot to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1(1), Paraguay 1(2). Gustavo Gómez (Paraguay) converts the penalty with a right footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1(2), Paraguay 1(2). Jamal Musiala (Germany) converts the penalty with a right footed shot to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1(2), Paraguay 1(3). Matías Galarza (Paraguay) converts the penalty with a left footed shot to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty saved. Nick Woltemade (Germany) right footed shot saved in the bottom right corner by Orlando Gill (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty missed. Antonio Sanabria (Paraguay) right footed shot is close, but misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1(3), Paraguay 1(3). Nadiem Amiri (Germany) converts the penalty with a right footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty saved. Fabián Balbuena (Paraguay) right footed shot saved in the bottom right corner by Manuel Neuer (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty missed. Jonathan Tah (Germany) right footed shot is too high.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Germany 1(3), Paraguay 1(4). José Canale (Paraguay) converts the penalty with a left footed shot to the top right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty Shootout ends, Germany 1(3), Paraguay 1(4).",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Germany 1(3), Paraguay 1(4).",
    "type": null
   }
  ],

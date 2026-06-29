@@ -42341,7 +42341,91 @@
   {
    "minNum": 77,
    "minute": "77'",
-   "text": "Attempt missed. Gabriel Martinelli (Brazil) right footed shot from outside the box.",
+   "text": "Attempt missed. Gabriel Martinelli (Brazil) right footed shot from outside the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Substitution, Japan. Shuto Machino replaces Junya Ito.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Substitution, Japan. Ao Tanaka replaces Daichi Kamada.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Foul by Junnosuke Suzuki (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Danilo (Brazil) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Junnosuke Suzuki (Japan) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Corner, Brazil. Conceded by Junnosuke Suzuki.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Foul by Junnosuke Suzuki (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Rayan (Brazil) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Attempt blocked. Vinícius Júnior (Brazil) right footed shot from outside the box is blocked. Assisted by Gabriel Martinelli.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Corner, Brazil. Conceded by Kaishu Sano.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Attempt blocked. Gabriel Magalhães (Brazil) header from the centre of the box is blocked. Assisted by Rayan with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Ao Tanaka (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Vinícius Júnior (Brazil) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 6 minutes of added time.",
    "type": null
   }
  ],

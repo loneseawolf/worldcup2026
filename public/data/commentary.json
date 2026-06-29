@@ -41953,6 +41953,32 @@
    "type": null
   }
  ],
+ "400021513": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt blocked. Julio Enciso (Paraguay) right footed shot from the left side of the box is blocked. Assisted by Júnior Alonso with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Corner, Paraguay. Conceded by Aleksandar Pavlovic.",
+   "type": null
+  }
+ ],
  "400021516": [
   {
    "minNum": 0,

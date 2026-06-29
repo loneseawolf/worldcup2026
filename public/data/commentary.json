@@ -42405,12 +42405,6 @@
    "type": null
   },
   {
-   "minNum": 89,
-   "minute": "89'",
-   "text": "Attempt blocked. Gabriel Magalhães (Brazil) header from the centre of the box is blocked. Assisted by Rayan with a cross.",
-   "type": null
-  },
-  {
    "minNum": 90,
    "minute": "90'",
    "text": "Foul by Ao Tanaka (Japan).",
@@ -42426,6 +42420,90 @@
    "minNum": 90,
    "minute": "90'",
    "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Delay in match because of an injury Casemiro (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Substitution, Brazil. Fabinho replaces Casemiro because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Brazil. Conceded by Shogo Taniguchi.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt missed. Fabinho (Brazil) header from the centre of the box is high and wide to the right. Assisted by Bruno Guimarães with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Goal! Brazil 2, Japan 1. Gabriel Martinelli (Brazil) right footed shot from the centre of the box to the bottom right corner. Assisted by Bruno Guimarães.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Substitution, Japan. Koki Ogawa replaces Daizen Maeda.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Substitution, Brazil. Danilo Santos replaces Bruno Guimarães.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Foul by Shogo Taniguchi (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Endrick (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+10'",
+   "text": "Foul by Shuto Machino (Japan).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+10'",
+   "text": "Marquinhos (Brazil) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+11'",
+   "text": "Second Half ends, Brazil 2, Japan 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Brazil 2, Japan 1.",
    "type": null
   }
  ],

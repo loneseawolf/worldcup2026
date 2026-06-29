@@ -42131,7 +42131,73 @@
   {
    "minNum": 29,
    "minute": "29'",
-   "text": "Offside, Germany. Deniz Undav is caught offside.",
+   "text": "Offside, Germany. Leroy Sané is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "José Canale (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Foul by Deniz Undav (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Attempt blocked. Kai Havertz (Germany) left footed shot from outside the box is blocked. Assisted by Aleksandar Pavlovic.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Miguel Almirón (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Felix Nmecha (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Matías Galarza (Paraguay) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Aleksandar Pavlovic (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Corner, Germany. Conceded by Juan José Cáceres.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Handball by Aleksandar Pavlovic (Germany).",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Goal! Germany 0, Paraguay 1. Julio Enciso (Paraguay) header from the centre of the box to the bottom left corner. Assisted by Matías Galarza with a cross following a corner.",
    "type": null
   }
  ],

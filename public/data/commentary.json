@@ -42247,6 +42247,18 @@
    "minute": "45'+6'",
    "text": "First Half ends, Germany 0, Paraguay 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Germany 0, Paraguay 1.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha.",
+   "type": null
   }
  ],
  "400021516": [

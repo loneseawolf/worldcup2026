@@ -43477,7 +43477,73 @@
   {
    "minNum": 90,
    "minute": "90'+2'",
+   "text": "Foul by Yan Diomande (Côte d'Ivoire).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
    "text": "Fredrik Aursnes (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Substitution, Côte d'Ivoire. Evann Guessand replaces Yan Diomande.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Ghislain Konan.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Ibrahim Sangaré (Côte d'Ivoire) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Martin Ødegaard (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt saved. Amad Diallo (Côte d'Ivoire) left footed shot from outside the box is saved in the top left corner by Ørjan Nyland (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Ørjan Nyland.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Kristoffer Ajer.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt missed. Evann Guessand (Côte d'Ivoire) header from very close range misses to the right. Assisted by Amad Diallo with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Second Half ends, Côte d'Ivoire 1, Norway 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Côte d'Ivoire 1, Norway 2.",
    "type": null
   }
  ],

@@ -43177,7 +43177,7 @@
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Attempt blocked. Erling Haaland (Norway) left footed shot from the centre of the box is blocked. Assisted by Alexander Sørloth with a headed pass.",
+   "text": "Attempt blocked. Erling Haaland (Norway) left footed shot from very close range is blocked.",
    "type": null
   },
   {
@@ -43189,7 +43189,55 @@
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Attempt missed. Alexander Sørloth (Norway) header from the centre of the box is close, but misses to the right. Assisted by Patrick Berg with a cross following a corner.",
+   "text": "Attempt missed. Alexander Sørloth (Norway) header from very close range is close, but misses to the right. Assisted by Patrick Berg with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Marcus Pedersen.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Erling Haaland.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Guéla Doué (Côte d'Ivoire) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Antonio Nusa (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Antonio Nusa (Norway) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt missed. Emmanuel Agbadou (Côte d'Ivoire) header from the centre of the box is close, but misses to the left. Assisted by Nicolas Pépé with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Côte d'Ivoire 0, Norway 1.",
    "type": null
   }
  ],

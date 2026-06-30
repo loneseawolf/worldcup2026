@@ -161,6 +161,14 @@
    "ownGoals": 0
   },
   {
+   "id": "484860",
+   "name": "BARCOLA",
+   "code": "FRA",
+   "no": 12,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "448202",
    "name": "BELLINGHAM",
    "code": "ENG",
@@ -310,14 +318,6 @@
    "code": "SWE",
    "no": 18,
    "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "464933",
-   "name": "Abbosbek FAYZULLAEV",
-   "code": "UZB",
-   "no": 22,
-   "goals": 1,
    "ownGoals": 0
   }
  ],

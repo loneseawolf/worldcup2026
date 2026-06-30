@@ -45087,6 +45087,36 @@
    "minute": "45'+4'",
    "text": "First Half ends, France 1, Sweden 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins France 1, Sweden 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Alexander Isak (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Jules Koundé (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Attempt missed. Aurélien Tchouaméni (France) right footed shot from outside the box is too high. Assisted by Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Offside, France. Ousmane Dembélé is caught offside.",
+   "type": null
   }
  ]
 }

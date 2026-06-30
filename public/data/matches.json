@@ -5133,16 +5133,16 @@
    "date": "2026-06-30T01:00:00Z",
    "venueId": "400238450",
    "status": "live",
-   "time": "116'",
+   "time": null,
    "home": {
     "code": "NED",
     "score": 1,
-    "pen": null
+    "pen": 1
    },
    "away": {
     "code": "MAR",
     "score": 1,
-    "pen": null
+    "pen": 0
    },
    "phA": "1F",
    "phB": "2C",

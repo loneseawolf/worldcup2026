@@ -167,18 +167,21 @@ export default function PickEms() {
     return (p: Picks) => {
       const sides = new Map<number, { home?: string; away?: string }>()
       const winner = new Map<number, string | undefined>()
+      // advancement map: real result if the match is finished, else the pick/model
+      // winner. drives the cascade so a finished match progresses its real winner.
+      const advance = new Map<number, string | undefined>()
       const cleaned: Picks = { ...p }
       const teamOn = (m: Match, side: 'A' | 'B'): string | undefined => {
         const ph = side === 'A' ? m.phA : m.phB
         const w = ph && /^W(\d+)$/.exec(ph)
-        if (w) return winner.get(Number(w[1]))
+        if (w) return advance.get(Number(w[1]))
         // RU{n} = the loser of match n (the third-place play-off's two feeders).
         // resolved here because 103 is processed after the SFs in orderedAll.
         const ru = ph && /^RU(\d+)$/.exec(ph)
         if (ru) {
           const n = Number(ru[1])
           const s = sides.get(n)
-          const wn = winner.get(n)
+          const wn = advance.get(n)
           if (!s || !wn) return undefined
           return s.home === wn ? s.away : s.home
         }
@@ -197,6 +200,9 @@ export default function PickEms() {
         }
         sides.set(m.n, { home, away })
         winner.set(m.n, w)
+        // advancement prefers the real result of a finished match; falls back to
+        // the predicted winner (pick/model) for an unplayed match.
+        advance.set(m.n, realWinnerOf(m) ?? w)
       }
       return { sides, winner, cleaned }
     }

@@ -45393,6 +45393,30 @@
    "minute": "90'+3'",
    "text": "Foul by Rayan Cherki (France).",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt blocked. Gustaf Nilsson (Sweden) header from the centre of the box is blocked. Assisted by Benjamin Nygren with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Mattias Svanberg (Sweden) right footed shot from the right side of the box is saved in the bottom right corner by Mike Maignan (France). Assisted by Anthony Elanga.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Second Half ends, France 3, Sweden 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, France 3, Sweden 0.",
+   "type": null
   }
  ]
 }

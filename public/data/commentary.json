@@ -44767,7 +44767,79 @@
   {
    "minNum": 3,
    "minute": "3'",
-   "text": "Attempt saved. Alexander Isak (Sweden) right footed shot from the centre of the box is saved.",
+   "text": "Attempt saved. Alexander Isak (Sweden) right footed shot from the centre of the box is saved in the centre of the goal by Mike Maignan (France). Assisted by Viktor Gyökeres.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Alexander Isak (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Aurélien Tchouaméni (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Yasin Ayari (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Ousmane Dembélé (France) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Viktor Gyökeres (Sweden) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Foul by Adrien Rabiot (France).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Yasin Ayari (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Michael Olise (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Foul by Lucas Bergvall (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Adrien Rabiot (France) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Corner, France. Conceded by Gabriel Gudmundsson.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt saved. Lucas Digne (France) left footed shot from outside the box is saved.",
    "type": null
   }
  ]

@@ -9,18 +9,18 @@
    "ownGoals": 0
   },
   {
-   "id": "419652",
-   "name": "HAALAND",
-   "code": "NOR",
-   "no": 9,
-   "goals": 5,
-   "ownGoals": 0
-  },
-  {
    "id": "389867",
    "name": "MBAPPÉ",
    "code": "FRA",
    "no": 10,
+   "goals": 6,
+   "ownGoals": 0
+  },
+  {
+   "id": "419652",
+   "name": "HAALAND",
+   "code": "NOR",
+   "no": 9,
    "goals": 5,
    "ownGoals": 0
   },

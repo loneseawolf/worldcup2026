@@ -33582,28 +33582,28 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 73.4,
-    "away": 26.6,
+    "home": 71.1,
+    "away": 28.9,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 12,
-    "away": 2,
+    "home": 15,
+    "away": 3,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 4,
+    "home": 6,
     "away": 1,
     "pct": false
    },
    {
     "key": "corners",
     "label": "Corners",
-    "home": 5,
+    "home": 6,
     "away": 0,
     "pct": false
    },
@@ -33617,15 +33617,15 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 228,
-    "away": 59,
+    "home": 249,
+    "away": 78,
     "pct": false
    },
    {
     "key": "passPct",
     "label": "Pass accuracy",
     "home": 90,
-    "away": 60,
+    "away": 70,
     "pct": true
    }
   ],
@@ -33652,10 +33652,10 @@
     "fouls": 0
    },
    "389867": {
-    "rating": 6.2,
-    "goals": 0,
+    "rating": 7.3,
+    "goals": 1,
     "assists": 0,
-    "shotsOnTarget": 2,
+    "shotsOnTarget": 3,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -33669,14 +33669,14 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "395283": {
     "rating": 6,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -33692,9 +33692,9 @@
     "fouls": 0
    },
    "398680": {
-    "rating": 6,
+    "rating": 6.7,
     "goals": 0,
-    "assists": 0,
+    "assists": 1,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
     "yellow": 0,
@@ -33799,14 +33799,14 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 3
+    "fouls": 2
    },
    "430150": {
     "rating": 6.1,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 1,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 1
@@ -33866,7 +33866,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -33929,7 +33929,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -33939,7 +33939,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -33959,7 +33959,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -33996,10 +33996,10 @@
     "fouls": 0
    },
    "485655": {
-    "rating": 6,
+    "rating": 6.1,
     "goals": 0,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
@@ -34026,12 +34026,12 @@
     "fouls": 0
    },
    "489685": {
-    "rating": 6.6,
+    "rating": 6.5,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "saves": 4,
-    "goalsConceded": 0,
+    "saves": 5,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -34041,7 +34041,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 2
@@ -34051,7 +34051,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 3
@@ -34071,7 +34071,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -34141,7 +34141,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 0,
+    "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
     "fouls": 0

@@ -5133,7 +5133,7 @@
    "date": "2026-06-30T01:00:00Z",
    "venueId": "400238450",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NED",
     "score": null,

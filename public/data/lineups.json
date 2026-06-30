@@ -51729,6 +51729,12 @@
      "minute": "",
      "type": 1,
      "period": 11
+    },
+    {
+     "player": "448159",
+     "minute": "",
+     "type": 1,
+     "period": 11
     }
    ],
    "bookings": [],
@@ -52069,6 +52075,24 @@
      "minute": "90'+1'",
      "type": 2,
      "period": 5
+    },
+    {
+     "player": "433426",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "494293",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "448598",
+     "minute": "",
+     "type": 1,
+     "period": 11
     }
    ],
    "bookings": [
@@ -52112,8 +52136,8 @@
     }
    ]
   },
-  "matchTime": null,
-  "period": 11,
-  "final": false
+  "matchTime": "130'",
+  "period": 10,
+  "final": true
  }
 }

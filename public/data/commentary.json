@@ -43105,6 +43105,12 @@
   {
    "minNum": 28,
    "minute": "28'",
+   "text": "Attempt missed. Nicolas Pépé (Côte d'Ivoire) right footed shot from the right side of the six yard box misses to the left. Assisted by Yan Diomande with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
    "text": "Corner, Côte d'Ivoire. Conceded by Kristoffer Ajer.",
    "type": null
   },
@@ -43112,6 +43118,78 @@
    "minNum": 30,
    "minute": "30'",
    "text": "Corner, Côte d'Ivoire. Conceded by Marcus Pedersen.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Erling Haaland.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Torbjørn Heggem.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Corner, Côte d'Ivoire. Conceded by Patrick Berg.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt saved. Emmanuel Agbadou (Côte d'Ivoire) right footed shot from outside the box is saved in the top centre of the goal by Ørjan Nyland (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Attempt saved. Erling Haaland (Norway) header from the centre of the box is saved in the bottom left corner by Yahia Fofana (Côte d'Ivoire). Assisted by Alexander Sørloth with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Yan Diomande (Côte d'Ivoire) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Alexander Sørloth (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt blocked. Martin Ødegaard (Norway) left footed shot from outside the box is blocked. Assisted by Antonio Nusa.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Goal! Côte d'Ivoire 0, Norway 1. Antonio Nusa (Norway) right footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt blocked. Erling Haaland (Norway) left footed shot from the centre of the box is blocked. Assisted by Alexander Sørloth with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Corner, Norway. Conceded by Ibrahim Sangaré.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Attempt missed. Alexander Sørloth (Norway) header from the centre of the box is close, but misses to the right. Assisted by Patrick Berg with a cross following a corner.",
    "type": null
   }
  ],

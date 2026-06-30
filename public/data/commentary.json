@@ -44726,5 +44726,49 @@
    "text": "Match ends, South Africa 0, Canada 1.",
    "type": null
   }
+ ],
+ "400021523": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Foul by Lucas Bergvall (Sweden).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Lucas Digne (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Viktor Gyökeres (Sweden) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by William Saliba (France).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Attempt saved. Alexander Isak (Sweden) right footed shot from the centre of the box is saved.",
+   "type": null
+  }
  ]
 }

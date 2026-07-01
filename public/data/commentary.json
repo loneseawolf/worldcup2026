@@ -42271,6 +42271,24 @@
    "minute": "45'+7'",
    "text": "First Half ends, England 0, Congo DR 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins England 0, Congo DR 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Samuel Moutoussamy (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Harry Kane (England) wins a free kick in the defensive half.",
+   "type": null
   }
  ],
  "400021513": [

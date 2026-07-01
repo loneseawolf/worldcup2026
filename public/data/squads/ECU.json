@@ -93,7 +93,7 @@
    "wcApps": 4,
    "wcGoals": 0,
    "wcYellow": 1,
-   "wcRed": 0
+   "wcRed": 1
   },
   {
    "id": "joel-ordonez",
@@ -254,7 +254,7 @@
    "wiki": "https://en.wikipedia.org/wiki/Kendry_P%C3%A1ez",
    "wcApps": 1,
    "wcGoals": 0,
-   "wcYellow": 0,
+   "wcYellow": 1,
    "wcRed": 0
   },
   {
@@ -344,7 +344,7 @@
    "wiki": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Caicedo",
    "wcApps": 4,
    "wcGoals": 0,
-   "wcYellow": 0,
+   "wcYellow": 1,
    "wcRed": 0
   },
   {

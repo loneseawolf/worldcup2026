@@ -322,14 +322,22 @@
   }
  ],
  "cards": {
-  "yellow": 198,
-  "red": 10,
+  "yellow": 200,
+  "red": 11,
   "players": [
    {
     "id": "369761",
     "name": "Miguel ALMIRON",
     "code": "PAR",
     "no": 10,
+    "y": 1,
+    "r": 1
+   },
+   {
+    "id": "424031",
+    "name": "Piero HINCAPIE",
+    "code": "ECU",
+    "no": 3,
     "y": 1,
     "r": 1
    },
@@ -475,18 +483,10 @@
     "no": 19,
     "y": 2,
     "r": 0
-   },
-   {
-    "id": "403083",
-    "name": "Issa DIOP",
-    "code": "MAR",
-    "no": 14,
-    "y": 2,
-    "r": 0
    }
   ]
  },
- "attAvg": 64719,
+ "attAvg": 64923,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -571,7 +571,7 @@
    "QAT": -12,
    "SUI": -3,
    "CIV": -4,
-   "ECU": -5,
+   "ECU": -12,
    "GER": -6,
    "CUW": -7,
    "NED": -3,

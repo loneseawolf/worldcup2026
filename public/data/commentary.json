@@ -42497,7 +42497,85 @@
   {
    "minNum": 90,
    "minute": "90'",
-   "text": "Attempt missed. Harry Kane (England) right footed shot from more than 35 yards.",
+   "text": "Attempt missed. Harry Kane (England) right footed shot from outside the box is high and wide to the right. Assisted by Elliot Anderson.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Théo Bongonda (Congo DR) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Foul by Anthony Gordon (England).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Substitution, England. John Stones replaces Declan Rice.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Fiston Mayele (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Axel Tuanzebe (Congo DR).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Harry Kane (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Yoane Wissa (Congo DR) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Jude Bellingham (England).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt missed. Yoane Wissa (Congo DR) right footed shot from outside the box is just a bit too high from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, England 2, Congo DR 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, England 2, Congo DR 1.",
    "type": null
   }
  ],

@@ -46833,6 +46833,66 @@
    "minute": "27'",
    "text": "Delay in match for a drinks break.",
    "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Delay in match (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Attempt saved. Sadio Mané (Senegal) right footed shot from the left side of the box is saved in the bottom left corner by Thibaut Courtois (Belgium). Assisted by Habib Diarra.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Leandro Trossard (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Pape Gueye (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Foul by Maxim De Cuyper (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Krépin Diatta (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Youri Tielemans (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Ismaïla Sarr (Senegal).",
+   "type": null
   }
  ]
 }

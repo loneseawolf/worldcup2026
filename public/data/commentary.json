@@ -46993,7 +46993,7 @@
   {
    "minNum": 46,
    "minute": "46'",
-   "text": "Attempt blocked. Pape Gueye (Senegal) right footed shot from outside the box is blocked.",
+   "text": "Attempt blocked. Pape Gueye (Senegal) right footed shot from outside the box is blocked. Assisted by Sadio Mané.",
    "type": null
   },
   {
@@ -47024,6 +47024,138 @@
    "minNum": 48,
    "minute": "48'",
    "text": "Foul by Krépin Diatta (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Iliman Ndiaye (Senegal) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Foul by Maxim De Cuyper (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Attempt missed. Habib Diarra (Senegal) left footed shot from the centre of the box misses to the left. Assisted by Sadio Mané.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Goal! Belgium 0, Senegal 2. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the bottom right corner. Assisted by Moussa Niakhaté with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Youri Tielemans (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Ismaïla Sarr (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Foul by Ismail Jakobs (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Hans Vanaken (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Foul by Iliman Ndiaye (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Substitution, Belgium. Dodi Lukébakio replaces Jérémy Doku.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Substitution, Belgium. Nicolas Raskin replaces Kevin De Bruyne.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Attempt missed. Brandon Mechele (Belgium) header from the right side of the six yard box is too high. Assisted by Timothy Castagne.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Krépin Diatta (Senegal) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Attempt blocked. Dodi Lukébakio (Belgium) left footed shot from the centre of the box is blocked. Assisted by Leandro Trossard.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Attempt blocked. Youri Tielemans (Belgium) right footed shot from a difficult angle on the right is blocked. Assisted by Romelu Lukaku.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Corner, Belgium. Conceded by Moussa Niakhaté.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Attempt blocked. Dodi Lukébakio (Belgium) left footed shot from the centre of the box is blocked. Assisted by Romelu Lukaku.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Krépin Diatta (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Leandro Trossard (Belgium) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Substitution, Belgium. Diego Moreira replaces Hans Vanaken.",
    "type": null
   }
  ]

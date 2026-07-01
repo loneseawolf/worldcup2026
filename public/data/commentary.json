@@ -47245,7 +47245,79 @@
   {
    "minNum": 77,
    "minute": "77'",
-   "text": "Attempt blocked. Arthur Theate (Belgium) left footed shot from outside the box is blocked.",
+   "text": "Attempt blocked. Arthur Theate (Belgium) left footed shot from outside the box is blocked. Assisted by Brandon Mechele.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt missed. Dodi Lukébakio (Belgium) left footed shot from the right side of the box is close, but misses to the left. Assisted by Brandon Mechele.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Substitution, Belgium. Thomas Meunier replaces Maxim De Cuyper.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Thomas Meunier (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Ismaïla Sarr (Senegal) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Foul by Timothy Castagne (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Attempt missed. Timothy Castagne (Belgium) header from the centre of the box is close, but misses to the right. Assisted by Dodi Lukébakio with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Attempt missed. Youri Tielemans (Belgium) left footed shot from outside the box is too high. Assisted by Leandro Trossard.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Offside, Senegal. Sadio Mané is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Goal! Belgium 1, Senegal 2. Romelu Lukaku (Belgium) right footed shot from the right side of the six yard box to the high centre of the goal. Assisted by Thomas Meunier with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt missed. Ibrahim Mbaye (Senegal) right footed shot from the right side of the box is high and wide to the right. Assisted by Ismaïla Sarr.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Goal! Belgium 2, Senegal 2. Youri Tielemans (Belgium) header from the centre of the box to the bottom left corner. Assisted by Leandro Trossard.",
    "type": null
   }
  ]

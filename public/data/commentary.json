@@ -47537,9 +47537,51 @@
    "type": null
   },
   {
-   "minNum": 115,
-   "minute": "115'",
-   "text": "Attempt missed. Ismaïla Sarr (Senegal) header from the centre of the box misses to the left. Assisted by El Hadji Malick Diouf with a cross following a corner.",
+   "minNum": 117,
+   "minute": "117'",
+   "text": "Penalty conceded by Lamine Camara (Senegal) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 117,
+   "minute": "117'",
+   "text": "Penalty Belgium. Youri Tielemans draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "VAR Decision: Penalty Belgium.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+5'",
+   "text": "Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+7'",
+   "text": "Attempt missed. Pape Matar Sarr (Senegal) left footed shot from outside the box is high and wide to the left. Assisted by Moussa Niakhaté.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+9'",
+   "text": "Krépin Diatta (Senegal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+9'",
+   "text": "Foul by Diego Moreira (Belgium).",
    "type": null
   }
  ]

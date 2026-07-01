@@ -5711,10 +5711,10 @@
    "date": "2026-07-01T20:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "117'",
+   "time": "120'+11'",
    "home": {
     "code": "BEL",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {

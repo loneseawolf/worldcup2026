@@ -47137,7 +47137,7 @@
   {
    "minNum": 62,
    "minute": "62'",
-   "text": "Attempt blocked. Dodi Lukébakio (Belgium) left footed shot from the centre of the box is blocked. Assisted by Romelu Lukaku.",
+   "text": "Attempt missed. Dodi Lukébakio (Belgium) left footed shot from the centre of the box misses to the right. Assisted by Romelu Lukaku.",
    "type": null
   },
   {
@@ -47156,6 +47156,96 @@
    "minNum": 63,
    "minute": "63'",
    "text": "Substitution, Belgium. Diego Moreira replaces Hans Vanaken.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Ismaïla Sarr (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Brandon Mechele (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Brandon Mechele (Belgium) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Offside, Belgium. Romelu Lukaku is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Senegal. Lamine Camara replaces Pape Gueye.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Foul by Lamine Camara (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Leandro Trossard (Belgium) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Lamine Camara (Senegal) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Substitution, Senegal. Ibrahim Mbaye replaces Iliman Ndiaye.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Substitution, Senegal. Pape Matar Sarr replaces Habib Diarra.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Youri Tielemans (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Attempt blocked. Arthur Theate (Belgium) left footed shot from outside the box is blocked.",
    "type": null
   }
  ]

@@ -35332,7 +35332,7 @@
     "key": "totalShots",
     "label": "Shots",
     "home": 19,
-    "away": 16,
+    "away": 19,
     "pct": false
    },
    {
@@ -35352,7 +35352,7 @@
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 21,
+    "home": 22,
     "away": 12,
     "pct": false
    },
@@ -35794,7 +35794,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 2
+    "fouls": 3
    },
    "496358": {
     "rating": 6,
@@ -35869,6 +35869,6 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  }
 }

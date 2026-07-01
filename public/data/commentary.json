@@ -47583,6 +47583,42 @@
    "minute": "120'+9'",
    "text": "Foul by Diego Moreira (Belgium).",
    "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+11'",
+   "text": "Attempt blocked. Pathé Ciss (Senegal) right footed shot from outside the box is blocked. Assisted by Ibrahim Mbaye.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+11'",
+   "text": "Attempt blocked. Ismaïla Sarr (Senegal) right footed shot from outside the box is blocked. Assisted by Pathé Ciss.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+11'",
+   "text": "Handball by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+12'",
+   "text": "Attempt missed. Pape Matar Sarr (Senegal) right footed shot from outside the box is high and wide to the right from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+12'",
+   "text": "Second Half Extra Time ends, Belgium 3, Senegal 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Belgium 3, Senegal 2.",
+   "type": null
   }
  ]
 }

@@ -297,6 +297,14 @@
    "ownGoals": 0
   },
   {
+   "id": "356731",
+   "name": "RAÚL",
+   "code": "MEX",
+   "no": 9,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "379942",
    "name": "Riyad MAHREZ",
    "code": "ALG",
@@ -309,14 +317,6 @@
    "name": "VARGAS",
    "code": "SUI",
    "no": 17,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "489688",
-   "name": "Yasin AYARI",
-   "code": "SWE",
-   "no": 18,
    "goals": 2,
    "ownGoals": 0
   }

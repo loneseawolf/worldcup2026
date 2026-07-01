@@ -46977,6 +46977,54 @@
    "minute": "45'+6'",
    "text": "First Half ends, Belgium 0, Senegal 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Belgium 0, Senegal 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Attempt blocked. Pape Gueye (Senegal) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Attempt missed. Iliman Ndiaye (Senegal) left footed shot from the centre of the box is close, but misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Sadio Mané (Senegal).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Leandro Trossard (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Krépin Diatta (Senegal).",
+   "type": null
   }
  ]
 }

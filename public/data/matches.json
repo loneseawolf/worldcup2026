@@ -6022,7 +6022,7 @@
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "PAR",
     "score": null,
@@ -6072,7 +6072,7 @@
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "BRA",
     "score": null,

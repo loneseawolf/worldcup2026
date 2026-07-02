@@ -45447,13 +45447,13 @@
   {
    "minNum": 15,
    "minute": "15'",
-   "text": "Mikel Oyarzabal (Spain) wins a free kick in the attacking half.",
+   "text": "Foul by David Alaba (Austria).",
    "type": null
   },
   {
    "minNum": 15,
    "minute": "15'",
-   "text": "Foul by David Alaba (Austria).",
+   "text": "Mikel Oyarzabal (Spain) wins a free kick in the attacking half.",
    "type": null
   },
   {
@@ -45466,6 +45466,48 @@
    "minNum": 16,
    "minute": "16'",
    "text": "Pedro Porro (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Marcel Sabitzer (Austria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Corner, Spain. Conceded by Stefan Posch.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Alexander Schlager (Austria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Foul by Pau Cubarsí (Spain).",
    "type": null
   }
  ],

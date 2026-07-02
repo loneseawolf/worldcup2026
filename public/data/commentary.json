@@ -45641,6 +45641,60 @@
    "minute": "45'+5'",
    "text": "First Half ends, Spain 1, Austria 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Austria. Florian Grillitsch replaces Xaver Schlager.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Austria. Carney Chukwuemeka replaces Nicolas Seiwald.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Spain 1, Austria 0.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Paul Wanner (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Marc Cucurella (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Carney Chukwuemeka (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Pedro Porro (Spain) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Marcel Sabitzer (Austria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Lamine Yamal (Spain).",
+   "type": null
   }
  ],
  "400021520": [

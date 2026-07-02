@@ -34166,14 +34166,14 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 66.4,
-    "away": 33.6,
+    "home": 64.5,
+    "away": 35.5,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 22,
+    "home": 23,
     "away": 5,
     "pct": false
    },
@@ -34195,14 +34195,14 @@
     "key": "fouls",
     "label": "Fouls",
     "home": 8,
-    "away": 13,
+    "away": 15,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 543,
-    "away": 247,
+    "home": 570,
+    "away": 284,
     "pct": false
    },
    {
@@ -34293,17 +34293,17 @@
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "385259": {
-    "rating": 6,
+    "rating": 5.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
-    "fouls": 1
+    "fouls": 2
    },
    "385531": {
     "rating": 6,
@@ -34712,7 +34712,7 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  },
  "400021520": {
   "espnId": "760491",

@@ -45353,6 +45353,32 @@
    "type": null
   }
  ],
+ "400021519": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Handball by Dani Olmo (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt saved. Lamine Yamal (Spain) left footed shot from outside the box is saved in the centre of the goal by Alexander Schlager (Austria). Assisted by Álex Baena.",
+   "type": null
+  }
+ ],
  "400021520": [
   {
    "minNum": 0,

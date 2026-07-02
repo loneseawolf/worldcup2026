@@ -48501,9 +48501,51 @@
    "type": null
   },
   {
-   "minNum": 30,
-   "minute": "30'",
-   "text": "Attempt missed. Cristiano Ronaldo (Portugal) header from very close range.",
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Corner, Portugal. Conceded by Ivan Perisic.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Attempt blocked. Nuno Mendes (Portugal) right footed shot from outside the box is blocked. Assisted by João Cancelo.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by Nikola Vlasic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Vitinha (Portugal) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Petar Sucic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Corner, Portugal. Conceded by Josip Stanisic.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Corner, Portugal. Conceded by Josip Sutalo.",
    "type": null
   }
  ]

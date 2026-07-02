@@ -81,6 +81,14 @@
    "ownGoals": 0
   },
   {
+   "id": "466624",
+   "name": "Folarin BALOGUN",
+   "code": "USA",
+   "no": 20,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "411367",
    "name": "HAVERTZ",
    "code": "GER",
@@ -221,14 +229,6 @@
    "name": "Ermin MAHMIC",
    "code": "BIH",
    "no": 26,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "466624",
-   "name": "Folarin BALOGUN",
-   "code": "USA",
-   "no": 20,
    "goals": 2,
    "ownGoals": 0
   },

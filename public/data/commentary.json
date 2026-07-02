@@ -45771,7 +45771,7 @@
   {
    "minNum": 61,
    "minute": "61'",
-   "text": "Attempt missed. Sasa Kalajdzic (Austria) header from very close range is just a bit too high. Assisted by Marcel Sabitzer with a cross.",
+   "text": "Attempt missed. Sasa Kalajdzic (Austria) header from the centre of the box is just a bit too high. Assisted by Marcel Sabitzer with a cross.",
    "type": null
   },
   {
@@ -45796,6 +45796,102 @@
    "minNum": 63,
    "minute": "63'",
    "text": "Unai Simón (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Delay in match because of an injury Marko Arnautovic (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Attempt blocked. Dani Olmo (Spain) right footed shot from outside the box is blocked. Assisted by Álex Baena.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Goal! Spain 2, Austria 0. Pedro Porro (Spain) header from the centre of the box to the centre of the goal. Assisted by Álex Baena.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Foul by Sasa Kalajdzic (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Aymeric Laporte (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Spain. Ferran Torres replaces Álex Baena.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Konrad Laimer (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Mikel Merino (Spain) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Marko Arnautovic (Austria).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Rodri (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Carney Chukwuemeka (Austria) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Marc Cucurella (Spain).",
    "type": null
   }
  ],

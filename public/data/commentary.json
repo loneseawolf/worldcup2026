@@ -44555,13 +44555,13 @@
   {
    "minNum": 80,
    "minute": "80'",
-   "text": "Substitution, Egypt. Trezeguet replaces Karim Hafez because of an injury.",
+   "text": "Delay over. They are ready to continue.",
    "type": null
   },
   {
    "minNum": 80,
    "minute": "80'",
-   "text": "Delay over. They are ready to continue.",
+   "text": "Substitution, Egypt. Trezeguet replaces Karim Hafez because of an injury.",
    "type": null
   },
   {
@@ -44634,6 +44634,90 @@
    "minNum": 88,
    "minute": "88'",
    "text": "Emam Ashour (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Corner, Egypt. Conceded by Alessandro Circati.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Egypt. Conceded by Mohamed Touré.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt saved. Ramy Rabia (Egypt) header from the centre of the box is saved in the top centre of the goal by Patrick Beach (Australia). Assisted by Mohamed Salah with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Corner, Egypt. Conceded by Patrick Beach.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Mohamed Salah (Egypt) left footed shot from the right side of the box is saved in the top right corner by Patrick Beach (Australia).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt blocked. Marwan Attia (Egypt) right footed shot from outside the box is blocked. Assisted by Mohamed Salah.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt blocked. Haissem Hassan (Egypt) right footed shot from the centre of the box is blocked. Assisted by Mohamed Salah.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Australia 1, Egypt 1.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Australia. Paul Okon-Engstler replaces Aiden O'Neill.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Substitution, Australia. Awer Mabil replaces Connor Metcalfe.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "First Half Extra Time begins Australia 1, Egypt 1.",
+   "type": null
+  },
+  {
+   "minNum": 91,
+   "minute": "91'",
+   "text": "Kai Trewin (Australia) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 91,
+   "minute": "91'",
+   "text": "Foul by Trezeguet (Egypt).",
    "type": null
   }
  ],

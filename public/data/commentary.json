@@ -47729,6 +47729,60 @@
    "minute": "45'+4'",
    "text": "First Half ends, Argentina 1, Cabo Verde 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Argentina 1, Cabo Verde 0.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Corner, Cabo Verde. Conceded by Nahuel Molina.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Attempt blocked. Jovane Cabral (Cabo Verde) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Corner, Cabo Verde. Conceded by Rodrigo De Paul.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Attempt missed. Ryan Mendes (Cabo Verde) right footed shot from outside the box is high and wide to the left. Assisted by Laros Duarte with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Pico Lopes (Cabo Verde) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Foul by Lautaro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Steven Moreira (Cabo Verde) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Foul by Thiago Almada (Argentina).",
+   "type": null
   }
  ],
  "400021523": [

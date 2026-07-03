@@ -47559,7 +47559,55 @@
   {
    "minNum": 4,
    "minute": "4'",
+   "text": "Sidny Cabral (Cabo Verde) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
    "text": "Foul by Rodrigo De Paul (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Attempt blocked. Ryan Mendes (Cabo Verde) left footed shot from the right side of the box is blocked. Assisted by Diney Borges.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Jovane Cabral (Cabo Verde) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Cristian Romero (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt missed. Lionel Messi (Argentina) left footed shot from the left side of the box misses to the right. Assisted by Thiago Almada.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Foul by Jovane Cabral (Cabo Verde).",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Attempt saved. Lionel Messi (Argentina) left footed shot from outside the box is saved.",
    "type": null
   }
  ],

@@ -48959,12 +48959,6 @@
   {
    "minNum": 90,
    "minute": "90'+13'",
-   "text": "Attempt missed. Igor Matanovic (Croatia) header from the centre of the box misses to the right. Assisted by Ivan Perisic with a cross.",
-   "type": null
-  },
-  {
-   "minNum": 90,
-   "minute": "90'+13'",
    "text": "Offside, Croatia. Mario Pasalic is caught offside.",
    "type": null
   },
@@ -48978,6 +48972,30 @@
    "minNum": 90,
    "minute": "90'+15'",
    "text": "VAR Decision: No Goal Portugal 2-1 Croatia.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+16'",
+   "text": "Delay in match (Portugal).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+19'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+19'",
+   "text": "Second Half ends, Portugal 2, Croatia 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Portugal 2, Croatia 1.",
    "type": null
   }
  ]

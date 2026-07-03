@@ -48613,6 +48613,36 @@
    "minute": "45'+5'",
    "text": "First Half ends, Portugal 0, Croatia 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Portugal 0, Croatia 0.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Attempt saved. Mateo Kovacic (Croatia) left footed shot from the left side of the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Igor Matanovic.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Corner, Croatia. Conceded by Diogo Costa.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Attempt missed. Nikola Vlasic (Croatia) right footed shot from the left side of the box misses to the left following a corner.",
+   "type": null
   }
  ]
 }

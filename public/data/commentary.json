@@ -48853,6 +48853,60 @@
    "minute": "77'",
    "text": "Corner, Croatia. Conceded by Diogo Costa.",
    "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Offside, Croatia. Petar Sucic is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Substitution, Portugal. Rúben Neves replaces Cristiano Ronaldo.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Corner, Portugal. Conceded by Ivan Perisic.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Attempt missed. Renato Veiga (Portugal) header from very close range misses to the left. Assisted by Nuno Mendes with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Attempt missed. Mario Pasalic (Croatia) header from very close range misses to the right. Assisted by Petar Sucic with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 10 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Corner, Portugal. Conceded by Josip Stanisic.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Attempt missed. Gonçalo Ramos (Portugal) header from the left side of the six yard box is high and wide to the right. Assisted by João Neves with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, Croatia. Josko Gvardiol replaces Nikola Vlasic.",
+   "type": null
   }
  ]
 }

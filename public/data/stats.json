@@ -81,6 +81,14 @@
    "ownGoals": 0
   },
   {
+   "id": "201200",
+   "name": "CRISTIANO RONALDO",
+   "code": "POR",
+   "no": 7,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "484851",
    "name": "Deniz UNDAV",
    "code": "GER",
@@ -197,14 +205,6 @@
    "name": "BELLINGHAM",
    "code": "ENG",
    "no": 10,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "201200",
-   "name": "CRISTIANO RONALDO",
-   "code": "POR",
-   "no": 7,
    "goals": 2,
    "ownGoals": 0
   },

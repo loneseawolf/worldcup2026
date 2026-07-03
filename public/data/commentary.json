@@ -49367,6 +49367,12 @@
    "type": null
   },
   {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
    "minNum": 71,
    "minute": "71'",
    "text": "Substitution, Switzerland. Fabian Rieder replaces Rubén Vargas.",
@@ -49376,12 +49382,6 @@
    "minNum": 71,
    "minute": "71'",
    "text": "Substitution, Switzerland. Noah Okafor replaces Johan Manzambi.",
-   "type": null
-  },
-  {
-   "minNum": 71,
-   "minute": "71'",
-   "text": "Delay over. They are ready to continue.",
    "type": null
   },
   {
@@ -49502,6 +49502,120 @@
    "minNum": 83,
    "minute": "83'",
    "text": "Anis Hadj Moussa (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Delay in match because of an injury Denis Zakaria (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Foul by Zeki Amdouni (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Hicham Boudaoui (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Substitution, Switzerland. Michel Aebischer replaces Dan Ndoye.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Offside, Algeria. Adil Boulbina is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Zeki Amdouni (Switzerland) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Farès Chaïbi (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Foul by Fabian Rieder (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Ramy Bensebaini (Algeria) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Attempt blocked. Ibrahim Maza (Algeria) right footed shot from the left side of the box is blocked. Assisted by Adil Boulbina.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Zeki Amdouni (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Hicham Boudaoui (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt blocked. Noah Okafor (Switzerland) right footed shot from the left side of the box is blocked. Assisted by Fabian Rieder.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt saved. Remo Freuler (Switzerland) right footed shot from the centre of the box is saved in the centre of the goal by Luca Zidane (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, Switzerland 2, Algeria 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Switzerland 2, Algeria 0.",
    "type": null
   }
  ]

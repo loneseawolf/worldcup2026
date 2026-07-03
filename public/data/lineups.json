@@ -51722,7 +51722,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": "4-2-3-1",
+   "tactics": "4-4-2",
    "xi": [
     {
      "id": "416906",
@@ -51980,11 +51980,18 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "430482",
+     "minute": "13'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "2'",
+  "matchTime": "17'",
   "period": 3,
   "final": false
  },

@@ -233,6 +233,14 @@
    "ownGoals": 0
   },
   {
+   "id": "430482",
+   "name": "E.ASHOUR",
+   "code": "EGY",
+   "no": 8,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "393480",
    "name": "EMBOLO",
    "code": "SUI",
@@ -309,14 +317,6 @@
    "name": "RAMIN",
    "code": "IRN",
    "no": 23,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "356731",
-   "name": "RAÚL",
-   "code": "MEX",
-   "no": 9,
    "goals": 2,
    "ownGoals": 0
   }

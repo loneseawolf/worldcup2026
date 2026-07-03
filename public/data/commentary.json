@@ -44365,6 +44365,30 @@
    "minute": "41'",
    "text": "Offside, Egypt. Hamdi Fathy is caught offside.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt missed. Cristian Volpato (Australia) left footed shot from outside the box misses to the left. Assisted by Aiden O'Neill.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt missed. Nestory Irankunda (Australia) header from the centre of the box misses to the right. Assisted by Aiden O'Neill with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "First Half ends, Australia 0, Egypt 1.",
+   "type": null
   }
  ],
  "400021516": [

@@ -233,6 +233,14 @@
    "ownGoals": 0
   },
   {
+   "id": "393480",
+   "name": "EMBOLO",
+   "code": "SUI",
+   "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "522846",
    "name": "Ermin MAHMIC",
    "code": "BIH",
@@ -309,14 +317,6 @@
    "name": "RAÚL",
    "code": "MEX",
    "no": 9,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "379942",
-   "name": "Riyad MAHREZ",
-   "code": "ALG",
-   "no": 7,
    "goals": 2,
    "ownGoals": 0
   }

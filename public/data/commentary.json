@@ -49011,6 +49011,42 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Attempt missed. Houssem Aouar (Algeria) right footed shot from the centre of the box misses to the left. Assisted by Rafik Belghali.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Goal! Switzerland 1, Algeria 0. Breel Embolo (Switzerland) left footed shot from very close range to the centre of the goal. Assisted by Johan Manzambi following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Ricardo Rodríguez (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Riyad Mahrez (Algeria) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt saved. Houssem Aouar (Algeria) right footed shot from outside the box is saved in the bottom left corner by Gregor Kobel (Switzerland). Assisted by Farès Chaïbi.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Attempt saved. Denis Zakaria (Switzerland) right footed shot from the centre of the box is saved.",
+   "type": null
   }
  ]
 }

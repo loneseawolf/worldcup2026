@@ -47543,6 +47543,26 @@
    "type": null
   }
  ],
+ "400021521": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Rodrigo De Paul (Argentina).",
+   "type": null
+  }
+ ],
  "400021523": [
   {
    "minNum": 0,

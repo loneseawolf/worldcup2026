@@ -44389,6 +44389,36 @@
    "minute": "45'+6'",
    "text": "First Half ends, Australia 0, Egypt 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Australia. Kai Trewin replaces Jordan Bos because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Australia 0, Egypt 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Attempt missed. Omar Marmoush (Egypt) right footed shot from the centre of the box is close, but misses to the right. Assisted by Mostafa Zico.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Alessandro Circati (Australia) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Mostafa Zico (Egypt).",
+   "type": null
   }
  ],
  "400021516": [

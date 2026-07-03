@@ -48907,6 +48907,78 @@
    "minute": "90'+2'",
    "text": "Substitution, Croatia. Josko Gvardiol replaces Nikola Vlasic.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Goal! Portugal 2, Croatia 1. Gonçalo Ramos (Portugal) header from the centre of the box to the bottom right corner. Assisted by Rafael Leão with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Substitution, Croatia. Andrej Kramaric replaces Mateo Kovacic.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Foul by Ivan Perisic (Croatia).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Rúben Dias (Portugal) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Ivan Perisic (Croatia) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Corner, Croatia. Conceded by Rúben Neves.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Attempt blocked. Igor Matanovic (Croatia) header from very close range is blocked. Assisted by Luka Modric with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+12'",
+   "text": "Attempt missed. Francisco Conceição (Portugal) left footed shot from the right side of the box misses to the left. Assisted by Nélson Semedo.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+13'",
+   "text": "Attempt missed. Igor Matanovic (Croatia) header from the centre of the box misses to the right. Assisted by Ivan Perisic with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+13'",
+   "text": "Offside, Croatia. Mario Pasalic is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+13'",
+   "text": "GOAL OVERTURNED BY VAR: Josko Gvardiol (Croatia) scores but the goal is ruled out after a VAR review.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+15'",
+   "text": "VAR Decision: No Goal Portugal 2-1 Croatia.",
+   "type": null
   }
  ]
 }

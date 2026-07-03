@@ -49043,9 +49043,69 @@
    "type": null
   },
   {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt saved. Denis Zakaria (Switzerland) right footed shot from the centre of the box is saved in the bottom right corner by Luca Zidane (Algeria). Assisted by Remo Freuler.",
+   "type": null
+  },
+  {
    "minNum": 16,
    "minute": "16'",
-   "text": "Attempt saved. Denis Zakaria (Switzerland) right footed shot from the centre of the box is saved.",
+   "text": "Delay in match because of an injury Johan Manzambi (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Attempt blocked. Ibrahim Maza (Algeria) right footed shot from outside the box is blocked. Assisted by Rayan Aït-Nouri.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Johan Manzambi (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Foul by Ramiz Zerrouki (Algeria).",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Corner, Switzerland. Conceded by Rafik Belghali.",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Attempt missed. Ricardo Rodríguez (Switzerland) left footed shot from outside the box misses to the right. Assisted by Manuel Akanji.",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Dan Ndoye (Switzerland) wins a free kick in the defensive half.",
    "type": null
   }
  ]

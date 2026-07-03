@@ -5921,10 +5921,10 @@
    "date": "2026-07-03T03:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "45'+3'",
+   "time": "49'",
    "home": {
     "code": "SUI",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {

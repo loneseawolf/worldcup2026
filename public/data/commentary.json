@@ -49021,7 +49021,7 @@
   {
    "minNum": 10,
    "minute": "10'",
-   "text": "Goal! Switzerland 1, Algeria 0. Breel Embolo (Switzerland) left footed shot from very close range to the centre of the goal. Assisted by Johan Manzambi following a fast break.",
+   "text": "Goal! Switzerland 1, Algeria 0. Breel Embolo (Switzerland) left footed shot from very close range to the bottom left corner. Assisted by Johan Manzambi following a fast break.",
    "type": null
   },
   {
@@ -49097,8 +49097,8 @@
    "type": null
   },
   {
-   "minNum": 29,
-   "minute": "29'",
+   "minNum": 28,
+   "minute": "28'",
    "text": "Delay over. They are ready to continue.",
    "type": null
   },
@@ -49237,7 +49237,31 @@
   {
    "minNum": 45,
    "minute": "45'+2'",
-   "text": "Attempt missed. Ibrahim Maza (Algeria) left footed shot from the centre of the box.",
+   "text": "Attempt missed. Ibrahim Maza (Algeria) left footed shot from the centre of the box is close, but misses to the right. Assisted by Houssem Aouar.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Offside, Algeria. Riyad Mahrez is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Switzerland 1, Algeria 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Switzerland 1, Algeria 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Goal! Switzerland 2, Algeria 0. Dan Ndoye (Switzerland) right footed shot from the centre of the box to the bottom left corner.",
    "type": null
   }
  ]

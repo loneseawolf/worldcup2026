@@ -47607,7 +47607,37 @@
   {
    "minNum": 18,
    "minute": "18'",
-   "text": "Attempt saved. Lionel Messi (Argentina) left footed shot from outside the box is saved.",
+   "text": "Attempt saved. Lionel Messi (Argentina) left footed shot from outside the box is saved in the centre of the goal by Vozinha (Cabo Verde).",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Goal! Argentina 1, Cabo Verde 0. Lionel Messi (Argentina) left footed shot from the right side of the six yard box to the top right corner. Assisted by Lisandro Martínez with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Jovane Cabral (Cabo Verde) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Foul by Nahuel Molina (Argentina).",
    "type": null
   }
  ],

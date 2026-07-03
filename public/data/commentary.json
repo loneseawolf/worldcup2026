@@ -47711,6 +47711,24 @@
    "minute": "45'",
    "text": "Fourth official has announced 4 minutes of added time.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Sidny Cabral (Cabo Verde) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Foul by Lionel Messi (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Argentina 1, Cabo Verde 0.",
+   "type": null
   }
  ],
  "400021523": [

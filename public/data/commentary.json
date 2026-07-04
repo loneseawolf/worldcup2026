@@ -52225,8 +52225,8 @@
    "type": null
   },
   {
-   "minNum": 27,
-   "minute": "27'",
+   "minNum": 26,
+   "minute": "26'",
    "text": "Delay over. They are ready to continue.",
    "type": null
   },
@@ -52336,6 +52336,48 @@
    "minNum": 38,
    "minute": "38'",
    "text": "Corner, France. Conceded by Júnior Alonso.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Foul by Julio Enciso (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Jules Koundé (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Corner, France. Conceded by Omar Alderete.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Attempt missed. Manu Koné (France) right footed shot from outside the box is high and wide to the right. Assisted by Dayot Upamecano.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt blocked. Adrien Rabiot (France) left footed shot from outside the box is blocked. Assisted by Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Paraguay 0, France 0.",
    "type": null
   }
  ]

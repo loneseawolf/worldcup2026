@@ -60631,6 +60631,12 @@
      "minute": "43'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "480322",
+     "minute": "49'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": []
@@ -60927,7 +60933,14 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "441307",
+     "minute": "50'",
+     "type": 2,
+     "period": 5
+    }
+   ],
    "bookings": [
     {
      "player": "485767",
@@ -60963,7 +60976,7 @@
     }
    ]
   },
-  "matchTime": "48'",
+  "matchTime": "61'",
   "period": 5,
   "final": false
  },

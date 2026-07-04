@@ -51505,7 +51505,103 @@
   {
    "minNum": 28,
    "minute": "28'",
-   "text": "Attempt saved. Soufiane Rahimi (Morocco) right footed shot from outside the box is saved.",
+   "text": "Attempt saved. Soufiane Rahimi (Morocco) right footed shot from outside the box is saved in the bottom left corner by Maxime Crépeau (Canada). Assisted by Bilal El Khannouss.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Foul by Luc De Fougerolles (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Noussair Mazraoui (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Offside, Morocco. Soufiane Rahimi is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Corner, Canada. Conceded by Noussair Mazraoui.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Luc De Fougerolles (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Ayyoub Bouaddi (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Moïse Bombito (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Noussair Mazraoui (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Niko Sigur (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Azzedine Ounahi (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Richie Laryea (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by Achraf Hakimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Achraf Hakimi (Morocco) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Richie Laryea (Canada) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Niko Sigur (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Foul by Bilal El Khannouss (Morocco).",
    "type": null
   }
  ]

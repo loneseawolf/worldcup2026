@@ -51399,6 +51399,114 @@
    "minute": "15'",
    "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing.",
    "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Foul by Richie Laryea (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Achraf Hakimi (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 17,
+   "minute": "17'",
+   "text": "Offside, Morocco. Ismael Saibari is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Corner, Canada. Conceded by Redouane Halhal.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Attempt blocked. Alistair Johnston (Canada) header from the centre of the box is blocked. Assisted by Stephen Eustaquio with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Tani Oluwaseyi (Canada) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Foul by Redouane Halhal (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Redouane Halhal (Morocco) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Delay in match because of an injury Ismael Saibari (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Foul by Jonathan David (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Redouane Halhal (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Alistair Johnston (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Bilal El Khannouss (Morocco) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Attempt saved. Soufiane Rahimi (Morocco) right footed shot from outside the box is saved.",
+   "type": null
   }
  ]
 }

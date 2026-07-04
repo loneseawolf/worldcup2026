@@ -51991,6 +51991,18 @@
   {
    "minNum": 88,
    "minute": "88'",
+   "text": "Foul by Promise David (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Yassine Bounou (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
    "text": "Delay in match because of an injury Promise David (Canada).",
    "type": null
   },
@@ -51998,6 +52010,126 @@
    "minNum": 88,
    "minute": "88'",
    "text": "Delay in match because of an injury Yassine Bounou (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Promise David (Canada) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Redouane Halhal (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Attempt blocked. Jonathan Osorio (Canada) right footed shot from the centre of the box is blocked. Assisted by Promise David with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 8 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Handball by Cyle Larin (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Jonathan Osorio (Canada) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Foul by Soufiane Rahimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Canada. Conceded by Achraf Hakimi.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Maxime Crépeau (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Marwane Saadane (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Corner, Canada. Conceded by Achraf Hakimi.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Jacob Shaffelburg (Canada) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Soufiane Rahimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Attempt missed. Jayden Nelson (Canada) right footed shot from outside the box is close, but misses to the left. Assisted by Stephen Eustaquio following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Foul by Jacob Shaffelburg (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Soufiane Rahimi (Morocco) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Goal! Canada 0, Morocco 3. Soufiane Rahimi (Morocco) left footed shot from the centre of the box to the bottom right corner. Assisted by Brahim Díaz following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+10'",
+   "text": "Second Half ends, Canada 0, Morocco 3.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Canada 0, Morocco 3.",
    "type": null
   }
  ]

@@ -60940,6 +60940,18 @@
      "minute": "40'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "441307",
+     "minute": "45'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "448612",
+     "minute": "45'+6'",
+     "card": 1,
+     "period": 3
     }
    ],
    "substitutions": [
@@ -60951,8 +60963,8 @@
     }
    ]
   },
-  "matchTime": "43'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  }
 }

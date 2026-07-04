@@ -6271,39 +6271,6 @@
       "id": "Wasit",
       "ru": "Главный судья"
      }
-    },
-    {
-     "id": "361083",
-     "country": "QAT",
-     "role": "fourth",
-     "name": {
-      "en": "Abdulrahman ALJASSIM",
-      "fr": "Abdulrahman ALJASSIM",
-      "zh": "Abdulrahman ALJASSIM",
-      "ar": "Abdulrahman ALJASSIM",
-      "es": "Abdulrahman ALJASSIM",
-      "de": "Abdulrahman ALJASSIM",
-      "pt": "Abdulrahman ALJASSIM",
-      "it": "Abdulrahman ALJASSIM",
-      "ja": "Abdulrahman ALJASSIM",
-      "ko": "Abdulrahman ALJASSIM",
-      "id": "Abdulrahman ALJASSIM",
-      "ru": "Abdulrahman ALJASSIM"
-     },
-     "typeName": {
-      "en": "Fourth official",
-      "fr": "Quatrième arbitre",
-      "zh": "第四官员",
-      "ar": "الحَكَم الرابع",
-      "es": "Cuarto/a árbitro/a",
-      "de": "Vierter Offizieller",
-      "pt": "Quarto árbitro",
-      "it": "Quarto arbitro",
-      "ja": "第 4 審判員",
-      "ko": "대기심",
-      "id": "Ofisial keempat",
-      "ru": "Четвертый судья"
-     }
     }
    ]
   },
@@ -6660,7 +6627,11 @@
    "status": "scheduled",
    "time": null,
    "home": null,
-   "away": null,
+   "away": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
    "phA": "W89",
    "phB": "W90",
    "winner": null,

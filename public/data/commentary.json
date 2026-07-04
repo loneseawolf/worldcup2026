@@ -51693,6 +51693,18 @@
    "minute": "45'+7'",
    "text": "First Half ends, Canada 0, Morocco 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Canada 0, Morocco 0.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Corner, Canada. Conceded by Issa Diop.",
+   "type": null
   }
  ]
 }

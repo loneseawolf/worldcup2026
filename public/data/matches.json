@@ -6013,15 +6013,15 @@
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
    "status": "live",
-   "time": null,
+   "time": "116'",
    "home": {
     "code": "ARG",
-    "score": 1,
+    "score": 3,
     "pen": null
    },
    "away": {
     "code": "CPV",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "1J",

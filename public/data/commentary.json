@@ -52459,8 +52459,8 @@
    "type": null
   },
   {
-   "minNum": 55,
-   "minute": "55'",
+   "minNum": 54,
+   "minute": "54'",
    "text": "Corner, France. Conceded by Orlando Gill.",
    "type": null
   },
@@ -52492,6 +52492,78 @@
    "minNum": 61,
    "minute": "61'",
    "text": "Substitution, France. Désiré Doué replaces Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Attempt missed. Kylian Mbappé (France) right footed shot from outside the box is too high. Assisted by Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Penalty conceded by Diego Gómez (Paraguay) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Penalty France. Désiré Doué draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Delay in match because of an injury Désiré Doué (France).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "VAR Decision: Penalty France.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Paraguay. Mauricio replaces Diego Gómez.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Paraguay. Gabriel Ávalos replaces Miguel Almirón.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Andrés Cubas (Paraguay).",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Delay in match for a drinks break.",
    "type": null
   }
  ]

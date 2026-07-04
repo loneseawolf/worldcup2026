@@ -51295,13 +51295,109 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Foul by Brahim Díaz (Morocco).",
+   "text": "Ali Ahmed (Canada) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Ali Ahmed (Canada) wins a free kick in the defensive half.",
+   "text": "Foul by Brahim Díaz (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Foul by Tajon Buchanan (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Azzedine Ounahi (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Corner, Canada. Conceded by Brahim Díaz.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Attempt saved. Jonathan David (Canada) left footed shot from a difficult angle on the left is saved in the bottom left corner by Yassine Bounou (Morocco). Assisted by Luc De Fougerolles with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Corner, Canada. Conceded by Yassine Bounou.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Corner, Canada. Conceded by Redouane Halhal.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Foul by Tani Oluwaseyi (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Issa Diop (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Foul by Tajon Buchanan (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Noussair Mazraoui (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Attempt saved. Tani Oluwaseyi (Canada) left footed shot from the centre of the box is saved in the centre of the goal by Yassine Bounou (Morocco). Assisted by Ali Ahmed.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt missed. Tani Oluwaseyi (Canada) left footed shot from the centre of the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Tajon Buchanan (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Azzedine Ounahi (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Foul by Richie Laryea (Canada).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing.",
    "type": null
   }
  ]

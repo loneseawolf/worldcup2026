@@ -52132,5 +52132,37 @@
    "text": "Match ends, Canada 0, Morocco 3.",
    "type": null
   }
+ ],
+ "400021533": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Corner, France. Conceded by Miguel Almirón.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Matías Galarza (Paraguay) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "Foul by Manu Koné (France).",
+   "type": null
+  }
  ]
 }

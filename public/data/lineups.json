@@ -55750,9 +55750,9 @@
      "period": 7
     },
     {
-     "player": "431196",
+     "player": "409241",
      "minute": "111'",
-     "type": 2,
+     "type": 3,
      "period": 9
     }
    ],
@@ -56150,9 +56150,9 @@
     }
    ]
   },
-  "matchTime": "116'",
-  "period": 9,
-  "final": false
+  "matchTime": "124'",
+  "period": 10,
+  "final": true
  },
  "400021522": {
   "home": {

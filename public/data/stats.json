@@ -1,6 +1,14 @@
 {
  "scorers": [
   {
+   "id": "419652",
+   "name": "HAALAND",
+   "code": "NOR",
+   "no": 9,
+   "goals": 7,
+   "ownGoals": 0
+  },
+  {
    "id": "229397",
    "name": "Lionel MESSI",
    "code": "ARG",
@@ -14,14 +22,6 @@
    "code": "FRA",
    "no": 10,
    "goals": 7,
-   "ownGoals": 0
-  },
-  {
-   "id": "419652",
-   "name": "HAALAND",
-   "code": "NOR",
-   "no": 9,
-   "goals": 5,
    "ownGoals": 0
   },
   {

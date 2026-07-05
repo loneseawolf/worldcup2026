@@ -52145,6 +52145,42 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Offside, Norway. Alexander Sørloth is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Corner, Norway. Conceded by Douglas Santos.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Penalty Brazil. Matheus Cunha draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Penalty conceded by Kristoffer Ajer (Norway) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 12,
+   "minute": "12'",
+   "text": "VAR Decision: Penalty Brazil.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Penalty saved. Bruno Guimarães (Brazil) right footed shot saved in the bottom right corner by Ørjan Nyland (Norway).",
+   "type": null
   }
  ],
  "400021533": [

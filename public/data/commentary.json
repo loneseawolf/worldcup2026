@@ -52531,6 +52531,12 @@
    "type": null
   },
   {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Attempt missed. Neymar (Brazil) right footed shot from a difficult angle on the left misses to the left following a corner.",
+   "type": null
+  },
+  {
    "minNum": 88,
    "minute": "88'",
    "text": "Corner, Norway. Conceded by Douglas Santos.",
@@ -52540,6 +52546,84 @@
    "minNum": 90,
    "minute": "90'",
    "text": "Goal! Brazil 0, Norway 2. Erling Haaland (Norway) left footed shot from outside the box to the bottom right corner. Assisted by Andreas Schjelderup.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt blocked. Éderson Silva (Brazil) right footed shot from outside the box is blocked. Assisted by Neymar.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Substitution, Norway. Leo Østigård replaces David Møller Wolfe because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Neymar (Brazil).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Martin Ødegaard (Norway) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Neymar (Brazil) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Casemiro (Brazil) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Foul by Torbjørn Heggem (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Penalty Brazil. Casemiro draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Penalty conceded by Leo Østigård (Norway) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+10'",
+   "text": "Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+12'",
+   "text": "Second Half ends, Brazil 1, Norway 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Brazil 1, Norway 2.",
    "type": null
   }
  ],

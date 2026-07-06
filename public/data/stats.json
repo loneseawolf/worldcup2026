@@ -33,10 +33,26 @@
    "ownGoals": 0
   },
   {
+   "id": "448202",
+   "name": "BELLINGHAM",
+   "code": "ENG",
+   "no": 10,
+   "goals": 4,
+   "ownGoals": 0
+  },
+  {
    "id": "401889",
    "name": "Ismaila SARR",
    "code": "SEN",
    "no": 18,
+   "goals": 4,
+   "ownGoals": 0
+  },
+  {
+   "id": "429157",
+   "name": "Julian QUINONES",
+   "code": "MEX",
+   "no": 16,
    "goals": 4,
    "ownGoals": 0
   },
@@ -137,14 +153,6 @@
    "ownGoals": 0
   },
   {
-   "id": "429157",
-   "name": "Julian QUINONES",
-   "code": "MEX",
-   "no": 16,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
    "id": "405454",
    "name": "JUST",
    "code": "NZL",
@@ -205,14 +213,6 @@
    "name": "BARCOLA",
    "code": "FRA",
    "no": 12,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "448202",
-   "name": "BELLINGHAM",
-   "code": "ENG",
-   "no": 10,
    "goals": 2,
    "ownGoals": 0
   },

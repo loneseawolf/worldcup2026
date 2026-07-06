@@ -51573,6 +51573,24 @@
    "minute": "45'+7'",
    "text": "First Half ends, Portugal 0, Spain 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Portugal 0, Spain 0.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Cristiano Ronaldo (Portugal) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Dani Olmo (Spain).",
+   "type": null
   }
  ],
  "400021530": [

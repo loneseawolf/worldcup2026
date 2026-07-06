@@ -29,7 +29,7 @@
    "name": "KANE",
    "code": "ENG",
    "no": 9,
-   "goals": 5,
+   "goals": 6,
    "ownGoals": 0
   },
   {
@@ -323,13 +323,21 @@
  ],
  "cards": {
   "yellow": 236,
-  "red": 12,
+  "red": 13,
   "players": [
    {
     "id": "466624",
     "name": "Folarin BALOGUN",
     "code": "USA",
     "no": 20,
+    "y": 1,
+    "r": 1
+   },
+   {
+    "id": "463809",
+    "name": "Jarell QUANSAH",
+    "code": "ENG",
+    "no": 26,
     "y": 1,
     "r": 1
    },
@@ -473,14 +481,6 @@
     "name": "CASEMIRO",
     "code": "BRA",
     "no": 5,
-    "y": 2,
-    "r": 0
-   },
-   {
-    "id": "390670",
-    "name": "Cyle LARIN",
-    "code": "CAN",
-    "no": 9,
     "y": 2,
     "r": 0
    }

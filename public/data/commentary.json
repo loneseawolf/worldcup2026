@@ -51579,6 +51579,36 @@
    "minute": "45'+7'",
    "text": "First Half ends, Argentina 0, Egypt 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Egypt. Hamdi Fathy replaces Emam Ashour because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Argentina 0, Egypt 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Mohamed Salah (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Lisandro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Attempt saved. Rodrigo De Paul (Argentina) right footed shot from outside the box is saved.",
+   "type": null
   }
  ],
  "400021529": [

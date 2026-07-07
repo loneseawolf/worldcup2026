@@ -54471,7 +54471,7 @@
   {
    "minNum": 86,
    "minute": "86'",
-   "text": "Malik Tillman (USA) wins a free kick in the defensive half.",
+   "text": "Ricardo Pepi (USA) wins a free kick in the defensive half.",
    "type": null
   },
   {
@@ -54490,6 +54490,60 @@
    "minNum": 89,
    "minute": "89'",
    "text": "Substitution, Belgium. Alexis Saelemaekers replaces Leandro Trossard.",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Substitution, Belgium. Axel Witsel replaces Nicolas Raskin.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Foul by Sebastian Berhalter (USA).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, USA. Max Arfsten replaces Antonee Robinson.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Substitution, USA. Haji Wright replaces Folarin Balogun.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Goal! USA 1, Belgium 4. Romelu Lukaku (Belgium) right footed shot from the left side of the box to the bottom right corner. Assisted by Hans Vanaken.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Second Half ends, USA 1, Belgium 4.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, USA 1, Belgium 4.",
    "type": null
   }
  ]

@@ -51793,7 +51793,85 @@
   {
    "minNum": 74,
    "minute": "74'",
-   "text": "Attempt blocked. Lautaro Martínez (Argentina) left footed shot from the centre of the box is blocked.",
+   "text": "Attempt blocked. Lautaro Martínez (Argentina) left footed shot from the centre of the box is blocked. Assisted by Nico González with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Attempt missed. Lautaro Martínez (Argentina) right footed shot from the centre of the box misses to the right. Assisted by Nico González with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Offside, Argentina. Julián Alvarez is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Attempt missed. Trezeguet (Egypt) right footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Mostafa Zico.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Attempt blocked. Lionel Messi (Argentina) right footed shot from the centre of the box is blocked. Assisted by Alexis Mac Allister.",
+   "type": null
+  },
+  {
+   "minNum": 78,
+   "minute": "78'",
+   "text": "Corner, Argentina. Conceded by Trezeguet.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Goal! Argentina 1, Egypt 2. Cristian Romero (Argentina) header from the centre of the box to the top right corner. Assisted by Lionel Messi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Substitution, Egypt. Omar Marmoush replaces Mostafa Zico.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Corner, Argentina. Conceded by Mohamed Salah.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Attempt missed. Lautaro Martínez (Argentina) header from the right side of the six yard box is close, but misses to the right. Assisted by Lionel Messi.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Goal! Argentina 2, Egypt 2. Lionel Messi (Argentina) left footed shot from the centre of the box to the high centre of the goal. Assisted by Gonzalo Montiel.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Omar Marmoush (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Foul by Nico González (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
+   "text": "Lautaro Martínez (Argentina) wins a free kick on the right wing.",
    "type": null
   }
  ],

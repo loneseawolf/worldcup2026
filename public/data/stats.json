@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 246,
+  "yellow": 247,
   "red": 13,
   "players": [
    {
@@ -433,7 +433,7 @@
     "id": null,
     "name": "#null",
     "code": "TUR",
-    "y": 9,
+    "y": 10,
     "r": 0
    },
    {

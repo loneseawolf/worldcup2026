@@ -51293,9 +51293,57 @@
    "type": null
   },
   {
-   "minNum": 1,
-   "minute": "1'",
-   "text": "Delay in match (Argentina).",
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Mohamed Salah (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Foul by Enzo Fernández (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Haissem Hassan (Egypt) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Offside, Argentina. Rodrigo De Paul is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Karim Hafez (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Enzo Fernández (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Emam Ashour (Egypt) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Foul by Rodrigo De Paul (Argentina).",
    "type": null
   }
  ],

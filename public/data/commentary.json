@@ -51279,6 +51279,26 @@
    "type": null
   }
  ],
+ "400021528": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Delay in match (Argentina).",
+   "type": null
+  }
+ ],
  "400021529": [
   {
    "minNum": 0,

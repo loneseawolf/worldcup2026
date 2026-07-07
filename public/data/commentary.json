@@ -56217,6 +56217,60 @@
    "minute": "120'",
    "text": "Foul by Cedric Itten (Switzerland).",
    "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+1'",
+   "text": "Fourth official has announced 1 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+2'",
+   "text": "Second Half Extra Time ends, Switzerland 0, Colombia 0.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty Shootout begins Switzerland 0, Colombia 0.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0, Colombia 0(1). Juan Fernando Quintero (Colombia) converts the penalty with a left footed shot to the centre of the goal.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0(1), Colombia 0(1). Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the top left corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty missed! Still Switzerland 0(1), Colombia 0(1). Davinson Sánchez (Colombia) hits the bar with a right footed shot.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0(2), Colombia 0(1). Zeki Amdouni (Switzerland) converts the penalty with a right footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0(2), Colombia 0(2). Jaminton Campaz (Colombia) converts the penalty with a left footed shot to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty missed. Manuel Akanji (Switzerland) right footed shot is too high.",
+   "type": null
   }
  ]
 }

@@ -51709,13 +51709,91 @@
   {
    "minNum": 61,
    "minute": "61'",
-   "text": "Attempt blocked. Alexis Mac Allister (Argentina) header from the left side of the six yard box is blocked. Assisted by Lionel Messi with a cross.",
+   "text": "Attempt missed. Alexis Mac Allister (Argentina) header from the left side of the six yard box is close, but misses to the right. Assisted by Lionel Messi with a cross following a set piece situation.",
    "type": null
   },
   {
    "minNum": 61,
    "minute": "61'",
+   "text": "Corner, Argentina. Conceded by Hamdi Fathy.",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Foul by Mohamed Salah (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Lisandro Martínez (Argentina) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
    "text": "Corner, Argentina. Conceded by Mostafa Zico.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Argentina. Nico González replaces Nicolás Tagliafico.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Corner, Argentina. Conceded by Mostafa Zico.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Goal! Argentina 0, Egypt 2. Mostafa Zico (Egypt) right footed shot from the centre of the box to the centre of the goal. Assisted by Haissem Hassan following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Attempt missed. Lisandro Martínez (Argentina) left footed shot from outside the box misses to the right.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Substitution, Egypt. Trezeguet replaces Haissem Hassan because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt blocked. Lautaro Martínez (Argentina) left footed shot from the centre of the box is blocked.",
    "type": null
   }
  ],

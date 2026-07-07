@@ -40851,8 +40851,8 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 47.4,
-    "away": 52.6,
+    "home": 47,
+    "away": 53,
     "pct": true
    },
    {
@@ -40886,15 +40886,15 @@
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 181,
-    "away": 199,
+    "home": 185,
+    "away": 207,
     "pct": false
    },
    {
     "key": "passPct",
     "label": "Pass accuracy",
     "home": 80,
-    "away": 90,
+    "away": 80,
     "pct": true
    }
   ],

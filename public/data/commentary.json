@@ -54233,6 +54233,24 @@
    "minute": "45'+7'",
    "text": "First Half ends, USA 1, Belgium 2.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, USA. Giovanni Reyna replaces Sergiño Dest.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins USA 1, Belgium 2.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Malik Tillman (USA) wins a free kick on the left wing.",
+   "type": null
   }
  ]
 }

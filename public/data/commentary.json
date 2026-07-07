@@ -51871,7 +51871,97 @@
   {
    "minNum": 89,
    "minute": "89'",
+   "text": "Foul by Karim Hafez (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 89,
+   "minute": "89'",
    "text": "Lautaro Martínez (Argentina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Attempt missed. Trezeguet (Egypt) header from the centre of the box misses to the right. Assisted by Mohamed Hany with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Goal! Argentina 3, Egypt 2. Enzo Fernández (Argentina) header from the centre of the box to the bottom right corner. Assisted by Lautaro Martínez with a cross following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Mostafa Shobeir (Egypt) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Hamdi Fathy (Egypt) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Substitution, Argentina. Facundo Medina replaces Julián Alvarez.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Substitution, Egypt. Zizo replaces Mohanad Lasheen.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Zizo (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Foul by Nico González (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Foul by Marwan Attia (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Lautaro Martínez (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Marwan Attia (Egypt) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+12'",
+   "text": "Second Half ends, Argentina 3, Egypt 2.",
    "type": null
   }
  ],

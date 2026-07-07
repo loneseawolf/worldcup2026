@@ -38668,21 +38668,21 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 65.3,
-    "away": 34.7,
+    "home": 63.7,
+    "away": 36.3,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 18,
-    "away": 4,
+    "home": 19,
+    "away": 5,
     "pct": false
    },
    {
     "key": "shotsOnTarget",
     "label": "Shots on target",
-    "home": 6,
+    "home": 7,
     "away": 2,
     "pct": false
    },
@@ -38696,15 +38696,15 @@
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 12,
-    "away": 9,
+    "home": 13,
+    "away": 11,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 520,
-    "away": 258,
+    "home": 540,
+    "away": 289,
     "pct": false
    },
    {
@@ -38772,7 +38772,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
     "fouls": 2
@@ -38782,7 +38782,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -38792,7 +38792,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -38802,7 +38802,7 @@
     "goals": 1,
     "assists": 0,
     "shotsOnTarget": 1,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
     "fouls": 1
@@ -38849,9 +38849,9 @@
     "fouls": 0
    },
    "402920": {
-    "rating": 6,
+    "rating": 6.7,
     "goals": 0,
-    "assists": 0,
+    "assists": 1,
     "shotsOnTarget": 0,
     "goalsConceded": 1,
     "yellow": 0,
@@ -38903,10 +38903,10 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "408948": {
     "rating": 6,
@@ -38924,7 +38924,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -38940,13 +38940,13 @@
     "fouls": 3
    },
    "416906": {
-    "rating": 6,
+    "rating": 5.4,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "saves": 4,
-    "goalsConceded": 2,
-    "yellow": 0,
+    "goalsConceded": 3,
+    "yellow": 1,
     "red": 0,
     "fouls": 0
    },
@@ -38991,12 +38991,12 @@
     "fouls": 1
    },
    "429095": {
-    "rating": 6,
+    "rating": 5.7,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
-    "yellow": 0,
+    "goalsConceded": 3,
+    "yellow": 1,
     "red": 0,
     "fouls": 1
    },
@@ -39015,7 +39015,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 1,
+    "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
     "fouls": 0
@@ -39051,14 +39051,14 @@
     "fouls": 0
    },
    "430631": {
-    "rating": 6,
+    "rating": 5.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
-    "fouls": 1
+    "fouls": 2
    },
    "431196": {
     "rating": 7.1,
@@ -39095,7 +39095,7 @@
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
+    "goalsConceded": 3,
     "yellow": 0,
     "red": 0,
     "fouls": 1
@@ -39111,24 +39111,24 @@
     "fouls": 0
    },
    "448252": {
-    "rating": 5.9,
-    "goals": 0,
+    "rating": 7,
+    "goals": 1,
     "assists": 0,
-    "shotsOnTarget": 0,
+    "shotsOnTarget": 1,
     "goalsConceded": 2,
     "yellow": 0,
     "red": 0,
     "fouls": 2
    },
    "461788": {
-    "rating": 6.6,
+    "rating": 6.2,
     "goals": 0,
     "assists": 1,
     "shotsOnTarget": 0,
-    "goalsConceded": 2,
-    "yellow": 0,
+    "goalsConceded": 3,
+    "yellow": 1,
     "red": 0,
-    "fouls": 3
+    "fouls": 4
    },
    "463661": {
     "rating": 6,
@@ -39223,7 +39223,7 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  },
  "400021529": {
   "espnId": "760506",

@@ -322,9 +322,16 @@
   }
  ],
  "cards": {
-  "yellow": 247,
-  "red": 13,
+  "yellow": 252,
+  "red": 14,
   "players": [
+   {
+    "id": null,
+    "name": "#null",
+    "code": "TUR",
+    "y": 11,
+    "r": 1
+   },
    {
     "id": "466624",
     "name": "Folarin BALOGUN",
@@ -430,13 +437,6 @@
     "r": 1
    },
    {
-    "id": null,
-    "name": "#null",
-    "code": "TUR",
-    "y": 10,
-    "r": 0
-   },
-   {
     "id": "464924",
     "name": "Abdukodir KHUSANOV",
     "code": "UZB",
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 65307,
+ "attAvg": 65338,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -585,7 +585,7 @@
    "IRN": -6,
    "NZL": -4,
    "BEL": -9,
-   "EGY": -9,
+   "EGY": -16,
    "FRA": -4,
    "SEN": -3,
    "IRQ": -8,
@@ -605,22 +605,6 @@
   }
  },
  "suspensions": {
-  "EGY": [
-   {
-    "id": "369267",
-    "name": "YASSER IBRAHIM",
-    "bans": [
-     {
-      "type": "yellows",
-      "due": [
-       "400021479",
-       "400021515"
-      ],
-      "banned": "400021528"
-     }
-    ]
-   }
-  ],
   "ENG": [
    {
     "id": "433097",

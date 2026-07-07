@@ -55503,6 +55503,42 @@
    "minute": "45'+4'",
    "text": "First Half ends, Switzerland 0, Colombia 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Switzerland. Djibril Sow replaces Ardon Jashari.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Switzerland 0, Colombia 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Offside, Switzerland. Denis Zakaria is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Offside, Switzerland. Dan Ndoye is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Attempt missed. Djibril Sow (Switzerland) left footed shot from the centre of the box is high and wide to the left.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Granit Xhaka (Switzerland) is shown the yellow card for a bad foul.",
+   "type": null
   }
  ]
 }

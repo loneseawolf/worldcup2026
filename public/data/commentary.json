@@ -53920,5 +53920,37 @@
    "text": "Second Half ends, Paraguay 0, France 1.",
    "type": null
   }
+ ],
+ "400021534": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt blocked. Leandro Trossard (Belgium) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Attempt saved. Timothy Castagne (Belgium) right footed shot from outside the box is saved in the top left corner by Matt Freese (USA).",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
+   "text": "Corner, Belgium. Conceded by Matt Freese.",
+   "type": null
+  }
  ]
 }

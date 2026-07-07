@@ -56271,6 +56271,42 @@
    "minute": "120'",
    "text": "Penalty missed. Manuel Akanji (Switzerland) right footed shot is too high.",
    "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty saved. Cucho Hernández (Colombia) right footed shot saved in the bottom left corner by Gregor Kobel (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0(3), Colombia 0(2). Cedric Itten (Switzerland) converts the penalty with a right footed shot to the high centre of the goal.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0(3), Colombia 0(3). Luis Díaz (Colombia) converts the penalty with a right footed shot to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Goal! Switzerland 0(4), Colombia 0(3). Rubén Vargas (Switzerland) converts the penalty with a right footed shot to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Penalty Shootout ends, Switzerland 0(4), Colombia 0(3).",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Switzerland 0(4), Colombia 0(3).",
+   "type": null
   }
  ]
 }

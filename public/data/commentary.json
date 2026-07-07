@@ -53943,6 +53943,12 @@
   {
    "minNum": 1,
    "minute": "1'",
+   "text": "Attempt blocked. Youri Tielemans (Belgium) left footed shot from outside the box is blocked. Assisted by Nicolas Raskin.",
+   "type": null
+  },
+  {
+   "minNum": 1,
+   "minute": "1'",
    "text": "Attempt saved. Timothy Castagne (Belgium) right footed shot from outside the box is saved in the top left corner by Matt Freese (USA).",
    "type": null
   },
@@ -53950,6 +53956,78 @@
    "minNum": 1,
    "minute": "1'",
    "text": "Corner, Belgium. Conceded by Matt Freese.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Attempt saved. Charles De Ketelaere (Belgium) header from the centre of the box is saved in the centre of the goal by Matt Freese (USA). Assisted by Maxim De Cuyper with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Foul by Antonee Robinson (USA).",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Dodi Lukébakio (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt missed. Youri Tielemans (Belgium) right footed shot from the centre of the box misses to the left. Assisted by Timothy Castagne.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Attempt blocked. Nicolas Raskin (Belgium) left footed shot from the left side of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Goal! USA 0, Belgium 1. Charles De Ketelaere (Belgium) right footed shot from very close range to the centre of the goal.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Tyler Adams (USA).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Charles De Ketelaere (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Delay in match because of an injury Chris Richards (USA).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 14,
+   "minute": "14'",
+   "text": "Attempt missed. Leandro Trossard (Belgium) right footed shot from outside the box is too high. Assisted by Charles De Ketelaere.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Offside, Belgium. Timothy Castagne is caught offside.",
    "type": null
   }
  ]

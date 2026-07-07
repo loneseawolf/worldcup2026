@@ -55881,6 +55881,96 @@
    "minute": "90'+2'",
    "text": "Substitution, Switzerland. Rubén Vargas replaces Dan Ndoye.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Corner, Switzerland. Conceded by Johan Mojica.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Richard Ríos (Colombia) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Rubén Vargas (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Second Half ends, Switzerland 0, Colombia 0.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "First Half Extra Time begins Switzerland 0, Colombia 0.",
+   "type": null
+  },
+  {
+   "minNum": 92,
+   "minute": "92'",
+   "text": "Luis Díaz (Colombia) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 92,
+   "minute": "92'",
+   "text": "Foul by Silvan Widmer (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Attempt missed. Davinson Sánchez (Colombia) right footed shot from the right side of the box is too high. Assisted by Jaminton Campaz following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 94,
+   "minute": "94'",
+   "text": "Foul by Jaminton Campaz (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 94,
+   "minute": "94'",
+   "text": "Miro Muheim (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 95,
+   "minute": "95'",
+   "text": "Foul by Davinson Sánchez (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 95,
+   "minute": "95'",
+   "text": "Cedric Itten (Switzerland) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 95,
+   "minute": "95'",
+   "text": "Davinson Sánchez (Colombia) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 97,
+   "minute": "97'",
+   "text": "Foul by Daniel Muñoz (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 97,
+   "minute": "97'",
+   "text": "Rubén Vargas (Switzerland) wins a free kick in the defensive half.",
+   "type": null
   }
  ]
 }

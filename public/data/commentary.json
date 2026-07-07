@@ -55639,7 +55639,7 @@
   {
    "minNum": 63,
    "minute": "63'",
-   "text": "Attempt missed. Luis Suárez (Colombia) right footed shot from outside the box is high and wide to the right.",
+   "text": "Attempt missed. Luis Suárez (Colombia) right footed shot from outside the box is high and wide to the right. Assisted by Jefferson Lerma.",
    "type": null
   },
   {
@@ -55652,6 +55652,126 @@
    "minNum": 65,
    "minute": "65'",
    "text": "Nico Elvedi (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Substitution, Colombia. Jaminton Campaz replaces Jhon Arias.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Foul by Jefferson Lerma (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Djibril Sow (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Switzerland. Miro Muheim replaces Ricardo Rodríguez.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Foul by Daniel Muñoz (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Dan Ndoye (Switzerland) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Offside, Switzerland. Breel Embolo is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Delay in match because of an injury Camilo Vargas (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Delay in match because of an injury Breel Embolo (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Offside, Colombia. Jaminton Campaz is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Foul by Jefferson Lerma (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Fabian Rieder (Switzerland) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Jaminton Campaz (Colombia).",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Manuel Akanji (Switzerland) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Delay in match because of an injury Manuel Akanji (Switzerland).",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Delay over. They are ready to continue.",
    "type": null
   }
  ]

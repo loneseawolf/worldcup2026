@@ -54251,6 +54251,42 @@
    "minute": "47'",
    "text": "Malik Tillman (USA) wins a free kick on the left wing.",
    "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Youri Tielemans (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Corner, Belgium. Conceded by Tim Ream.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Delay in match because of an injury Christian Pulisic (USA).",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Goal! USA 1, Belgium 3. Hans Vanaken (Belgium) right footed shot from outside the box to the bottom right corner. Assisted by Charles De Ketelaere.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "Substitution, USA. Sebastian Berhalter replaces Christian Pulisic because of an injury.",
+   "type": null
   }
  ]
 }

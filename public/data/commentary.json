@@ -54171,7 +54171,67 @@
   {
    "minNum": 43,
    "minute": "43'",
-   "text": "Attempt missed. Dodi Lukébakio (Belgium) header from the centre of the box following a set piece situation.",
+   "text": "Attempt missed. Dodi Lukébakio (Belgium) header from the centre of the box misses to the left. Assisted by Maxim De Cuyper with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt missed. Alex Freeman (USA) header from the centre of the box misses to the left. Assisted by Malik Tillman.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt missed. Folarin Balogun (USA) right footed shot from very close range is too high. Assisted by Alex Freeman.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "VAR Decision: Other Decision Cancelled.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Corner, Belgium. Conceded by Alex Freeman.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Attempt missed. Dodi Lukébakio (Belgium) left footed shot from the left side of the box misses to the right. Assisted by Nathan Ngoy following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Malik Tillman (USA) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "Corner, USA. Conceded by Nathan Ngoy.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "First Half ends, USA 1, Belgium 2.",
    "type": null
   }
  ]

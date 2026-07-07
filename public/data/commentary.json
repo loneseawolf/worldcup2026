@@ -51607,7 +51607,115 @@
   {
    "minNum": 47,
    "minute": "47'",
-   "text": "Attempt saved. Rodrigo De Paul (Argentina) right footed shot from outside the box is saved.",
+   "text": "Attempt saved. Rodrigo De Paul (Argentina) right footed shot from outside the box is saved in the centre of the goal by Mostafa Shobeir (Egypt). Assisted by Lionel Messi.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Julián Alvarez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Haissem Hassan (Egypt) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Foul by Mohamed Salah (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Leandro Paredes (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 53,
+   "minute": "53'",
+   "text": "Attempt missed. Leandro Paredes (Argentina) right footed shot from outside the box is too high. Assisted by Rodrigo De Paul following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Delay in match (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Foul by Hamdi Fathy (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Attempt blocked. Leandro Paredes (Argentina) right footed shot from outside the box is blocked. Assisted by Nahuel Molina.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Foul by Marwan Attia (Egypt).",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Lisandro Martínez (Argentina) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "GOAL OVERTURNED BY VAR: Mostafa Zico (Egypt) scores but the goal is ruled out after a VAR review.",
+   "type": null
+  },
+  {
+   "minNum": 59,
+   "minute": "59'",
+   "text": "VAR Decision: No Goal Argentina 0-1 Egypt.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt blocked. Alexis Mac Allister (Argentina) header from the left side of the six yard box is blocked. Assisted by Lionel Messi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Corner, Argentina. Conceded by Mostafa Zico.",
    "type": null
   }
  ],

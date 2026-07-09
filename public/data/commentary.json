@@ -56453,6 +56453,84 @@
    "minute": "29'",
    "text": "Delay in match for a drinks break.",
    "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Attempt missed. Ousmane Dembélé (France) left footed shot from outside the box misses to the left. Assisted by Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt saved. Désiré Doué (France) right footed shot from the centre of the box is saved in the centre of the goal by Yassine Bounou (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Corner, France. Conceded by Yassine Bounou.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Attempt blocked. Jules Koundé (France) header from the centre of the box is blocked. Assisted by Michael Olise with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Neil El Aynaoui (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Manu Koné (France) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Brahim Díaz (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by William Saliba (France).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by Dayot Upamecano (France).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Bilal El Khannouss (Morocco) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by Azzedine Ounahi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
+   "type": null
   }
  ]
 }

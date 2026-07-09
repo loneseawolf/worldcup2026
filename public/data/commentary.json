@@ -56308,5 +56308,31 @@
    "text": "Match ends, Switzerland 0(4), Colombia 0(3).",
    "type": null
   }
+ ],
+ "400021536": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by Neil El Aynaoui (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Manu Koné (France) wins a free kick in the defensive half.",
+   "type": null
+  }
  ]
 }

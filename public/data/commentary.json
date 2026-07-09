@@ -56523,13 +56523,13 @@
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
+   "text": "Foul by Azzedine Ounahi (Morocco).",
    "type": null
   },
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Foul by Azzedine Ounahi (Morocco).",
+   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
    "type": null
   },
   {
@@ -56638,6 +56638,90 @@
    "minNum": 60,
    "minute": "60'",
    "text": "Goal! France 1, Morocco 0. Kylian Mbappé (France) right footed shot from the left side of the box to the top right corner. Assisted by Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Substitution, Morocco. Soufiane Rahimi replaces Bilal El Khannouss.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Foul by Issa Diop (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Kylian Mbappé (France) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 63,
+   "minute": "63'",
+   "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Goal! France 2, Morocco 0. Ousmane Dembélé (France) right footed shot from outside the box to the bottom right corner. Assisted by Kylian Mbappé.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, France. Warren Zaïre-Emery replaces Manu Koné.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Corner, Morocco. Conceded by Dayot Upamecano.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Substitution, Morocco. Zakaria El Ouahdi replaces Anass Salah-Eddine.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Substitution, Morocco. Gessime Yassine replaces Brahim Díaz.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Foul by Gessime Yassine (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Désiré Doué (France) wins a free kick on the left wing.",
    "type": null
   }
  ]

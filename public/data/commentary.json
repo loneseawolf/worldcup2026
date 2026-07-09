@@ -56523,13 +56523,13 @@
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Foul by Azzedine Ounahi (Morocco).",
+   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
+   "text": "Foul by Azzedine Ounahi (Morocco).",
    "type": null
   },
   {
@@ -56817,7 +56817,7 @@
   {
    "minNum": 86,
    "minute": "86'",
-   "text": "Attempt missed. Michael Olise (France) left footed shot from the centre of the box is high and wide to the left. Assisted by Bradley Barcola following a fast break.",
+   "text": "Attempt missed. Michael Olise (France) left footed shot from the right side of the box is high and wide to the left. Assisted by Bradley Barcola following a fast break.",
    "type": null
   },
   {
@@ -56848,6 +56848,84 @@
    "minNum": 90,
    "minute": "90'",
    "text": "Bradley Barcola (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Foul by Achraf Hakimi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Corner, Morocco. Conceded by Lucas Digne.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Handball by Amine Sbaï (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Michael Olise (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Zakaria El Ouahdi (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt saved. Jean-Philippe Mateta (France) left footed shot from the centre of the box is saved in the centre of the goal by Yassine Bounou (Morocco). Assisted by Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt missed. Gessime Yassine (Morocco) left footed shot from more than 35 yards is too high. Assisted by Sofyan Amrabat.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Michael Olise (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Amine Sbaï (Morocco).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt missed. Michael Olise (France) left footed shot from outside the box is high and wide to the right. Assisted by Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, France 2, Morocco 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, France 2, Morocco 0.",
    "type": null
   }
  ]

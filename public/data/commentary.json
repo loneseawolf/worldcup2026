@@ -56531,6 +56531,60 @@
    "minute": "42'",
    "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Attempt blocked. Manu Koné (France) right footed shot from outside the box is blocked. Assisted by William Saliba.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt blocked. Michael Olise (France) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Lucas Digne (France) hits the bar with a left footed shot from outside the box.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Achraf Hakimi (Morocco) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Foul by Désiré Doué (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Handball by Adrien Rabiot (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Attempt missed. Achraf Hakimi (Morocco) right footed shot from outside the box is close, but misses to the right from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, France 0, Morocco 0.",
+   "type": null
   }
  ]
 }

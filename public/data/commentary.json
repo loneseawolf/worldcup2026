@@ -56523,13 +56523,13 @@
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Foul by Azzedine Ounahi (Morocco).",
+   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 42,
    "minute": "42'",
-   "text": "Adrien Rabiot (France) wins a free kick in the defensive half.",
+   "text": "Foul by Azzedine Ounahi (Morocco).",
    "type": null
   },
   {
@@ -56584,6 +56584,12 @@
    "minNum": 45,
    "minute": "45'+5'",
    "text": "First Half ends, France 0, Morocco 0.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins France 0, Morocco 0.",
    "type": null
   }
  ]

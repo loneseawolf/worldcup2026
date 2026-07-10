@@ -56945,13 +56945,13 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Foul by Nicolas Raskin (Belgium).",
+   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
+   "text": "Foul by Nicolas Raskin (Belgium).",
    "type": null
   },
   {
@@ -57000,6 +57000,84 @@
    "minNum": 15,
    "minute": "15'",
    "text": "Attempt blocked. Charles De Ketelaere (Belgium) left footed shot from the right side of the box is blocked. Assisted by Jérémy Doku.",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Foul by Maxim De Cuyper (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 18,
+   "minute": "18'",
+   "text": "Pedro Porro (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Brandon Mechele (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 19,
+   "minute": "19'",
+   "text": "Foul by Lamine Yamal (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 21,
+   "minute": "21'",
+   "text": "Attempt missed. Lamine Yamal (Spain) left footed shot from outside the box is close, but misses to the left. Assisted by Mikel Oyarzabal.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Foul by Nathan Ngoy (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Mikel Oyarzabal (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 26,
+   "minute": "26'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Timothy Castagne (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Álex Baena (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Attempt saved. Dani Olmo (Spain) right footed shot from the centre of the box is saved in the centre of the goal by Thibaut Courtois (Belgium). Assisted by Pedro Porro.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Goal! Spain 1, Belgium 0. Fabián Ruiz (Spain) right footed shot from the centre of the box to the high centre of the goal.",
    "type": null
   }
  ]

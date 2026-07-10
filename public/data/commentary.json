@@ -56945,13 +56945,13 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Foul by Nicolas Raskin (Belgium).",
+   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
+   "text": "Foul by Nicolas Raskin (Belgium).",
    "type": null
   },
   {
@@ -57323,7 +57323,7 @@
   {
    "minNum": 53,
    "minute": "53'",
-   "text": "Attempt missed. Dani Olmo (Spain) right footed shot from outside the box is too high following a corner.",
+   "text": "Attempt missed. Dani Olmo (Spain) right footed shot from outside the box is high and wide to the right. Assisted by Pau Cubarsí following a corner.",
    "type": null
   },
   {
@@ -57401,7 +57401,103 @@
   {
    "minNum": 64,
    "minute": "64'",
-   "text": "Dani Olmo (Spain) wins a free kick in the attacking half.",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Dani Olmo (Spain) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 66,
+   "minute": "66'",
+   "text": "Delay in match because of an injury Thibaut Courtois (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Foul by Jérémy Doku (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 70,
+   "minute": "70'",
+   "text": "Pedro Porro (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Offside, Spain. Marc Cucurella is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, Belgium. Senne Lammens replaces Thibaut Courtois because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Attempt blocked. Lamine Yamal (Spain) left footed shot from the right side of the box is blocked. Assisted by Dani Olmo.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Axel Witsel (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Pedri (Spain) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Nicolas Raskin (Belgium) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Foul by Pedro Porro (Spain).",
    "type": null
   }
  ]

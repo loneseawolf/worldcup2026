@@ -56945,13 +56945,13 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
+   "text": "Foul by Nicolas Raskin (Belgium).",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Foul by Nicolas Raskin (Belgium).",
+   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
    "type": null
   },
   {
@@ -57498,6 +57498,108 @@
    "minNum": 77,
    "minute": "77'",
    "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Substitution, Spain. Nico Williams replaces Mikel Oyarzabal.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Pau Cubarsí (Spain) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Attempt blocked. Kevin De Bruyne (Belgium) left footed shot from more than 35 yards is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Foul by Kevin De Bruyne (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Ferran Torres (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Kevin De Bruyne (Belgium) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Substitution, Belgium. Alexis Saelemaekers replaces Kevin De Bruyne.",
+   "type": null
+  },
+  {
+   "minNum": 86,
+   "minute": "86'",
+   "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Attempt saved. Pau Cubarsí (Spain) right footed shot from outside the box is saved in the bottom left corner by Senne Lammens (Belgium). Assisted by Pedri.",
+   "type": null
+  },
+  {
+   "minNum": 88,
+   "minute": "88'",
+   "text": "Goal! Spain 2, Belgium 1. Mikel Merino (Spain) left footed shot from very close range to the top left corner.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Axel Witsel (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Foul by Mikel Merino (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Handball by Jérémy Doku (Belgium).",
    "type": null
   }
  ]

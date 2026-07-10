@@ -56945,13 +56945,13 @@
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
+   "text": "Foul by Nicolas Raskin (Belgium).",
    "type": null
   },
   {
    "minNum": 2,
    "minute": "2'",
-   "text": "Foul by Nicolas Raskin (Belgium).",
+   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
    "type": null
   },
   {
@@ -57155,13 +57155,19 @@
   {
    "minNum": 43,
    "minute": "43'",
-   "text": "Handball by Pau Cubarsí (Spain).",
+   "text": "Kevin De Bruyne (Belgium) wins a free kick on the left wing.",
    "type": null
   },
   {
    "minNum": 43,
    "minute": "43'",
-   "text": "Pau Cubarsí (Spain) is shown the yellow card for handball.",
+   "text": "Foul by Pau Cubarsí (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Pau Cubarsí (Spain) is shown the yellow card for a bad foul.",
    "type": null
   },
   {
@@ -57234,6 +57240,72 @@
    "minNum": 45,
    "minute": "45'+6'",
    "text": "First Half ends, Spain 1, Belgium 1.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Spain 1, Belgium 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Leandro Trossard (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Marc Cucurella (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Foul by Brandon Mechele (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 47,
+   "minute": "47'",
+   "text": "Dani Olmo (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Offside, Spain. Lamine Yamal is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Foul by Kevin De Bruyne (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 49,
+   "minute": "49'",
+   "text": "Fabián Ruiz (Spain) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Corner, Belgium. Conceded by Aymeric Laporte.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Álex Baena (Spain) wins a free kick in the defensive half.",
    "type": null
   }
  ]

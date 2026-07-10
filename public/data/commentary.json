@@ -57167,7 +57167,73 @@
   {
    "minNum": 44,
    "minute": "44'",
+   "text": "Foul by Maxim De Cuyper (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
    "text": "Lamine Yamal (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt missed. Pedro Porro (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Álex Baena.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Corner, Spain. Conceded by Brandon Mechele.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Corner, Spain. Conceded by Kevin De Bruyne.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Attempt blocked. Fabián Ruiz (Spain) left footed shot from the centre of the box is blocked. Assisted by Rodri.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Delay in match because of an injury Dani Olmo (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Nicolas Raskin (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "Foul by Mikel Oyarzabal (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+6'",
+   "text": "First Half ends, Spain 1, Belgium 1.",
    "type": null
   }
  ]

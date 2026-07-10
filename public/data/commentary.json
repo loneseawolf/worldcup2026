@@ -57580,7 +57580,7 @@
   },
   {
    "minNum": 90,
-   "minute": "90'",
+   "minute": "90'+1'",
    "text": "Fourth official has announced 7 minutes of added time.",
    "type": null
   },
@@ -57600,6 +57600,84 @@
    "minNum": 90,
    "minute": "90'+1'",
    "text": "Handball by Jérémy Doku (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Aymeric Laporte (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Aymeric Laporte (Spain) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Mikel Merino (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Foul by Axel Witsel (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Rodri (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Axel Witsel (Belgium) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Romelu Lukaku (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Unai Simón (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt saved. Marc Cucurella (Spain) left footed shot from outside the box is saved in the bottom left corner by Senne Lammens (Belgium). Assisted by Mikel Merino.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Second Half ends, Spain 2, Belgium 1.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Spain 2, Belgium 1.",
    "type": null
   }
  ]

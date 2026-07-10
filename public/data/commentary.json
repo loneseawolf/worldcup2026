@@ -56945,7 +56945,61 @@
   {
    "minNum": 2,
    "minute": "2'",
+   "text": "Foul by Nicolas Raskin (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
    "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Offside, Spain. Marc Cucurella is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Foul by Leandro Trossard (Belgium).",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Lamine Yamal (Spain) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 10,
+   "minute": "10'",
+   "text": "Attempt blocked. Rodri (Spain) right footed shot from the centre of the box is blocked. Assisted by Fabián Ruiz with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Attempt blocked. Álex Baena (Spain) right footed shot from the centre of the box is blocked. Assisted by Pau Cubarsí with a through ball.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Attempt blocked. Charles De Ketelaere (Belgium) left footed shot from the right side of the box is blocked. Assisted by Jérémy Doku.",
    "type": null
   }
  ]

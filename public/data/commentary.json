@@ -58159,7 +58159,55 @@
   {
    "minNum": 90,
    "minute": "90'",
-   "text": "Substitution, Norway. Leo Østigård replaces Torbjørn Heggem because of an injury.",
+   "text": "Substitution, Norway. Leo Østigård replaces Torbjørn Heggem.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "First Half Extra Time begins Norway 1, England 1.",
+   "type": null
+  },
+  {
+   "minNum": 92,
+   "minute": "92'",
+   "text": "Corner, England. Conceded by Marcus Pedersen.",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Attempt saved. Harry Kane (England) header from a difficult angle on the left is saved in the top right corner by Ørjan Nyland (Norway). Assisted by Bukayo Saka with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Attempt saved. Morgan Rogers (England) right footed shot from outside the box is saved in the bottom right corner by Ørjan Nyland (Norway). Assisted by Eberechi Eze.",
+   "type": null
+  },
+  {
+   "minNum": 93,
+   "minute": "93'",
+   "text": "Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box to the bottom left corner.",
+   "type": null
+  },
+  {
+   "minNum": 101,
+   "minute": "101'",
+   "text": "VAR Decision: No Penalty England.",
+   "type": null
+  },
+  {
+   "minNum": 99,
+   "minute": "99'",
+   "text": "Penalty England. Djed Spence draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 101,
+   "minute": "101'",
+   "text": "VAR Checking: England Penalty.",
    "type": null
   }
  ]

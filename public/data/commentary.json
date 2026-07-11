@@ -58199,15 +58199,99 @@
    "type": null
   },
   {
-   "minNum": 99,
-   "minute": "99'",
-   "text": "Penalty England. Djed Spence draws a foul in the penalty area.",
+   "minNum": 104,
+   "minute": "104'",
+   "text": "Attempt blocked. Antonio Nusa (Norway) left footed shot from outside the box is blocked. Assisted by Oscar Bobb.",
    "type": null
   },
   {
-   "minNum": 101,
-   "minute": "101'",
-   "text": "VAR Checking: England Penalty.",
+   "minNum": 104,
+   "minute": "104'",
+   "text": "Corner, Norway. Conceded by Bukayo Saka.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+2'",
+   "text": "Offside, England. Eberechi Eze is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+3'",
+   "text": "Attempt missed. Jude Bellingham (England) right footed shot from outside the box is high and wide to the left. Assisted by Bukayo Saka.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+3'",
+   "text": "Foul by Marcus Pedersen (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+3'",
+   "text": "Bukayo Saka (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+4'",
+   "text": "First Half Extra Time ends, Norway 1, England 2.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'",
+   "text": "Substitution, Norway. Jørgen Strand Larsen replaces Erling Haaland.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'",
+   "text": "Second Half Extra Time begins Norway 1, England 2.",
+   "type": null
+  },
+  {
+   "minNum": 106,
+   "minute": "106'",
+   "text": "Foul by Sander Berge (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 106,
+   "minute": "106'",
+   "text": "Jude Bellingham (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 107,
+   "minute": "107'",
+   "text": "Leo Østigård (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 107,
+   "minute": "107'",
+   "text": "Foul by Bukayo Saka (England).",
+   "type": null
+  },
+  {
+   "minNum": 109,
+   "minute": "109'",
+   "text": "Attempt missed. Patrick Berg (Norway) right footed shot from outside the box is too high. Assisted by Oscar Bobb.",
+   "type": null
+  },
+  {
+   "minNum": 109,
+   "minute": "109'",
+   "text": "Attempt saved. Bukayo Saka (England) left footed shot from the right side of the box is saved.",
    "type": null
   }
  ]

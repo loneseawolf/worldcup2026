@@ -57717,6 +57717,48 @@
    "minute": "11'",
    "text": "Handball by Noni Madueke (England).",
    "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Corner, England. Conceded by Kristoffer Ajer.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Handball by Jude Bellingham (England).",
+   "type": null
+  },
+  {
+   "minNum": 23,
+   "minute": "23'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Foul by Kristoffer Ajer (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Jude Bellingham (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Attempt missed. Harry Kane (England) right footed shot from outside the box from a direct free kick.",
+   "type": null
   }
  ]
 }

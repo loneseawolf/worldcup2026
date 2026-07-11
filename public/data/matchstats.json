@@ -43640,15 +43640,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 26.1,
-    "away": 73.9,
+    "home": 28.5,
+    "away": 71.5,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
     "home": 0,
-    "away": 0,
+    "away": 1,
     "pct": false
    },
    {
@@ -43662,28 +43662,28 @@
     "key": "corners",
     "label": "Corners",
     "home": 0,
-    "away": 0,
+    "away": 1,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 1,
-    "away": 1,
+    "home": 2,
+    "away": 2,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 31,
-    "away": 103,
+    "home": 81,
+    "away": 233,
     "pct": false
    },
    {
     "key": "passPct",
     "label": "Pass accuracy",
     "home": 80,
-    "away": 90,
+    "away": 100,
     "pct": true
    }
   ],
@@ -43888,7 +43888,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "448203": {
     "rating": 6,
@@ -43998,7 +43998,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "483535": {
     "rating": 6,

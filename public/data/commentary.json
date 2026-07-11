@@ -57865,7 +57865,7 @@
   {
    "minNum": 45,
    "minute": "45'+2'",
-   "text": "Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon following a fast break.",
+   "text": "Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon.",
    "type": null
   },
   {
@@ -57983,9 +57983,69 @@
    "type": null
   },
   {
-   "minNum": 64,
-   "minute": "64'",
-   "text": "Offside, Norway. Alexander Sørloth is caught offside.",
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Foul by Sander Berge (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Jude Bellingham (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Substitution, England. Reece James replaces Anthony Gordon.",
+   "type": null
+  },
+  {
+   "minNum": 71,
+   "minute": "71'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Corner, Norway. Conceded by Ezri Konsa.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt missed. Fredrik Aursnes (Norway) right footed shot from the right side of the box misses to the left following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Kristoffer Ajer (Norway) hits the bar with a header from the centre of the box. Assisted by Fredrik Aursnes following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Attempt missed. Erling Haaland (Norway) left footed shot from a difficult angle on the left is close, but misses to the left following a corner.",
    "type": null
   }
  ]

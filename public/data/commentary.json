@@ -57757,7 +57757,79 @@
   {
    "minNum": 29,
    "minute": "29'",
-   "text": "Attempt missed. Harry Kane (England) right footed shot from outside the box from a direct free kick.",
+   "text": "Attempt missed. Harry Kane (England) right footed shot from outside the box is too high from a direct free kick.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Foul by Julian Ryerson (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Anthony Gordon (England) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Attempt saved. Erling Haaland (Norway) header from the centre of the box is saved in the top centre of the goal by Jordan Pickford (England). Assisted by Julian Ryerson with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Alexander Sørloth (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Nico O'Reilly (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Julian Ryerson (Norway) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by Anthony Gordon (England).",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Attempt missed. Alexander Sørloth (Norway) left footed shot from the right side of the box is too high. Assisted by Ørjan Nyland following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Attempt saved. Martin Ødegaard (Norway) left footed shot from outside the box is saved in the bottom right corner by Jordan Pickford (England). Assisted by Alexander Sørloth.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by Julian Ryerson (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Anthony Gordon (England) wins a free kick in the defensive half.",
    "type": null
   }
  ]

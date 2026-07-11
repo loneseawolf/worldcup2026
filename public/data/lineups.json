@@ -67812,12 +67812,19 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "448202",
+     "minute": "45'+2'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "43'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  }
 }

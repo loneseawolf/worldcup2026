@@ -57831,6 +57831,60 @@
    "minute": "42'",
    "text": "Anthony Gordon (England) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Attempt blocked. Alexander Sørloth (Norway) left footed shot from the centre of the box is blocked. Assisted by Martin Ødegaard.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Corner, England. Conceded by Torbjørn Heggem.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Attempt blocked. Jude Bellingham (England) right footed shot from the centre of the box is blocked. Assisted by Declan Rice with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Offside, England. Declan Rice is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon following a fast break.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Attempt saved. Harry Kane (England) right footed shot from outside the box is saved in the bottom left corner by Ørjan Nyland (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Offside, England. Harry Kane is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+5'",
+   "text": "First Half ends, Norway 1, England 1.",
+   "type": null
   }
  ]
 }

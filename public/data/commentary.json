@@ -57693,6 +57693,30 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Offside, England. Noni Madueke is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Sander Berge (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Jude Bellingham (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Handball by Noni Madueke (England).",
+   "type": null
   }
  ]
 }

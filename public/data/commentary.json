@@ -57885,6 +57885,42 @@
    "minute": "45'+5'",
    "text": "First Half ends, Norway 1, England 1.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, England. Bukayo Saka replaces Noni Madueke.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, England. Eberechi Eze replaces Declan Rice.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Norway 1, England 1.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Sander Berge (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Harry Kane (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Attempt blocked. Eberechi Eze (England) right footed shot from outside the box is blocked.",
+   "type": null
   }
  ]
 }

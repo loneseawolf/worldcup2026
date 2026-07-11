@@ -58291,7 +58291,115 @@
   {
    "minNum": 109,
    "minute": "109'",
-   "text": "Attempt saved. Bukayo Saka (England) left footed shot from the right side of the box is saved.",
+   "text": "Attempt saved. Bukayo Saka (England) left footed shot from the right side of the box is saved in the bottom left corner by Ørjan Nyland (Norway). Assisted by Harry Kane.",
+   "type": null
+  },
+  {
+   "minNum": 110,
+   "minute": "110'",
+   "text": "Attempt saved. Djed Spence (England) right footed shot from outside the box is saved in the bottom right corner by Ørjan Nyland (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 110,
+   "minute": "110'",
+   "text": "Attempt saved. Bukayo Saka (England) right footed shot from a difficult angle on the right is saved in the top left corner by Ørjan Nyland (Norway).",
+   "type": null
+  },
+  {
+   "minNum": 110,
+   "minute": "110'",
+   "text": "Offside, England. Bukayo Saka is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 111,
+   "minute": "111'",
+   "text": "Substitution, England. Dan Burn replaces Jude Bellingham.",
+   "type": null
+  },
+  {
+   "minNum": 114,
+   "minute": "114'",
+   "text": "Attempt blocked. Antonio Nusa (Norway) right footed shot from the left side of the box is blocked. Assisted by Sander Berge.",
+   "type": null
+  },
+  {
+   "minNum": 114,
+   "minute": "114'",
+   "text": "Corner, Norway. Conceded by Reece James.",
+   "type": null
+  },
+  {
+   "minNum": 114,
+   "minute": "114'",
+   "text": "Attempt missed. Oscar Bobb (Norway) left footed shot from the centre of the box is too high following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 116,
+   "minute": "116'",
+   "text": "Patrick Berg (Norway) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 116,
+   "minute": "116'",
+   "text": "Foul by Elliot Anderson (England).",
+   "type": null
+  },
+  {
+   "minNum": 116,
+   "minute": "116'",
+   "text": "Antonio Nusa (Norway) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 116,
+   "minute": "116'",
+   "text": "Foul by Reece James (England).",
+   "type": null
+  },
+  {
+   "minNum": 117,
+   "minute": "117'",
+   "text": "Delay in match because of an injury Jordan Pickford (England).",
+   "type": null
+  },
+  {
+   "minNum": 117,
+   "minute": "117'",
+   "text": "Kristoffer Ajer (Norway) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 118,
+   "minute": "118'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 119,
+   "minute": "119'",
+   "text": "Offside, Norway. Antonio Nusa is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+1'",
+   "text": "Fourth official has announced 2 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+3'",
+   "text": "Second Half Extra Time ends, Norway 1, England 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Norway 1, England 2.",
    "type": null
   }
  ]

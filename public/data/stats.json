@@ -257,6 +257,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448114",
+   "name": "Dan NDOYE",
+   "code": "SUI",
+   "no": 11,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "431200",
    "name": "Daniel MUNOZ",
    "code": "COL",
@@ -311,25 +319,25 @@
    "no": 10,
    "goals": 2,
    "ownGoals": 0
-  },
-  {
-   "id": "448214",
-   "name": "Malik TILLMAN",
-   "code": "USA",
-   "no": 17,
-   "goals": 2,
-   "ownGoals": 0
   }
  ],
  "cards": {
   "yellow": 265,
-  "red": 14,
+  "red": 15,
   "players": [
    {
     "id": null,
     "name": "#null",
     "code": "TUR",
     "y": 12,
+    "r": 1
+   },
+   {
+    "id": "393480",
+    "name": "Breel EMBOLO",
+    "code": "SUI",
+    "no": 7,
+    "y": 1,
     "r": 1
    },
    {
@@ -473,14 +481,6 @@
     "name": "AMIR ALAMMARI",
     "code": "IRQ",
     "no": 16,
-    "y": 2,
-    "r": 0
-   },
-   {
-    "id": "395205",
-    "name": "BERNARDO",
-    "code": "POR",
-    "no": 10,
     "y": 2,
     "r": 0
    }

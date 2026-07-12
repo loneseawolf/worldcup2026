@@ -66866,6 +66866,12 @@
      "minute": "112'",
      "type": 2,
      "period": 9
+    },
+    {
+     "player": "402920",
+     "minute": "120'+1'",
+     "type": 2,
+     "period": 9
     }
    ],
    "bookings": [
@@ -67260,12 +67266,18 @@
      "on": "448120",
      "minute": "96'",
      "period": 7
+    },
+    {
+     "off": "402021",
+     "on": "448131",
+     "minute": "115'",
+     "period": 9
     }
    ]
   },
-  "matchTime": "114'",
-  "period": 9,
-  "final": false
+  "matchTime": "125'",
+  "period": 10,
+  "final": true
  },
  "400021538": {
   "home": {

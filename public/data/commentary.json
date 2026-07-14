@@ -58415,6 +58415,60 @@
    "minute": null,
    "text": "First Half begins.",
    "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Corner, France. Conceded by Pau Cubarsí.",
+   "type": null
+  },
+  {
+   "minNum": 6,
+   "minute": "6'",
+   "text": "Attempt missed. Adrien Rabiot (France) left footed shot from outside the box misses to the left following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Adrien Rabiot (France).",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Dani Olmo (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Adrien Rabiot (France) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt blocked. Álex Baena (Spain) right footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Foul by Michael Olise (France).",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Rodri (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 16,
+   "minute": "16'",
+   "text": "Corner, France. Conceded by Pau Cubarsí.",
+   "type": null
   }
  ]
 }

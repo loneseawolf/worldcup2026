@@ -58509,7 +58509,139 @@
   {
    "minNum": 30,
    "minute": "30'",
-   "text": "Substitution, France. Maxence Lacroix replaces William Saliba.",
+   "text": "Substitution, France. Maxence Lacroix replaces William Saliba because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Michael Olise (France) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Foul by Marc Cucurella (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 31,
+   "minute": "31'",
+   "text": "Marc Cucurella (Spain) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Attempt missed. Dani Olmo (Spain) right footed shot from outside the box is high and wide to the right. Assisted by Fabián Ruiz.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Offside, Spain. Álex Baena is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Michael Olise (France) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Rodri (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Attempt missed. Bradley Barcola (France) right footed shot from outside the box is high and wide to the right. Assisted by Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Attempt missed. Pedro Porro (Spain) right footed shot from outside the box is high and wide to the left. Assisted by Fabián Ruiz.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt blocked. Fabián Ruiz (Spain) left footed shot from the centre of the box is blocked. Assisted by Lamine Yamal.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Corner, Spain. Conceded by Dayot Upamecano.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Lucas Digne (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by Lamine Yamal (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Michael Olise (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Foul by Rodri (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 40,
+   "minute": "40'",
+   "text": "Offside, France. Kylian Mbappé is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Offside, France. Kylian Mbappé is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Corner, France. Conceded by Pau Cubarsí.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Delay in match because of an injury Aymeric Laporte (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Ousmane Dembélé (France) wins a free kick in the attacking half.",
    "type": null
   }
  ]

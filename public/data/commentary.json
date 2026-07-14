@@ -58641,7 +58641,67 @@
   {
    "minNum": 44,
    "minute": "44'",
-   "text": "Ousmane Dembélé (France) wins a free kick in the attacking half.",
+   "text": "Delay in match (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Foul by Adrien Rabiot (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fabián Ruiz (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 6 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Foul by Jules Koundé (France).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Álex Baena (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Offside, France. Adrien Rabiot is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Jules Koundé (France) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Foul by Álex Baena (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+7'",
+   "text": "First Half ends, France 0, Spain 1.",
    "type": null
   }
  ]

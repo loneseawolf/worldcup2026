@@ -58469,6 +58469,48 @@
    "minute": "16'",
    "text": "Corner, France. Conceded by Pau Cubarsí.",
    "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Penalty conceded by Lucas Digne (France) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 20,
+   "minute": "20'",
+   "text": "Penalty Spain. Lamine Yamal draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 22,
+   "minute": "22'",
+   "text": "Goal! France 0, Spain 1. Mikel Oyarzabal (Spain) converts the penalty with a left footed shot to the top right corner.",
+   "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Delay in match because of an injury William Saliba (France).",
+   "type": null
+  },
+  {
+   "minNum": 30,
+   "minute": "30'",
+   "text": "Substitution, France. Maxence Lacroix replaces William Saliba.",
+   "type": null
   }
  ]
 }

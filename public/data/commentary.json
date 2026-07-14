@@ -59039,6 +59039,60 @@
    "minute": "90'",
    "text": "Corner, France. Conceded by Marc Cucurella.",
    "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 7 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Manu Koné (France).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Rodri (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Attempt missed. Nico Williams (Spain) left footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Ferran Torres.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Attempt saved. Ousmane Dembélé (France) left footed shot from the right side of the box is saved in the top centre of the goal by Unai Simón (Spain). Assisted by Rayan Cherki.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt saved. Ousmane Dembélé (France) right footed shot from the right side of the box is saved in the centre of the goal by Unai Simón (Spain). Assisted by Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Attempt missed. Kylian Mbappé (France) right footed shot from outside the box is too high. Assisted by Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+7'",
+   "text": "Second Half ends, France 0, Spain 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, France 0, Spain 2.",
+   "type": null
   }
  ]
 }

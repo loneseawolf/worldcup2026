@@ -58727,6 +58727,60 @@
    "minute": "49'",
    "text": "Foul by Fabián Ruiz (Spain).",
    "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Foul by Maxence Lacroix (France).",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Mikel Oyarzabal (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Offside, Spain. Lamine Yamal is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Attempt missed. Mikel Oyarzabal (Spain) left footed shot from outside the box is too high. Assisted by Álex Baena.",
+   "type": null
+  },
+  {
+   "minNum": 55,
+   "minute": "55'",
+   "text": "Offside, Spain. Álex Baena is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 57,
+   "minute": "57'",
+   "text": "Substitution, France. Désiré Doué replaces Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Attempt blocked. Álex Baena (Spain) right footed shot from outside the box is blocked. Assisted by Dani Olmo.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Goal! France 0, Spain 2. Pedro Porro (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Dani Olmo.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Offside, Spain. Lamine Yamal is caught offside.",
+   "type": null
   }
  ]
 }

@@ -58781,6 +58781,132 @@
    "minute": "61'",
    "text": "Offside, Spain. Lamine Yamal is caught offside.",
    "type": null
+  },
+  {
+   "minNum": 64,
+   "minute": "64'",
+   "text": "Corner, France. Conceded by Unai Simón.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Corner, France. Conceded by Pedro Porro.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Attempt missed. Aurélien Tchouaméni (France) right footed shot from the centre of the box is too high. Assisted by Michael Olise with a cross following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Foul by Manu Koné (France).",
+   "type": null
+  },
+  {
+   "minNum": 65,
+   "minute": "65'",
+   "text": "Dani Olmo (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Attempt blocked. Kylian Mbappé (France) right footed shot from the right side of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Corner, France. Conceded by Marc Cucurella.",
+   "type": null
+  },
+  {
+   "minNum": 67,
+   "minute": "67'",
+   "text": "Attempt blocked. Désiré Doué (France) right footed shot from outside the box is blocked. Assisted by Michael Olise.",
+   "type": null
+  },
+  {
+   "minNum": 68,
+   "minute": "68'",
+   "text": "Offside, France. Kylian Mbappé is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Foul by Jules Koundé (France).",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Álex Baena (Spain) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 69,
+   "minute": "69'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Substitution, France. Théo Hernández replaces Lucas Digne.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
+   "text": "Substitution, France. Rayan Cherki replaces Michael Olise.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Aurélien Tchouaméni (France) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 73,
+   "minute": "73'",
+   "text": "Foul by Dani Olmo (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 74,
+   "minute": "74'",
+   "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",
+   "type": null
+  },
+  {
+   "minNum": 75,
+   "minute": "75'",
+   "text": "Offside, Spain. Ferran Torres is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Kylian Mbappé (France) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Lamine Yamal (Spain).",
+   "type": null
   }
  ]
 }

@@ -58709,6 +58709,42 @@
    "minute": "43'",
    "text": "Foul by Enzo Fernández (Argentina).",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+1'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+2'",
+   "text": "Offside, England. Morgan Rogers is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Reece James (England) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Dangerous play by Leandro Paredes (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "Corner, England. Conceded by Enzo Fernández.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, England 0, Argentina 0.",
+   "type": null
   }
  ],
  "400021541": [

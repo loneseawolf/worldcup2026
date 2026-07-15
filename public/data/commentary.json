@@ -58403,6 +58403,32 @@
    "type": null
   }
  ],
+ "400021540": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by Leandro Paredes (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Jude Bellingham (England) wins a free kick in the defensive half.",
+   "type": null
+  }
+ ],
  "400021541": [
   {
    "minNum": 0,

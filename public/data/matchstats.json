@@ -44133,15 +44133,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 42.2,
-    "away": 57.8,
+    "home": 38.9,
+    "away": 61.1,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
-    "home": 0,
-    "away": 0,
+    "home": 1,
+    "away": 2,
     "pct": false
    },
    {
@@ -44161,15 +44161,15 @@
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 5,
-    "away": 6,
+    "home": 7,
+    "away": 11,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 99,
-    "away": 125,
+    "home": 134,
+    "away": 212,
     "pct": false
    },
    {
@@ -44325,14 +44325,14 @@
     "fouls": 0
    },
    "402921": {
-    "rating": 6,
+    "rating": 5.7,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "402925": {
     "rating": 6,
@@ -44342,7 +44342,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "402926": {
     "rating": 6,
@@ -44524,7 +44524,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "448196": {
     "rating": 6,
@@ -44567,14 +44567,14 @@
     "fouls": 0
    },
    "448252": {
-    "rating": 6,
+    "rating": 5.9,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 1
+    "fouls": 3
    },
    "463661": {
     "rating": 6,
@@ -44607,14 +44607,14 @@
     "fouls": 0
    },
    "481610": {
-    "rating": 6,
+    "rating": 5.6,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 0,
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "fouls": 1
+    "fouls": 2
    },
    "482621": {
     "rating": 6,
@@ -44645,7 +44645,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 4
+    "fouls": 5
    },
    "489732": {
     "rating": 6,

@@ -58599,13 +58599,115 @@
   {
    "minNum": 30,
    "minute": "30'",
-   "text": "Giuliano Simeone (Argentina) wins a free kick in the defensive half.",
+   "text": "Foul by Anthony Gordon (England).",
    "type": null
   },
   {
    "minNum": 30,
    "minute": "30'",
-   "text": "Anthony Gordon (England) wins a free kick in the attacking half.",
+   "text": "Giuliano Simeone (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Jude Bellingham (England) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 32,
+   "minute": "32'",
+   "text": "Foul by Enzo Fernández (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Attempt missed. John Stones (England) header from the centre of the box is close, but misses to the right. Assisted by Declan Rice with a cross following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by Giuliano Simeone (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Jude Bellingham (England) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Foul by Nahuel Molina (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Foul by Elliot Anderson (England).",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 37,
+   "minute": "37'",
+   "text": "Elliot Anderson (England) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt blocked. Lionel Messi (Argentina) left footed shot from outside the box is blocked. Assisted by Leandro Paredes.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Attempt missed. Enzo Fernández (Argentina) right footed shot from outside the box is just a bit too high following a set piece situation.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Morgan Rogers (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Foul by Lisandro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 42,
+   "minute": "42'",
+   "text": "Lisandro Martínez (Argentina) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Elliot Anderson (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Foul by Enzo Fernández (Argentina).",
    "type": null
   }
  ],

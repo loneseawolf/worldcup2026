@@ -58893,6 +58893,12 @@
   {
    "minNum": 72,
    "minute": "72'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 72,
+   "minute": "72'",
    "text": "Substitution, England. Ezri Konsa replaces Anthony Gordon.",
    "type": null
   },
@@ -58912,12 +58918,6 @@
    "minNum": 72,
    "minute": "72'",
    "text": "Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez.",
-   "type": null
-  },
-  {
-   "minNum": 73,
-   "minute": "73'",
-   "text": "Delay over. They are ready to continue.",
    "type": null
   },
   {
@@ -59024,14 +59024,80 @@
   },
   {
    "minNum": 90,
+   "minute": "90'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
    "minute": "90'+1'",
    "text": "Fourth official has announced 9 minutes of added time.",
    "type": null
   },
   {
    "minNum": 90,
-   "minute": "90'+1'",
-   "text": "Delay over. They are ready to continue.",
+   "minute": "90'+2'",
+   "text": "Attempt blocked. Alexis Mac Allister (Argentina) right footed shot from outside the box is blocked. Assisted by Nico González.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Goal! England 1, Argentina 2. Lautaro Martínez (Argentina) header from very close range to the top left corner. Assisted by Lionel Messi with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+4'",
+   "text": "Rodrigo De Paul (Argentina) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Substitution, England. Ivan Toney replaces John Stones.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Substitution, England. Marcus Rashford replaces Djed Spence.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Foul by Jude Bellingham (England).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+12'",
+   "text": "Foul by Nico O'Reilly (England).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+12'",
+   "text": "Emiliano Martínez (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+12'",
+   "text": "Second Half ends, England 1, Argentina 2.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, England 1, Argentina 2.",
    "type": null
   }
  ],

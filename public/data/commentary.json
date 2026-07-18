@@ -60319,7 +60319,133 @@
   {
    "minNum": 75,
    "minute": "75'",
-   "text": "Attempt missed. Michael Olise (France) left footed shot from the centre of the box is high and wide to the left.",
+   "text": "Attempt missed. Michael Olise (France) left footed shot from the centre of the box misses to the left.",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Foul by Lucas Digne (France).",
+   "type": null
+  },
+  {
+   "minNum": 76,
+   "minute": "76'",
+   "text": "Bukayo Saka (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Malo Gusto (France) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 77,
+   "minute": "77'",
+   "text": "Foul by Ollie Watkins (England).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Attempt blocked. Kylian Mbappé (France) left footed shot from a difficult angle on the left is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Foul by Lucas Digne (France).",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Morgan Rogers (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Substitution, England. Elliot Anderson replaces Ivan Toney.",
+   "type": null
+  },
+  {
+   "minNum": 79,
+   "minute": "79'",
+   "text": "Substitution, England. Jude Bellingham replaces Eberechi Eze.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Attempt saved. Jude Bellingham (England) right footed shot from the left side of the six yard box is saved in the centre of the goal by Mike Maignan (France). Assisted by Ollie Watkins.",
+   "type": null
+  },
+  {
+   "minNum": 80,
+   "minute": "80'",
+   "text": "Attempt blocked. Morgan Rogers (England) left footed shot from the centre of the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Attempt missed. Michael Olise (France) right footed shot from the centre of the box is close, but misses to the right. Assisted by Ousmane Dembélé.",
+   "type": null
+  },
+  {
+   "minNum": 81,
+   "minute": "81'",
+   "text": "Delay in match (England).",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 82,
+   "minute": "82'",
+   "text": "Delay in match because of an injury Jarell Quansah (England).",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 83,
+   "minute": "83'",
+   "text": "Substitution, England. Reece James replaces Jarell Quansah because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 84,
+   "minute": "84'",
+   "text": "Attempt saved. Kylian Mbappé (France) right footed shot from outside the box is saved in the centre of the goal by Dean Henderson (England). Assisted by Bradley Barcola.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Penalty conceded by Malo Gusto (France) after a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 85,
+   "minute": "85'",
+   "text": "Penalty England. Djed Spence draws a foul in the penalty area.",
+   "type": null
+  },
+  {
+   "minNum": 87,
+   "minute": "87'",
+   "text": "Goal! France 3, England 5. Bukayo Saka (England) converts the penalty with a left footed shot to the bottom right corner.",
    "type": null
   }
  ]

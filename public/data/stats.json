@@ -97,6 +97,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448196",
+   "name": "Bukayo SAKA",
+   "code": "ENG",
+   "no": 7,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "448362",
    "name": "Charles DE KETELAERE",
    "code": "BEL",
@@ -245,14 +253,6 @@
    "name": "Azzedine OUNAHI",
    "code": "MAR",
    "no": 8,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "448196",
-   "name": "Bukayo SAKA",
-   "code": "ENG",
-   "no": 7,
    "goals": 2,
    "ownGoals": 0
   },

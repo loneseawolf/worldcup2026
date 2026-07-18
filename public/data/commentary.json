@@ -59809,7 +59809,91 @@
   {
    "minNum": 3,
    "minute": "3'",
-   "text": "Goal! France 0, England 1. Declan Rice (England) right footed shot from outside the box.",
+   "text": "Goal! France 0, England 1. Declan Rice (England) right footed shot from outside the box to the bottom right corner.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Désiré Doué (France) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Jarell Quansah (England).",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Attempt blocked. Kylian Mbappé (France) right footed shot from the left side of the box is blocked. Assisted by Adrien Rabiot.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Attempt blocked. Marcus Rashford (England) right footed shot from the centre of the box is blocked. Assisted by Bukayo Saka with a cross.",
+   "type": null
+  },
+  {
+   "minNum": 7,
+   "minute": "7'",
+   "text": "Corner, England. Conceded by Malo Gusto.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Attempt blocked. Eberechi Eze (England) left footed shot from the right side of the box is blocked. Assisted by Morgan Rogers.",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Foul by Malo Gusto (France).",
+   "type": null
+  },
+  {
+   "minNum": 9,
+   "minute": "9'",
+   "text": "Eberechi Eze (England) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt saved. Rayan Cherki (France) left footed shot from outside the box is saved in the bottom right corner by Dean Henderson (England).",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Attempt blocked. Warren Zaïre-Emery (France) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 11,
+   "minute": "11'",
+   "text": "Offside, England. Bukayo Saka is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Foul by Maxence Lacroix (France).",
+   "type": null
+  },
+  {
+   "minNum": 13,
+   "minute": "13'",
+   "text": "Ivan Toney (England) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 15,
+   "minute": "15'",
+   "text": "Corner, France. Conceded by Marc Guéhi.",
    "type": null
   }
  ]

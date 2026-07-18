@@ -17,19 +17,19 @@
    "ownGoals": 0
   },
   {
+   "id": "448202",
+   "name": "BELLINGHAM",
+   "code": "ENG",
+   "no": 10,
+   "goals": 7,
+   "ownGoals": 0
+  },
+  {
    "id": "419652",
    "name": "HAALAND",
    "code": "NOR",
    "no": 9,
    "goals": 7,
-   "ownGoals": 0
-  },
-  {
-   "id": "448202",
-   "name": "BELLINGHAM",
-   "code": "ENG",
-   "no": 10,
-   "goals": 6,
    "ownGoals": 0
   },
   {
@@ -41,18 +41,18 @@
    "ownGoals": 0
   },
   {
-   "id": "430751",
-   "name": "Mikel OYARZABAL",
-   "code": "ESP",
-   "no": 21,
-   "goals": 5,
-   "ownGoals": 0
-  },
-  {
    "id": "398680",
    "name": "Ousmane DEMBELE",
    "code": "FRA",
    "no": 7,
+   "goals": 6,
+   "ownGoals": 0
+  },
+  {
+   "id": "430751",
+   "name": "Mikel OYARZABAL",
+   "code": "ESP",
+   "no": 21,
    "goals": 5,
    "ownGoals": 0
   },
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 65323,
+ "attAvg": 65314,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",

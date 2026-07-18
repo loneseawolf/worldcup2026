@@ -70608,12 +70608,18 @@
      "minute": "18'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "448196",
+     "minute": "37'",
+     "type": 2,
+     "period": 3
     }
    ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "30'",
+  "matchTime": "44'",
   "period": 3,
   "final": false
  }

@@ -60085,7 +60085,7 @@
   {
    "minNum": 45,
    "minute": "45'+5'",
-   "text": "Mike Maignan (France) wins a free kick in the defensive half.",
+   "text": "Ibrahima Konaté (France) wins a free kick in the defensive half.",
    "type": null
   },
   {
@@ -60098,6 +60098,60 @@
    "minNum": 45,
    "minute": "45'+5'",
    "text": "First Half ends, France 0, England 4.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, France. Ousmane Dembélé replaces Rayan Cherki.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, France. Bradley Barcola replaces Désiré Doué.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, France. Lucas Digne replaces Théo Hernández.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, France. Dayot Upamecano replaces Ibrahima Konaté.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, England. Ollie Watkins replaces Marcus Rashford.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins France 0, England 4.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Ousmane Dembélé (France) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Foul by Djed Spence (England).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Goal! France 1, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise with a through ball following a fast break.",
    "type": null
   }
  ]

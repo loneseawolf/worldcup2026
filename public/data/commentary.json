@@ -59792,5 +59792,25 @@
    "text": "Match ends, France 0, Spain 2.",
    "type": null
   }
+ ],
+ "400021542": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 3,
+   "minute": "3'",
+   "text": "Goal! France 0, England 1. Declan Rice (England) right footed shot from outside the box.",
+   "type": null
+  }
  ]
 }

@@ -60532,5 +60532,61 @@
    "text": "Match ends, France 4, England 6.",
    "type": null
   }
+ ],
+ "400021543": [
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Lineups are announced and players are warming up.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "First Half begins.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Nico González (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 2,
+   "minute": "2'",
+   "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Álex Baena (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 4,
+   "minute": "4'",
+   "text": "Foul by Gonzalo Montiel (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 5,
+   "minute": "5'",
+   "text": "Attempt saved. Lamine Yamal (Spain) left footed shot from the right side of the box is saved in the centre of the goal by Emiliano Martínez (Argentina). Assisted by Dani Olmo.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Nicolás Tagliafico (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 8,
+   "minute": "8'",
+   "text": "Foul by Lamine Yamal (Spain).",
+   "type": null
+  }
  ]
 }

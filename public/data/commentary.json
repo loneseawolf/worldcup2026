@@ -60815,6 +60815,30 @@
    "minute": "45'+4'",
    "text": "First Half ends, Spain 0, Argentina 0.",
    "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Substitution, Argentina. Leandro Paredes replaces Nico González.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Second Half begins Spain 0, Argentina 0.",
+   "type": null
+  },
+  {
+   "minNum": 46,
+   "minute": "46'",
+   "text": "Attempt saved. Álex Baena (Spain) right footed shot from outside the box is saved in the bottom right corner by Emiliano Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 48,
+   "minute": "48'",
+   "text": "Corner, Argentina. Conceded by Aymeric Laporte.",
+   "type": null
   }
  ]
 }

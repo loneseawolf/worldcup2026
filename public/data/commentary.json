@@ -61142,8 +61142,110 @@
   },
   {
    "minNum": 90,
+   "minute": "90'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Nicolás Otamendi (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
    "minute": "90'+1'",
    "text": "Foul by Ferran Torres (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+1'",
+   "text": "Foul by Aymeric Laporte (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+2'",
+   "text": "Cristian Romero (Argentina) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Attempt saved. Nico Williams (Spain) right footed shot from the right side of the box is saved in the top centre of the goal by Emiliano Martínez (Argentina). Assisted by Pedro Porro.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Foul by Enzo Fernández (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Pau Cubarsí (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Second yellow card to Enzo Fernández (Argentina) for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+3'",
+   "text": "Delay in match because of an injury Pau Cubarsí (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+5'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Foul by Leandro Paredes (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+6'",
+   "text": "Ferran Torres (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Attempt saved. Lamine Yamal (Spain) left footed shot from outside the box is saved in the top right corner by Emiliano Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+8'",
+   "text": "Corner, Spain. Conceded by Emiliano Martínez.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'+9'",
+   "text": "Second Half ends, Spain 0, Argentina 0.",
+   "type": null
+  },
+  {
+   "minNum": 90,
+   "minute": "90'",
+   "text": "First Half Extra Time begins Spain 0, Argentina 0.",
    "type": null
   }
  ]

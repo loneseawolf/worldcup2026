@@ -61359,7 +61359,67 @@
   {
    "minNum": 104,
    "minute": "104'",
-   "text": "Attempt blocked. Nico Williams (Spain) right footed shot from outside the box is blocked.",
+   "text": "Attempt blocked. Nico Williams (Spain) right footed shot from outside the box is blocked. Assisted by Pedri.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'",
+   "text": "Fourth official has announced 3 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+3'",
+   "text": "Foul by Giuliano Simeone (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+3'",
+   "text": "Pedro Porro (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'+3'",
+   "text": "First Half Extra Time ends, Spain 0, Argentina 0.",
+   "type": null
+  },
+  {
+   "minNum": 105,
+   "minute": "105'",
+   "text": "Second Half Extra Time begins Spain 0, Argentina 0.",
+   "type": null
+  },
+  {
+   "minNum": 106,
+   "minute": "106'",
+   "text": "Goal! Spain 1, Argentina 0. Ferran Torres (Spain) left footed shot from the centre of the box to the high centre of the goal. Assisted by Nico Williams with a headed pass.",
+   "type": null
+  },
+  {
+   "minNum": 108,
+   "minute": "108'",
+   "text": "Nicolás Tagliafico (Argentina) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 108,
+   "minute": "108'",
+   "text": "Foul by Lamine Yamal (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 111,
+   "minute": "111'",
+   "text": "Marc Cucurella (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 111,
+   "minute": "111'",
+   "text": "Foul by Alexis Mac Allister (Argentina).",
    "type": null
   }
  ]

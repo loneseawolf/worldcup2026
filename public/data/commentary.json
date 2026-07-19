@@ -60839,6 +60839,138 @@
    "minute": "48'",
    "text": "Corner, Argentina. Conceded by Aymeric Laporte.",
    "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Rodrigo De Paul (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 50,
+   "minute": "50'",
+   "text": "Foul by Álex Baena (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Gonzalo Montiel (Argentina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 51,
+   "minute": "51'",
+   "text": "Foul by Álex Baena (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Foul by Leandro Paredes (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Rodri (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 52,
+   "minute": "52'",
+   "text": "Leandro Paredes (Argentina) is shown the yellow card.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Julián Alvarez (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Foul by Pedro Porro (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Gonzalo Montiel (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 54,
+   "minute": "54'",
+   "text": "Foul by Álex Baena (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Foul by Julián Alvarez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Aymeric Laporte (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 56,
+   "minute": "56'",
+   "text": "Corner, Spain. Conceded by Gonzalo Montiel.",
+   "type": null
+  },
+  {
+   "minNum": 58,
+   "minute": "58'",
+   "text": "Substitution, Argentina. Nahuel Molina replaces Gonzalo Montiel.",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Foul by Leandro Paredes (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 60,
+   "minute": "60'",
+   "text": "Pedro Porro (Spain) wins a free kick in the attacking half.",
+   "type": null
+  },
+  {
+   "minNum": 61,
+   "minute": "61'",
+   "text": "Attempt blocked. Lamine Yamal (Spain) left footed shot from outside the box is blocked.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Substitution, Spain. Pedri replaces Fabián Ruiz.",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Foul by Nicolás Otamendi (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 62,
+   "minute": "62'",
+   "text": "Ferran Torres (Spain) wins a free kick on the right wing.",
+   "type": null
   }
  ]
 }

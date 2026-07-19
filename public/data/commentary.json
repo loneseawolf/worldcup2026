@@ -60755,6 +60755,66 @@
    "minute": "38'",
    "text": "Rodri (Spain) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 39,
+   "minute": "39'",
+   "text": "Attempt saved. Mikel Oyarzabal (Spain) left footed shot from outside the box is saved in the bottom right corner by Emiliano Martínez (Argentina). Assisted by Fabián Ruiz.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Foul by Lisandro Martínez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Mikel Oyarzabal (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 41,
+   "minute": "41'",
+   "text": "Lisandro Martínez (Argentina) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 43,
+   "minute": "43'",
+   "text": "Attempt missed. Marc Cucurella (Spain) left footed shot from outside the box is close, but misses to the right. Assisted by Fabián Ruiz.",
+   "type": null
+  },
+  {
+   "minNum": 44,
+   "minute": "44'",
+   "text": "Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez because of an injury.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'",
+   "text": "Fourth official has announced 4 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Lionel Messi (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+3'",
+   "text": "Foul by Mikel Oyarzabal (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 45,
+   "minute": "45'+4'",
+   "text": "First Half ends, Spain 0, Argentina 0.",
+   "type": null
   }
  ]
 }

@@ -60665,6 +60665,96 @@
    "minute": "24'",
    "text": "Lionel Messi (Argentina) wins a free kick in the defensive half.",
    "type": null
+  },
+  {
+   "minNum": 24,
+   "minute": "24'",
+   "text": "Foul by Rodri (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 25,
+   "minute": "25'",
+   "text": "Delay in match for a drinks break.",
+   "type": null
+  },
+  {
+   "minNum": 27,
+   "minute": "27'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 28,
+   "minute": "28'",
+   "text": "Handball by Alexis Mac Allister (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 29,
+   "minute": "29'",
+   "text": "Lamine Yamal (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Alexis Mac Allister (Argentina) wins a free kick on the left wing.",
+   "type": null
+  },
+  {
+   "minNum": 33,
+   "minute": "33'",
+   "text": "Foul by Rodri (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Foul by Julián Alvarez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 34,
+   "minute": "34'",
+   "text": "Pedro Porro (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 35,
+   "minute": "35'",
+   "text": "Offside, Spain. Marc Cucurella is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 36,
+   "minute": "36'",
+   "text": "Rodri (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Foul by Julián Alvarez (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 38,
+   "minute": "38'",
+   "text": "Rodri (Spain) wins a free kick in the defensive half.",
+   "type": null
   }
  ]
 }

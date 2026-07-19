@@ -61413,13 +61413,163 @@
   {
    "minNum": 111,
    "minute": "111'",
+   "text": "Foul by Alexis Mac Allister (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 111,
+   "minute": "111'",
    "text": "Marc Cucurella (Spain) wins a free kick in the defensive half.",
    "type": null
   },
   {
    "minNum": 111,
    "minute": "111'",
-   "text": "Foul by Alexis Mac Allister (Argentina).",
+   "text": "Alexis Mac Allister (Argentina) is shown the yellow card for a bad foul.",
+   "type": null
+  },
+  {
+   "minNum": 111,
+   "minute": "111'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 111,
+   "minute": "111'",
+   "text": "Mikel Merino (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 113,
+   "minute": "113'",
+   "text": "Offside, Spain. Nico Williams is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 113,
+   "minute": "113'",
+   "text": "Offside, Spain. Ferran Torres is caught offside.",
+   "type": null
+  },
+  {
+   "minNum": 114,
+   "minute": "114'",
+   "text": "Leandro Paredes (Argentina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 114,
+   "minute": "114'",
+   "text": "Foul by Nico Williams (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 115,
+   "minute": "115'",
+   "text": "Corner, Argentina. Conceded by Eric García.",
+   "type": null
+  },
+  {
+   "minNum": 117,
+   "minute": "117'",
+   "text": "Attempt blocked. Lionel Messi (Argentina) left footed shot from outside the box is blocked. Assisted by Giuliano Simeone.",
+   "type": null
+  },
+  {
+   "minNum": 117,
+   "minute": "117'",
+   "text": "Delay in match because of an injury Mikel Merino (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 118,
+   "minute": "118'",
+   "text": "Delay over. They are ready to continue.",
+   "type": null
+  },
+  {
+   "minNum": 119,
+   "minute": "119'",
+   "text": "Marcos Senesi (Argentina) wins a free kick on the right wing.",
+   "type": null
+  },
+  {
+   "minNum": 119,
+   "minute": "119'",
+   "text": "Foul by Nico Williams (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Corner, Argentina. Conceded by Pau Cubarsí.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'",
+   "text": "Fourth official has announced 5 minutes of added time.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+1'",
+   "text": "Corner, Argentina. Conceded by Mikel Merino.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+2'",
+   "text": "Attempt missed. Giuliano Simeone (Argentina) right footed shot from the centre of the box is too high following a corner.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+3'",
+   "text": "Foul by Nicolás Tagliafico (Argentina).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+3'",
+   "text": "Pau Cubarsí (Spain) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+4'",
+   "text": "Nicolás Otamendi (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+4'",
+   "text": "Foul by Eric García (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+5'",
+   "text": "Nicolás Otamendi (Argentina) wins a free kick in the defensive half.",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+5'",
+   "text": "Foul by Marc Cucurella (Spain).",
+   "type": null
+  },
+  {
+   "minNum": 120,
+   "minute": "120'+5'",
+   "text": "Second Half Extra Time ends, Spain 1, Argentina 0.",
+   "type": null
+  },
+  {
+   "minNum": 0,
+   "minute": null,
+   "text": "Match ends, Spain 1, Argentina 0.",
    "type": null
   }
  ]

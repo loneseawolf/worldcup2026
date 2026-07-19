@@ -45855,15 +45855,15 @@
    {
     "key": "possession",
     "label": "Possession",
-    "home": 66.6,
-    "away": 33.4,
+    "home": 65.1,
+    "away": 34.9,
     "pct": true
    },
    {
     "key": "totalShots",
     "label": "Shots",
     "home": 20,
-    "away": 0,
+    "away": 2,
     "pct": false
    },
    {
@@ -45877,21 +45877,21 @@
     "key": "corners",
     "label": "Corners",
     "home": 9,
-    "away": 1,
+    "away": 4,
     "pct": false
    },
    {
     "key": "fouls",
     "label": "Fouls",
-    "home": 17,
-    "away": 23,
+    "home": 21,
+    "away": 25,
     "pct": false
    },
    {
     "key": "accuratePasses",
     "label": "Accurate passes",
-    "home": 721,
-    "away": 318,
+    "home": 762,
+    "away": 357,
     "pct": false
    },
    {
@@ -45925,14 +45925,14 @@
     "fouls": 0
    },
    "308322": {
-    "rating": 5.9,
+    "rating": 5.8,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 1,
     "yellow": 0,
     "red": 0,
-    "fouls": 3
+    "fouls": 5
    },
    "310116": {
     "rating": 6,
@@ -46073,7 +46073,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "411375": {
     "rating": 5.9,
@@ -46167,12 +46167,12 @@
     "fouls": 0
    },
    "430628": {
-    "rating": 5.9,
+    "rating": 5.6,
     "goals": 0,
     "assists": 0,
     "shotsOnTarget": 0,
     "goalsConceded": 1,
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
     "fouls": 3
    },
@@ -46214,7 +46214,7 @@
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 1
    },
    "430750": {
     "rating": 6.1,
@@ -46289,14 +46289,14 @@
     "fouls": 0
    },
    "447855": {
-    "rating": 6.9,
+    "rating": 6.8,
     "goals": 0,
     "assists": 1,
     "shotsOnTarget": 2,
     "goalsConceded": 0,
     "yellow": 0,
     "red": 0,
-    "fouls": 0
+    "fouls": 2
    },
    "447860": {
     "rating": 5.9,
@@ -46421,6 +46421,6 @@
    }
   },
   "live": null,
-  "final": false
+  "final": true
  }
 }
